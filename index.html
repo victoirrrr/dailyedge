@@ -150,6 +150,29 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
 .story{font-family:var(--serif);font-size:17px;line-height:28px;margin:0 0 12px}
 .reflect{font-family:var(--serif);font-size:20px;line-height:28px;margin:0 0 16px}
 .state{padding:40vh var(--pad) 0;text-align:center;color:var(--ink-2)}
+
+/* Sunday story */
+.story-card .story-text{font-family:var(--serif);font-size:17px;line-height:28px;color:var(--on-g);margin:0}
+
+/* Stack watch */
+.stack-card{display:grid;gap:8px;width:calc(100% - 24px);margin:0 12px;text-align:left;background:var(--surface);border-radius:16px;padding:16px 16px 20px;border:1px solid var(--hair);transition:background-color .15s var(--ease),transform .15s var(--ease)}
+.stack-card:active{transform:scale(.98)}
+@media (hover:hover){.stack-card:hover{background:#F8F7F5}}
+.sc-top{display:flex;justify-content:space-between;align-items:baseline}
+.sc-co{font-size:15px;line-height:20px;font-weight:500}
+.sc-top .mono{color:var(--ink-3)}
+.sc-t{font-size:18px;line-height:24px;font-weight:500;color:var(--ink);text-wrap:balance}
+.sc-layers{color:var(--ink-3);display:flex;flex-wrap:wrap;gap:4px 8px}
+.sc-layers i{font-style:normal;color:var(--hair);color:rgba(21,23,26,.2)}
+.layers{background:var(--surface);margin:12px 0 0;padding:20px var(--pad) 8px}
+.layers h2,.watch-h{margin:0 0 8px;font-weight:400;color:var(--ink-3)}
+.watch-h{padding:16px 8px 0}
+.layers dl{margin:0}
+.layers dl div{display:grid;grid-template-columns:88px 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--hair)}
+.layers dt{color:var(--ink-3);padding-top:2px}
+.layers dd{margin:0;display:grid;gap:4px}
+.layers dd b{font-weight:500;font-size:15px;line-height:20px}
+.layers dd span{color:var(--ink-2);font-size:14px;line-height:20px}
 .state .btn{max-width:220px;margin:16px auto 0;background:var(--ink);color:var(--paper)}
 </style>
 </head>
@@ -223,7 +246,15 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     h += '<div class="meta-row"><span>' + (readCount === arts.length ? '<strong>All read</strong>' : '<strong>' + readCount + ' of ' + arts.length + '</strong> read') + '</span><span class="mono">' + (left ? left + ' min left' : total + ' min') + '</span></div>';
     h += '<div class="ticks" aria-hidden="true">' + arts.map(function(a){ return '<i class="' + (isRead(a.n) ? 'on' : '') + '"></i>'; }).join('') + '</div>';
 
-    if (next) {
+    var weekStory = S.recap && S.recap.date === S.viewing && S.recap.story ? S.recap : null;
+    if (weekStory) {
+      h += '<article class="lead story-card" aria-label="Story of the week">' +
+        '<div class="k mono"><span>Story of the week</span><span>' + esc(weekStory.week || '') + '</span></div>' +
+        '<h2>' + esc(weekStory.story.title) + '</h2><p class="story-text">' + esc(weekStory.story.text) + '</p>' +
+        '<button type="button" class="btn btn-primary" data-tab="recap">Open the weekly recap</button>' +
+      '</article>';
+      next = null;
+    } else if (next) {
       h += '<article class="lead" aria-label="Up next">' +
         '<div class="k mono"><span><b>' + pad(next.n) + '</b>&ensp;' + esc(next.section) + '</span><span>' + mins(next) + ' min</span></div>' +
         '<h2>' + esc(next.title) + '</h2>' + tldr(next) +
@@ -232,6 +263,16 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     } else {
       h += '<article class="lead done-card"><div class="k mono"><span>Edition complete</span><span>' + total + ' min</span></div>' +
         '<h2>Today\'s edition, done</h2><p>Tomorrow\'s edition arrives at 8:00 AM. The week comes together in Sunday\'s recap.</p></article>';
+    }
+
+    var st = e.stack;
+    if (st && st.company) {
+      h += '<div class="label mono">Stack watch</div>' +
+        '<button type="button" class="stack-card" data-act="stack">' +
+          '<span class="sc-top"><span class="sc-co">' + esc(st.company) + '</span><span class="mono">' + stackMins(st) + ' min</span></span>' +
+          '<span class="sc-t">' + esc(st.title) + '</span>' +
+          '<span class="sc-layers mono">' + (st.layers || []).map(function(l){ return esc(l.name); }).join('<i aria-hidden="true">/</i>') + '</span>' +
+        '</button>';
     }
 
     var rest = next ? arts.filter(function(a){ return a !== next; }) : arts;
@@ -279,6 +320,45 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     h += '</div>';
     h += '<div class="a-foot"><div class="inner"><button type="button" class="btn btn-primary" data-act="done" data-n="' + a.n + '">' +
       '<span>' + (isRead(a.n) ? 'Read' : 'Mark as read') + '</span><span>' + (nxt ? 'Next: ' + esc(nxt.section) + ' →' : 'Back to today') + '</span></button></div></div>';
+    app.innerHTML = h;
+    setTabs(null);
+  }
+
+  function stackMins(st){
+    var w = (st.body || []).reduce(function(t,p){ return t + p.split(/\s+/).length; }, 0);
+    return Math.max(2, Math.round(w / 200) + 1);
+  }
+  function sourcesHtml(list){
+    var srcs = (list || []).filter(function(s){ return s.title; });
+    if (!srcs.length) return '';
+    return '<div class="sources"><h3 class="mono">Sources and further reading</h3><ol>' + srcs.map(function(s){
+      var u = safeUrl(s.url);
+      return '<li>' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>' : esc(s.title)) + '</li>';
+    }).join('') + '</ol></div>';
+  }
+
+  function renderStack(){
+    var st = S.edition.stack;
+    if (!st || !st.company) { go('today'); return; }
+    var n = (st.sources || []).filter(function(s){ return s.title; }).length;
+    var h = '<div class="view">';
+    h += '<header class="a-head"><div class="a-bar"><button type="button" class="icon-btn" data-act="back" aria-label="Back to today">' + ICON_BACK + '</button><span class="mono">Stack watch</span></div>' +
+      '<div class="inner"><div class="kick mono">' + esc(st.company) + '</div><h1>' + esc(st.title) + '</h1>' +
+      '<div class="sub mono">' + stackMins(st) + ' min read' + (n ? ' · ' + n + ' source' + (n > 1 ? 's' : '') : '') + '</div></div></header>';
+    h += '<section class="short" aria-label="In short">' + tldr(st) + '</section>';
+    if (st.layers && st.layers.length) {
+      h += '<section class="layers" aria-label="The stack"><h2 class="mono">The stack, layer by layer</h2><dl>' + st.layers.map(function(l){
+        return '<div><dt class="mono">' + esc(l.layer) + '</dt><dd><b>' + esc(l.name) + '</b><span>' + esc(l.note) + '</span></dd></div>';
+      }).join('') + '</dl></section>';
+    }
+    if (st.body && st.body.length) h += '<div class="prose">' + st.body.map(function(p){ return '<p>' + esc(p) + '</p>'; }).join('') + '</div>';
+    if (st.watch && st.watch.length) {
+      h += '<div class="watch"><h2 class="mono watch-h">What to watch</h2>' + st.watch.map(function(w){
+        return '<div class="w-item"><span class="when mono">' + esc(w.when) + '</span><h3>' + esc(w.title) + '</h3>' + (w.why ? '<p>' + esc(w.why) + '</p>' : '') + '</div>';
+      }).join('') + '</div>';
+    }
+    h += sourcesHtml(st.sources) + '</div>';
+    h += '<div class="a-foot"><div class="inner"><button type="button" class="btn btn-primary" data-act="back"><span>Back to today</span><span>' + esc(st.next ? 'Tomorrow: ' + st.next : '') + '</span></button></div></div>';
     app.innerHTML = h;
     setTabs(null);
   }
@@ -341,6 +421,7 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     if (!S.edition) return;
     var m = /^read-(\d+)$/.exec(h);
     if (m) return renderArticle(parseInt(m[1], 10));
+    if (h === 'stack') return renderStack();
     if (h === 'recap') return renderRecap();
     if (h === 'archive') return renderArchive();
     renderToday();
@@ -374,6 +455,7 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     }
     var act = t.getAttribute('data-act');
     if (act === 'back') return go('today');
+    if (act === 'stack') return go('stack');
     if (act === 'retry') return boot();
     if (act === 'latest') return openEdition(S.index.latest).then(function(){ go('today'); });
     if (act === 'done') {

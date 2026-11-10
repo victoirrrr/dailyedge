@@ -22,8 +22,14 @@
         "The leaders who look good in 2027 will be those who treat agents as an operating-model change rather than a technology rollout: a small number of workflows redesigned end to end with the people who run them, a named owner and a kill switch on every agent, and value reported in P&L terms rather than activity counts."
       ],
       "sources": [
-        {"title": "McKinsey: The state of AI in 2026, on the road to ROI", "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"},
-        {"title": "AI Business: Agentic AI is outpacing enterprise readiness", "url": "https://aibusiness.com/agentic-ai/prompt-agentic-ai-outpacing-enterprise-readiness"}
+        {
+          "title": "McKinsey: The state of AI in 2026, on the road to ROI",
+          "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+        },
+        {
+          "title": "AI Business: Agentic AI is outpacing enterprise readiness",
+          "url": "https://aibusiness.com/agentic-ai/prompt-agentic-ai-outpacing-enterprise-readiness"
+        }
       ]
     },
     {
@@ -46,10 +52,22 @@
         "For anyone evaluating a GCC role or proposition, the useful test is ownership. What does this centre decide, not just deliver? Which global metric moves because of its work? Who at headquarters would notice if it disappeared tomorrow? Centres with crisp answers are where the next decade of leadership opportunity sits."
       ],
       "sources": [
-        {"title": "YourStory: India has 2,117 GCCs, revenue nears $100B", "url": "https://yourstory.com/enterprise-story/2026/05/gccs-number-touch-2117-in-india-revenue-just-short-of-100-billion"},
-        {"title": "HCLTech: India's GCC shift from metros to next-wave cities", "url": "https://www.hcltech.com/trends-and-insights/india-gcc-shift-metros-to-next-wave-cities"},
-        {"title": "TechRepublic: India GCCs lead AI and cloud hiring", "url": "https://www.techrepublic.com/article/news-gcc-ai-cloud-hiring-apac-india/"},
-        {"title": "Communications Today: India crosses 100 greenfield GCCs in eight months", "url": "https://www.communicationstoday.co.in/?p=423357"}
+        {
+          "title": "YourStory: India has 2,117 GCCs, revenue nears $100B",
+          "url": "https://yourstory.com/enterprise-story/2026/05/gccs-number-touch-2117-in-india-revenue-just-short-of-100-billion"
+        },
+        {
+          "title": "HCLTech: India's GCC shift from metros to next-wave cities",
+          "url": "https://www.hcltech.com/trends-and-insights/india-gcc-shift-metros-to-next-wave-cities"
+        },
+        {
+          "title": "TechRepublic: India GCCs lead AI and cloud hiring",
+          "url": "https://www.techrepublic.com/article/news-gcc-ai-cloud-hiring-apac-india/"
+        },
+        {
+          "title": "Communications Today: India crosses 100 greenfield GCCs in eight months",
+          "url": "https://www.communicationstoday.co.in/?p=423357"
+        }
       ]
     },
     {
@@ -71,10 +89,22 @@
         "The broader lesson: in the AI era, follow the capital as closely as the code. Who funds the compute shapes who gets access to it, and access is quickly becoming the most strategic commodity in technology."
       ],
       "sources": [
-        {"title": "Quartz: Abu Dhabi's MGX closes a $49 billion AI fund", "url": "https://qz.com/abu-dhabi-mgx-ai-fund-49-billion-070126"},
-        {"title": "Business Recorder: Gulf sovereign funds fast-track AI investment", "url": "https://www.brecorder.com/news/amp/40376811"},
-        {"title": "Finance Middle East: Gulf sovereign funds expand AI investments", "url": "https://www.financemiddleeast.com/?p=19431"},
-        {"title": "Tom's Hardware: China suspends ban on critical mineral exports to the US", "url": "https://www.tomshardware.com/tech-industry/china-suspends-ban-on-rare-earth-exports-to-us-but-licensing-remains"}
+        {
+          "title": "Quartz: Abu Dhabi's MGX closes a $49 billion AI fund",
+          "url": "https://qz.com/abu-dhabi-mgx-ai-fund-49-billion-070126"
+        },
+        {
+          "title": "Business Recorder: Gulf sovereign funds fast-track AI investment",
+          "url": "https://www.brecorder.com/news/amp/40376811"
+        },
+        {
+          "title": "Finance Middle East: Gulf sovereign funds expand AI investments",
+          "url": "https://www.financemiddleeast.com/?p=19431"
+        },
+        {
+          "title": "Tom's Hardware: China suspends ban on critical mineral exports to the US",
+          "url": "https://www.tomshardware.com/tech-industry/china-suspends-ban-on-rare-earth-exports-to-us-but-licensing-remains"
+        }
       ]
     },
     {
@@ -98,8 +128,14 @@
         "For anyone leading strategic initiatives or internal transformation, the test is simple. If your people had to describe the new belief in one sentence, could they? And which decision in the last 90 days proved you meant it?"
       ],
       "sources": [
-        {"title": "Satya Nadella, Hit Refresh (2017)", "url": ""},
-        {"title": "Carol Dweck, Mindset: The New Psychology of Success (2006)", "url": ""}
+        {
+          "title": "Satya Nadella, Hit Refresh (2017)",
+          "url": ""
+        },
+        {
+          "title": "Carol Dweck, Mindset: The New Psychology of Success (2006)",
+          "url": ""
+        }
       ]
     },
     {
@@ -124,9 +160,18 @@
         "For a leader inside a large organisation, the pattern applies directly to internal innovation. Pilot a new capability where the problem is most painful and existing solutions are weakest, not in the flagship business where the bar is perfection. Use the pilot to build undeniable evidence. Then redesign the offer for the mainstream rather than stretching the pilot to fit."
       ],
       "sources": [
-        {"title": "TechCrunch: Zipline raises $1.5B and expands Walmart partnership", "url": "https://techcrunch.com/?p=3185425"},
-        {"title": "Dealroom: Zipline raises $1.5B at $21.5B valuation", "url": "https://dealroom.co/news/169983-zipline-raises-1-5b-at-21-5b-valuation-to-scale-us-drone-delivery/"},
-        {"title": "Launch Base Africa: Zipline's raise is ring-fenced for the US", "url": "https://launchbaseafrica.com/2026/11/06/zipline-doubles-down-on-us-expansion-with-1-5bn-raise-ring-fenced-for-american-network/"}
+        {
+          "title": "TechCrunch: Zipline raises $1.5B and expands Walmart partnership",
+          "url": "https://techcrunch.com/?p=3185425"
+        },
+        {
+          "title": "Dealroom: Zipline raises $1.5B at $21.5B valuation",
+          "url": "https://dealroom.co/news/169983-zipline-raises-1-5b-at-21-5b-valuation-to-scale-us-drone-delivery/"
+        },
+        {
+          "title": "Launch Base Africa: Zipline's raise is ring-fenced for the US",
+          "url": "https://launchbaseafrica.com/2026/11/06/zipline-doubles-down-on-us-expansion-with-1-5bn-raise-ring-fenced-for-american-network/"
+        }
       ]
     },
     {
@@ -151,8 +196,14 @@
         "It is worth noticing how modern the pattern feels. A confident consensus, a new kind of evidence, an outsider with a map, a quick reversible action, and years of argument before the organisation updates its beliefs. Swap cholera for customer churn and the pump for a pricing rule, and it is a board meeting."
       ],
       "sources": [
-        {"title": "Steven Johnson, The Ghost Map (2006)", "url": ""},
-        {"title": "John Snow, On the Mode of Communication of Cholera, 2nd edition (1855)", "url": ""}
+        {
+          "title": "Steven Johnson, The Ghost Map (2006)",
+          "url": ""
+        },
+        {
+          "title": "John Snow, On the Mode of Communication of Cholera, 2nd edition (1855)",
+          "url": ""
+        }
       ]
     },
     {
@@ -176,8 +227,14 @@
         "A useful personal test, too. Before defending your own plan in a review, ask whether you would rate it as highly if a peer had written it. If the honest answer is no, the IKEA effect is doing some of your thinking."
       ],
       "sources": [
-        {"title": "Norton, Mochon and Ariely, The IKEA effect: When labor leads to love, Journal of Consumer Psychology (2012)", "url": ""},
-        {"title": "Aronson and Mills, The effect of severity of initiation on liking for a group (1959)", "url": ""}
+        {
+          "title": "Norton, Mochon and Ariely, The IKEA effect: When labor leads to love, Journal of Consumer Psychology (2012)",
+          "url": ""
+        },
+        {
+          "title": "Aronson and Mills, The effect of severity of initiation on liking for a group (1959)",
+          "url": ""
+        }
       ]
     },
     {
@@ -189,17 +246,125 @@
       "why": "Each is an early read on AI spending, supply-chain risk or how work is changing.",
       "use": "Pick one and form a view before it lands. Check it afterwards.",
       "watch": [
-        {"when": "17 Nov US · 18 Nov IST", "title": "Nvidia fiscal Q3 results", "why": "Guidance was $108 billion, plus or minus 2%. The clearest single read on whether AI infrastructure spending is still accelerating."},
-        {"when": "27 Nov", "title": "China's minerals export pause ends", "why": "China's suspension of its gallium, germanium and antimony export ban to the US expires unless extended. A test of the trade truce and of chip supply risk."},
-        {"when": "Ongoing", "title": "Zipline and Walmart's 300 new sites", "why": "Whether drone delivery reaches the flight density its valuation assumes."},
-        {"when": "Ongoing", "title": "State GCC incentives", "why": "Ten states have drafted or announced GCC policies. Watch which incentives actually pull new centres beyond the metros."},
-        {"when": "Next 12 months", "title": "AI and headcount", "why": "39% of McKinsey respondents expect AI-related job declines next year, but only 14% saw one last year. Watch whether announced AI layoffs match reality."}
+        {
+          "when": "17 Nov US · 18 Nov IST",
+          "title": "Nvidia fiscal Q3 results",
+          "why": "Guidance was $108 billion, plus or minus 2%. The clearest single read on whether AI infrastructure spending is still accelerating."
+        },
+        {
+          "when": "27 Nov",
+          "title": "China's minerals export pause ends",
+          "why": "China's suspension of its gallium, germanium and antimony export ban to the US expires unless extended. A test of the trade truce and of chip supply risk."
+        },
+        {
+          "when": "Ongoing",
+          "title": "Zipline and Walmart's 300 new sites",
+          "why": "Whether drone delivery reaches the flight density its valuation assumes."
+        },
+        {
+          "when": "Ongoing",
+          "title": "State GCC incentives",
+          "why": "Ten states have drafted or announced GCC policies. Watch which incentives actually pull new centres beyond the metros."
+        },
+        {
+          "when": "Next 12 months",
+          "title": "AI and headcount",
+          "why": "39% of McKinsey respondents expect AI-related job declines next year, but only 14% saw one last year. Watch whether announced AI layoffs match reality."
+        }
       ],
       "body": [],
       "sources": [
-        {"title": "NVIDIA: Conference call for third-quarter results", "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"},
-        {"title": "Fastmarkets: China suspends export prohibition to the US until 27 Nov 2026", "url": "https://www.fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us/"}
+        {
+          "title": "NVIDIA: Conference call for third-quarter results",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        },
+        {
+          "title": "Fastmarkets: China suspends export prohibition to the US until 27 Nov 2026",
+          "url": "https://www.fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us/"
+        }
       ]
     }
-  ]
+  ],
+  "stack": {
+    "company": "Microsoft",
+    "title": "Microsoft is selling the whole agent stack, from data centres to Copilot",
+    "what": "Azure grew 48% last quarter to $33.2 billion. Microsoft now reports one “Agents and Infra” segment, worth $76.8 billion, up 25%.",
+    "why": "Microsoft wants to own where enterprise agents are built, run and governed, and it is moving pricing from seats to metered usage.",
+    "use": "Before your next Microsoft renewal, ask for agent costs per workflow, not per seat. Metered billing for the Copilot harness starts on 1 December.",
+    "layers": [
+      {
+        "layer": "Compute",
+        "name": "Azure",
+        "note": "AI capacity is still sold out: Microsoft says demand exceeds supply, and capex runs near $175 billion for calendar 2026."
+      },
+      {
+        "layer": "Models",
+        "name": "Foundry models",
+        "note": "Over 12,000 models, including OpenAI and Anthropic, so the model is a choice, not a lock-in."
+      },
+      {
+        "layer": "Build",
+        "name": "Foundry, Copilot Studio",
+        "note": "The Copilot harness, in preview since 28 October, gives developers the same agent runtime Copilot uses."
+      },
+      {
+        "layer": "Work",
+        "name": "Microsoft 365 Copilot",
+        "note": "Daily usage rose about 50% in the quarter. Customers with 50,000+ seats grew more than eightfold."
+      },
+      {
+        "layer": "Code",
+        "name": "GitHub Copilot",
+        "note": "Positioned as the control plane for coding agents, now billed partly on usage."
+      },
+      {
+        "layer": "Govern",
+        "name": "Agent 365",
+        "note": "Identity, security and audit for agents through Entra, Purview and Defender, treating agents like digital employees."
+      }
+    ],
+    "body": [
+      "Microsoft's first quarter of fiscal 2027, reported on 28 October, was the clearest picture yet of how it wants to make money from AI. Revenue rose 19% to $92.3 billion. Azure grew 48%, and for the first time Microsoft disclosed Azure revenue in dollars: $33.2 billion for the quarter. Commercial bookings still to be delivered rose 73%, far faster than revenue, which tells you how much AI capacity customers have already committed to buy.",
+      "The more revealing change was structural. Microsoft collapsed its old three-segment reporting into two: “Agents and Infra,” at $76.8 billion and up 25%, and “Devices and Consumer,” down 3%. The new name is the strategy. Microsoft is telling investors that cloud, productivity software and AI agents are now one business. Some analysts noted the change also makes year-on-year comparisons harder, which is worth remembering when you read its growth claims.",
+      "Underneath the numbers sits a full stack. Azure provides the compute, and Microsoft says demand still exceeds supply despite capital spending of roughly $175 billion this calendar year. Foundry offers more than 12,000 models, including OpenAI's and Anthropic's, so customers are not tied to one model. Foundry and Copilot Studio are where agents get built. Microsoft 365 Copilot and GitHub Copilot are where people use them. Agent 365, Entra and Purview are meant to govern them like employees, with identities, permissions and audit trails.",
+      "The quiet shift is pricing. Microsoft is moving from per-seat licences to metered consumption, measured in Copilot Credits. The Copilot harness, a managed runtime for building multistep agents that Microsoft opened in preview in October, starts consumption billing on 1 December. The number of Copilot customers paying through usage-based billing grew more than 75% in the quarter. Seats are predictable. Usage is not.",
+      "For a leader, three implications. First, Microsoft is betting that enterprises will build agents where their documents, identities and security already live, which is an advantage for any organisation that runs on Microsoft 365. Second, cost governance needs to move from licence counts to per-workflow usage tracking, before the bills arrive rather than after. Third, the model catalogue means the real lock-in is no longer the model. It is the data layer, the identity layer and the agent runtime. That is where architecture decisions deserve the most scrutiny."
+    ],
+    "watch": [
+      {
+        "when": "Late November",
+        "title": "Microsoft Ignite",
+        "why": "Expect agent governance and observability announcements across Foundry and Agent 365."
+      },
+      {
+        "when": "1 Dec",
+        "title": "Copilot harness billing begins",
+        "why": "The first real read on what running production agents on Microsoft actually costs."
+      },
+      {
+        "when": "Q2 FY27",
+        "title": "Azure guidance of 49% to 50% growth",
+        "why": "Whether capacity, not demand, remains the limit on Microsoft's AI growth."
+      }
+    ],
+    "sources": [
+      {
+        "title": "SiliconANGLE: Microsoft's Azure grows 48% as it reorganises reporting",
+        "url": "https://siliconangle.com/?p=852356"
+      },
+      {
+        "title": "Fortune: Microsoft's cloud growth accelerates, and so does the spending",
+        "url": "https://fortune.com/2026/10/28/microsofts-cloud-growth-accelerates-and-so-too-does-the-spending/"
+      },
+      {
+        "title": "Redmond: Microsoft revenue jumps 19% as Azure and AI demand fuel growth",
+        "url": "https://redmondmag.com/articles/2026/10/30/microsoft-revenue-jumps-as-azure-and-ai-demand--fuel-growth.aspx"
+      },
+      {
+        "title": "Redmond: Microsoft brings Copilot's agent infrastructure to Foundry",
+        "url": "https://redmondmag.com/blogs/generationai/2026/11/microsoft-brings-copilot-ai-agent-infrastructure-to-foundry.aspx"
+      }
+    ],
+    "next": "Google"
+  }
 }
