@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-10",
+  "label": "Tuesday, 10 November 2026",
+  "articles": [
+    {
+      "n": 1,
+      "section": "AI Signal",
+      "minutes": 5,
+      "title": "Agents are scaling faster than the P&L can feel them",
+      "what": "40% of large firms now scale AI agents, up from 27% a year ago. Only 37% see any EBIT impact, flat year on year.",
+      "why": "Building agents is no longer the constraint. Redesigning the workflow around them, and owning their decisions, is.",
+      "use": "In your next AI review, replace “how many agents?” with “which workflow did we redesign, and who owns the agent when it errs?”",
+      "body": [
+        "McKinsey's latest State of AI survey, fielded in May and June 2026 across 1,719 respondents in 97 countries, contains the year's most useful contradiction for anyone leading transformation. Among organisations with more than $1 billion in revenue, 40% now say they are scaling AI agents, up from 27% a year earlier. Yet the share of respondents attributing any EBIT impact to AI sits at 37%, essentially where it was last year. Adoption is compounding. Profit is not, at least not yet.",
+        "Other data points tell the same story from different angles. Salesforce research cited by AI Business found the average number of agents per organisation nearly tripled in 15 months, while the time to build and switch on a new agent fell 53% to under two days. A Deloitte survey found about three-quarters of US business leaders expect agents to reshape roughly half their processes within four years, but only one in five believe their company is equipped to redesign workflows for autonomous work. HFS Research and TCS found just 35% of executives say AI consistently delivers outcomes with enough control to satisfy regulators.",
+        "Read together, these numbers mark a shift in where the constraint sits. Two years ago the hard part was technical: getting a model to do something useful, reliably. Vendors have largely packaged that problem away. Agent builders, templates and ready integrations mean a business team can stand up an agent in days. The binding constraint is now organisational: whether the workflow around the agent is redesigned, whether anyone owns its decisions, and whether the data it reads can be trusted.",
+        "McKinsey's high performers, the roughly 6% of respondents who attribute at least 5% of EBIT to AI, make the point sharply. Nearly three-quarters of them have fundamentally redesigned workflows around AI, against about a quarter of everyone else. They are twice as likely to report visible senior commitment and defined processes for measuring impact, and more than three times as likely to be scaling agents across most functions. The difference is not access to better models. Everyone has those. It is the willingness to rebuild the process instead of bolting an agent onto the old one.",
+        "There is a quieter second signal. About a third of respondents say their organisation decided not to buy at least one software product because coding agents could build it in-house; nearly half of high performers say so. That reverses a decade-long assumption that buying SaaS beats building. For GCCs and internal transformation teams it is a real opening: an in-house engineering bench becomes a source of cost avoidance, not just delivery capacity.",
+        "Cost is the third signal. About one in five respondents say AI operating costs, including tokens, now constrain their use, and Gartner has cautioned that agentic systems may not enjoy traditional economies of scale, because more reasoning means more compute per task. An agent that loops through ten reasoning steps to settle a routine request can cost more than the human-plus-rules process it replaced. Cost per resolved task will become a standard line in every AI business case.",
+        "For a leader, the practical move is to change the questions asked in AI reviews. “How many agents have we deployed?” is now a vanity metric, because deployment is cheap. Better questions: which end-to-end workflow did we redesign, and what did we remove from it? Who is accountable when an agent takes a wrong action, and how quickly would we know? What does one resolved task cost today against six months ago? Which software renewals are we challenging because we can build instead?",
+        "There is also a workforce dimension leaders should not dodge. McKinsey found 39% of respondents expect AI-related declines in total headcount over the next year, up from 32%. But only 14% of AI-using organisations reported an AI-driven workforce decline over the past year, less than half the share that predicted one. Expectations keep running ahead of reality, and that gap is where trust is won or lost. Teams that hear about headcount cuts before they see redesigned work tend to resist both.",
+        "The leaders who look good in 2027 will be those who treat agents as an operating-model change rather than a technology rollout: a small number of workflows redesigned end to end with the people who run them, a named owner and a kill switch on every agent, and value reported in P&L terms rather than activity counts."
+      ],
+      "sources": [
+        {"title": "McKinsey: The state of AI in 2026, on the road to ROI", "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"},
+        {"title": "AI Business: Agentic AI is outpacing enterprise readiness", "url": "https://aibusiness.com/agentic-ai/prompt-agentic-ai-outpacing-enterprise-readiness"}
+      ]
+    },
+    {
+      "n": 2,
+      "section": "GCC Watch",
+      "minutes": 5,
+      "title": "India's GCCs are growing fastest where the playbook is least written",
+      "what": "India added 111 greenfield GCCs from January to August 2026, more than all of 2025. Emerging-city openings rose 42% against about 19% in metros.",
+      "why": "GCC value is shifting from cost arbitrage to owning global products, platforms and outcomes. Leadership roles follow ownership.",
+      "use": "When you assess a GCC role or proposition, ask what the centre decides end to end, not how many people it runs.",
+      "body": [
+        "India's global capability centre story has a new headline number and a more interesting subplot. According to a UnearthIQ count reported in September, India added 111 greenfield GCCs between January and August 2026, passing the 100 mark in eight months; the whole of 2025 produced 100. The base is already large. The Nasscom and Zinnov landscape report puts India at 2,117 GCCs across 3,728 units, employing about 2.36 million people and generating $98.4 billion in revenue in FY2026, up 32% in count since FY2021.",
+        "The subplot is geography and purpose. ANSR's 2026 emerging-cities report, cited by HCLTech, found GCC job openings in emerging cities rose 42%, against roughly 19% in the traditional metros. Between 2024 and early 2026, ten states drafted or announced dedicated GCC policies offering incentives, skilling support and ready infrastructure. Gujarat's policy alone targets at least 250 new units and more than 50,000 jobs.",
+        "Purpose is shifting faster than geography. For two decades the GCC formula was simple: skilled talent at scale, at lower cost. The 2026 language is different. Nasscom's leadership now describes centres taking ownership of global products, platforms and business outcomes. TeamLease Digital data cited by The Economic Times shows GCCs added nearly 200,000 net employees in FY2026, almost twice the 110,000 added by IT services firms, as multinationals pull sensitive, high-value AI and cloud work in-house. India also hosts more than 250,000 GCC professionals working on AI, roughly 28% of global GCC AI talent.",
+        "Recent openings show the pattern. LG Electronics is building its first APAC centre in Noida, covering finance, procurement, supply chain, HR, digital and data. BASF is setting up a global digital hub and a finance and HR service hub in Hyderabad. Disney is expanding its Bengaluru technology centre to bring in engineering work previously handled by vendors. These are not cost-only moves. They are decisions about where enterprise capability will live.",
+        "Why this matters for leaders. First, the centre of gravity in GCC careers is moving from delivery management to capability ownership. The valuable roles own a product, a platform or a business outcome globally, with a KPI that headquarters actually watches. Running a large headcount efficiently remains necessary, but it no longer differentiates.",
+        "Second, AI changes the GCC value equation. If agents and coding tools compress the effort for routine work, a centre justified purely by labour arbitrage loses its rationale. A centre that owns the data, the platforms and the transformation agenda becomes more valuable, because it is where the redesign happens. Expect parent companies to ask their India centres for AI-led productivity commitments, not just headcount plans.",
+        "Third, the move beyond the metros creates opportunity and execution risk together. Emerging-city talent pools are deep for some skills and thin for others, and leadership benches are thinner still. Leaders who can build a site, a culture and a capability from scratch outside the big six cities will be in short supply.",
+        "Finally, there is a structural tension worth watching. As GCCs absorb high-value work that IT services firms used to do, the line between captive and vendor blurs. Vendors respond with build-operate-transfer models and managed capability offers; captives respond by hiring vendor talent. State incentives add a third actor competing for the same investment decisions.",
+        "For anyone evaluating a GCC role or proposition, the useful test is ownership. What does this centre decide, not just deliver? Which global metric moves because of its work? Who at headquarters would notice if it disappeared tomorrow? Centres with crisp answers are where the next decade of leadership opportunity sits."
+      ],
+      "sources": [
+        {"title": "YourStory: India has 2,117 GCCs, revenue nears $100B", "url": "https://yourstory.com/enterprise-story/2026/05/gccs-number-touch-2117-in-india-revenue-just-short-of-100-billion"},
+        {"title": "HCLTech: India's GCC shift from metros to next-wave cities", "url": "https://www.hcltech.com/trends-and-insights/india-gcc-shift-metros-to-next-wave-cities"},
+        {"title": "TechRepublic: India GCCs lead AI and cloud hiring", "url": "https://www.techrepublic.com/article/news-gcc-ai-cloud-hiring-apac-india/"},
+        {"title": "Communications Today: India crosses 100 greenfield GCCs in eight months", "url": "https://www.communicationstoday.co.in/?p=423357"}
+      ]
+    },
+    {
+      "n": 3,
+      "section": "Geopolitics",
+      "minutes": 5,
+      "title": "Gulf capital is becoming frontier AI's anchor investor",
+      "what": "Abu Dhabi's MGX closed a $49 billion AI fund in July, drawing investors from the Gulf, North America, Asia and Europe.",
+      "why": "Frontier AI runs on chips, energy and capital. Whoever finances the compute gains a say in where AI is built and who can use it.",
+      "use": "When mapping AI partners or vendors, ask who funds the infrastructure underneath, not just who builds the model.",
+      "body": [
+        "On 1 July 2026, Abu Dhabi's MGX closed its first fund at $49 billion, above a $45 billion target, making it one of the largest pools of capital ever dedicated to AI. Its investors came from the Gulf, North America, Asia and Europe. That detail matters. Traditional Gulf sovereign funds mostly deploy state money; MGX was designed to pull in outside institutions, behaving more like a global alternative asset manager than a national savings account.",
+        "MGX was founded in 2024 with Mubadala, Abu Dhabi's sovereign fund, and G42, the emirate's AI and cloud group, as anchor backers. It is chaired by Sheikh Tahnoon bin Zayed Al Nahyan, Deputy Ruler of Abu Dhabi and the UAE's National Security Adviser. Its portfolio spans stakes in leading model developers, including OpenAI, Anthropic and xAI, alongside physical infrastructure: it was part of the consortium behind a $40 billion acquisition of Aligned Data Centers and is backing a large AI campus in France.",
+        "Zoom out and the pattern is regional. Gulf sovereign funds, including Saudi Arabia's PIF, Mubadala and Qatar's QIA, have put more than $100 billion into technology and AI-related sectors since 2023, according to Business Recorder. QIA alone holds positions in Databricks and xAI, among others. The stated logic is diversification away from hydrocarbons. The effect is influence: the Gulf is becoming a primary financier of the compute build-out that frontier AI depends on.",
+        "Why this is geopolitics and not just finance. Frontier AI now runs on three scarce inputs: advanced chips, energy and capital. The United States controls the most advanced chips through export rules. China dominates several critical minerals, and its suspension of a ban on exporting gallium, germanium and antimony to the US runs only until 27 November 2026. The Gulf brings capital and cheap energy. Each actor uses its chokepoint as leverage, and alliances form around the trades between them.",
+        "That leverage cuts both ways. US lawmakers have raised concerns about Abu Dhabi's ties to both American and Chinese technology firms, and access to top-end American chips has become part of diplomatic bargaining. Gulf investors gain access and influence; in return they accept constraints on who else they work with. For model developers, Gulf money comes with geopolitical conditions that domestic venture capital does not.",
+        "There is a concentration risk too. A small number of very large pools of capital now shape which AI infrastructure gets built and where. If the build-out outruns real demand, frontier-model stakes and data-centre commitments could come under pressure at the same time, the opposite of the diversification sovereign funds normally seek.",
+        "What should a leader in India take from this? First, AI infrastructure is becoming a geopolitical asset class, and India's own data-centre and sovereign-AI ambitions will compete for the same capital. Where Gulf funds place Indian bets is a signal of which platforms will scale. Second, vendor risk now includes geopolitical risk. A cloud region, model provider or chip supply that depends on one country's export policy can change terms quickly. Third, the India and Gulf corridor is unusually strong in people, trade and capital, which positions Indian GCCs and service firms as natural partners for Gulf-funded AI programmes.",
+        "The broader lesson: in the AI era, follow the capital as closely as the code. Who funds the compute shapes who gets access to it, and access is quickly becoming the most strategic commodity in technology."
+      ],
+      "sources": [
+        {"title": "Quartz: Abu Dhabi's MGX closes a $49 billion AI fund", "url": "https://qz.com/abu-dhabi-mgx-ai-fund-49-billion-070126"},
+        {"title": "Business Recorder: Gulf sovereign funds fast-track AI investment", "url": "https://www.brecorder.com/news/amp/40376811"},
+        {"title": "Finance Middle East: Gulf sovereign funds expand AI investments", "url": "https://www.financemiddleeast.com/?p=19431"},
+        {"title": "Tom's Hardware: China suspends ban on critical mineral exports to the US", "url": "https://www.tomshardware.com/tech-industry/china-suspends-ban-on-rare-earth-exports-to-us-but-licensing-remains"}
+      ]
+    },
+    {
+      "n": 4,
+      "section": "Transformation",
+      "minutes": 5,
+      "title": "Nadella changed Microsoft's beliefs before he changed its strategy",
+      "what": "Satya Nadella took over a profitable but boxed-in Microsoft in 2014 and led with a culture reset before the big strategic bets.",
+      "why": "Most transformations fail on beliefs, not plans. Microsoft shows a sequence that works: belief, symbolic decision, then metrics.",
+      "use": "Before your next restructuring, name the one belief that must change and the decision in the next 90 days that will prove it.",
+      "body": [
+        "In February 2014, Satya Nadella became Microsoft's third chief executive. The company was enormously profitable but strategically boxed in. It had missed mobile, a Windows-first worldview shaped almost every decision, and rivalry between divisions was legendary. Its market value was roughly $300 billion. A decade later it passed $3 trillion. Most retellings focus on the cloud strategy. The more useful lesson for transformation leaders is the order in which Nadella did things.",
+        "He started with beliefs. Drawing on psychologist Carol Dweck's research on growth mindset, he reframed the culture from “know-it-alls” to “learn-it-alls.” In many companies that would have stayed a poster slogan. It became real at Microsoft because leadership behaviour, product decisions and incentives moved with it. The company had already scrapped its forced-ranking review system shortly before he took over, and he built on that opening rather than starting from zero.",
+        "Then came decisions that would have been unthinkable under the old belief system. Within weeks Microsoft released Office for the iPad, putting its crown-jewel product on a rival's device. Later that year Nadella said publicly that Microsoft loves Linux, an open-source system the company had once treated as an existential threat. In 2015 it wrote down about $7.6 billion on the Nokia phone business bought only a year earlier, and cut thousands of jobs. Each move said the same thing: customers and the platform shift matter more than protecting the old franchise.",
+        "The strategy itself, “mobile-first, cloud-first,” was not unique. Every analyst could see cloud was the future. What was unique was the organisation's ability to act on it. Azure grew because sellers were increasingly measured on customer consumption rather than licence sales, because engineering teams were encouraged to work with partners, including competitors, and because product groups stopped defending territory against one another. The culture change made the strategy executable.",
+        "Three lessons travel well beyond Microsoft.",
+        "First, name the belief, not just the goal. “Grow cloud revenue” is a goal. “We win when customers use our products wherever they are, even on a rival's device” is a belief, and beliefs settle hundreds of daily trade-offs that no strategy deck covers.",
+        "Second, make an expensive symbolic decision early. Office on iPad and the Nokia write-down were costly, visible and hard to reverse. They told the organisation the new belief was real. Transformations that keep every sacred cow alive signal that the old rules still apply.",
+        "Third, change what gets measured. The culture shift stuck because incentives, reviews and leadership expectations moved with it. If a transformation adds new values but keeps old metrics, people follow the metrics.",
+        "There is a caution. Culture change at Microsoft took years and was cushioned by a business generating vast cash, which bought patience. Most organisations have less runway. That makes sequencing more important, not less: the belief shift and the first symbolic decision belong in the first months, not after the operating model has been redrawn.",
+        "For anyone leading strategic initiatives or internal transformation, the test is simple. If your people had to describe the new belief in one sentence, could they? And which decision in the last 90 days proved you meant it?"
+      ],
+      "sources": [
+        {"title": "Satya Nadella, Hit Refresh (2017)", "url": ""},
+        {"title": "Carol Dweck, Mindset: The New Psychology of Success (2006)", "url": ""}
+      ]
+    },
+    {
+      "n": 5,
+      "section": "Startup Story",
+      "minutes": 5,
+      "title": "Zipline: from blood drops in Rwanda to a $21.5 billion valuation",
+      "what": "Drone-delivery firm Zipline raised $1.5 billion at a $21.5 billion valuation on 5 November, nearly triple its January value, alongside a Walmart deal for 300 more sites.",
+      "why": "It shows how proving reliability in the hardest setting earns the right to scale in the biggest market.",
+      "use": "For any new initiative, ask: where is the problem so acute that a rough first version is still welcome?",
+      "body": [
+        "On 5 November 2026, Zipline announced it had raised $1.5 billion at a $21.5 billion post-money valuation. In January it had been valued at $7.6 billion after raising more than $600 million. The round was led by Paradigm, WCM Investment Management and Layer Global, and it arrived with an expanded Walmart partnership to add 300 drone-delivery locations across the United States. None of the new money, the announcement said, is earmarked for Africa. That is ironic, because Africa is where Zipline learned how to be Zipline.",
+        "Founded in 2014, Zipline's first serious customer was not a retailer but a government. In 2016 it began flying blood to hospitals in Rwanda, where hilly terrain and rural roads could turn a resupply into a delay of hours, which is fatal when a mother is haemorrhaging after childbirth. Its fixed-wing drones dropped packages by parachute, flew through rain and wind, and ran at national scale long before drone delivery was routine anywhere in the US. It later expanded to Ghana and other countries, carrying blood, vaccines and medicines.",
+        "Why start there? Because the problem was acute and the alternative was poor. In a market where nothing else worked well, a new technology did not need to beat an existing logistics network on cost. It only needed to be reliable. Rwanda gave Zipline years of operating data, a safety record and a story that regulators, investors and retailers elsewhere could not ignore.",
+        "The US required a different product. Suburban home delivery needs precision and quiet, so Zipline built a newer platform that hovers and lowers a package on a tether to a doorstep or back garden. Retail partners such as Walmart supply demand density, and the new funding is aimed at manufacturing scale-up, hiring and a nationwide network. Uber is among its backers.",
+        "The valuation jump is the headline, but the shape of the round is instructive too. Raising $1.5 billion at $21.5 billion means selling only around 7% of the company. Investors are paying for a network that does not exist yet at national scale, on the strength of operating proof gathered in very different conditions.",
+        "Three lessons for builders, inside startups or large companies.",
+        "Start where the pain is acute, not where the market is biggest. Early customers with no good alternative forgive rough edges and reward reliability. Customers in a crowded market compare you with mature incumbents from the first day.",
+        "Turn your first market into evidence. Rwanda was not a side project; it was the dataset that made everything after it believable. The best pilots are designed to produce proof that travels.",
+        "Be willing to rebuild the product for the next market. The core capability, autonomous logistics, carried over. The hardware did not. Teams that force the pilot version onto the mainstream market usually stall.",
+        "The risks are real. Drone delivery still faces noise complaints, safety scrutiny and regulation that moves more slowly than funding rounds. The economics work only if each site runs enough flights to spread fixed costs. A $21.5 billion valuation is a bet on density that has not yet been proven nationwide.",
+        "For a leader inside a large organisation, the pattern applies directly to internal innovation. Pilot a new capability where the problem is most painful and existing solutions are weakest, not in the flagship business where the bar is perfection. Use the pilot to build undeniable evidence. Then redesign the offer for the mainstream rather than stretching the pilot to fit."
+      ],
+      "sources": [
+        {"title": "TechCrunch: Zipline raises $1.5B and expands Walmart partnership", "url": "https://techcrunch.com/?p=3185425"},
+        {"title": "Dealroom: Zipline raises $1.5B at $21.5B valuation", "url": "https://dealroom.co/news/169983-zipline-raises-1-5b-at-21-5b-valuation-to-scale-us-drone-delivery/"},
+        {"title": "Launch Base Africa: Zipline's raise is ring-fenced for the US", "url": "https://launchbaseafrica.com/2026/11/06/zipline-doubles-down-on-us-expansion-with-1-5bn-raise-ring-fenced-for-american-network/"}
+      ]
+    },
+    {
+      "n": 6,
+      "section": "History",
+      "minutes": 5,
+      "title": "London, 1854: the map that beat the experts, slowly",
+      "what": "During a cholera outbreak in Soho, John Snow mapped the deaths, traced them to one water pump and had its handle removed.",
+      "why": "It is the founding story of data-led decisions, and a reminder that evidence beats expert consensus only slowly.",
+      "use": "Open an analytics or AI pitch with it: “The data was right in 1854. It still took years to win the argument.”",
+      "body": [
+        "In late August 1854, cholera exploded in Soho, London. Within about ten days hundreds of people living within a few streets of one another were dead, and the outbreak eventually killed around 600. The medical establishment knew what caused cholera, or believed it did: miasma, bad air rising from filth. The remedy followed from the theory. Clean up the smell.",
+        "John Snow, a physician better known at the time as a pioneer of anaesthesia, disagreed. He suspected cholera spread through contaminated water. Rather than argue theory, he went door to door, recording where the dead had lived and where they had drawn their water. Plotted on a street map, the deaths clustered around a single public pump on Broad Street.",
+        "The most persuasive evidence was the exceptions. A nearby workhouse with several hundred residents had very few deaths; it had its own well. Workers at a local brewery were largely spared; they drank beer, and the brewery had its own water supply. A widow who died miles away in Hampstead turned out to have had Broad Street water carried to her because she preferred its taste. The anomalies fitted the water theory and made no sense under miasma.",
+        "On 8 September 1854, Snow presented his evidence to the parish authorities, and the pump handle was removed. It became one of the most famous decisions in public health. The honest footnote is that the outbreak was already declining by then, partly because many residents had fled. Snow said as much himself.",
+        "The rest of the story is the part leaders should remember. Snow's conclusion was not accepted. An official inquiry in 1855 rejected his theory, and the pump handle was reportedly put back. A local curate, Henry Whitehead, set out to disprove Snow and instead found the likely source: a sick baby's nappies rinsed into a cesspool a few feet from the well. Germ theory would not be widely accepted for another two decades. Snow died in 1858, before he was vindicated.",
+        "Four lessons for analytics and AI leaders.",
+        "Data rarely wins on volume. It wins on the case the old model cannot explain. The workhouse and the brewery did more persuasive work than hundreds of plotted deaths. In a business, look for the store, team or customer segment that the current theory cannot account for.",
+        "Visualise the decision, not the dataset. Snow's map worked because it put the decision on one page: here is the pump. Dashboards that show everything persuade no one.",
+        "Act under uncertainty when the cost of being wrong is low. Removing a pump handle was cheap and reversible. Snow did not need certainty to act. He needed a better explanation than the alternative and a low-regret action.",
+        "Expect institutional resistance even when you are right. Expert consensus updates slowly, especially when new evidence implies that past decisions were wrong. Recruit allies like Whitehead, ideally sceptics, whose conversion carries more weight than your own conviction.",
+        "It is worth noticing how modern the pattern feels. A confident consensus, a new kind of evidence, an outsider with a map, a quick reversible action, and years of argument before the organisation updates its beliefs. Swap cholera for customer churn and the pump for a pricing rule, and it is a board meeting."
+      ],
+      "sources": [
+        {"title": "Steven Johnson, The Ghost Map (2006)", "url": ""},
+        {"title": "John Snow, On the Mode of Communication of Cholera, 2nd edition (1855)", "url": ""}
+      ]
+    },
+    {
+      "n": 7,
+      "section": "Mind + Science",
+      "minutes": 5,
+      "title": "The IKEA effect: why people back what they help build",
+      "what": "People value things more when they have built them, even when the result is objectively worse, as long as they finish.",
+      "why": "It explains why co-designed change sticks and imposed change stalls, and why teams overrate their own ideas.",
+      "use": "Give the people who must adopt a change a real decision in designing it, then bring in an outside reviewer to check the bias.",
+      "body": [
+        "In 2012, Michael Norton, Daniel Mochon and Dan Ariely published a set of experiments with a memorable name: the IKEA effect. Participants who assembled a plain IKEA storage box themselves were willing to pay noticeably more for it than people offered the same box already built. In another study, people who folded simple origami valued their own creations almost as highly as others valued origami made by experts. Outside observers, meanwhile, saw amateur paper.",
+        "One condition mattered a great deal: completion. When participants built something and then had to dismantle it, or did not finish, the effect largely disappeared. Labour leads to love only when the labour succeeds.",
+        "The science underneath is older. In 1959, Elliot Aronson and Judson Mills showed that people who went through a harder initiation to join a discussion group rated the group as more interesting, even though it was deliberately dull. Psychologists call this effort justification and link it to Leon Festinger's theory of cognitive dissonance: if I worked hard for something, I ease the tension by valuing it more. Building also satisfies two basic needs, competence and ownership, which is part of why the feeling is so durable.",
+        "A popular business legend captures the idea. Instant cake mixes supposedly sold better in the 1950s once the recipe asked home cooks to add a fresh egg. The story is widely told and only loosely documented, but it survives because it feels true. A small contribution turns a product into my product.",
+        "What this means for transformation.",
+        "Co-design beats consultation. When the people who will run a new process have shaped a genuine decision in it, they defend it. When they are only consulted on a finished design, they look for its flaws. The decision must be real; people detect token involvement quickly, and fake participation produces more resistance than none.",
+        "Leave something to finish. A rollout that is 90% built and invites teams to configure the last 10% to their context often lands better than a polished, locked solution. The finishing is where ownership forms.",
+        "Guard against the dark side. The same effect makes teams overvalue their own ideas and dismiss better external ones, the root of “not invented here.” It also explains why leaders struggle to stop projects they personally sponsored. Counter it with independent review, kill criteria agreed before work starts, and outside benchmarks.",
+        "For AI adoption the lesson is practical. Teams that help build and tune an agent, by writing its playbooks, labelling its mistakes and setting its escalation rules, tend to trust it and use it. Teams handed an agent built elsewhere tend to work around it. If you want an AI rollout to stick, budget time for the people closest to the work to shape it, and make sure they see it working before you declare it finished.",
+        "A useful personal test, too. Before defending your own plan in a review, ask whether you would rate it as highly if a peer had written it. If the honest answer is no, the IKEA effect is doing some of your thinking."
+      ],
+      "sources": [
+        {"title": "Norton, Mochon and Ariely, The IKEA effect: When labor leads to love, Journal of Consumer Psychology (2012)", "url": ""},
+        {"title": "Aronson and Mills, The effect of severity of initiation on liking for a group (1959)", "url": ""}
+      ]
+    },
+    {
+      "n": 8,
+      "section": "Track and Watch",
+      "minutes": 2,
+      "title": "Five things to watch over the next few weeks",
+      "what": "Nvidia results, a China minerals deadline, Zipline's rollout, state GCC incentives and AI-linked job cuts.",
+      "why": "Each is an early read on AI spending, supply-chain risk or how work is changing.",
+      "use": "Pick one and form a view before it lands. Check it afterwards.",
+      "watch": [
+        {"when": "17 Nov US · 18 Nov IST", "title": "Nvidia fiscal Q3 results", "why": "Guidance was $108 billion, plus or minus 2%. The clearest single read on whether AI infrastructure spending is still accelerating."},
+        {"when": "27 Nov", "title": "China's minerals export pause ends", "why": "China's suspension of its gallium, germanium and antimony export ban to the US expires unless extended. A test of the trade truce and of chip supply risk."},
+        {"when": "Ongoing", "title": "Zipline and Walmart's 300 new sites", "why": "Whether drone delivery reaches the flight density its valuation assumes."},
+        {"when": "Ongoing", "title": "State GCC incentives", "why": "Ten states have drafted or announced GCC policies. Watch which incentives actually pull new centres beyond the metros."},
+        {"when": "Next 12 months", "title": "AI and headcount", "why": "39% of McKinsey respondents expect AI-related job declines next year, but only 14% saw one last year. Watch whether announced AI layoffs match reality."}
+      ],
+      "body": [],
+      "sources": [
+        {"title": "NVIDIA: Conference call for third-quarter results", "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"},
+        {"title": "Fastmarkets: China suspends export prohibition to the US until 27 Nov 2026", "url": "https://www.fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us/"}
+      ]
+    }
+  ]
+}

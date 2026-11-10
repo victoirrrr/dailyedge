@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daily Edge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F2EF; --surface:#FFFFFF; --ink:#15171A; --ink-2:#5B6068; --hair:#E2E0DB;
+  --graphite:#1B1E22; --graphite-2:#24282D; --on-g:#F3F2EF; --on-g-2:#A3A9B1; --hair-g:#30353B;
+  --signal:#EE5A2E; --signal-ink:#B23E18;
+  --sans:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Geist Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --serif:"Source Serif 4",Georgia,serif;
+  --pad:20px;
+  --safe-t:env(safe-area-inset-top,0px); --safe-b:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+a{color:var(--signal-ink)}
+:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:6px}
+.shell{max-width:600px;margin:0 auto;min-height:100vh;min-height:100dvh;position:relative}
+.view{padding-bottom:calc(96px + var(--safe-b));animation:enter .2s ease-out}
+@keyframes enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.view{animation:none}}
+.mono{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase}
+
+/* Masthead */
+.mast{padding:calc(18px + var(--safe-t)) var(--pad) 0;display:flex;align-items:baseline;justify-content:space-between}
+.wordmark{font-weight:600;font-size:21px;letter-spacing:-.02em;margin:0}
+.wordmark span{color:var(--signal-ink)}
+.mast .mono{color:var(--ink-2)}
+.meta-row{padding:22px var(--pad) 0;display:flex;justify-content:space-between;align-items:baseline;color:var(--ink-2)}
+.meta-row strong{color:var(--ink);font-weight:500}
+.ticks{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:4px;padding:10px var(--pad) 0}
+.ticks i{height:3px;border-radius:2px;background:var(--hair)}
+.ticks i.on{background:var(--ink)}
+.banner{margin:14px var(--pad) 0;padding:10px 14px;border-radius:12px;background:var(--surface);display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--ink-2)}
+.banner button{color:var(--signal-ink);font-weight:500;min-height:44px;padding:0 4px}
+
+/* Lead */
+.lead{margin:16px 12px 0;background:var(--graphite);color:var(--on-g);border-radius:22px;padding:22px 20px 20px}
+.lead .k{display:flex;justify-content:space-between;color:var(--on-g-2)}
+.lead .k b{color:var(--signal);font-weight:500}
+.lead h2{font-size:27px;line-height:1.14;letter-spacing:-.02em;font-weight:600;margin:16px 0 18px;text-wrap:balance}
+.tl{margin:0;border-top:1px solid var(--hair-g)}
+.tl div{display:grid;grid-template-columns:62px 1fr;gap:12px;padding:11px 0;border-bottom:1px solid var(--hair-g)}
+.tl dt{color:var(--on-g-2);padding-top:3px}
+.tl dd{margin:0;font-size:15px;line-height:1.45}
+.tl .use dt{color:var(--signal)}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:50px;border-radius:14px;font-weight:600;font-size:15.5px;width:100%}
+.btn-primary{background:var(--signal);color:var(--ink)}
+.btn-primary:active{filter:brightness(.92)}
+.lead .btn{margin-top:18px}
+.done-card h2{margin-bottom:8px}
+.done-card p{color:var(--on-g-2);margin:0 0 4px;font-size:15px;line-height:1.5}
+
+/* List */
+.label{padding:28px var(--pad) 10px;color:var(--ink-2)}
+.list{margin:0 12px;background:var(--surface);border-radius:18px;overflow:hidden}
+.row{display:grid;grid-template-columns:40px 1fr auto;gap:14px;align-items:center;width:100%;text-align:left;padding:14px 16px;min-height:72px;border-top:1px solid var(--hair)}
+.row:first-child{border-top:0}
+.row:active{background:#F7F6F3}
+.tile{width:40px;height:40px;border-radius:11px;background:var(--paper);display:grid;place-items:center;font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+.tile.read{background:var(--ink);color:var(--paper)}
+.row .s{color:var(--ink-2);margin-bottom:3px}
+.row .t{font-size:16px;line-height:1.3;font-weight:500;letter-spacing:-.005em}
+.row.is-read .t{color:var(--ink-2)}
+.row .m{color:var(--ink-2);align-self:start;padding-top:2px}
+
+/* Tab bar */
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:5;background:rgba(243,242,239,.94);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-top:1px solid var(--hair);padding-bottom:var(--safe-b)}
+.tabs nav{max-width:600px;margin:0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.tabs button{min-height:58px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:11.5px;font-weight:500;color:var(--ink-2)}
+.tabs button[aria-current="page"]{color:var(--ink)}
+.tabs svg{width:22px;height:22px}
+
+/* Article */
+.a-head{background:var(--graphite);color:var(--on-g);padding:calc(6px + var(--safe-t)) 8px 28px}
+.a-bar{display:flex;justify-content:space-between;align-items:center;min-height:52px}
+.icon-btn{width:44px;height:44px;display:grid;place-items:center;border-radius:12px;color:var(--on-g)}
+.icon-btn:active{background:var(--graphite-2)}
+.a-bar .mono{color:var(--on-g-2);padding-right:12px}
+.a-head .inner{padding:8px 12px 0}
+.a-head .kick{color:var(--signal)}
+.a-head h1{font-size:30px;line-height:1.12;letter-spacing:-.022em;font-weight:600;margin:14px 0 16px;text-wrap:balance}
+.a-head .sub{color:var(--on-g-2)}
+.short{margin:0;background:var(--surface);padding:6px var(--pad) 4px}
+.short .tl{border-top:0}
+.short .tl div{border-bottom:1px solid var(--hair);grid-template-columns:70px 1fr}
+.short .tl div:last-child{border-bottom:0}
+.short .tl dt{color:var(--ink-2)}
+.short .tl .use dt{color:var(--signal-ink)}
+.short .tl dd{font-size:15.5px}
+.prose{padding:30px var(--pad) 8px;font-family:var(--serif);font-size:18.5px;line-height:1.68;max-width:36em}
+.prose p{margin:0 0 1.05em}
+.prose p.sub-h{font-family:var(--sans);font-size:15px;font-weight:600;letter-spacing:-.005em;margin:1.6em 0 .6em}
+.sources{padding:8px var(--pad) 24px}
+.sources h3{margin:0 0 8px;color:var(--ink-2);font-weight:400}
+.sources ol{margin:0;padding-left:18px;color:var(--ink-2);font-size:14px;line-height:1.5}
+.sources li{margin-bottom:6px}
+.watch{padding:8px 12px 0}
+.w-item{background:var(--surface);border-radius:16px;padding:16px;margin-bottom:8px;display:grid;gap:6px}
+.w-item .when{color:var(--signal-ink)}
+.w-item h3{margin:0;font-size:17px;font-weight:600;letter-spacing:-.01em}
+.w-item p{margin:0;color:var(--ink-2);font-size:15px;line-height:1.5}
+.a-foot{position:fixed;left:0;right:0;bottom:0;z-index:5;background:rgba(243,242,239,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--hair);padding:10px 12px calc(10px + var(--safe-b))}
+.a-foot .inner{max-width:576px;margin:0 auto}
+.a-foot .btn{justify-content:space-between;padding:0 18px}
+.a-foot .btn span:last-child{font-weight:500;font-size:14px;opacity:.8}
+
+/* Recap and archive */
+.page-h{padding:calc(18px + var(--safe-t)) var(--pad) 0}
+.page-h h1{font-size:30px;letter-spacing:-.022em;font-weight:600;margin:6px 0 0}
+.page-h .mono{color:var(--ink-2)}
+.empty{margin:20px 12px 0;background:var(--surface);border-radius:18px;padding:22px 20px}
+.empty .when{font-size:21px;font-weight:600;letter-spacing:-.015em;margin:8px 0 14px}
+.empty ul{margin:0;padding:0;list-style:none;border-top:1px solid var(--hair)}
+.empty li{padding:11px 0;border-bottom:1px solid var(--hair);font-size:15px;display:grid;grid-template-columns:28px 1fr;color:var(--ink)}
+.empty li span{font-family:var(--mono);font-size:12px;color:var(--ink-2);padding-top:2px}
+.empty li:last-child{border-bottom:0}
+.rc{margin:12px 12px 0;background:var(--surface);border-radius:18px;padding:18px 18px 8px}
+.rc h2{margin:0 0 12px;font-size:12px;font-family:var(--mono);font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.idea{padding:10px 0;border-top:1px solid var(--hair)}
+.idea:first-of-type{border-top:0;padding-top:0}
+.idea b{display:block;font-weight:600;font-size:16px;margin-bottom:3px}
+.idea span{color:var(--ink-2);font-size:15px;line-height:1.45}
+.q{padding:4px 0 14px}
+.q p{margin:0 0 10px;font-weight:500;font-size:16px;line-height:1.4}
+.opt{display:block;width:100%;text-align:left;min-height:46px;padding:11px 14px;margin-bottom:6px;border-radius:12px;background:var(--paper);font-size:15px;line-height:1.35}
+.opt.right{background:var(--ink);color:var(--paper)}
+.opt.wrong{background:#F5DCD3;color:#7A2A10}
+.q .ex{font-size:14px;color:var(--ink-2);line-height:1.5;margin:4px 0 0}
+.story{font-family:var(--serif);font-size:17px;line-height:1.6;margin:0 0 12px}
+.reflect{font-family:var(--serif);font-size:20px;line-height:1.4;margin:0 0 14px}
+.state{padding:40vh var(--pad) 0;text-align:center;color:var(--ink-2)}
+.state .btn{max-width:220px;margin:16px auto 0;background:var(--ink);color:var(--paper)}
+</style>
+</head>
+<body>
+<div class="shell"><main id="app" aria-live="polite"><div class="state">Loading today's edition…</div></main></div>
+<div class="tabs" id="tabs" hidden>
+  <nav aria-label="Sections">
+    <button type="button" data-tab="today"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Today</button>
+    <button type="button" data-tab="recap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4h4"/><path d="M12 8v4l3 2"/></svg>Weekly recap</button>
+    <button type="button" data-tab="archive"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="4" rx="1.2"/><path d="M5 9v9a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 18V9"/><path d="M10 13h4"/></svg>Archive</button>
+  </nav>
+</div>
+<script>
+(function(){
+  var app = document.getElementById('app');
+  var tabs = document.getElementById('tabs');
+  var S = { index:null, edition:null, viewing:null, recap:null, readSet:{} };
+  var KEY = 'daily-edge:read';
+
+  function loadRead(){ try{ var v = JSON.parse(localStorage.getItem(KEY) || '[]'); v.forEach(function(k){ S.readSet[k]=1; }); }catch(e){} }
+  function saveRead(){ try{ localStorage.setItem(KEY, JSON.stringify(Object.keys(S.readSet))); }catch(e){} }
+  function rk(n){ return S.viewing + '#' + n; }
+  function isRead(n){ return !!S.readSet[rk(n)]; }
+  function markRead(n){ S.readSet[rk(n)] = 1; saveRead(); }
+
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function safeUrl(u){ return /^https?:\/\//i.test(u || '') ? u : ''; }
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+  function words(a){ return (a.body || []).reduce(function(t,p){ return t + p.split(/\s+/).length; }, 0); }
+  function mins(a){ if (a.watch) return a.minutes || 2; return Math.max(2, Math.round(words(a) / 200)); }
+  function shortDate(iso){
+    var d = new Date(iso + 'T00:00:00');
+    return d.toLocaleDateString('en-GB', { weekday:'short', day:'numeric', month:'short' });
+  }
+  function getJSON(path){
+    return fetch(path, { cache:'no-store' }).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); });
+  }
+  function isSub(p){ return p.length < 60 && !/[.?!”]$/.test(p.trim()); }
+
+  var ICON_BACK = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>';
+
+  function tldr(a){
+    return '<dl class="tl">' +
+      '<div><dt class="mono">What</dt><dd>' + esc(a.what) + '</dd></div>' +
+      '<div><dt class="mono">Why</dt><dd>' + esc(a.why) + '</dd></div>' +
+      '<div class="use"><dt class="mono">Use it</dt><dd>' + esc(a.use) + '</dd></div>' +
+    '</dl>';
+  }
+
+  function setTabs(active){
+    tabs.hidden = !active;
+    Array.prototype.forEach.call(tabs.querySelectorAll('button'), function(b){
+      if (b.getAttribute('data-tab') === active) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current');
+    });
+  }
+
+  function renderToday(){
+    var e = S.edition, arts = e.articles;
+    var readCount = arts.filter(function(a){ return isRead(a.n); }).length;
+    var total = arts.reduce(function(t,a){ return t + mins(a); }, 0);
+    var left = arts.filter(function(a){ return !isRead(a.n); }).reduce(function(t,a){ return t + mins(a); }, 0);
+    var next = arts.filter(function(a){ return !isRead(a.n); })[0];
+    var isLatest = S.viewing === S.index.latest;
+
+    var h = '<div class="view">';
+    h += '<header class="mast"><h1 class="wordmark">Daily <span>Edge</span></h1><span class="mono">' + esc(shortDate(e.date)) + '</span></header>';
+    if (!isLatest) h += '<div class="banner"><span>Past edition</span><button type="button" data-act="latest">Back to latest</button></div>';
+    h += '<div class="meta-row"><span>' + (readCount === arts.length ? '<strong>All read.</strong> ' : '<strong>' + readCount + ' of ' + arts.length + '</strong> read') + '</span><span class="mono">' + (left ? left + ' min left' : total + ' min') + '</span></div>';
+    h += '<div class="ticks" aria-hidden="true">' + arts.map(function(a){ return '<i class="' + (isRead(a.n) ? 'on' : '') + '"></i>'; }).join('') + '</div>';
+
+    if (next) {
+      h += '<article class="lead" aria-label="Up next">' +
+        '<div class="k mono"><span><b>' + pad(next.n) + '</b>&ensp;' + esc(next.section) + '</span><span>' + mins(next) + ' min</span></div>' +
+        '<h2>' + esc(next.title) + '</h2>' + tldr(next) +
+        '<button type="button" class="btn btn-primary" data-open="' + next.n + '">Read the story</button>' +
+      '</article>';
+    } else {
+      h += '<article class="lead done-card"><div class="k mono"><span>Edition complete</span><span>' + total + ' min</span></div>' +
+        '<h2>That is today, done.</h2><p>Tomorrow\'s edition arrives at 8:00 AM. The week comes together in Sunday\'s recap.</p></article>';
+    }
+
+    var rest = next ? arts.filter(function(a){ return a !== next; }) : arts;
+    h += '<div class="label mono">' + (next ? 'Also in this edition' : 'Today\'s ' + arts.length) + '</div><div class="list" role="list">';
+    rest.forEach(function(a){
+      var r = isRead(a.n);
+      h += '<button type="button" role="listitem" class="row' + (r ? ' is-read' : '') + '" data-open="' + a.n + '">' +
+        '<span class="tile' + (r ? ' read' : '') + '" aria-hidden="true">' + (r ? '✓' : pad(a.n)) + '</span>' +
+        '<span><span class="s mono" style="display:block">' + esc(a.section) + '</span><span class="t">' + esc(a.title) + '</span>' + (r ? '<span class="sr" style="position:absolute;left:-9999px">, read</span>' : '') + '</span>' +
+        '<span class="m mono">' + mins(a) + 'm</span></button>';
+    });
+    h += '</div></div>';
+    app.innerHTML = h;
+    setTabs('today');
+  }
+
+  function renderArticle(n){
+    var arts = S.edition.articles;
+    var a = arts.filter(function(x){ return x.n === n; })[0];
+    if (!a) { go('today'); return; }
+    var idx = arts.indexOf(a), nxt = arts[idx + 1];
+    var srcs = (a.sources || []).filter(function(s){ return s.title; });
+
+    var h = '<div class="view">';
+    h += '<header class="a-head"><div class="a-bar"><button type="button" class="icon-btn" data-act="back" aria-label="Back to today">' + ICON_BACK + '</button><span class="mono">' + pad(a.n) + ' / ' + pad(arts.length) + '</span></div>' +
+      '<div class="inner"><div class="kick mono">' + esc(a.section) + '</div><h1>' + esc(a.title) + '</h1>' +
+      '<div class="sub mono">' + mins(a) + ' min read' + (srcs.length ? ' · ' + srcs.length + ' source' + (srcs.length > 1 ? 's' : '') : '') + '</div></div></header>';
+
+    h += '<section class="short" aria-label="In short">' + tldr(a) + '</section>';
+
+    if (a.watch && a.watch.length) {
+      h += '<div class="watch">' + a.watch.map(function(w){
+        return '<div class="w-item"><span class="when mono">' + esc(w.when) + '</span><h3>' + esc(w.title) + '</h3><p>' + esc(w.why) + '</p></div>';
+      }).join('') + '</div>';
+    }
+    if (a.body && a.body.length) {
+      h += '<div class="prose">' + a.body.map(function(p){ return isSub(p) ? '<p class="sub-h">' + esc(p) + '</p>' : '<p>' + esc(p) + '</p>'; }).join('') + '</div>';
+    }
+    if (srcs.length) {
+      h += '<div class="sources"><h3 class="mono">Sources and further reading</h3><ol>' + srcs.map(function(s){
+        var u = safeUrl(s.url);
+        return '<li>' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>' : esc(s.title)) + '</li>';
+      }).join('') + '</ol></div>';
+    }
+    h += '</div>';
+    h += '<div class="a-foot"><div class="inner"><button type="button" class="btn btn-primary" data-act="done" data-n="' + a.n + '">' +
+      '<span>' + (isRead(a.n) ? 'Read' : 'Mark as read') + '</span><span>' + (nxt ? 'Next: ' + esc(nxt.section) + ' →' : 'Back to today') + '</span></button></div></div>';
+    app.innerHTML = h;
+    setTabs(null);
+  }
+
+  function nextSunday(){
+    var d = new Date(); var add = (7 - d.getDay()) % 7; if (add === 0 && d.getHours() >= 8) add = 7;
+    d.setDate(d.getDate() + add);
+    return d.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long' });
+  }
+
+  function renderRecap(){
+    var h = '<div class="view"><header class="page-h"><span class="mono">Sundays, 8:00 AM</span><h1>Weekly recap</h1></header>';
+    var r = S.recap;
+    if (!r) {
+      h += '<section class="empty"><span class="mono" style="color:var(--ink-2)">First recap</span><div class="when">' + esc(nextSunday()) + '</div><ul>' +
+        '<li><span>01</span>The week\'s five ideas worth keeping</li>' +
+        '<li><span>02</span>A five-question quiz to make them stick</li>' +
+        '<li><span>03</span>What moved on your watch list</li>' +
+        '<li><span>04</span>One story worth retelling this week</li>' +
+        '<li><span>05</span>A reflection: which idea did you use?</li></ul></section>';
+    } else {
+      h += '<div class="meta-row" style="padding-top:8px"><span>' + esc(r.week || '') + '</span></div>';
+      if (r.ideas) h += '<section class="rc"><h2>Five ideas</h2>' + r.ideas.map(function(i){ return '<div class="idea"><b>' + esc(i.title) + '</b><span>' + esc(i.line) + '</span></div>'; }).join('') + '</section>';
+      if (r.quiz) h += '<section class="rc"><h2>Quiz</h2>' + r.quiz.map(function(q, qi){
+        return '<div class="q" data-q="' + qi + '"><p>' + (qi + 1) + '. ' + esc(q.q) + '</p>' + q.options.map(function(o, oi){
+          return '<button type="button" class="opt" data-q="' + qi + '" data-o="' + oi + '">' + esc(o) + '</button>';
+        }).join('') + '<p class="ex" hidden>' + esc(q.explain || '') + '</p></div>';
+      }).join('') + '</section>';
+      if (r.watch) h += '<section class="rc"><h2>Watch list</h2>' + r.watch.map(function(w){ return '<div class="idea"><b>' + esc(w.title) + '</b><span>' + esc(w.status) + '</span></div>'; }).join('') + '</section>';
+      if (r.story) h += '<section class="rc"><h2>Story to retell</h2><div class="idea" style="border:0;padding-top:0"><b>' + esc(r.story.title) + '</b></div><p class="story">' + esc(r.story.text) + '</p></section>';
+      if (r.reflect) h += '<section class="rc"><h2>Reflect</h2><p class="reflect">' + esc(r.reflect) + '</p></section>';
+    }
+    h += '</div>';
+    app.innerHTML = h;
+    setTabs('recap');
+  }
+
+  function renderArchive(){
+    var eds = (S.index.editions || []).slice().sort(function(a,b){ return a.date < b.date ? 1 : -1; });
+    var h = '<div class="view"><header class="page-h"><span class="mono">' + eds.length + ' edition' + (eds.length === 1 ? '' : 's') + '</span><h1>Archive</h1></header>';
+    h += '<div class="list" style="margin-top:20px" role="list">' + eds.map(function(e){
+      var d = new Date(e.date + 'T00:00:00');
+      return '<button type="button" role="listitem" class="row" data-edition="' + esc(e.date) + '">' +
+        '<span class="tile" aria-hidden="true">' + d.getDate() + '</span>' +
+        '<span><span class="s mono" style="display:block">' + esc(shortDate(e.date)) + '</span><span class="t">' + esc(e.lead) + '</span></span>' +
+        '<span class="m mono">' + (e.date === S.viewing ? 'Open' : '') + '</span></button>';
+    }).join('') + '</div></div>';
+    app.innerHTML = h;
+    setTabs('archive');
+  }
+
+  function failure(msg){
+    app.innerHTML = '<div class="state"><div>' + esc(msg) + '</div><button type="button" class="btn" data-act="retry">Try again</button></div>';
+    tabs.hidden = true;
+  }
+
+  function route(){
+    var h = (location.hash || '').slice(1) || 'today';
+    window.scrollTo(0, 0);
+    if (!S.edition) return;
+    var m = /^read-(\d+)$/.exec(h);
+    if (m) return renderArticle(parseInt(m[1], 10));
+    if (h === 'recap') return renderRecap();
+    if (h === 'archive') return renderArchive();
+    renderToday();
+  }
+  function go(h){ if (location.hash.slice(1) === h) route(); else location.hash = h; }
+
+  function openEdition(date){
+    return getJSON('editions/' + date + '.json').then(function(e){ S.edition = e; S.viewing = date; });
+  }
+
+  function boot(){
+    app.innerHTML = '<div class="state">Loading today\'s edition…</div>';
+    getJSON('editions/index.json').then(function(idx){
+      S.index = idx;
+      var recapP = (idx.recaps && idx.recaps.length) ? getJSON('recaps/' + idx.recaps[idx.recaps.length - 1].date + '.json').then(function(r){ S.recap = r; }).catch(function(){}) : Promise.resolve();
+      return Promise.all([openEdition(idx.latest), recapP]);
+    }).then(route).catch(function(){ failure('Today\'s edition could not be loaded.'); });
+  }
+
+  document.addEventListener('click', function(ev){
+    var t = ev.target.closest('button'); if (!t) return;
+    if (t.hasAttribute('data-tab')) return go(t.getAttribute('data-tab'));
+    if (t.hasAttribute('data-open')) return go('read-' + t.getAttribute('data-open'));
+    if (t.hasAttribute('data-edition')) { var d = t.getAttribute('data-edition'); return openEdition(d).then(function(){ go('today'); }).catch(function(){ failure('That edition could not be loaded.'); }); }
+    if (t.classList.contains('opt')) {
+      var qi = +t.getAttribute('data-q'), oi = +t.getAttribute('data-o'), q = S.recap.quiz[qi];
+      var box = t.parentNode;
+      Array.prototype.forEach.call(box.querySelectorAll('.opt'), function(b, i){ b.disabled = true; if (i === q.answer) b.classList.add('right'); else if (i === oi) b.classList.add('wrong'); });
+      var ex = box.querySelector('.ex'); if (ex) ex.hidden = false;
+      return;
+    }
+    var act = t.getAttribute('data-act');
+    if (act === 'back') return go('today');
+    if (act === 'retry') return boot();
+    if (act === 'latest') return openEdition(S.index.latest).then(function(){ go('today'); });
+    if (act === 'done') {
+      var n = +t.getAttribute('data-n'); markRead(n);
+      var arts = S.edition.articles, i = arts.map(function(a){ return a.n; }).indexOf(n);
+      return go(arts[i + 1] ? 'read-' + arts[i + 1].n : 'today');
+    }
+  });
+  window.addEventListener('hashchange', route);
+  loadRead();
+  boot();
+})();
+</script>
+</body>
+</html>
