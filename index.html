@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Daily Edge</title>
+<meta name="theme-color" content="#F3F2EF" id="theme-color">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daily Edge">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
@@ -187,8 +194,10 @@ a{color:var(--signal-ink)}
     '</dl>';
   }
 
+  var themeMeta = document.getElementById('theme-color');
   function setTabs(active){
     tabs.hidden = !active;
+    if (themeMeta) themeMeta.setAttribute('content', active ? '#F3F2EF' : '#1B1E22');
     Array.prototype.forEach.call(tabs.querySelectorAll('button'), function(b){
       if (b.getAttribute('data-tab') === active) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current');
     });
@@ -370,6 +379,9 @@ a{color:var(--signal-ink)}
   window.addEventListener('hashchange', route);
   loadRead();
   boot();
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    try { navigator.serviceWorker.register('sw.js').catch(function(){}); } catch (e) {}
+  }
 })();
 </script>
 </body>
