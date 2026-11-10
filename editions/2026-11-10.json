@@ -30,7 +30,11 @@
           "title": "AI Business: Agentic AI is outpacing enterprise readiness",
           "url": "https://aibusiness.com/agentic-ai/prompt-agentic-ai-outpacing-enterprise-readiness"
         }
-      ]
+      ],
+      "figure": {
+        "value": "40%",
+        "label": "of large firms now scale AI agents, up from 27% a year ago"
+      }
     },
     {
       "n": 2,
@@ -68,7 +72,11 @@
           "title": "Communications Today: India crosses 100 greenfield GCCs in eight months",
           "url": "https://www.communicationstoday.co.in/?p=423357"
         }
-      ]
+      ],
+      "figure": {
+        "value": "111",
+        "label": "new greenfield GCCs opened in India from January to August 2026"
+      }
     },
     {
       "n": 3,
@@ -105,7 +113,11 @@
           "title": "Tom's Hardware: China suspends ban on critical mineral exports to the US",
           "url": "https://www.tomshardware.com/tech-industry/china-suspends-ban-on-rare-earth-exports-to-us-but-licensing-remains"
         }
-      ]
+      ],
+      "figure": {
+        "value": "$49B",
+        "label": "raised by Abu Dhabi's MGX for its first AI fund"
+      }
     },
     {
       "n": 4,
@@ -136,7 +148,11 @@
           "title": "Carol Dweck, Mindset: The New Psychology of Success (2006)",
           "url": ""
         }
-      ]
+      ],
+      "figure": {
+        "value": "$3T",
+        "label": "Microsoft's market value a decade on, up from roughly $300 billion"
+      }
     },
     {
       "n": 5,
@@ -172,7 +188,11 @@
           "title": "Launch Base Africa: Zipline's raise is ring-fenced for the US",
           "url": "https://launchbaseafrica.com/2026/11/06/zipline-doubles-down-on-us-expansion-with-1-5bn-raise-ring-fenced-for-american-network/"
         }
-      ]
+      ],
+      "figure": {
+        "value": "$21.5B",
+        "label": "Zipline's valuation, nearly triple January's $7.6 billion"
+      }
     },
     {
       "n": 6,
@@ -204,7 +224,11 @@
           "title": "John Snow, On the Mode of Communication of Cholera, 2nd edition (1855)",
           "url": ""
         }
-      ]
+      ],
+      "figure": {
+        "value": "1854",
+        "label": "a street map and a pump handle changed public health"
+      }
     },
     {
       "n": 7,
@@ -365,6 +389,11 @@
         "url": "https://redmondmag.com/blogs/generationai/2026/11/microsoft-brings-copilot-ai-agent-infrastructure-to-foundry.aspx"
       }
     ],
-    "next": "Google"
+    "next": "Google",
+    "focus": 2,
+    "figure": {
+      "value": "48%",
+      "label": "Azure growth last quarter, to $33.2 billion"
+    }
   }
 }
