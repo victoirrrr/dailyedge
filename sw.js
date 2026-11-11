@@ -1,6 +1,6 @@
 // Daily Edge service worker: network first, so a new edition always wins.
 // The last copy of each file is kept so the app still opens offline.
-const CACHE = 'daily-edge-v3';
+const CACHE = 'daily-edge-v4';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 
 self.addEventListener('install', (event) => {

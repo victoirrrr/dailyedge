@@ -217,13 +217,132 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
 .arch .tile{font-size:15px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
 .state{padding:40vh var(--pad) 0;text-align:center;color:var(--ink-2)}
 .state .btn{max-width:220px;margin:16px auto 0;background:var(--graphite);color:var(--on-g)}
+
+/* ---------- v3: home, markets, learn, build ---------- */
+:root{--up:#2BA471;--up-ink:#157347;--down:#D6453D;--down-ink:#B93A32}
+.grp{display:flex;align-items:baseline;justify-content:space-between;padding:28px var(--pad) 10px}
+.grp h2{margin:0;font-size:13px;line-height:18px;font-weight:600;color:var(--ink-3)}
+.card{display:block;width:calc(100% - 24px);margin:0 12px 10px;text-align:left;background:var(--surface);border-radius:20px;padding:16px;transition:transform .15s var(--ease);position:relative}
+.card:active{transform:scale(.985)}
+.card .top{display:flex;align-items:center;justify-content:space-between;font-size:13px;line-height:18px;color:var(--ink-3)}
+.card .top .sec{display:flex;align-items:center;gap:8px;color:var(--ink);font-weight:600}
+.card .top .sec .ico{color:var(--signal)}
+.card .top .done{display:flex;align-items:center;gap:4px;color:var(--up-ink);font-weight:600}
+.card .top .done .ico{width:16px;height:16px}
+.card h3{margin:12px 0 0;font-size:19px;line-height:25px;font-weight:600;letter-spacing:-.012em;text-wrap:balance}
+.card .sub{display:block;margin-top:6px;font-size:14px;line-height:20px;color:var(--ink-2)}
+.card.dark{background:var(--graphite);color:var(--on-g);border-radius:24px;padding:20px}
+.card.dark .top{color:var(--on-g-2)}.card.dark .top .sec{color:var(--on-g)}
+.card.dark h3{font-size:24px;line-height:29px;font-weight:600;letter-spacing:-.02em;margin-top:14px}
+.card.dark .sub{color:var(--on-g-2)}
+.card.dark .top .done{color:#5FD3A0}
+/* mini market columns on the home card */
+.mini{display:flex;align-items:stretch;gap:5px;height:72px;margin:18px 0 6px}
+.mini .col{flex:1;display:grid;grid-template-rows:1fr 1fr;gap:0;position:relative}
+.mini .col i{display:block;width:100%;border-radius:3px;align-self:end}
+.mini .col .u{background:var(--up);align-self:end}
+.mini .col .d{background:var(--down);align-self:start;grid-row:2}
+.mini .col .z{grid-row:1;align-self:end;height:2px;background:var(--graphite-3)}
+.mini-base{height:1px;background:var(--hair-g);margin-top:-52px;margin-bottom:51px}
+.mini-l{display:flex;gap:5px;font-size:9.5px;line-height:12px;color:var(--on-g-2);text-align:center}
+.mini-l span{flex:1;overflow:hidden;white-space:nowrap}
+.tally{display:flex;gap:14px;margin-top:14px;font-size:13px;line-height:18px;color:var(--on-g-2)}
+.tally b{font-weight:600;color:var(--on-g)}
+.tally .u::before,.tally .d::before,.tally .h::before{content:"";display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px}
+.tally .u::before{background:var(--up)}.tally .d::before{background:var(--down)}.tally .h::before{background:var(--graphite-3)}
+/* edge card */
+.edge-fig{display:flex;align-items:flex-end;gap:14px;margin-top:12px}
+.edge-fig b{font-size:44px;line-height:.95;font-weight:700;letter-spacing:-.04em;color:var(--signal);font-variant-numeric:tabular-nums}
+.edge-fig span{font-size:13px;line-height:17px;color:var(--ink-2);padding-bottom:3px}
+.pips{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;margin-top:14px}
+.pips i{height:4px;border-radius:2px;background:var(--raised)}.pips i.on{background:var(--signal)}
+.steps5{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:14px}
+.steps5 i{height:26px;border-radius:7px;background:var(--paper);display:grid;place-items:center;font-style:normal;font-size:12px;font-weight:600;color:var(--ink-3)}
+.steps5 i.on{background:var(--graphite);color:var(--signal)}
+.steps5 i.now{box-shadow:inset 0 0 0 2px var(--signal);color:var(--ink)}
+.duo{display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:center}
+.duo h3{margin:2px 0 0;font-size:16px;line-height:21px}
+.duo .k{font-size:12px;line-height:16px;color:var(--ink-3)}
+.duo .f{font-size:20px;line-height:24px;font-weight:700;letter-spacing:-.02em;color:var(--signal-ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+/* markets view */
+.panel{margin:12px 12px 0;background:var(--surface);border-radius:20px;padding:18px 16px}
+.panel>h2{margin:0 0 12px;font-size:13px;line-height:18px;font-weight:600;color:var(--ink-3)}
+.region{font-size:12px;line-height:16px;font-weight:600;color:var(--ink-3);padding:12px 0 2px}
+.region:first-of-type{padding-top:0}
+.ix{border-top:1px solid var(--hair)}
+.region+.ix{border-top:0}
+.ix summary{list-style:none;display:grid;grid-template-columns:88px 1fr 58px;gap:10px;align-items:center;min-height:48px;cursor:pointer}
+.ix summary::-webkit-details-marker{display:none}
+.ix .nm{font-size:14px;line-height:18px;font-weight:600}
+.ix .nm small{display:block;font-size:11.5px;line-height:15px;font-weight:400;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.ix .track{position:relative;height:18px}
+.ix .track::before{content:"";position:absolute;left:50%;top:-4px;bottom:-4px;width:1px;background:var(--raised-2)}
+.ix .track i{position:absolute;top:3px;height:12px;border-radius:3px}
+.ix .track i.u{left:50%;background:var(--up)}
+.ix .track i.d{right:50%;background:var(--down)}
+.ix .pc{text-align:right;font-size:14px;line-height:18px;font-weight:600;font-variant-numeric:tabular-nums}
+.ix .pc.u{color:var(--up-ink)}.ix .pc.d{color:var(--down-ink)}.ix .pc.h{color:var(--ink-3);font-weight:500;font-size:12px}
+.ix p{margin:0;padding:0 0 12px;font-size:14px;line-height:20px;color:var(--ink-2)}
+.hint{font-size:12px;line-height:16px;color:var(--ink-3);margin:10px 0 0}
+.extras{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 12px 0}
+.extras div{background:var(--surface);border-radius:16px;padding:12px}
+.extras em{display:block;font-style:normal;font-size:12px;line-height:16px;color:var(--ink-3)}
+.extras b{display:block;font-size:18px;line-height:24px;font-weight:700;letter-spacing:-.01em;margin-top:2px;font-variant-numeric:tabular-nums}
+.extras span{font-size:12px;line-height:16px;font-weight:600;font-variant-numeric:tabular-nums}
+.extras span.u{color:var(--up-ink)}.extras span.d{color:var(--down-ink)}.extras span.h{color:var(--ink-3);font-weight:400}
+.plain{padding:24px var(--pad) 4px;font-size:16px;line-height:25px;max-width:36em}
+.plain p{margin:0 0 14px}
+.disc{padding:0 var(--pad) 8px;font-size:12px;line-height:17px;color:var(--ink-3)}
+/* learn */
+.lstep{margin:12px 12px 0;background:var(--surface);border-radius:20px;padding:0 16px;overflow:hidden}
+.lstep summary{list-style:none;display:grid;grid-template-columns:32px 1fr auto;gap:12px;align-items:center;min-height:60px;cursor:pointer}
+.lstep summary::-webkit-details-marker{display:none}
+.lstep .num{width:32px;height:32px;border-radius:9px;background:var(--paper);display:grid;place-items:center;font-size:13px;font-weight:700;color:var(--ink-2)}
+.lstep.done .num{background:var(--graphite);color:var(--signal)}
+.lstep .st{font-size:16px;line-height:21px;font-weight:600}
+.lstep .day{font-size:12px;color:var(--ink-3)}
+.lstep.now .day{color:var(--signal-ink);font-weight:600}
+.lstep .in{padding:0 0 16px}
+.lstep .in p{margin:0 0 12px;font-size:16px;line-height:25px}
+.flow{display:grid;gap:0;margin:4px 0 14px}
+.flow .bx{background:var(--paper);border-radius:10px;padding:10px 12px;display:grid;grid-template-columns:92px 1fr;gap:10px;align-items:baseline}
+.flow .bx b{font-size:13px;line-height:18px;font-weight:600}
+.flow .bx span{font-size:13px;line-height:18px;color:var(--ink-2)}
+.flow .bx.hot{background:var(--signal)}.flow .bx.hot span{color:var(--ink)}
+.flow .ar{height:14px;display:grid;place-items:center;color:var(--raised-2)}
+.flow .ar svg{width:12px;height:12px}
+.try{background:var(--signal-soft);border-radius:12px;padding:12px 14px;font-size:15px;line-height:22px}
+.try b{display:block;font-size:12px;line-height:16px;font-weight:600;color:var(--signal-ink);margin-bottom:2px}
+.lstep .btn{margin-top:14px;min-height:46px;font-size:15px}
+.btn-quiet{background:var(--paper);color:var(--ink)}
+/* build */
+.bars{display:grid;gap:12px}
+.bar em{display:flex;justify-content:space-between;font-style:normal;font-size:14px;line-height:20px;margin-bottom:5px}
+.bar em b{font-weight:600;font-variant-numeric:tabular-nums}
+.bar .tr{height:14px;border-radius:5px;background:var(--paper);overflow:hidden}
+.bar .tr i{display:block;height:100%;border-radius:5px;background:var(--graphite)}
+.bar.hot .tr i{background:var(--signal)}
+.bar small{display:block;font-size:12px;color:var(--ink-3);margin-top:3px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font-size:13px;line-height:18px;padding:6px 10px;border-radius:8px;background:var(--paper);color:var(--ink-2);font-weight:500}
+.sc{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:10px 0;border-top:1px solid var(--hair)}
+.sc:first-of-type{border-top:0;padding-top:0}
+.sc b{font-size:15px;line-height:20px;font-weight:600}
+.sc .dots{display:flex;gap:4px;align-items:center}
+.sc .dots i{width:10px;height:10px;border-radius:3px;background:var(--raised)}
+.sc .dots i.on{background:var(--signal)}
+.sc small{grid-column:1/-1;font-size:13px;line-height:18px;color:var(--ink-2)}
+.cal{margin:0;padding:0;list-style:none}
+.cal li{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--hair);font-size:14px;line-height:20px}
+.cal li:first-child{border-top:0;padding-top:0}
+.cal li b{font-weight:600;color:var(--signal-ink);font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
 <div class="shell"><main id="app" aria-live="polite"><div class="state">Loading today's edition…</div></main></div>
 <div class="tabs" id="tabs" hidden>
   <nav aria-label="Sections">
-    <button type="button" data-tab="today"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3.5"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Today</button>
+    <button type="button" data-tab="home"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 9.5V20h12V9.5"/><path d="M10 20v-5h4v5"/></svg>Home</button>
     <button type="button" data-tab="recap"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4h4"/><path d="M12 8v4l3 2"/></svg>Weekly recap</button>
     <button type="button" data-tab="archive"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="4" rx="1.2"/><path d="M5 9v9a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 18V9"/><path d="M10 13h4"/></svg>Archive</button>
   </nav>
@@ -235,29 +354,39 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
   var themeMeta = document.getElementById('theme-color');
   var S = { index:null, edition:null, viewing:null, recap:null, readSet:{}, days:{}, dir:'' };
   var KEY = 'daily-edge:read', DAYS = 'daily-edge:days';
+  var BUILD = [
+    { key:'selling', name:"What's selling", glyph:'Selling' },
+    { key:'distribution', name:'Distribution', glyph:'Distribution' },
+    { key:'gaps', name:'Underserved markets', glyph:'Gaps' }
+  ];
 
   function store(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
   function load(k, d){ try{ var v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; }catch(e){ return d; } }
   function loadState(){ load(KEY, []).forEach(function(k){ S.readSet[k] = 1; }); load(DAYS, []).forEach(function(k){ S.days[k] = 1; }); }
-  function rk(n){ return S.viewing + '#' + n; }
-  function isRead(n){ return !!S.readSet[rk(n)]; }
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
   function isoLocal(d){ return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
-  function markRead(n){
-    S.readSet[rk(n)] = 1; store(KEY, Object.keys(S.readSet));
+  function has(k){ return !!S.readSet[k]; }
+  function mark(k, quiet){
+    if (S.readSet[k]) return;
+    S.readSet[k] = 1; store(KEY, Object.keys(S.readSet));
     S.days[isoLocal(new Date())] = 1; store(DAYS, Object.keys(S.days));
-    try{ if (navigator.vibrate) navigator.vibrate(12); }catch(e){}
+    if (!quiet) { try{ if (navigator.vibrate) navigator.vibrate(12); }catch(e){} }
   }
+  function rk(n){ return S.viewing + '#' + n; }
+  function isRead(n){ return has(rk(n)); }
+  function kMarkets(){ return S.viewing + '#mk'; }
+  function kLearn(n){ var l = S.edition.learn; return 'ln@' + (l.week || S.viewing) + '#' + n; }
+  function kBuild(key){ var b = S.edition.build[key]; return 'bd-' + key + '@' + (b.updated || S.viewing); }
 
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
   function safeUrl(u){ return /^https?:\/\//i.test(u || '') ? u : ''; }
-  function pad(n){ return (n < 10 ? '0' : '') + n; }
   function words(list){ return (list || []).reduce(function(t,p){ return t + p.split(/\s+/).length; }, 0); }
-  function mins(a){ if (a.watch && !(a.body || []).length) return a.minutes || 2; return Math.max(2, Math.round(words(a.body) / 200)); }
+  function mins(a){ if (a.watch && !(a.body || []).length) return a.minutes || 2; return Math.max(1, Math.round(words(a.body) / 200)); }
   function getJSON(path){ return fetch(path, { cache:'no-store' }).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); }); }
   function isSub(p){ return p.length < 60 && !/[.?!”]$/.test(p.trim()); }
   function dateObj(iso){ return new Date(iso + 'T00:00:00'); }
+  function pct(v){ return (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(2) + '%'; }
 
-  // Icons: one line set, 20px, 1.6 stroke
   function svg(d){ return '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + d + '</svg>'; }
   var GLYPH = {
     'AI Signal': '<path d="M3 12h3l2.5-6 4 12 3-9 1.5 3H21"/>',
@@ -267,21 +396,28 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     'Startup Story': '<path d="M5 19 19 5"/><path d="M9 5h10v10"/>',
     'History': '<path d="M3 20.5h18"/><path d="M12 3.5 20.5 8h-17L12 3.5Z"/><path d="M6 8v9.5M10 8v9.5M14 8v9.5M18 8v9.5"/>',
     'Mind + Science': '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0 0 12 3Z"/>',
+    'Good to Know': '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0 0 12 3Z"/>',
+    'The Story': '<path d="M4 5.5c2.5-1 5.5-1 8 .5 2.5-1.5 5.5-1.5 8-.5v13c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5v-13Z"/><path d="M12 6v13"/>',
     'Track and Watch': '<path d="M2.5 12S6 6 12 6s9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.8"/>',
-    'Stack': '<path d="m12 3.5 8.5 4.5L12 12.5 3.5 8 12 3.5Z"/><path d="m3.5 12 8.5 4.5 8.5-4.5"/><path d="m3.5 16 8.5 4.5 8.5-4.5"/>'
+    'Stack': '<path d="m12 3.5 8.5 4.5L12 12.5 3.5 8 12 3.5Z"/><path d="m3.5 12 8.5 4.5 8.5-4.5"/><path d="m3.5 16 8.5 4.5 8.5-4.5"/>',
+    'Markets': '<path d="M4 20V10M9.5 20V4M15 20v-7M20.5 20V8"/>',
+    'Edge': '<rect x="4" y="4" width="16" height="16" rx="3.5"/><path d="M8 9h8M8 13h8M8 17h5"/>',
+    'Learn': '<path d="m12 4 9.5 5L12 14 2.5 9 12 4Z"/><path d="M6.5 11.5v5c1.5 1.5 3.4 2.2 5.5 2.2s4-.7 5.5-2.2v-5"/>',
+    'Selling': '<path d="M4 18 9.5 12l3.5 3.5L20 8"/><path d="M15 8h5v5"/>',
+    'Distribution': '<path d="M4 12h3l9-5v10l-9-5"/><path d="M7 12v5.5h3"/><path d="M19 9.5a4 4 0 0 1 0 5"/>',
+    'Gaps': '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/>'
   };
-  function glyph(section){ return svg(GLYPH[section] || GLYPH['AI Signal']); }
+  function glyph(name){ return svg(GLYPH[name] || GLYPH['AI Signal']); }
   var ICON_CHECK = svg('<path d="M5 12.5l4.5 4.5L19 7.5"/>');
   var ICON_BACK = svg('<path d="M15 5l-7 7 7 7"/>');
-  var ICON_NEXT = svg('<path d="M9 5l7 7-7 7"/>');
+  var ARROW = '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 1.5v9M2.5 7 6 10.5 9.5 7"/></svg>';
 
   function figure(f){ if (!f || !f.value) return ''; return '<div class="fig"><b>' + esc(f.value) + '</b><span>' + esc(f.label || '') + '</span></div>'; }
-  function tldr(a){
+  function tldr(a, useLabel){
     return '<dl class="tl">' +
       '<div><dt>What</dt><dd>' + esc(a.what) + '</dd></div>' +
       '<div><dt>Why</dt><dd>' + esc(a.why) + '</dd></div>' +
-      '<div><dt>Use it</dt><dd>' + esc(a.use) + '</dd></div>' +
-    '</dl>';
+      '<div><dt>' + (useLabel || 'Use it') + '</dt><dd>' + esc(a.use) + '</dd></div></dl>';
   }
   function sourcesHtml(list){
     var srcs = (list || []).filter(function(s){ return s.title; });
@@ -291,27 +427,44 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
       return '<li>' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>' : esc(s.title)) + '</li>';
     }).join('') + '</ol></div>';
   }
-
-  // Reading ring: one arc per article
-  function ring(arts){
-    var n = arts.length, r = 18, c = 22, gap = 0.22, out = '';
-    arts.forEach(function(a, i){
-      var a0 = (i / n) * 2 * Math.PI + gap / 2, a1 = ((i + 1) / n) * 2 * Math.PI - gap / 2;
-      var x0 = c + r * Math.cos(a0), y0 = c + r * Math.sin(a0), x1 = c + r * Math.cos(a1), y1 = c + r * Math.sin(a1);
-      out += '<path class="' + (isRead(a.n) ? 'on' : '') + '" d="M' + x0.toFixed(2) + ' ' + y0.toFixed(2) + ' A' + r + ' ' + r + ' 0 0 1 ' + x1.toFixed(2) + ' ' + y1.toFixed(2) + '"/>';
-    });
-    var done = arts.filter(function(a){ return isRead(a.n); }).length;
-    return '<div class="ring" role="img" aria-label="' + done + ' of ' + n + ' read"><svg viewBox="0 0 44 44">' + out + '</svg><span>' + done + '</span></div>';
+  function head(kickGlyph, kick, title, sub, fig, right){
+    return '<header class="a-head"><div class="a-bar"><button type="button" class="icon-btn" data-act="back" aria-label="Back to home">' + ICON_BACK + '</button>' + (right || '') + '</div>' +
+      '<div class="inner"><div class="kick">' + glyph(kickGlyph) + esc(kick) + '</div>' + (fig || '') + '<h1>' + esc(title) + '</h1>' + (sub ? '<div class="sub">' + sub + '</div>' : '') + '</div></header>';
+  }
+  function foot(left, right, attrs){
+    return '<div class="a-foot"><div class="inner"><button type="button" class="btn btn-primary" ' + attrs + '><span>' + left + '</span><span>' + right + '</span></button></div></div>';
   }
 
-  // Week strip and streak
+  // ---- progress model ----
+  function sections(){
+    var e = S.edition, out = [];
+    if (e.markets) out.push({ id:'markets', done: has(kMarkets()) });
+    out.push({ id:'edge', done: e.articles.every(function(a){ return isRead(a.n); }) });
+    if (e.learn) out.push({ id:'learn', done: has(kLearn(todayStep())) });
+    if (e.build) BUILD.forEach(function(b){ if (e.build[b.key]) out.push({ id:'build-' + b.key, done: has(kBuild(b.key)) }); });
+    return out;
+  }
+  function todayStep(){
+    var l = S.edition.learn, total = (l.steps || []).length || 5;
+    var dow = (dateObj(S.viewing).getDay() + 6) % 7;
+    return Math.min(dow + 1, total);
+  }
+  function ring(flags){
+    var n = flags.length, r = 18, c = 22, gap = n > 1 ? 0.22 : 0, out = '';
+    flags.forEach(function(on, i){
+      var a0 = (i / n) * 2 * Math.PI + gap / 2, a1 = ((i + 1) / n) * 2 * Math.PI - gap / 2;
+      var x0 = c + r * Math.cos(a0), y0 = c + r * Math.sin(a0), x1 = c + r * Math.cos(a1), y1 = c + r * Math.sin(a1);
+      out += '<path class="' + (on ? 'on' : '') + '" d="M' + x0.toFixed(2) + ' ' + y0.toFixed(2) + ' A' + r + ' ' + r + ' 0 ' + ((a1 - a0) > Math.PI ? 1 : 0) + ' 1 ' + x1.toFixed(2) + ' ' + y1.toFixed(2) + '"/>';
+    });
+    var done = flags.filter(Boolean).length;
+    return '<div class="ring" role="img" aria-label="' + done + ' of ' + n + ' done"><svg viewBox="0 0 44 44">' + out + '</svg><span>' + done + '</span></div>';
+  }
   function weekStrip(){
     var today = new Date(), dow = (today.getDay() + 6) % 7, monday = new Date(today); monday.setDate(today.getDate() - dow);
     var L = ['M','T','W','T','F','S','S'], items = '';
     for (var i = 0; i < 7; i++) {
       var d = new Date(monday); d.setDate(monday.getDate() + i);
-      var k = isoLocal(d), cls = (S.days[k] ? 'done' : '') + (i === dow ? ' today' : '');
-      items += '<li class="' + cls + '"><i></i>' + L[i] + '</li>';
+      items += '<li class="' + (S.days[isoLocal(d)] ? 'done' : '') + (i === dow ? ' today' : '') + '"><i></i>' + L[i] + '</li>';
     }
     var streak = 0, d2 = new Date(today);
     if (!S.days[isoLocal(d2)]) d2.setDate(d2.getDate() - 1);
@@ -319,12 +472,10 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     var sk = streak ? '<b>' + streak + '</b><span>day streak</span>' : '<b>Day 1</b><span>read one to start</span>';
     return '<div class="week"><ol aria-label="Days read this week">' + items + '</ol><div class="streak">' + sk + '</div></div>';
   }
-
   function editionNo(date){
     var ds = (S.index.editions || []).map(function(e){ return e.date; }).sort();
     var i = ds.indexOf(date); return i < 0 ? ds.length : i + 1;
   }
-
   function setChrome(tab){
     tabs.hidden = !tab;
     if (themeMeta) themeMeta.setAttribute('content', tab ? '#F3F2EF' : '#1B1E22');
@@ -333,119 +484,210 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     });
   }
   function mount(h, tab){ app.innerHTML = h; var v = app.firstChild; if (v && S.dir) v.classList.add(S.dir); S.dir = ''; setChrome(tab); }
+  function doneTag(on){ return on ? '<span class="done">' + ICON_CHECK + 'Done</span>' : ''; }
 
-  function stackCake(st, detailed){
-    return '<div class="cake">' + (st.layers || []).map(function(l, i){
-      var f = (st.focus === i) ? ' focus' : '';
-      if (detailed) return '<div class="ly' + f + '"><em>' + esc(l.layer) + '</em><div><b>' + esc(l.name) + '</b><small>' + esc(l.note) + '</small></div></div>';
-      return '<div class="ly' + f + '"><em>' + esc(l.layer) + '</em><span>' + esc(l.name) + '</span></div>';
-    }).join('') + '</div>';
+  // ---- home ----
+  function miniMarkets(m){
+    var ix = m.indexes || [], max = Math.max.apply(null, ix.map(function(i){ return Math.abs(i.change || 0); }).concat([0.5]));
+    var cols = ix.map(function(i){
+      if (i.change == null) return '<div class="col"><i class="z"></i></div>';
+      var h = Math.max(10, Math.round(Math.sqrt(Math.abs(i.change) / max) * 100));
+      return '<div class="col"><i class="' + (i.change >= 0 ? 'u' : 'd') + '" style="height:' + h + '%"></i></div>';
+    }).join('');
+    var labels = ix.map(function(i){ return '<span>' + esc(i.name.split(' ')[0].slice(0, 6)) + '</span>'; }).join('');
+    var up = ix.filter(function(i){ return i.change > 0; }).length, down = ix.filter(function(i){ return i.change < 0; }).length, shut = ix.filter(function(i){ return i.change == null; }).length;
+    return '<div class="mini" aria-hidden="true">' + cols + '</div><div class="mini-l" aria-hidden="true">' + labels + '</div>' +
+      '<div class="tally"><span class="u"><b>' + up + '</b> up</span><span class="d"><b>' + down + '</b> down</span>' + (shut ? '<span class="h"><b>' + shut + '</b> closed</span>' : '') + '</div>';
   }
-
-  function renderToday(){
-    var e = S.edition, arts = e.articles;
+  function renderHome(){
+    var e = S.edition, arts = e.articles, d = dateObj(e.date), isLatest = S.viewing === S.index.latest;
+    var secs = sections(), v3 = !!(e.markets || e.learn || e.build);
+    var flags = v3 ? secs.map(function(s){ return s.done; }) : arts.map(function(a){ return isRead(a.n); });
     var readCount = arts.filter(function(a){ return isRead(a.n); }).length;
-    var left = arts.filter(function(a){ return !isRead(a.n); }).reduce(function(t,a){ return t + mins(a); }, 0);
-    var total = arts.reduce(function(t,a){ return t + mins(a); }, 0);
     var next = arts.filter(function(a){ return !isRead(a.n); })[0];
-    var isLatest = S.viewing === S.index.latest;
-    var d = dateObj(e.date);
 
     var h = '<div class="view"><header class="mast">' +
-      '<div class="mast-top"><p class="wordmark"><i aria-hidden="true">D<b>E</b></i>Daily Edge</p>' + ring(arts) + '</div>' +
+      '<div class="mast-top"><p class="wordmark"><i aria-hidden="true">D<b>E</b></i>Daily Edge</p>' + ring(flags) + '</div>' +
       '<div class="dateline"><h1>' + d.toLocaleDateString('en-GB', { weekday:'long' }) + '</h1>' +
-      '<div class="meta">' + d.toLocaleDateString('en-GB', { day:'numeric', month:'long' }) + ' · Edition ' + editionNo(e.date) + ' · ' + (left ? left + ' min left' : 'all ' + total + ' min read') + '</div></div>' +
+      '<div class="meta">' + d.toLocaleDateString('en-GB', { day:'numeric', month:'long' }) + ' · Edition ' + editionNo(e.date) + (v3 ? ' · ' + flags.filter(Boolean).length + ' of ' + flags.length + ' sections done' : '') + '</div></div>' +
       (isLatest ? weekStrip() : '') + '</header>';
     if (!isLatest) h += '<div class="banner"><span>Past edition</span><button type="button" data-act="latest">Back to latest</button></div>';
 
     var weekStory = S.recap && S.recap.date === S.viewing && S.recap.story ? S.recap : null;
     if (weekStory) {
-      h += '<article class="lead story-card" aria-label="Story of the week">' +
-        '<div class="k"><span class="sec">' + svg('<path d="M4 5.5h16v13H4z"/><path d="M8 9.5h8M8 13h5"/>') + 'Story of the week</span><span>' + esc(weekStory.week || '') + '</span></div>' +
+      h += '<article class="lead story-card" aria-label="Story of the week"><div class="k"><span class="sec">' + glyph('The Story') + 'Story of the week</span><span>' + esc(weekStory.week || '') + '</span></div>' +
         '<h2>' + esc(weekStory.story.title) + '</h2><p class="story-text">' + esc(weekStory.story.text) + '</p>' +
         '<button type="button" class="btn btn-primary" data-tab="recap">Open the weekly recap</button></article>';
-      next = null;
-    } else if (next) {
-      h += '<article class="lead" aria-label="Up next">' +
-        '<div class="k"><span class="sec">' + glyph(next.section) + pad(next.n) + '  ' + esc(next.section) + '</span><span>' + mins(next) + ' min</span></div>' +
-        figure(next.figure) +
-        '<h2>' + esc(next.title) + '</h2>' + tldr(next) +
-        '<button type="button" class="btn btn-primary" data-open="' + next.n + '">Read the story</button></article>';
-    } else {
-      h += '<article class="lead done-card"><div class="k"><span class="sec">' + svg('<path d="M5 12.5l4.5 4.5L19 7.5"/>') + 'Edition complete</span><span>' + total + ' min</span></div>' +
-        '<div class="fig"><b>8/8</b><span>Every read in today\'s edition</span></div>' +
-        '<p style="margin-top:16px">Tomorrow\'s edition lands at 8:00 AM. The week comes together in Sunday\'s recap.</p></article>';
     }
 
-    var st = e.stack;
-    if (st && st.company) {
-      h += '<div class="label"><h2>Stack watch</h2><span class="meta">A new company each day</span></div>' +
-        '<button type="button" class="stack-card" data-act="stack">' +
-          '<span class="sc-top"><span class="sc-co"><i aria-hidden="true">' + esc(st.company.charAt(0)) + '</i>' + esc(st.company) + '</span><span class="meta">' + mins(st) + ' min</span></span>' +
-          '<span class="sc-t">' + esc(st.title) + '</span>' + stackCake(st, false) +
-          '<span class="sc-foot"><span class="meta">' + (st.next ? 'Tomorrow: ' + esc(st.next) : '') + '</span><span class="go">Open the stack' + svg('<path d="M9 5l7 7-7 7"/>') + '</span></span>' +
-        '</button>';
+    h += '<div class="grp"><h2>Work</h2><span class="meta">' + (v3 ? 'Markets, news, one thing to learn' : '') + '</span></div>';
+    if (e.markets) {
+      var m = e.markets;
+      h += '<button type="button" class="card dark" data-go="markets"><span class="top"><span class="sec">' + glyph('Markets') + 'Stock watch</span>' + (has(kMarkets()) ? doneTag(true) : '<span>' + esc(m.asof || '') + '</span>') + '</span>' +
+        '<h3>' + esc(m.title) + '</h3>' + miniMarkets(m) + '</button>';
+    }
+    h += '<button type="button" class="card" data-go="edge"><span class="top"><span class="sec">' + glyph('Edge') + 'Daily Edge</span>' + (readCount === arts.length ? doneTag(true) : '<span>' + readCount + ' of ' + arts.length + ' read</span>') + '</span>';
+    if (next) {
+      h += (next.figure && next.figure.value ? '<span class="edge-fig"><b>' + esc(next.figure.value) + '</b><span>' + esc(next.figure.label || '') + '</span></span>' : '') +
+        '<h3>' + esc(next.title) + '</h3><span class="sub">Up next: ' + esc(next.section) + ' · ' + mins(next) + ' min</span>';
+    } else h += '<h3>All ' + arts.length + ' reads done</h3><span class="sub">A new edition lands at 8:00 AM</span>';
+    h += '<span class="pips" aria-hidden="true">' + arts.map(function(a){ return '<i class="' + (isRead(a.n) ? 'on' : '') + '"></i>'; }).join('') + '</span></button>';
+
+    if (e.learn) {
+      var l = e.learn, ts = todayStep(), cur = (l.steps || [])[ts - 1] || {};
+      h += '<button type="button" class="card" data-go="learn"><span class="top"><span class="sec">' + glyph('Learn') + 'Tech to learn</span>' + (has(kLearn(ts)) ? doneTag(true) : '<span>Step ' + ts + ' of ' + (l.steps || []).length + '</span>') + '</span>' +
+        '<h3>' + esc(l.title) + '</h3><span class="sub">Today: ' + esc(cur.title || '') + '</span>' +
+        '<span class="steps5" aria-hidden="true">' + (l.steps || []).map(function(s){ return '<i class="' + (has(kLearn(s.n)) ? 'on' : (s.n === ts ? 'now' : '')) + '">' + s.n + '</i>'; }).join('') + '</span></button>';
+    } else if (e.stack && e.stack.company) {
+      h += '<button type="button" class="card" data-go="stack"><span class="top"><span class="sec">' + glyph('Stack') + 'Stack watch</span><span>' + esc(e.stack.company) + '</span></span><h3>' + esc(e.stack.title) + '</h3></button>';
     }
 
-    var rest = next ? arts.filter(function(a){ return a !== next; }) : arts;
-    h += '<div class="label"><h2>' + (next ? 'Also today' : 'Today\'s eight') + '</h2><span class="meta">' + readCount + ' of ' + arts.length + ' read</span></div><div class="list" role="list">';
-    rest.forEach(function(a){
-      var r = isRead(a.n);
-      h += '<button type="button" role="listitem" class="row' + (r ? ' is-read' : '') + '" data-open="' + a.n + '">' +
-        '<span class="tile' + (r ? ' read' : '') + '" aria-hidden="true">' + (r ? ICON_CHECK : glyph(a.section)) + '</span>' +
-        '<span><span class="s">' + pad(a.n) + ' · ' + esc(a.section) + '</span><span class="t">' + esc(a.title) + '</span>' + (r ? '<span class="sr">, read</span>' : '') + '</span>' +
-        '<span class="m">' + mins(a) + ' min</span></button>';
+    if (e.build) {
+      h += '<div class="grp"><h2>Build</h2><span class="meta">For your apps, refreshed weekly</span></div>';
+      BUILD.forEach(function(b){
+        var x = e.build[b.key]; if (!x) return;
+        var dn = has(kBuild(b.key));
+        h += '<button type="button" class="card" data-go="build-' + b.key + '"><span class="duo"><span class="tile' + (dn ? ' read' : '') + '" aria-hidden="true">' + (dn ? ICON_CHECK : glyph(b.glyph)) + '</span>' +
+          '<span><span class="k">' + esc(b.name) + ' · ' + esc(x.refresh || 'Weekly') + '</span><h3>' + esc(x.title) + '</h3></span>' +
+          (x.figure && x.figure.value ? '<span class="f">' + esc(x.figure.value) + '</span>' : '') + '</span></button>';
+      });
+    }
+    h += '</div>';
+    mount(h, 'home');
+  }
+
+  // ---- markets ----
+  function renderMarkets(){
+    var m = S.edition.markets; if (!m) return go('home');
+    mark(kMarkets(), true);
+    var ix = m.indexes || [], max = Math.max.apply(null, ix.map(function(i){ return Math.abs(i.change || 0); }).concat([0.5]));
+    var h = '<div class="view">' + head('Markets', 'Stock watch', m.title, esc(m.asof || ''), '');
+    h += '<div class="plain" style="padding-bottom:0"><p>' + esc(m.summary || '') + '</p></div>';
+    h += '<section class="panel" aria-label="World indexes"><h2>How the world moved</h2>';
+    var region = '';
+    ix.forEach(function(i){
+      if (i.region !== region) { region = i.region; h += '<div class="region">' + esc(region) + '</div>'; }
+      var shut = i.change == null, w = shut ? 0 : Math.max(3, Math.abs(i.change) / max * 50);
+      h += '<details class="ix"><summary><span class="nm">' + esc(i.name) + '<small>' + esc(i.close) + '</small></span>' +
+        '<span class="track" aria-hidden="true">' + (shut ? '' : '<i class="' + (i.change >= 0 ? 'u' : 'd') + '" style="width:' + w.toFixed(1) + '%"></i>') + '</span>' +
+        '<span class="pc ' + (shut ? 'h' : i.change >= 0 ? 'u' : 'd') + '">' + (shut ? esc(i.note || 'Closed') : pct(i.change)) + '</span></summary><p>' + esc(i.why || '') + '</p></details>';
     });
-    h += '</div></div>';
-    mount(h, 'today');
-  }
-
-  function pager(arts, cur){
-    return '<span class="pager" aria-hidden="true">' + arts.map(function(a){ return '<i class="' + (a.n === cur ? 'cur' : (isRead(a.n) ? 'read' : '')) + '"></i>'; }).join('') + '</span>';
-  }
-
-  function renderArticle(n){
-    var arts = S.edition.articles;
-    var a = arts.filter(function(x){ return x.n === n; })[0];
-    if (!a) { go('today'); return; }
-    var idx = arts.indexOf(a), nxt = arts[idx + 1];
-    var nSrc = (a.sources || []).filter(function(s){ return s.title; }).length;
-
-    var h = '<div class="view" data-n="' + a.n + '">';
-    h += '<header class="a-head"><div class="a-bar"><button type="button" class="icon-btn" data-act="back" aria-label="Back to today">' + ICON_BACK + '</button>' + pager(arts, a.n) + '</div>' +
-      '<div class="inner"><div class="kick">' + glyph(a.section) + pad(a.n) + '  ' + esc(a.section) + '</div>' + figure(a.figure) + '<h1>' + esc(a.title) + '</h1>' +
-      '<div class="sub">' + mins(a) + ' min read' + (nSrc ? ' · ' + nSrc + ' source' + (nSrc > 1 ? 's' : '') : '') + '</div></div></header>';
-    h += '<section class="short" aria-label="In short">' + tldr(a) + '</section>';
-    if (a.watch && a.watch.length) {
-      h += '<section class="timeline" aria-label="Timeline"><ol>' + a.watch.map(function(w){
-        return '<li><span class="when">' + esc(w.when) + '</span><h3>' + esc(w.title) + '</h3><p>' + esc(w.why) + '</p></li>';
-      }).join('') + '</ol></section>';
-    }
-    if (a.body && a.body.length) h += '<div class="prose">' + a.body.map(function(p){ return isSub(p) ? '<p class="sub-h">' + esc(p) + '</p>' : '<p>' + esc(p) + '</p>'; }).join('') + '</div>';
-    h += sourcesHtml(a.sources) + '<div class="swipe-hint">Swipe left or right to move between stories</div></div>';
-    h += '<div class="a-foot"><div class="inner"><button type="button" class="btn btn-primary" data-act="done" data-n="' + a.n + '">' +
-      '<span>' + (isRead(a.n) ? 'Read' : 'Mark as read') + '</span><span>' + (nxt ? 'Next: ' + esc(nxt.section) + ' →' : 'Back to today') + '</span></button></div></div>';
+    h += '<p class="hint">Tap any index to see why it moved</p></section>';
+    if (m.extras && m.extras.length) h += '<div class="extras">' + m.extras.map(function(x){
+      var shut = x.change == null;
+      return '<div><em>' + esc(x.name) + '</em><b>' + esc(x.value) + '</b><span class="' + (shut ? 'h' : x.change >= 0 ? 'u' : 'd') + '">' + (shut ? esc(x.note || '') : pct(x.change)) + '</span></div>';
+    }).join('') + '</div>';
+    if (m.body && m.body.length) h += '<div class="plain">' + m.body.map(function(p){ return '<p>' + esc(p) + '</p>'; }).join('') + '</div>';
+    if (m.calendar && m.calendar.length) h += '<section class="panel" style="margin-top:0"><h2>Coming up</h2><ul class="cal">' + m.calendar.map(function(c){ return '<li><b>' + esc(c.when) + '</b><span>' + esc(c.title) + '</span></li>'; }).join('') + '</ul></section>';
+    h += '<div style="height:16px"></div>' + sourcesHtml(m.sources) + '<p class="disc">Closing figures come from news reports, not a live feed. This is a summary, not investment advice.</p></div>';
+    h += foot('Back to home', 'Next: Daily Edge →', 'data-go="edge"');
     mount(h, null);
   }
 
-  function renderStack(){
-    var st = S.edition.stack;
-    if (!st || !st.company) { go('today'); return; }
-    var nSrc = (st.sources || []).filter(function(s){ return s.title; }).length;
-    var h = '<div class="view">';
-    h += '<header class="a-head"><div class="a-bar"><button type="button" class="icon-btn" data-act="back" aria-label="Back to today">' + ICON_BACK + '</button><span class="meta" style="color:var(--on-g-2);padding-right:12px">Stack watch</span></div>' +
-      '<div class="inner"><div class="kick">' + glyph('Stack') + esc(st.company) + '</div>' + figure(st.figure) + '<h1>' + esc(st.title) + '</h1>' +
-      '<div class="sub">' + mins(st) + ' min read' + (nSrc ? ' · ' + nSrc + ' source' + (nSrc > 1 ? 's' : '') : '') + '</div></div></header>';
-    h += '<section class="short" aria-label="In short">' + tldr(st) + '</section>';
-    if (st.layers && st.layers.length) h += '<section class="stack-big" aria-label="The stack"><h2>The stack, layer by layer' + (typeof st.focus === 'number' ? ' · today\'s news in orange' : '') + '</h2>' + stackCake(st, true) + '</section>';
-    if (st.body && st.body.length) h += '<div class="prose">' + st.body.map(function(p){ return '<p>' + esc(p) + '</p>'; }).join('') + '</div>';
-    if (st.watch && st.watch.length) {
-      h += '<section class="timeline" aria-label="What to watch"><ol>' + st.watch.map(function(w){
-        return '<li><span class="when">' + esc(w.when) + '</span><h3>' + esc(w.title) + '</h3>' + (w.why ? '<p>' + esc(w.why) + '</p>' : '') + '</li>';
-      }).join('') + '</ol></section>';
+  // ---- daily edge list ----
+  function renderEdge(){
+    var e = S.edition, arts = e.articles;
+    var total = arts.reduce(function(t,a){ return t + mins(a); }, 0);
+    var left = arts.filter(function(a){ return !isRead(a.n); }).reduce(function(t,a){ return t + mins(a); }, 0);
+    var next = arts.filter(function(a){ return !isRead(a.n); })[0];
+    var h = '<div class="view"><header class="page-h" style="display:flex;align-items:center;gap:4px;padding-left:8px"><button type="button" class="icon-btn" style="color:var(--ink)" data-act="back" aria-label="Back to home">' + ICON_BACK + '</button><div><span class="meta" style="padding-top:0">' + (left ? left + ' min left' : 'All ' + total + ' min read') + '</span><h1 style="font-size:28px;line-height:34px">Daily Edge</h1></div></header>';
+    if (next) {
+      h += '<article class="lead" aria-label="Up next"><div class="k"><span class="sec">' + glyph(next.section) + pad(next.n) + '  ' + esc(next.section) + '</span><span>' + mins(next) + ' min</span></div>' +
+        figure(next.figure) + '<h2>' + esc(next.title) + '</h2>' + tldr(next) +
+        '<button type="button" class="btn btn-primary" data-open="' + next.n + '">Read the story</button></article>';
+    } else {
+      h += '<article class="lead done-card"><div class="k"><span class="sec">' + ICON_CHECK + 'Edition complete</span><span>' + total + ' min</span></div>' +
+        '<div class="fig"><b>' + arts.length + '/' + arts.length + '</b><span>Every read in this edition</span></div></article>';
     }
-    h += sourcesHtml(st.sources) + '</div>';
-    h += '<div class="a-foot"><div class="inner"><button type="button" class="btn btn-primary" data-act="back"><span>Back to today</span><span>' + (st.next ? 'Tomorrow: ' + esc(st.next) : '') + '</span></button></div></div>';
+    var rest = next ? arts.filter(function(a){ return a !== next; }) : arts;
+    h += '<div class="label"><h2>' + (next ? 'Also today' : 'All reads') + '</h2><span class="meta">' + arts.filter(function(a){ return isRead(a.n); }).length + ' of ' + arts.length + ' read</span></div><div class="list" role="list">';
+    rest.forEach(function(a){
+      var r = isRead(a.n);
+      h += '<button type="button" role="listitem" class="row' + (r ? ' is-read' : '') + '" data-open="' + a.n + '"><span class="tile' + (r ? ' read' : '') + '" aria-hidden="true">' + (r ? ICON_CHECK : glyph(a.section)) + '</span>' +
+        '<span><span class="s">' + pad(a.n) + ' · ' + esc(a.section) + '</span><span class="t">' + esc(a.title) + '</span>' + (r ? '<span class="sr">, read</span>' : '') + '</span><span class="m">' + mins(a) + ' min</span></button>';
+    });
+    h += '</div></div>';
+    mount(h, 'home');
+  }
+
+  function pager(arts, cur){ return '<span class="pager" aria-hidden="true">' + arts.map(function(a){ return '<i class="' + (a.n === cur ? 'cur' : (isRead(a.n) ? 'read' : '')) + '"></i>'; }).join('') + '</span>'; }
+  function timeline(list){
+    return '<section class="timeline"><ol>' + list.map(function(w){ return '<li><span class="when">' + esc(w.when) + '</span><h3>' + esc(w.title) + '</h3>' + (w.why ? '<p>' + esc(w.why) + '</p>' : '') + '</li>'; }).join('') + '</ol></section>';
+  }
+  function renderArticle(n){
+    var arts = S.edition.articles, a = arts.filter(function(x){ return x.n === n; })[0];
+    if (!a) return go('edge');
+    var idx = arts.indexOf(a), nxt = arts[idx + 1];
+    var nSrc = (a.sources || []).filter(function(s){ return s.title; }).length;
+    var h = '<div class="view" data-n="' + a.n + '">' + head(a.section, pad(a.n) + '  ' + a.section, a.title, mins(a) + ' min read' + (nSrc ? ' · ' + nSrc + ' source' + (nSrc > 1 ? 's' : '') : ''), figure(a.figure), pager(arts, a.n)).replace('data-act="back"', 'data-go="edge"');
+    h += '<section class="short" aria-label="In short">' + tldr(a) + '</section>';
+    if (a.watch && a.watch.length) h += timeline(a.watch);
+    if (a.body && a.body.length) h += '<div class="prose">' + a.body.map(function(p){ return isSub(p) ? '<p class="sub-h">' + esc(p) + '</p>' : '<p>' + esc(p) + '</p>'; }).join('') + '</div>';
+    h += sourcesHtml(a.sources) + '<div class="swipe-hint">Swipe left or right to move between stories</div></div>';
+    h += foot(isRead(a.n) ? 'Read' : 'Mark as read', nxt ? 'Next: ' + esc(nxt.section) + ' →' : 'Back to Daily Edge', 'data-act="done" data-n="' + a.n + '"');
+    mount(h, null);
+  }
+
+  // ---- learn ----
+  function flow(items, hot){
+    return '<div class="flow">' + (items || []).map(function(x, i){
+      return (i ? '<div class="ar">' + ARROW + '</div>' : '') + '<div class="bx' + (hot === i ? ' hot' : '') + '"><b>' + esc(x.label) + '</b><span>' + esc(x.note || '') + '</span></div>';
+    }).join('') + '</div>';
+  }
+  function renderLearn(){
+    var l = S.edition.learn; if (!l) return go('home');
+    var ts = todayStep(), DAY = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+    var doneN = (l.steps || []).filter(function(s){ return has(kLearn(s.n)); }).length;
+    var h = '<div class="view">' + head('Learn', 'Tech to learn · this week', l.title, doneN + ' of ' + (l.steps || []).length + ' steps done · about 2 min each', '');
+    if (l.why) h += '<div class="plain" style="padding-bottom:0"><p>' + esc(l.why) + '</p></div>';
+    (l.steps || []).forEach(function(s){
+      var dn = has(kLearn(s.n)), now = s.n === ts;
+      h += '<details class="lstep' + (dn ? ' done' : '') + (now ? ' now' : '') + '"' + (now ? ' open' : '') + '><summary><span class="num">' + (dn ? ICON_CHECK : s.n) + '</span><span class="st">' + esc(s.title) + '</span><span class="day">' + (now ? 'Today' : DAY[s.n - 1] || '') + '</span></summary><div class="in">' +
+        (s.body || []).map(function(p){ return '<p>' + esc(p) + '</p>'; }).join('') +
+        (s.diagram && s.diagram.length ? flow(s.diagram, s.focus) : '') +
+        (s['try'] ? '<div class="try"><b>Try this</b>' + esc(s['try']) + '</div>' : '') +
+        '<button type="button" class="btn ' + (dn ? 'btn-quiet' : 'btn-primary') + '" data-act="step" data-n="' + s.n + '"' + (dn ? ' disabled' : '') + '>' + (dn ? 'Step done' : 'Mark step done') + '</button></div></details>';
+    });
+    if (l.next) h += '<p class="disc" style="padding-top:16px">Next week: ' + esc(l.next) + '</p>';
+    h += sourcesHtml(l.sources) + '</div>';
+    h += foot('Back to home', '', 'data-act="back"');
+    mount(h, null);
+  }
+
+  // ---- build ----
+  function bars(list, unit){
+    var max = Math.max.apply(null, list.map(function(b){ return b.value || 0; }).concat([1]));
+    return '<div class="bars">' + list.map(function(b){
+      return '<div class="bar' + (b.hot ? ' hot' : '') + '"><em><span>' + esc(b.label) + '</span><b>' + esc(b.display || (b.value + (unit || ''))) + '</b></em><div class="tr"><i style="width:' + Math.max(2, (b.value || 0) / max * 100).toFixed(1) + '%"></i></div>' + (b.note ? '<small>' + esc(b.note) + '</small>' : '') + '</div>';
+    }).join('') + '</div>';
+  }
+  function renderBuild(key){
+    var b = (S.edition.build || {})[key], def = BUILD.filter(function(x){ return x.key === key; })[0];
+    if (!b || !def) return go('home');
+    var dn = has(kBuild(key));
+    var h = '<div class="view">' + head(def.glyph, def.name, b.title, 'Refreshed ' + esc(b.refresh || 'weekly') + ' · ' + mins(b) + ' min read', figure(b.figure));
+    h += '<section class="short">' + tldr(b, 'Try this') + '</section>';
+    if (b.bars && b.bars.length) h += '<section class="panel"><h2>' + esc(b.chartTitle || 'In numbers') + '</h2>' + bars(b.bars, b.unit) + '</section>';
+    if (b.chips && b.chips.length) h += '<section class="panel"><h2>' + esc(b.chartTitle || '') + '</h2><div class="chips">' + b.chips.map(function(c){ return '<span>' + esc(c) + '</span>'; }).join('') + '</div></section>';
+    if (b.scores && b.scores.length) h += '<section class="panel"><h2>' + esc(b.scoreTitle || 'Scores') + '</h2>' + b.scores.map(function(s){
+      var dots = ''; for (var i = 1; i <= 5; i++) dots += '<i class="' + (i <= s.score ? 'on' : '') + '"></i>';
+      return '<div class="sc"><b>' + esc(s.label) + '</b><span class="dots" role="img" aria-label="' + s.score + ' of 5">' + dots + '</span>' + (s.note ? '<small>' + esc(s.note) + '</small>' : '') + '</div>';
+    }).join('') + '</section>';
+    if (b.body && b.body.length) h += '<div class="plain">' + b.body.map(function(p){ return '<p>' + esc(p) + '</p>'; }).join('') + '</div>';
+    h += sourcesHtml(b.sources) + '</div>';
+    h += foot(dn ? 'Read' : 'Mark as read', 'Back to home', 'data-act="build-done" data-key="' + key + '"');
+    mount(h, null);
+  }
+
+  // ---- old stack watch (earlier editions) ----
+  function renderStack(){
+    var st = S.edition.stack; if (!st || !st.company) return go('home');
+    var h = '<div class="view">' + head('Stack', st.company, st.title, mins(st) + ' min read', figure(st.figure));
+    h += '<section class="short">' + tldr(st) + '</section>';
+    if (st.layers && st.layers.length) h += '<section class="panel"><h2>The stack, layer by layer</h2>' + flow(st.layers.map(function(l){ return { label:l.layer, note:l.name + '. ' + l.note }; }), st.focus) + '</section>';
+    if (st.body && st.body.length) h += '<div class="prose">' + st.body.map(function(p){ return '<p>' + esc(p) + '</p>'; }).join('') + '</div>';
+    if (st.watch && st.watch.length) h += timeline(st.watch);
+    h += sourcesHtml(st.sources) + '</div>' + foot('Back to home', '', 'data-act="back"');
     mount(h, null);
   }
 
@@ -454,65 +696,55 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     d.setDate(d.getDate() + add);
     return d.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long' });
   }
-
   function renderRecap(){
     var h = '<div class="view"><header class="page-h"><span class="meta">Every Sunday, 8:00 AM</span><h1>Weekly recap</h1></header>';
     var r = S.recap;
     if (!r) {
       h += '<section class="empty"><span class="meta">First recap</span><div class="when">' + esc(nextSunday()) + '</div><ul>' +
-        '<li><span>01</span>The week\'s five ideas worth keeping</li>' +
-        '<li><span>02</span>A five-question quiz to make them stick</li>' +
-        '<li><span>03</span>What moved on your watch list</li>' +
-        '<li><span>04</span>One story worth retelling</li>' +
-        '<li><span>05</span>A reflection: which idea did you use?</li></ul></section>';
+        '<li><span>01</span>The week\'s five ideas worth keeping</li><li><span>02</span>A five-question quiz to make them stick</li>' +
+        '<li><span>03</span>What moved on your watch list</li><li><span>04</span>One story worth retelling</li><li><span>05</span>A reflection: which idea did you use?</li></ul></section>';
     } else {
       h += '<div class="page-h" style="padding-top:4px"><span class="meta" style="padding:0">' + esc(r.week || '') + '</span></div>';
       if (r.story) h += '<article class="lead story-card"><div class="k"><span class="sec">Story to retell</span></div><h2>' + esc(r.story.title) + '</h2><p class="story-text">' + esc(r.story.text) + '</p></article>';
       if (r.ideas) h += '<section class="rc"><h2>Five ideas</h2>' + r.ideas.map(function(i){ return '<div class="idea"><b>' + esc(i.title) + '</b><span>' + esc(i.line) + '</span></div>'; }).join('') + '</section>';
-      if (r.quiz && r.quiz.length) h += '<section class="rc" id="quiz"><h2>Quiz</h2><div class="score" id="score">0 of ' + r.quiz.length + ' answered</div>' + r.quiz.map(function(q, qi){
-        return '<div class="q"><p>' + (qi + 1) + '. ' + esc(q.q) + '</p>' + q.options.map(function(o, oi){
-          return '<button type="button" class="opt" data-q="' + qi + '" data-o="' + oi + '">' + esc(o) + '</button>';
-        }).join('') + '<p class="ex" hidden>' + esc(q.explain || '') + '</p></div>';
+      if (r.quiz && r.quiz.length) h += '<section class="rc"><h2>Quiz</h2><div class="score" id="score">0 of ' + r.quiz.length + ' answered</div>' + r.quiz.map(function(q, qi){
+        return '<div class="q"><p>' + (qi + 1) + '. ' + esc(q.q) + '</p>' + q.options.map(function(o, oi){ return '<button type="button" class="opt" data-q="' + qi + '" data-o="' + oi + '">' + esc(o) + '</button>'; }).join('') + '<p class="ex" hidden>' + esc(q.explain || '') + '</p></div>';
       }).join('') + '</section>';
       if (r.watch && r.watch.length) h += '<section class="rc"><h2>Watch list</h2>' + r.watch.map(function(w){ return '<div class="idea"><b>' + esc(w.title) + '</b><span>' + esc(w.status) + '</span></div>'; }).join('') + '</section>';
       if (r.reflect) h += '<section class="rc"><h2>Reflect</h2><p class="reflect">' + esc(r.reflect) + '</p></section>';
     }
-    h += '</div>';
-    mount(h, 'recap');
+    mount(h + '</div>', 'recap');
   }
-
   function renderArchive(){
     var eds = (S.index.editions || []).slice().sort(function(a,b){ return a.date < b.date ? 1 : -1; });
     var h = '<div class="view"><header class="page-h"><span class="meta">' + eds.length + ' edition' + (eds.length === 1 ? '' : 's') + '</span><h1>Archive</h1></header>';
     h += '<div class="list arch" style="margin-top:20px" role="list">' + eds.map(function(e){
       var d = dateObj(e.date);
-      return '<button type="button" role="listitem" class="row" data-edition="' + esc(e.date) + '">' +
-        '<span class="tile" aria-hidden="true">' + d.getDate() + '</span>' +
-        '<span><span class="s">' + esc(d.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'short' })) + ' · Edition ' + editionNo(e.date) + '</span><span class="t">' + esc(e.lead) + '</span></span>' +
-        '<span class="m">' + (e.date === S.viewing ? 'Open' : '') + '</span></button>';
+      return '<button type="button" role="listitem" class="row" data-edition="' + esc(e.date) + '"><span class="tile" aria-hidden="true">' + d.getDate() + '</span>' +
+        '<span><span class="s">' + esc(d.toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'short' })) + ' · Edition ' + editionNo(e.date) + '</span><span class="t">' + esc(e.lead) + '</span></span><span class="m">' + (e.date === S.viewing ? 'Open' : '') + '</span></button>';
     }).join('') + '</div></div>';
     mount(h, 'archive');
   }
-
-  function failure(msg){
-    app.innerHTML = '<div class="state"><div>' + esc(msg) + '</div><button type="button" class="btn" data-act="retry">Try again</button></div>';
-    tabs.hidden = true;
-  }
+  function failure(msg){ app.innerHTML = '<div class="state"><div>' + esc(msg) + '</div><button type="button" class="btn" data-act="retry">Try again</button></div>'; tabs.hidden = true; }
 
   function route(){
-    var h = (location.hash || '').slice(1) || 'today';
+    var h = (location.hash || '').slice(1) || 'home';
     window.scrollTo(0, 0);
     if (!S.edition) return;
     var m = /^read-(\d+)$/.exec(h);
     if (m) return renderArticle(parseInt(m[1], 10));
+    var b = /^build-([a-z]+)$/.exec(h);
+    if (b) return renderBuild(b[1]);
+    if (h === 'markets') return renderMarkets();
+    if (h === 'edge') return renderEdge();
+    if (h === 'learn') return renderLearn();
     if (h === 'stack') return renderStack();
     if (h === 'recap') return renderRecap();
     if (h === 'archive') return renderArchive();
-    renderToday();
+    renderHome();
   }
   function go(h, dir){ S.dir = dir || ''; if (location.hash.slice(1) === h) route(); else location.hash = h; }
   function openEdition(date){ return getJSON('editions/' + date + '.json').then(function(e){ S.edition = e; S.viewing = date; }); }
-
   function boot(){
     app.innerHTML = '<div class="state">Loading today\'s edition…</div>';
     getJSON('editions/index.json').then(function(idx){
@@ -522,7 +754,6 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     }).then(route).catch(function(){ failure('Today\'s edition could not be loaded.'); });
   }
 
-  // Swipe between stories in the article view
   var tx = 0, ty = 0;
   document.addEventListener('touchstart', function(e){ var t = e.changedTouches[0]; tx = t.clientX; ty = t.clientY; }, { passive:true });
   document.addEventListener('touchend', function(e){
@@ -537,25 +768,27 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
   document.addEventListener('click', function(ev){
     var t = ev.target.closest('button'); if (!t) return;
     if (t.hasAttribute('data-tab')) return go(t.getAttribute('data-tab'));
+    if (t.hasAttribute('data-go')) return go(t.getAttribute('data-go'));
     if (t.hasAttribute('data-open')) return go('read-' + t.getAttribute('data-open'));
-    if (t.hasAttribute('data-edition')) { var d = t.getAttribute('data-edition'); return openEdition(d).then(function(){ go('today'); }).catch(function(){ failure('That edition could not be loaded.'); }); }
+    if (t.hasAttribute('data-edition')) { var d = t.getAttribute('data-edition'); return openEdition(d).then(function(){ go('home'); }).catch(function(){ failure('That edition could not be loaded.'); }); }
     if (t.classList.contains('opt')) {
       var qi = +t.getAttribute('data-q'), oi = +t.getAttribute('data-o'), q = S.recap.quiz[qi], box = t.parentNode;
       Array.prototype.forEach.call(box.querySelectorAll('.opt'), function(b, i){ b.disabled = true; if (i === q.answer) b.classList.add('right'); else if (i === oi) b.classList.add('wrong'); });
       var ex = box.querySelector('.ex'); if (ex) ex.hidden = false;
-      var answered = app.querySelectorAll('.q .opt.right').length, right = app.querySelectorAll('.q').length ? Array.prototype.filter.call(app.querySelectorAll('.q'), function(qb){ return !qb.querySelector('.opt.wrong') && qb.querySelector('.opt.right'); }).length : 0;
+      var qs = Array.prototype.slice.call(app.querySelectorAll('.q')), answered = qs.filter(function(x){ return x.querySelector('.opt.right'); }).length, right = qs.filter(function(x){ return x.querySelector('.opt.right') && !x.querySelector('.opt.wrong'); }).length;
       var sc = document.getElementById('score'); if (sc) sc.textContent = right + ' right · ' + answered + ' of ' + S.recap.quiz.length + ' answered';
       return;
     }
     var act = t.getAttribute('data-act');
-    if (act === 'back') return go('today');
-    if (act === 'stack') return go('stack');
+    if (act === 'back') return go('home');
     if (act === 'retry') return boot();
-    if (act === 'latest') return openEdition(S.index.latest).then(function(){ go('today'); });
+    if (act === 'latest') return openEdition(S.index.latest).then(function(){ go('home'); });
+    if (act === 'step') { mark(kLearn(+t.getAttribute('data-n'))); return renderLearn(); }
+    if (act === 'build-done') { mark(kBuild(t.getAttribute('data-key'))); return go('home'); }
     if (act === 'done') {
-      var n = +t.getAttribute('data-n'); markRead(n);
+      var n = +t.getAttribute('data-n'); mark(rk(n));
       var arts = S.edition.articles, i = arts.map(function(a){ return a.n; }).indexOf(n);
-      return go(arts[i + 1] ? 'read-' + arts[i + 1].n : 'today', arts[i + 1] ? 'from-right' : '');
+      return go(arts[i + 1] ? 'read-' + arts[i + 1].n : 'edge', arts[i + 1] ? 'from-right' : '');
     }
   });
   window.addEventListener('hashchange', route);

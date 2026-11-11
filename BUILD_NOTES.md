@@ -14,7 +14,7 @@ Old editions (8 articles + stack) must still render.
 
 ## Status
 - [x] 1. Content for 2026-11-11: markets, learn, build added to the edition file
-- [ ] 2. index.html rebuilt (home + section views + visuals)
-- [ ] 3. Rendered and checked at phone width
-- [ ] 4. Pushed to main and mirrored to artifact fa307d16-f022-41bd-86d6-dc26c3f2e9d7
+- [x] 2. index.html rebuilt (home + section views + visuals)
+- [x] 3. Rendered and checked at phone width
+- [x] 4. Pushed to main and mirrored to artifact fa307d16-f022-41bd-86d6-dc26c3f2e9d7
 - [ ] 5. Morning task trig_01EuCQHL7o6Vsxs4DMvo4GSE updated to schema v3
