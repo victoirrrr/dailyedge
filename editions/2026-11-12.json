@@ -335,5 +335,473 @@
    }
   ],
   "next": "Nvidia"
+ },
+ "markets": {
+  "asof": "Closes of Wednesday, 11 November",
+  "title": "A broad rally as AI stocks and India bounced back",
+  "summary": "Almost every market rose. India returned from its holiday with its best close since February, Europe climbed, and a strong CoreWeave result revived the AI trade on Wall Street. Hong Kong was the one big market that fell.",
+  "indexes": [
+   {
+    "name": "Nifty 50",
+    "region": "India",
+    "close": "25,255.05",
+    "change": 0.84,
+    "why": "Back from the holiday with its highest close in nearly nine months, led by banks and carmakers."
+   },
+   {
+    "name": "Sensex",
+    "region": "India",
+    "close": "81,879.40",
+    "change": 0.95,
+    "why": "Foreign buying, better than expected quarterly results and softer oil lifted it to a level last seen on 26 February."
+   },
+   {
+    "name": "Nikkei 225",
+    "region": "Asia",
+    "close": "61,248.59",
+    "change": 1.31,
+    "why": "Chip stocks rallied across Tokyo, Seoul and Taipei after TSMC reported very strong October sales."
+   },
+   {
+    "name": "Hang Seng",
+    "region": "Asia",
+    "close": "24,315.92",
+    "change": -0.98,
+    "why": "The odd one out: internet, consumer and electric car stocks were sold, mostly by overseas money."
+   },
+   {
+    "name": "Shanghai",
+    "region": "Asia",
+    "close": "3,680.64",
+    "change": 0.46,
+    "why": "Mainland buyers kept onshore shares steady even as Hong Kong slipped."
+   },
+   {
+    "name": "FTSE 100",
+    "region": "Europe",
+    "close": "10,835.47",
+    "change": 0.78,
+    "why": "Steadier oil and solid company results helped London recover Tuesday's dip."
+   },
+   {
+    "name": "DAX",
+    "region": "Europe",
+    "close": "26,662.77",
+    "change": 1.2,
+    "why": "Germany led Europe as the AI and chip trade came back into favour."
+   },
+   {
+    "name": "S&P 500",
+    "region": "US",
+    "close": "7,619.38",
+    "change": 1.31,
+    "why": "Recovered Tuesday's inflation dip and almost all of last week's AI sell-off; now within 2.6% of its record."
+   },
+   {
+    "name": "Nasdaq",
+    "region": "US",
+    "close": "25,466.19",
+    "change": 1.6,
+    "why": "Cloud provider CoreWeave beat forecasts and raised its outlook, sending chip and data centre stocks sharply higher."
+   },
+   {
+    "name": "Dow Jones",
+    "region": "US",
+    "close": "52,486.49",
+    "change": 0.49,
+    "why": "Gained, but less than tech-heavy indexes because it holds fewer AI stocks."
+   }
+  ],
+  "extras": [
+   {
+    "name": "Gold",
+    "value": "$3,982",
+    "change": -1.25,
+    "note": "per ounce"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$92.40",
+    "change": 0.99,
+    "note": "per barrel"
+   },
+   {
+    "name": "USD/INR",
+    "value": "93.70",
+    "change": -0.07,
+    "note": "rupee gained 7 paise"
+   }
+  ],
+  "body": [
+   "The main story was relief in AI stocks. Last week investors worried that spending on AI data centres might slow. CoreWeave, a company that rents out AI computing power, reported results above forecasts and raised its outlook. That told the market demand is still strong, and chip and data centre shares jumped.",
+   "The second force was money flowing back to risk. Gold slipped below $4,000 as the dollar stayed firm after Tuesday's hot US inflation report. Oil edged up but stayed far below its October peak, which kept pressure off costs for importers.",
+   "What it means for India: foreign investors are buying Indian shares again, and the rupee firmed slightly. One thing to watch today: after US markets shut, Nvidia shares fell sharply on reports about its chief executive, and Asian chip stocks opened lower on Thursday. Indian IT stocks may feel that mood."
+  ],
+  "calendar": [
+   {
+    "when": "Tue 17 Nov",
+    "title": "Nvidia reports results, now under a leadership cloud"
+   },
+   {
+    "when": "Fri 13 Nov",
+    "title": "Weekly close: does the AI rebound hold after the Nvidia news?"
+   },
+   {
+    "when": "December",
+    "title": "US Federal Reserve decides on interest rates"
+   }
+  ],
+  "sources": [
+   {
+    "title": "The Print (PTI): Sensex rallies 772 pts to near 9-month high",
+    "url": "https://theprint.in/economy/sensex-rallies-772-pts-to-hit-near-9-month-high-nifty-closes-above-25250-on-fii-inflows-low-crude/3096176/"
+   },
+   {
+    "title": "Yahoo Finance (AP): How major US stock indexes fared, 11/11/2026",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-211834867.html"
+   },
+   {
+    "title": "Capp Notes: Closing Look, Wednesday 11 November 2026",
+    "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-11"
+   },
+   {
+    "title": "BBN Times: Hang Seng falls 0.98% as tech and EV stocks slide",
+    "url": "https://www.bbntimes.com/financial/hong-kong-stock-exchange-hang-seng-falls-0-98-to-24-315-92-as-tech-and-ev-stocks-slide"
+   },
+   {
+    "title": "Panthere Group: European markets finish broadly higher",
+    "url": "https://www.pantheregroup.com/2026/11/11/european-markets-finish-broadly-higher-on-wednesday/"
+   },
+   {
+    "title": "Deccan Herald (PTI): Rupee closes at 93.70",
+    "url": "https://www.deccanherald.com/business/markets/rupee-rises-7-paise-to-close-at-9370-against-us-dollar-4214767"
+   }
+  ]
+ },
+ "learn": {
+  "week": "2026-11-09",
+  "topic": "Microsoft",
+  "title": "How Microsoft's AI agent stack works",
+  "total": 5,
+  "why": "Most large companies already run on Microsoft. Knowing its stack lets you ask sharper questions in any AI discussion.",
+  "next": "Google Cloud's AI stack",
+  "steps": [
+   {
+    "n": 1,
+    "title": "The big picture: six layers",
+    "body": [
+     "An AI agent is software that can take steps on its own, like reading a file, deciding what to do and then doing it. Microsoft sells every layer needed to run one.",
+     "Think of it as a building. Chips and data centres are the foundation. AI models sit above. Then come the tools to build agents, the apps where people use them, and a control room on top."
+    ],
+    "diagram": [
+     {
+      "label": "Govern",
+      "note": "Agent 365: the control room"
+     },
+     {
+      "label": "Use",
+      "note": "Microsoft 365 Copilot, GitHub Copilot"
+     },
+     {
+      "label": "Build",
+      "note": "Foundry and Copilot Studio"
+     },
+     {
+      "label": "Models",
+      "note": "12,000+ models, incl. OpenAI and Anthropic"
+     },
+     {
+      "label": "Compute",
+      "note": "Azure data centres"
+     }
+    ],
+    "try": "Name the layer your own team touches most. That is where your questions will land best."
+   },
+   {
+    "n": 2,
+    "title": "Compute and models: the engine room",
+    "body": [
+     "Azure is Microsoft's cloud: rented computing power. It grew 48% last quarter to $33.2 billion, and Microsoft says demand is still higher than what it can supply.",
+     "On top sits a catalogue of more than 12,000 AI models. You are not tied to one. A team can use an OpenAI model for one job and an Anthropic model for another."
+    ],
+    "diagram": [
+     {
+      "label": "Your task",
+      "note": "For example: summarise contracts"
+     },
+     {
+      "label": "Pick a model",
+      "note": "Cheap and fast, or slow and smart"
+     },
+     {
+      "label": "Runs on Azure",
+      "note": "You pay for what you use"
+     }
+    ],
+    "try": "Ask your tech team: which model do we use, and why that one?"
+   },
+   {
+    "n": 3,
+    "title": "Build: where agents get made",
+    "body": [
+     "There are two workshops. Copilot Studio is for business teams: build an agent with clicks and plain language. Foundry is for developers who need more control.",
+     "In October Microsoft opened the Copilot harness: the same engine that runs its own Copilot, now available to developers. It handles the hard parts, such as running multi-step tasks and using tools safely."
+    ],
+    "diagram": [
+     {
+      "label": "Copilot Studio",
+      "note": "Low-code, for business teams"
+     },
+     {
+      "label": "Foundry",
+      "note": "Full code, for developers"
+     },
+     {
+      "label": "Copilot harness",
+      "note": "Shared engine underneath, in preview"
+     }
+    ],
+    "try": "Pick one repetitive task in your week. Would it need Studio or Foundry?"
+   },
+   {
+    "n": 4,
+    "title": "Govern: treating agents like staff",
+    "body": [
+     "Once a company has hundreds of agents, someone must know what each one can see and do. Agent 365 is Microsoft's answer. Each agent gets an identity, permissions and an activity log, much like an employee.",
+     "This matters because the main risk with agents is not that they fail. It is that they act with access nobody remembers granting."
+    ],
+    "diagram": [
+     {
+      "label": "Identity",
+      "note": "Who is this agent? (Entra)"
+     },
+     {
+      "label": "Permissions",
+      "note": "What can it open? (Purview)"
+     },
+     {
+      "label": "Audit",
+      "note": "What did it do? (logs and Defender)"
+     }
+    ],
+    "try": "Ask: if an agent made a wrong move today, how fast would we know?"
+   },
+   {
+    "n": 5,
+    "title": "Cost: from seats to meters",
+    "body": [
+     "Software used to be sold per seat: a fixed price per user. Agents are moving to metered billing, where you pay for what the agent actually does. Metered billing for the Copilot harness starts on 1 December.",
+     "Seats are easy to budget. Meters are not. A busy agent can cost far more than planned, so tracking cost per task becomes a core management skill."
+    ],
+    "diagram": [
+     {
+      "label": "Per seat",
+      "note": "Fixed price per user, easy to plan"
+     },
+     {
+      "label": "Per use",
+      "note": "Pay per task, can spike"
+     },
+     {
+      "label": "What to track",
+      "note": "Cost per completed task"
+     }
+    ],
+    "try": "Before the next renewal, ask for agent cost per workflow, not per seat."
+   }
+  ],
+  "sources": [
+   {
+    "title": "SiliconANGLE: Azure grows 48% as Microsoft reorganises reporting",
+    "url": "https://siliconangle.com/?p=852356"
+   },
+   {
+    "title": "Redmond: Microsoft brings Copilot's agent infrastructure to Foundry",
+    "url": "https://redmondmag.com/blogs/generationai/2026/11/microsoft-brings-copilot-ai-agent-infrastructure-to-foundry.aspx"
+   },
+   {
+    "title": "The Neuron: Everything announced at Microsoft Build 2026",
+    "url": "https://www.theneuron.ai/explainer-articles/everything-microsoft-announced-at-microsoft-build-2026-explained/"
+   },
+   {
+    "title": "IT Brief: Microsoft Agent 365 and Agent Factory",
+    "url": "https://itbrief.com.au/story/microsoft-unveils-new-ai-tools-to-transform-business-operations"
+   }
+  ]
+ },
+ "build": {
+  "selling": {
+   "updated": "2026-11-11",
+   "refresh": "Mondays",
+   "title": "New apps are flooding in, but older apps still take the money",
+   "figure": {
+    "value": "3%",
+    "label": "of subscription revenue goes to apps launched since 2025"
+   },
+   "what": "AI coding tools caused a flood of new apps. Yet apps launched since 2025 earn only 3% of subscription revenue.",
+   "why": "Shipping is now easy, so shipping is no longer an edge. Keeping users is.",
+   "use": "Pick one of your live apps. Before building anything new, find out what share of users return in week two.",
+   "chartTitle": "Share of subscription revenue, by when the app launched",
+   "unit": "%",
+   "bars": [
+    {
+     "label": "Before 2020",
+     "value": 69
+    },
+    {
+     "label": "2020 to 2024",
+     "value": 28,
+     "note": "remainder"
+    },
+    {
+     "label": "2025 onwards",
+     "value": 3,
+     "hot": true
+    }
+   ],
+   "body": [
+    "RevenueCat studied more than 115,000 apps and $16 billion in revenue. Apps launched before 2020 still earn 69% of subscription money. The top quarter of apps grew revenue 80% in a year. The bottom quarter shrank by 33%.",
+    "AI-powered apps do earn more per user, about 41% more. But their users leave 30% faster. People try them, pay once, and drift away.",
+    "What is working for solo builders: weekly subscriptions now bring in 55.5% of revenue in Adapty's data, because a small weekly price is an easy yes. In RevenueCat's Shipaton contest, 88.6% of 3,336 projects were built solo, and Health and Fitness overtook Productivity as the top category.",
+    "The lesson is not to stop shipping. It is to ship fewer things and stay with them longer."
+   ],
+   "sources": [
+    {
+     "title": "PPC Land: AI apps earn 41% more per user but churn 30% faster",
+     "url": "https://ppc.land/ai-apps-earn-41-more-per-user-but-churn-30-faster-revenuecat-finds/"
+    },
+    {
+     "title": "NextBigWhat: RevenueCat 2026, high growth and bad retention",
+     "url": "https://www.nextbigwhat.com/p/ai-apps-have-high-growth-and-prettybad"
+    },
+    {
+     "title": "Rokosbas: Vibe coding's broken promise (Adapty data)",
+     "url": "https://rokosbas.beehiiv.com/p/april-16-2026"
+    },
+    {
+     "title": "PricePush: Shipaton 2026 by the numbers",
+     "url": "https://pricepush.app/blog/shipaton-2026-data"
+    }
+   ]
+  },
+  "distribution": {
+   "updated": "2026-11-11",
+   "refresh": "Wednesdays",
+   "title": "Start with store search, then add short videos made by real people",
+   "figure": {
+    "value": "50-70%",
+    "label": "of an app's lifetime installs come from store search, by one estimate"
+   },
+   "what": "Two channels do most of the work for small apps: App Store search, and short videos by ordinary creators.",
+   "why": "Search is free and builds over time. Creator videos are the cheapest paid route because they do not look like ads.",
+   "use": "This week, rewrite one app's title and subtitle around the words people actually search. Then brief two creators for a 15-second video.",
+   "chartTitle": "Typical cost to get one install",
+   "unit": "",
+   "bars": [
+    {
+     "label": "Apple Search Ads",
+     "value": 10,
+     "display": "$1.50 to $10"
+    },
+    {
+     "label": "TikTok",
+     "value": 12,
+     "display": "$2 to $12",
+     "hot": true
+    },
+    {
+     "label": "Meta",
+     "value": 15,
+     "display": "$3 to $15"
+    }
+   ],
+   "body": [
+    "App Store search comes first. One indie guide estimates organic search drives 50 to 70% of lifetime installs. You do the work once on your title, subtitle, keywords and screenshots, and it keeps paying.",
+    "Next is short video. The pattern that works: pay everyday creators for raw, unpolished clips, post many of them, and put ad money only behind the ones that take off. One agency suggests 20 or more videos a month and says the first 1.5 seconds decide everything.",
+    "A newer shift: people now ask AI assistants which app to use. Clear descriptions of what your app does, on your website and store page, help you show up in those answers.",
+    "A caution: most of these numbers come from marketing agencies and tool vendors, so treat them as rough guides, not facts."
+   ],
+   "sources": [
+    {
+     "title": "Semnexus: TikTok ads for mobile apps",
+     "url": "https://semnexus.com/tiktok-ads-for-mobile-apps-a-performance-first-strategy-guide"
+    },
+    {
+     "title": "Sonar: Mobile app marketing playbook",
+     "url": "https://trysonar.app/blog/mobile-app-marketing.md"
+    },
+    {
+     "title": "Moburst: The state of mobile marketing strategy 2026",
+     "url": "https://www.moburst.com/blog/the-state-of-mobile-marketing-strategy/"
+    },
+    {
+     "title": "Superapp: The UGC playbook for apps",
+     "url": "https://www.superappp.com/blog/how-to-scale-your-mobile-app-to-10k-with-ugc-everything-you-need-to-know-in-a-single-playbook"
+    }
+   ]
+  },
+  "gaps": {
+   "updated": "2026-11-11",
+   "refresh": "Fridays",
+   "title": "Nine big consumer categories still have no breakout AI app",
+   "figure": {
+    "value": "9 of 15",
+    "label": "consumer categories have no AI product in a16z's top 100"
+   },
+   "what": "a16z's October ranking of the top 100 consumer AI apps found nine major categories with no entry at all.",
+   "why": "Chat and image tools are crowded. These categories have big spending and no AI-first leader yet.",
+   "use": "Pick one category you know from the inside. Write down the single most annoying task in it, in one sentence.",
+   "chartTitle": "The empty categories",
+   "chips": [
+    "Jobs and careers",
+    "Personal finance",
+    "Travel",
+    "Dating",
+    "Social",
+    "Retail",
+    "Real estate",
+    "Gaming",
+    "Streaming"
+   ],
+   "scoreTitle": "Fit for a solo builder (our rough read, 1 to 5)",
+   "scores": [
+    {
+     "label": "Jobs and careers",
+     "score": 4,
+     "note": "Clear pain, people pay, no licence needed"
+    },
+    {
+     "label": "Travel",
+     "score": 3,
+     "note": "Strong demand, but needs booking partners"
+    },
+    {
+     "label": "Personal finance",
+     "score": 2,
+     "note": "High trust bar and regulation"
+    },
+    {
+     "label": "Dating and social",
+     "score": 1,
+     "note": "Needs a huge user base to work"
+    }
+   ],
+   "body": [
+    "The venture firm a16z published its seventh top 100 list on 5 October. Streaming, social, dating, gaming, travel, retail, personal finance, real estate and jobs had no AI product on it.",
+    "The reason is not lack of demand. These categories need more than a chat box. They need trust, real data, or two sides of a market, and that is harder than wrapping a model.",
+    "For a solo builder, the best openings are where one person can deliver value alone. Career tools score well: interview practice, role research and salary prep are painful, personal, and worth paying for. Dating and social score poorly because they only work with millions of users.",
+    "The scores here are a judgement, not data. Use them to start your own thinking."
+   ],
+   "sources": [
+    {
+     "title": "TechCrunch: a16z's Olivia Moore on the state of consumer AI",
+     "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/"
+    },
+    {
+     "title": "Jawlah: Nine major markets still await the AI revolution",
+     "url": "https://jawlah.co/en/65921"
+    }
+   ]
+  }
  }
 }

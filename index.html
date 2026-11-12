@@ -224,8 +224,8 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
 .grp h2{margin:0;font-size:13px;line-height:18px;font-weight:600;color:var(--ink-3)}
 .card{display:block;width:calc(100% - 24px);margin:0 12px 10px;text-align:left;background:var(--surface);border-radius:20px;padding:16px;transition:transform .15s var(--ease);position:relative}
 .card:active{transform:scale(.985)}
-.card .top{display:flex;align-items:center;justify-content:space-between;font-size:13px;line-height:18px;color:var(--ink-3)}
-.card .top .sec{display:flex;align-items:center;gap:8px;color:var(--ink);font-weight:600}
+.card .top{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:13px;line-height:18px;color:var(--ink-3)}
+.card .top .sec{display:flex;align-items:center;gap:8px;color:var(--ink);font-weight:600;white-space:nowrap;flex-shrink:0}
 .card .top .sec .ico{color:var(--signal)}
 .card .top .done{display:flex;align-items:center;gap:4px;color:var(--up-ink);font-weight:600}
 .card .top .done .ico{width:16px;height:16px}
@@ -744,7 +744,20 @@ a{color:var(--ink);text-decoration-color:var(--ink-3);text-underline-offset:3px}
     renderHome();
   }
   function go(h, dir){ S.dir = dir || ''; if (location.hash.slice(1) === h) route(); else location.hash = h; }
-  function openEdition(date){ return getJSON('editions/' + date + '.json').then(function(e){ S.edition = e; S.viewing = date; }); }
+  function fillForward(e, date){
+    var keys = ['markets', 'learn', 'build'], miss = keys.filter(function(k){ return !e[k]; });
+    if (!miss.length || !S.index) return Promise.resolve(e);
+    var older = (S.index.editions || []).map(function(x){ return x.date; }).filter(function(d){ return d < date; }).sort().reverse().slice(0, 4);
+    var chain = Promise.resolve();
+    older.forEach(function(d){
+      chain = chain.then(function(){
+        if (!miss.some(function(k){ return !e[k]; })) return;
+        return getJSON('editions/' + d + '.json').then(function(p){ miss.forEach(function(k){ if (!e[k] && p[k]) e[k] = p[k]; }); }).catch(function(){});
+      });
+    });
+    return chain.then(function(){ return e; });
+  }
+  function openEdition(date){ return getJSON('editions/' + date + '.json').then(function(e){ return fillForward(e, date); }).then(function(e){ S.edition = e; S.viewing = date; }); }
   function boot(){
     app.innerHTML = '<div class="state">Loading today\'s edition…</div>';
     getJSON('editions/index.json').then(function(idx){
