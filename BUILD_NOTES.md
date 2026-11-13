@@ -14,4 +14,4 @@ Edition schema v4: {"v":4,"date","label","blocks":[{id,title,sub,minutes,cards[]
 - [x] index.html rebuilt for v4 with light and dark mode
 - [x] 2026-11-13 edition rewritten in v4
 - [x] Instructions and validator moved to v4
-- [x] Morning task pointed at ops/EDITION_INSTRUCTIONS.md
+- [ ] Morning task still runs its old prompt; owner to replace it with one that follows ops/EDITION_INSTRUCTIONS.md. Until then new editions arrive in the old shape and open as "Earlier format".
