@@ -12,11 +12,14 @@ for k in ['v', 'date', 'label', 'blocks']:
     if k not in d: e('missing top-level key: ' + k)
 if d.get('v') != 4: e('"v" must be 4')
 friday = datetime.date.fromisoformat(d['date']).weekday() == 4
-want = ['top3', 'ai', 'strategy', 'india', 'markets', 'builder' if friday else 'idea', 'question']
+want = ['top3', 'ai', 'strategy', 'india', 'markets', 'concept', 'learn', 'case', 'shelf', 'term'] + (['builder'] if friday else []) + ['question']
 bl = d.get('blocks', [])
 if [b.get('id') for b in bl] != want: e('blocks must be exactly, in order: ' + ', '.join(want))
-MIN = {'top3': 5, 'ai': 4, 'strategy': 3, 'india': 3, 'markets': 1, 'builder': 3, 'idea': 3, 'question': 1}
-def card(c, where):
+MIN = {'top3': 3, 'ai': 2, 'strategy': 2, 'india': 2, 'markets': 1, 'concept': 3, 'learn': 2, 'case': 2, 'shelf': 1, 'term': 1, 'builder': 2, 'question': 1}
+GROUP = {'top3': 'News scan', 'ai': 'News scan', 'strategy': 'News scan', 'india': 'News scan', 'markets': 'News scan', 'concept': 'Learn', 'learn': 'Learn', 'case': 'Learn', 'shelf': 'Learn', 'term': 'Learn', 'builder': 'Build', 'question': 'Close'}
+LEARN = ('concept', 'learn', 'case', 'shelf', 'term')
+NCARDS = {'top3': 3, 'concept': 2}
+def card(c, where, lo=70, labels=False):
     for k in ['tag', 'title', 'what', 'why', 'say', 'deeper', 'sources']:
         if not c.get(k): e(where + ': missing ' + k)
     if wc(c.get('title')) > 12: e(where + ': title over 12 words')
@@ -24,7 +27,10 @@ def card(c, where):
     if wc(c.get('why')) > 22: e(where + ': why over 22 words')
     if wc(c.get('say')) > 20: e(where + ': say over 20 words')
     n = wc(' '.join(c.get('deeper', [])))
-    if not 70 <= n <= 150: e(where + ': deeper is %d words (want 70 to 150)' % n)
+    if not lo <= n <= 150: e(where + ': deeper is %d words (want %d to 150)' % (n, lo))
+    if labels:
+        for k in ['whatLabel', 'whyLabel', 'sayLabel']:
+            if not c.get(k) or wc(c[k]) > 5: e(where + ': needs ' + k + ' (max 5 words)')
     if not 1 <= len(c.get('deeper', [])) <= 2: e(where + ': deeper needs 1 or 2 paragraphs')
     for s in c.get('sources', []):
         if not s.get('title') or not str(s.get('url', '')).startswith('https://'): e(where + ': each source needs a title and an https url')
@@ -43,15 +49,25 @@ def card(c, where):
         it = v.get('items', [])
         if not 3 <= len(it) <= 4: e(where + ': steps need 3 or 4 items')
         if any(wc(x.get('label')) > 3 for x in it): e(where + ': step labels max 3 words')
-    else: e(where + ': visual type must be stat, bars or steps')
+    elif t == 'flow':
+        it = v.get('items', [])
+        if not 3 <= len(it) <= 4: e(where + ': flow needs 3 or 4 items')
+        if any(wc(x.get('label')) > 3 or not x.get('note') or wc(x.get('note')) > 10 for x in it): e(where + ': flow items need a label (max 3 words) and a note (max 10 words)')
+        if sum(1 for x in it if x.get('hot')) != 1: e(where + ': exactly one flow item must be hot')
+    else: e(where + ': visual type must be stat, bars, steps or flow')
 for b in bl:
     i = b.get('id')
     if not b.get('title') or not b.get('sub'): e('%s: needs title and sub' % i)
     if b.get('minutes') != MIN.get(i): e('%s: minutes must be %s' % (i, MIN.get(i)))
-    if i in ('top3', 'ai', 'strategy', 'india', 'builder', 'idea'):
+    if b.get('group') != GROUP.get(i): e('%s: group must be "%s"' % (i, GROUP.get(i)))
+    if wc(b.get('sub')) > 9: e('%s: sub over 9 words' % i)
+    if i in ('top3', 'ai', 'strategy', 'india', 'builder') + LEARN:
         cs = b.get('cards', [])
-        if len(cs) != (3 if i == 'top3' else 1): e('%s: wrong number of cards' % i)
-        for n, c in enumerate(cs): card(c, '%s card %d' % (i, n + 1))
+        if len(cs) != NCARDS.get(i, 1): e('%s: needs %d card(s)' % (i, NCARDS.get(i, 1)))
+        for n, c in enumerate(cs): card(c, '%s card %d' % (i, n + 1), lo=(35 if i in ('term', 'shelf') else 60), labels=(i in LEARN))
+    if i == 'learn':
+        t = b.get('track') or {}
+        if not t.get('topic') or t.get('total') != 5 or t.get('step') not in (1, 2, 3, 4, 5) or len(t.get('plan', [])) != 5 or not t.get('next'): e('learn: track needs topic, step 1 to 5, total 5, plan of 5 titles and next')
     if i == 'markets':
         m = b.get('markets') or {}
         NAMES = ['Nifty 50', 'Sensex', 'Nikkei 225', 'Hang Seng', 'Shanghai', 'FTSE 100', 'DAX', 'S&P 500', 'Nasdaq', 'Dow Jones']

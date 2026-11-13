@@ -1,6 +1,6 @@
 # Daily Edge
 
-A personal 20-minute daily digest in seven blocks: Top 3 that matter, AI in the enterprise, Strategy move decoded, India and GCC lens, Markets in 60 seconds, One idea to keep (Builder edition on Fridays) and Question of the day.
+A personal 20-minute daily digest. News scan: Top 3 that matter, AI in the enterprise, Strategy move decoded, India and GCC lens, Markets in 60 seconds. Learn: Concept of the day, Tech to learn, Case file, Reference shelf, Term of the day. Then Builder edition (Fridays) and Question of the day.
 
 - `index.html` is the whole app (static, no build step). Light, dark and auto appearance.
 - `editions/index.json` lists editions; `editions/YYYY-MM-DD.json` holds each day's blocks (schema v4). Older editions (8 articles) still open through the "Earlier editions" list.

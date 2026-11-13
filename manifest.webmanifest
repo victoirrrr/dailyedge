@@ -2,7 +2,7 @@
   "id": "/dailyedge/?app=daily-edge",
   "name": "Daily Edge",
   "short_name": "Daily Edge",
-  "description": "A 20-minute daily digest in seven blocks: top stories, enterprise AI, strategy, India and GCCs, markets and one question.",
+  "description": "A 20-minute daily digest: a news scan, five learning blocks and one question.",
   "start_url": "./?source=app",
   "scope": "./",
   "display": "standalone",

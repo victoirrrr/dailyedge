@@ -7,7 +7,7 @@
    "id": "top3",
    "title": "Top 3 that matter",
    "sub": "Business, technology, policy",
-   "minutes": 5,
+   "minutes": 3,
    "cards": [
     {
      "tag": "Technology",
@@ -99,13 +99,14 @@
       }
      ]
     }
-   ]
+   ],
+   "group": "News scan"
   },
   {
    "id": "ai",
    "title": "AI in the enterprise",
    "sub": "Value, operating model, governance",
-   "minutes": 4,
+   "minutes": 2,
    "cards": [
     {
      "tag": "AI Signal",
@@ -144,13 +145,14 @@
       }
      ]
     }
-   ]
+   ],
+   "group": "News scan"
   },
   {
    "id": "strategy",
    "title": "Strategy move decoded",
    "sub": "One deal or restructuring",
-   "minutes": 3,
+   "minutes": 2,
    "cards": [
     {
      "tag": "Deal decoded",
@@ -178,13 +180,14 @@
       }
      ]
     }
-   ]
+   ],
+   "group": "News scan"
   },
   {
    "id": "india",
    "title": "India and GCC lens",
    "sub": "Set-ups, talent, regulation",
-   "minutes": 3,
+   "minutes": 2,
    "cards": [
     {
      "tag": "GCC Watch",
@@ -234,7 +237,8 @@
       }
      ]
     }
-   ]
+   ],
+   "group": "News scan"
   },
   {
    "id": "markets",
@@ -350,13 +354,290 @@
       "url": "https://thesentimes.com/gold-falls-rs-2200-to-rs-1-43-lakh-10gm-in-delhi-silver-remains-steady/"
      }
     ]
-   }
+   },
+   "group": "News scan"
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Reference class forecasting",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Reference class forecasting: plan from what happened to similar projects",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Inside view",
+        "note": "How will our plan unfold? Usually too hopeful."
+       },
+       {
+        "label": "Outside view",
+        "note": "How did similar projects actually go?",
+        "hot": true
+       },
+       {
+        "label": "Commit",
+        "note": "Set the date the reference class supports."
+       }
+      ]
+     },
+     "whatLabel": "The idea",
+     "what": "Forecast a project from the actual results of similar past projects, not from its own plan.",
+     "whyLabel": "When to use it",
+     "why": "Any date, budget or benefit case with little history and high excitement: AI programmes, migrations, new centres.",
+     "sayLabel": "Use it this week",
+     "say": "Find five comparable projects, note how far each overran, and set the commitment at that level.",
+     "deeper": [
+      "The method answers the planning fallacy, described by Daniel Kahneman and Amos Tversky in 1979: people underestimate time, cost and risk even when they know similar work overran. Estimates are built by picturing a smooth path to done, which leaves out illness, dependencies and rework. Two smaller remedies also help: split work into small parts and estimate each, and fix when, where and how each step will happen."
+     ],
+     "sources": [
+      {
+       "title": "Wikipedia: Planning fallacy",
+       "url": "https://en.wikipedia.org/wiki/Planning_fallacy"
+      }
+     ]
+    },
+    {
+     "tag": "The evidence",
+     "title": "Students' worst-case guess was still shorter than the real time",
+     "visual": {
+      "type": "bars",
+      "title": "Days to finish a thesis, 1994 study",
+      "items": [
+       {
+        "label": "Best-case guess",
+        "value": 27.4
+       },
+       {
+        "label": "Prediction",
+        "value": 33.9
+       },
+       {
+        "label": "Worst-case guess",
+        "value": 48.6
+       },
+       {
+        "label": "Actual",
+        "value": 55.5,
+        "hot": true
+       }
+      ]
+     },
+     "whatLabel": "Example",
+     "what": "In a 1994 study, 37 students predicted 33.9 days for a thesis. They took 55.5, beyond their own worst case of 48.6.",
+     "whyLabel": "The lesson",
+     "why": "Even a pessimistic scenario assumes the plan mostly works. Only outside data corrects it.",
+     "sayLabel": "Say it in the room",
+     "say": "What did the last five programmes like this actually take, and why would we beat them?",
+     "deeper": [
+      "The study was run by Roger Buehler and colleagues. Only about 30% of students finished in the time they predicted. The Sydney Opera House shows the same pattern at scale: expected in 1963, opened in scaled-down form in 1973, at a cost of $102 million against an estimate of $7 million. The first estimate is made when least is known, yet it is often treated as a commitment."
+     ],
+     "sources": [
+      {
+       "title": "Wikipedia: Planning fallacy",
+       "url": "https://en.wikipedia.org/wiki/Planning_fallacy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "AI agents and tools: step 1 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "How AI agents use tools",
+    "step": 1,
+    "total": 5,
+    "plan": [
+     "What makes an agent an agent",
+     "Tools: how a model takes action",
+     "MCP: one plug for many tools",
+     "Guardrails and human approval",
+     "Cost, failure modes and testing"
+    ],
+    "next": "Google Cloud's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 1 of 5",
+     "title": "An agent is a model that acts in a loop",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Goal",
+        "note": "A person sets the task and the limits."
+       },
+       {
+        "label": "Think",
+        "note": "The model decides the next step."
+       },
+       {
+        "label": "Act",
+        "note": "It calls a tool: search, database, email.",
+        "hot": true
+       },
+       {
+        "label": "Check",
+        "note": "It reads the result and repeats until done."
+       }
+      ]
+     },
+     "whatLabel": "How it works",
+     "what": "A chatbot answers once. An agent plans, calls a tool, reads the result and repeats until the goal is met.",
+     "whyLabel": "Why it matters",
+     "why": "Value and risk both come from the loop. Each extra step can add progress, cost or error.",
+     "sayLabel": "Try it",
+     "say": "Take one process you know. List the tools an agent would need and where a person must approve.",
+     "deeper": [
+      "Tools are what turn a language model from a writer into a worker. A tool is any system the model is allowed to call: a search engine, a database query, a ticketing system. The Model Context Protocol, or MCP, is an open standard introduced by Anthropic in November 2024 that gives AI applications one common way to connect to such tools and data. The next step covers how a tool call works."
+     ],
+     "sources": [
+      {
+       "title": "DigitalOcean: MCP 101, An Introduction to Model Context Protocol",
+       "url": "https://www.digitalocean.com/community/tutorials/model-context-protocol"
+      },
+      {
+       "title": "Model Context Protocol docs: What is the Model Context Protocol?",
+       "url": "https://modelcontextprotocol.info/docs/2026-07-28/getting-started/intro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "IBM, 1993: the break-up that was cancelled",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Turnaround",
+     "title": "Gerstner kept IBM whole and made integration the product",
+     "visual": {
+      "type": "stat",
+      "value": "$168B",
+      "label": "IBM market value in 2002, up from $29 billion in 1993"
+     },
+     "whatLabel": "Situation and move",
+     "what": "In 1993 IBM was failing and a break-up plan was ready. New CEO Lou Gerstner cancelled it and sold integrated solutions.",
+     "whyLabel": "Result",
+     "why": "Market value rose almost sixfold in nine years. More than 100,000 jobs were cut on the way.",
+     "sayLabel": "The lesson",
+     "say": "Before a split or carve-out, ask what customers get only because the units work together.",
+     "deeper": [
+      "Gerstner's reasoning is the useful part. Customers were struggling to assemble technology from many vendors, and IBM was one of few firms with hardware, software, services and research under one roof. Splitting it would have discarded the one advantage rivals could not copy. He also fixed execution and accountability before talking about vision. A caveat: part of the rise in value reflects the strong market of the late 1990s."
+     ],
+     "sources": [
+      {
+       "title": "Wikipedia: Lou Gerstner",
+       "url": "https://en.wikipedia.org/wiki/Lou_Gerstner"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Conway, 1968: How Do Committees Invent?",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Paper, 1968",
+     "title": "Conway's law: systems copy the organisation that builds them",
+     "visual": {
+      "type": "stat",
+      "value": "1968",
+      "label": "Melvin Conway's paper in Datamation, first rejected by Harvard Business Review"
+     },
+     "whatLabel": "Core idea",
+     "what": "An organisation designing a system will produce a design that mirrors its own communication structure.",
+     "whyLabel": "Why leaders cite it",
+     "why": "It explains why new technology on an old org chart reproduces old silos, including with AI agents.",
+     "sayLabel": "Line to use",
+     "say": "If we want a different system, we have to change who talks to whom first.",
+     "deeper": [
+      "Conway's point was wider than software. One of his examples of a system is a public transport network. The structure of a design team limits which designs can even be considered, because some options need communication paths that do not exist. Fred Brooks named it Conway's law in The Mythical Man-Month. The practical use today: design the team around the system wanted, not the reverse."
+     ],
+     "sources": [
+      {
+       "title": "ACM Queue: How Do Committees Invent? and Ironies of Automation",
+       "url": "https://queue.acm.org/detail.cfm?id=3395214"
+      },
+      {
+       "title": "The Morning Paper: How do committees invent?",
+       "url": "https://blog.acolyer.org/2019/12/13/how-do-committees-invent/"
+      },
+      {
+       "title": "O'Reilly, Making Software: Conway's Law",
+       "url": "https://www.oreilly.com/library/view/making-software/9780596808310/ch11s01.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Human in the loop",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Human in the loop",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "In the loop",
+        "hot": true
+       },
+       {
+        "label": "On the loop"
+       },
+       {
+        "label": "Out of loop"
+       }
+      ]
+     },
+     "whatLabel": "Meaning",
+     "what": "A person must review or approve an AI system's action before it takes effect. The system waits.",
+     "whyLabel": "Why it is used now",
+     "why": "As agents gain autonomy, leaders must say where approval is required and where supervision is enough.",
+     "sayLabel": "Use it in a sentence",
+     "say": "Payments stay human in the loop; routine triage can move to human on the loop.",
+     "deeper": [
+      "On the loop means a person supervises and can step in, but the system does not wait. Out of the loop means it acts alone. The common mistake is rubber-stamping: an approval step that nobody has time to do properly is oversight in name only."
+     ],
+     "sources": [
+      {
+       "title": "CASRAI: Human in the loop",
+       "url": "https://casrai.org/ai-governance/human-in-the-loop"
+      },
+      {
+       "title": "Arize: What Is Human-On-The-Loop?",
+       "url": "https://arize.com/glossary/human-on-the-loop/"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "builder",
    "title": "Builder edition",
    "sub": "Fridays only. What sells, distribution, gaps",
-   "minutes": 3,
+   "minutes": 2,
    "cards": [
     {
      "tag": "Builder: what sells",
@@ -400,7 +681,8 @@
       }
      ]
     }
-   ]
+   ],
+   "group": "Build"
   },
   {
    "id": "question",
@@ -410,7 +692,8 @@
    "question": {
     "text": "If a critical supplier lost its chief executive tonight, which of our programmes would slip first?",
     "context": "Prompted by Nvidia. Most risk registers rank suppliers by spend. Few rank them by how much of the roadmap depends on one firm's delivery, pricing or leadership."
-   }
+   },
+   "group": "Close"
   }
  ]
 }
