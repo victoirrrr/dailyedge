@@ -1,348 +1,416 @@
 {
+ "v": 4,
  "date": "2026-11-13",
  "label": "Friday, 13 November 2026",
- "articles": [
+ "blocks": [
   {
-   "n": 1,
-   "section": "AI Signal",
+   "id": "top3",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
    "minutes": 5,
-   "title": "Agents reached production at 71% of firms, but only 30% run alone",
-   "figure": {
-    "value": "30%",
-    "label": "of agent-using leaders say agents handle most tasks without human help"
-   },
-   "what": "Zapier's September survey of 513 enterprise leaders finds 71% have agents in production, yet only 30% say agents complete most tasks without human intervention.",
-   "why": "Adoption is no longer the question. The gap between deployed and autonomous is where your return, your risk and your operating model get decided.",
-   "use": "List your live agents this week and mark each as assist, supervised or autonomous. Ask owners what evidence would justify moving one step up.",
-   "body": [
-    "A fresh survey gives leaders a clean way to separate noise from signal on enterprise agents. Zapier polled 513 enterprise leaders between 16 and 21 September 2026 and compared the answers with a similar poll a year earlier. The headline is adoption: 88 percent say their organisations use or test AI agents, up from 72 percent in 2025. A vendor that sells automation has an interest in big numbers, so read the sample as directional, not as a census. Even so, the movement between the two years is hard to dismiss.",
-    "The more interesting shift is where those agents sit. Agents in production rose from 40 percent to 71 percent of organisations, while those still in testing fell from 32 percent to 17 percent. In one year the centre of gravity moved from pilot to live service. For a leader that changes the nature of the conversation. A pilot is a learning exercise with a sponsor. A production agent is a system with users, failure modes, an owner and a budget line. Many firms are still running the first kind of governance on the second kind of asset.",
-    "Now the number that deserves the most attention. Among leaders whose organisations use agents, only 30 percent say the technology handles a majority of tasks without human intervention. Read that carefully. Most deployed agents are still drafting, routing, summarising or preparing work that a person then checks, corrects or approves. That is not a failure. It is what supervised automation looks like in its first phase. But it means the productivity story is smaller, and the human cost is larger, than the adoption percentage suggests.",
-    "The survey also reports that 46 percent of leaders whose organisations use agents say their most mature agent has paid for itself or is expected to within twelve months. That is a respectable result for a technology that barely existed in enterprise budgets two years ago. It is also a reminder that the best agent in a portfolio is usually an outlier, and that the average one has not yet earned its keep. The practical lesson is to measure agents one by one, not as a programme, because the programme average hides the winners and the laggards alike.",
-    "Why do so many agents stay supervised? The usual reasons are sensible. Errors in customer, finance or compliance workflows are expensive. Audit trails are thin. Ownership is unclear when an agent crosses three systems. And managers are rightly wary of signing off outputs they cannot inspect. None of this is irrational. The mistake is treating supervision as a temporary embarrassment instead of a design choice, because the review step has a cost, and that cost belongs in the business case from day one.",
-    "This extends the question raised earlier this week about whether agent spending shows up in the P&L. The new angle is that the answer depends on the autonomy level. An agent that saves a worker ten minutes but needs a ten minute check saves nothing. The returns appear when review shifts from checking every output to sampling, from sampling to exception handling. That shift requires evaluation sets, clear thresholds and a rollback path, which are management disciplines, not model features.",
-    "There is a talent and operating-model angle as well. If most agents are supervised, someone must supervise them, and that someone needs time, context and authority. In many organisations this work lands on middle managers as an unpriced extra duty. Leaders who plan for it, by naming agent owners, giving them capacity and tracking review time as a cost, will see returns earlier than those who assume the agent simply removes the work. For India-based capability centres the same logic applies, since they often hold the engineering teams that build and monitor these agents.",
-    "Finally, treat the survey as a prompt for your own inventory rather than a benchmark to chase. A leader who can say how many agents are live, who owns each, how often humans override them and what each one saves net of review is ahead of most peers. A leader who can only say that adoption is high is repeating the market average. The 30 percent figure is the useful one because it asks a question every executive team should be able to answer about its own portfolio.",
-    "So what should you do with this? Build a one-page register of production agents with four columns: purpose, autonomy level, human review time per week and measured benefit. Review it monthly, retire the agents that cannot show a benefit, and set an explicit target for moving the best candidates from supervised to autonomous. Keep the survey in perspective as one vendor's sample, but let it sharpen the question you ask your teams: not how many agents we have, but how many we trust to act alone, and why."
-   ],
-   "sources": [
+   "cards": [
     {
-     "title": "Zapier: 88% of enterprises now use or test AI agents",
-     "url": "https://zapier.com/blog/ai-agents-survey/"
+     "tag": "Technology",
+     "title": "Nvidia loses its founder CEO overnight; the CFO steps in",
+     "visual": {
+      "type": "stat",
+      "value": "-4.3%",
+      "label": "Nvidia's close on Thursday, after a double-digit fall at the open"
+     },
+     "what": "Jensen Huang resigned as CEO and director with immediate effect. CFO Colette Kress is interim CEO, and the board named its first chair.",
+     "why": "Key-person risk has landed at AI's most important supplier. Every large AI plan depends on its chips arriving on schedule.",
+     "say": "Which of our AI commitments assume one supplier's roadmap holds, and what is plan B?",
+     "deeper": [
+      "Nvidia's board said on 12 November that Jensen Huang had stepped down as president, chief executive and board member. The exit came days after the board opened an investigation into news reports about his conduct. Colette Kress keeps the CFO role while acting as interim chief executive. Harvey Jones, a director since 1993, becomes the first chair the board has had. A search will consider internal and external candidates.",
+      "The board said operations, customer commitments and the product roadmap continue without interruption. The first test is close: third-quarter results are due on 17 November. Watch whether large customers repeat that message, and whether the search is given a deadline."
+     ],
+     "sources": [
+      {
+       "title": "NVIDIA: NVIDIA Announces CEO Transition",
+       "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+      },
+      {
+       "title": "NPR: Nvidia CEO Jensen Huang steps down",
+       "url": "https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down"
+      },
+      {
+       "title": "NBC News: Nvidia CEO Jensen Huang resigns",
+       "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402"
+      }
+     ]
+    },
+    {
+     "tag": "Geopolitics",
+     "title": "Oil jumps to $95.82 as hopes of an Iran deal fade",
+     "visual": {
+      "type": "stat",
+      "value": "$95.82",
+      "label": "Brent crude at Thursday's settle, up 3.3% in one day"
+     },
+     "what": "Brent rose $3.06 after President Trump said no Iran deal was needed and Houthi forces claimed strikes on Saudi energy sites.",
+     "why": "India imports most of its oil. Dearer crude and a weaker rupee raise costs, inflation risk and pressure on budgets.",
+     "say": "Have our 2027 cost plans been tested at $100 oil and a 95 rupee?",
+     "deeper": [
+      "Oil had been falling this month on hopes that the US-Iran conflict was winding down. Thursday reversed part of that. Crude dropped early, then climbed after a social media post from President Trump saying Washington did not need a deal. Yemen's Houthis then said they had hit a pipeline pumping station, a facility at Yanbu and an Aramco building. Saudi Arabia's coalition said it destroyed two drones.",
+      "Both oil benchmarks were still down about 2.5% for the week, and US stockpiles rose. The swing matters more than the level: energy costs are again being set by headlines. In India the rupee closed at 94.04 to the dollar, 33 paise weaker."
+     ],
+     "sources": [
+      {
+       "title": "Reuters via Yahoo Finance: Oil settles $3 higher on attacks on Saudi energy sites",
+       "url": "https://finance.yahoo.com/energy/articles/oil-falls-over-1-easing-045152522.html"
+      },
+      {
+       "title": "CNBC: Oil prices rise after Trump says no Iran deal needed",
+       "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+      },
+      {
+       "title": "PTI via The Sen Times: Rupee falls 33 paise to close at 94.04",
+       "url": "https://thesentimes.com/rupee-falls-33-paise-to-close-at-94-04-against-us-dollar/"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "Rate rises are back: markets see an ECB hike in December",
+     "visual": {
+      "type": "stat",
+      "value": "80%",
+      "label": "chance markets give a quarter-point ECB rise in December"
+     },
+     "what": "Traders price an 80% chance that the ECB lifts its deposit rate to 2.75% on 17 December. Bets on a US rise are growing too.",
+     "why": "Money is getting dearer again. Business cases approved at last year's rates may no longer clear the bar.",
+     "say": "Which approved programmes still pay back if the cost of capital rises one point?",
+     "deeper": [
+      "A Reuters poll published on 12 November found most economists expect one final ECB rise next month. More than a third expect another in early 2027. Forecasts for euro zone inflation were raised to 3.1% this year and 2.8% next year, well above the 2% target, with energy the main driver.",
+      "The US is moving the same way. Higher than expected October inflation pushed up Treasury yields and bets on a Federal Reserve rise, and the dollar strengthened. For companies, the practical effect is a higher hurdle rate for investment and a stronger dollar on import bills."
+     ],
+     "sources": [
+      {
+       "title": "Reuters poll: ECB set for last rate hike in December",
+       "url": "https://1027wbow.com/2026/11/12/ecb-set-for-last-rate-hike-in-december-but-inflation-risks-keep-door-open-for-one-more-reuters-poll/"
+      },
+      {
+       "title": "Rallies: Euro zone bond yields dip; interest rate expectations in focus",
+       "url": "https://rallies.ai/news/euro-zone-bond-yields-dip-interest-rate-expectations-in-focus-5eaa200a3a1b4bca"
+      },
+      {
+       "title": "Investing.com: ECB December rate hike expectations rise",
+       "url": "https://sg.finance.yahoo.com/news/ecb-december-rate-hike-expectations-172348901.html"
+      }
+     ]
     }
    ]
   },
   {
-   "n": 2,
-   "section": "GCC Watch",
-   "minutes": 5,
-   "title": "GCCs now out-hire IT services by 60,000, and mid-size firms are arriving",
-   "figure": {
-    "value": "180K",
-    "label": "people GCCs hired in FY26, per recruiter Xpheno"
-   },
-   "what": "Recruiter Xpheno says GCCs hired 180,000 people in FY26, 60,000 more than IT services firms, as Starbucks and SplashBI open new India centres.",
-   "why": "The talent market has tilted toward captives, which raises pay pressure and competition for the skills your own centre needs.",
-   "use": "Benchmark your GCC's offer, attrition and mobility against the 2,100 centres now competing for the same engineers, and refresh your retention plan before the next cycle.",
-   "body": [
-    "India's global capability centres have passed a milestone that matters more to leaders than any headline about new openings. According to a study by recruitment firm Xpheno, cited by YourStory, GCCs recruited 110,000 people in FY25, which was 10,000 more than traditional IT services firms. In FY26 they hired 180,000, which was 60,000 more. The gap has widened sixfold in a year. The captive model is no longer the smaller sibling of the outsourcing model. On hiring, it is now the larger one.",
-    "The scale around that number is large. The same report says India hosts more than 2,100 GCCs, up from about 1,600 five years ago, employing around 2.3 million professionals. That workforce sits inside a technology industry the report values at 300 billion dollars. Those are figures from a single trade source and should be read as estimates, but the direction is consistent with the other data points reaching the market. More firms, more roles and more senior work are all moving into captive centres.",
-    "Two recent announcements show who is arriving. Starbucks, a company most people associate with stores rather than software, signed a memorandum of understanding with the Tamil Nadu government to set up its first India GCC in Chennai, with 800 jobs planned. Its chief technology officer pointed to skilled talent and lower attrition as reasons for choosing the city. In November, SplashBI, a Georgia-based data intelligence platform, opened a Hyderabad centre with room for 275 professionals and said it plans to invest more than 100 million dollars over five to seven years.",
-    "Notice the profile of those two entrants. Neither is a giant bank or a household technology brand. One is a consumer company building a digital organisation. The other is a mid-sized software firm moving platform engineering, AI development and analytics into India. The YourStory report notes that mid-tier companies and startups in developed markets, especially in the United States, are now setting up centres, and that the trend has spread beyond American multinationals to firms from Europe and Japan. The buyer base for GCC talent is widening.",
-    "For a leader running or planning a centre, a wider buyer base means tougher competition for the same scarce skills. When captives out-hire services firms by 60,000 people in a year, wage expectations for engineers, data scientists and product managers do not stay still. Cities that once seemed secondary, such as Chennai, are now competing alongside the established hubs. Hyderabad alone is reported to house 515 GCCs and expects to add 50 to 70 more within a year, which shows how crowded the best-known markets are becoming.",
-    "The nature of the work is also changing. The report says many centres have moved up the value chain, acting as sources of new solutions and managing entire functions from India rather than executing a thin slice of tasks. That is consistent with the SplashBI description, which covers platform engineering, AI development and customer delivery. When a centre owns product, the cost of a poor hire or an exit is not a seat to refill but a roadmap at risk. Retention, therefore, becomes a strategic matter, not an administrative one.",
-    "There is a policy and geography angle too. Choosing Chennai for Starbucks and Hyderabad for SplashBI reflects state-level competition for investment, with incentives and talent pipelines shaping each decision. Leaders weighing a footprint should treat location as a design choice with its own economics, attrition profile and ecosystem, not a default to the city where peers already sit. A second location can also reduce concentration risk, provided the operating model keeps the teams connected to the product decisions.",
-    "What should a leader take from this? First, assume your own centre is being recruited against, whether or not you can see it. Pay bands, career paths and the chance to own meaningful work are the levers that hold people. Second, plan capacity with the labour market in mind: a hiring plan that works on paper can fail if captives and services firms are bidding for the same cohort. Third, use the arrival of mid-size firms as a prompt to ask whether your centre offers something they cannot, such as scale, mobility and depth of domain.",
-    "In practice, the action is simple. Ask your HR and centre leadership for three numbers this month: offer-acceptance rate, twelve-month attrition for critical roles, and the share of senior roles filled internally. Compare them with what you hear from peers, and agree a short list of changes before budgeting season. The Xpheno gap will keep widening only if captives keep winning the talent contest, and that contest is decided by choices you can make now."
-   ],
-   "sources": [
+   "id": "ai",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 4,
+   "cards": [
     {
-     "title": "YourStory: Starbucks to set up first India GCC in Chennai, plans to hire 800",
-     "url": "https://yourstory.com/2026/09/starbucks-set-up-first-india-gcc-in-chennai-plans-to-hire-800"
-    },
-    {
-     "title": "YourStory: SplashBI opens GCC in Hyderabad, to invest over $100M",
-     "url": "https://yourstory.com/2026/11/splashbi-opens-gcc-in-hyderabad-to-invest-over-100-million"
+     "tag": "AI Signal",
+     "title": "Agents are live at 71% of firms; only 30% run alone",
+     "visual": {
+      "type": "bars",
+      "title": "Share of enterprise leaders, Zapier survey",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Use or test agents",
+        "value": 88
+       },
+       {
+        "label": "Agents in production",
+        "value": 71
+       },
+       {
+        "label": "Most tasks done unaided",
+        "value": 30,
+        "hot": true
+       }
+      ]
+     },
+     "what": "A Zapier survey of 513 enterprise leaders found 71% have agents in production. Only 30% say agents finish most tasks without human help.",
+     "why": "Adoption is settled. Return, risk and job design are decided in the gap between deployed and autonomous.",
+     "say": "How many of our live agents are assist, supervised or autonomous, and what evidence moves one up?",
+     "deeper": [
+      "Zapier polled the leaders between 16 and 21 September and compared the answers with a similar poll a year earlier. Use or testing of agents rose from 72% to 88%. Zapier sells automation software, so the headline numbers deserve some caution. The more useful finding is the split: most firms have agents running, but people still check or complete most of the work.",
+      "That split is an operating model question, not a technology one. Each agent needs a named owner, a stated level of autonomy and a test for moving to the next level. Without that, cost is added without removing work."
+     ],
+     "sources": [
+      {
+       "title": "Zapier: 88% of enterprises now use or test AI agents",
+       "url": "https://zapier.com/blog/ai-agents-survey/"
+      }
+     ]
     }
    ]
   },
   {
-   "n": 3,
-   "section": "Geopolitics",
-   "minutes": 5,
-   "title": "China's rare earth pause now has a 10 January cliff edge",
-   "figure": {
-    "value": "10 Jan",
-    "label": "new expiry of China's suspended critical-mineral export controls"
-   },
-   "what": "China extended its suspension of some critical-mineral export controls by two months, to 10 January, and the US extended 178 tariff exclusions, before a Trump-Xi meeting.",
-   "why": "Truce extensions buy weeks, not certainty. Materials for chips, motors and batteries can be re-licensed quickly, and your supply plans carry that risk.",
-   "use": "Map which of your products depend on rare earths or magnets, name the tier-two suppliers, and agree a trigger for building buffer stock before 10 January.",
-   "body": [
-    "On 9 November China announced that it would extend, for two months, the suspension of export controls on some critical minerals, according to The National. The pause preserves the broader trade deal reached between Washington and Beijing and now runs to 10 January. China's finance ministry also said a 24 percent tariff on US goods would stay suspended for the same period, while a 10 percent fee remains in place. The United States, for its part, is extending 178 existing Section 301 tariff exclusions for Chinese goods.",
-    "The timing is the message. The extension arrived just before the original deadline and ahead of an expected meeting between the two presidents on the margins of the Asia-Pacific Economic Cooperation summit in Shenzhen, which the report places in the following week. Both sides chose to keep the truce alive instead of letting it lapse in the middle of preparations. That tells you the arrangement is useful to each of them. It does not tell you that it is stable, because a two-month window is a holding action, not a settlement.",
-    "For businesses, the practical significance is in how the instrument works. Rare earth elements and related materials sit upstream of magnets, electric motors, sensors, defence systems and the manufacturing of semiconductors. China holds a dominant position in refining many of them. Suspending controls reduces the immediate risk of an abrupt licensing squeeze, but it leaves the underlying capability in place. A government that can pause a control can restore it, and the notice period between the two decisions can be short.",
-    "A former senior US official quoted in the article said China has overpromised and underdelivered. That comment reflects a view in Washington that commitments on purchases and on minerals have not been fully met. Whether or not you share it, the political reading matters for planning. If one side believes the other is not delivering, extensions get harder to agree each time, and each short extension gives negotiators a new deadline to bargain against. Deadlines create leverage, and leverage creates volatility for companies that sit downstream.",
-    "Technology and AI leaders should care for a specific reason. Data centres, power equipment, robotics and advanced hardware all depend on materials and components whose supply chains run through a small number of countries. A disruption does not need to hit your own purchasing to hurt you. It can hit a tier-two magnet supplier, a cooling-equipment maker or a contract manufacturer, and reach you as a delay or a price rise with no warning. Most firms know their direct suppliers well and their suppliers' suppliers poorly.",
-    "India sits in an interesting position. As a large consumer of electronics and a growing manufacturing base, it is exposed to the same material dependencies, and it also has a policy interest in building domestic and allied supply. Global capability centres in India that support hardware, automotive or industrial clients are often asked to run supply-risk analytics, so they have a practical role. A centre that can model material exposure and alert the business early becomes more valuable to its parent than one that only runs transactions.",
-    "There is also a lesson about how to read geopolitical news. A headline that says a pause has been extended invites relief. A better reading asks three questions: what is the new date, what happens at that date, and who decides. Here the date is 10 January, the default at that date is the return of restrictions unless a further extension is agreed, and the decision sits with two governments in a negotiation. Plan on the default, and treat any extension as upside.",
-    "What can you do now? Start with a bill-of-materials review focused on materials that can be restricted, not just on parts that are expensive. Ask your top suppliers directly where their magnets, alloys and specialty chemicals come from, and how many weeks of stock they hold. Identify two or three products where a six-week interruption would stop revenue, and cost the option of holding extra inventory against the cost of a stoppage. Often the buffer is cheaper than a single missed quarter.",
-    "Finally, decide who in your organisation owns this topic, because it often falls between procurement, risk and strategy. Set a date before 10 January for a short decision meeting, and define in advance what outcomes would trigger action: a failed summit, a new licensing notice or a supplier warning. The point is not to forecast the diplomacy, which no one can do reliably, but to make sure your company is not deciding under pressure on the day the pause runs out."
-   ],
-   "sources": [
+   "id": "strategy",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 3,
+   "cards": [
     {
-     "title": "The National: China extends pause on rare earth export curbs for two months",
-     "url": "https://www.thenationalnews.com/news/us/2026/11/09/china-extends-pause-on-rare-earth-export-curbs-for-two-months/"
+     "tag": "Deal decoded",
+     "title": "JD.com takes control of MediaMarkt's parent to enter Europe through stores",
+     "visual": {
+      "type": "stat",
+      "value": "85.2%",
+      "label": "of Ceconomy now held by JD.com and its partner Convergenta"
+     },
+     "what": "JD.com completed its offer for Ceconomy, buying 59.8% for about €1.3 billion at €4.60 a share. Ceconomy is now a subsidiary.",
+     "why": "A Chinese online giant chose to buy shops, customers and local trust in Europe, not to build them slowly.",
+     "say": "Where could we buy distribution and trust faster than we can build it?",
+     "deeper": [
+      "The deal closed on 12 November after merger, foreign investment and EU foreign subsidy clearances. JD.com's partner Convergenta keeps 25.3%, which takes the combined holding to 85.2%. Ceconomy owns the MediaMarkt and Saturn chains. Its results are now consolidated into JD.com's accounts.",
+      "The logic is a swap of strengths. JD.com brings supply chain and logistics technology. Ceconomy brings stores, customers and a familiar brand. With spending at home soft, expansion abroad carries more weight for Chinese retailers. The open question is integration: whether technology can be transferred without disturbing what local customers trust."
+     ],
+     "sources": [
+      {
+       "title": "JD.com: JD.com Completes Voluntary Public Takeover Offer of CECONOMY",
+       "url": "https://www.globenewswire.com/news-release/2026/11/12/3401429/0/en/jd-com-completes-voluntary-public-takeover-offer-of-ceconomy.html"
+      },
+      {
+       "title": "Newsquawk: Daily European Equity Opening News, 12 November 2026",
+       "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---12th-november-2026"
+      }
+     ]
     }
    ]
   },
   {
-   "n": 4,
-   "section": "Transformation",
-   "minutes": 5,
-   "title": "Gerstner kept IBM whole, then made integration the product",
-   "figure": {
-    "value": "$168B",
-    "label": "IBM market value at Gerstner's 2002 retirement, up from $29B in 1993"
-   },
-   "what": "Lou Gerstner took over IBM in April 1993, cancelled the plan to split it up, and bet on integrated solutions, lifting its market value from $29 billion to $168 billion.",
-   "why": "Sometimes the strategic move is refusing the fashionable restructuring. Integration across units can be the customer value that competitors with narrower offers cannot copy.",
-   "use": "Before approving a split, carve-out or reorganisation, write down what customers get only because your units work together, and who owns delivering it.",
-   "body": [
-    "When Lou Gerstner became chairman and chief executive of IBM in April 1993, the company looked like a casualty of its own history. Its core mainframe business was heading toward obsolescence, competitors were undercutting its personal computers, and the previous chief executive had been under pressure to resign and had cut the dividend. The fashionable answer was to break the company up. A plan sometimes called Baby Blues would have split IBM into autonomous business units. Gerstner's first big decision was to reverse it.",
-    "His reasoning is the part worth studying. Customers, he concluded, were struggling to assemble technology from many vendors and wanted someone to integrate it. IBM was one of the few firms with hardware, software, services and research under one roof. Splitting it would have thrown away the one advantage rivals could not easily match. So he kept the company together and repositioned it as a broad-based information technology integrator, selling complete solutions rather than boxes. The strategy was to turn a perceived weakness, size and sprawl, into a capability.",
-    "The culture was the harder problem. Accounts of the period describe an insular and balkanised organisation in which lifetime employment had little to do with performance. Gerstner is reported to have said that the last thing IBM needed right now was a vision. The line is often misread as hostility to strategy. It is better read as a statement about sequence: fix execution, accountability and customer focus first, and the vision will follow from what the company proves it can do.",
-    "Cost and headcount actions were severe. The page on Gerstner records that more than 100,000 employees were laid off over his tenure. That is a human cost that any honest account of the turnaround has to include. It also shows that keeping a company intact did not mean keeping everyone inside it. The decision about structure and the decision about capacity are separate, and Gerstner made them separately: preserve the integrated model, then resize and reshape the organisation to serve it.",
-    "As the strategy matured, IBM made e-business its growth theme, selling services alongside hardware to help customers become network-centric organisations. This is the integrator thesis in action. Instead of competing product by product against specialists, IBM competed on its ability to make the pieces work for a client's business problem. The services emphasis also changed the economics, moving more revenue toward recurring engagements and away from one-time hardware sales, although the detailed financial mix is beyond what the sources here confirm.",
-    "The headline result is stark. Market capitalisation rose from 29 billion dollars in 1993 to 168 billion dollars when Gerstner retired as chief executive in 2002. Market value is an imperfect scoreboard, and part of the rise reflects a strong market through the late 1990s. But the scale of the change is hard to attribute to luck alone, and it shows what can happen when a company stops arguing about its structure and starts agreeing on what customers actually value.",
-    "Why does this matter to a leader today? Because the same debate recurs in every wave of technology change. As AI platforms reshape software and services, firms are tempted to split, spin off or focus, and to chase the valuation of a purer story. Sometimes that is correct. Gerstner's case is a reminder that the test is not whether a structure looks simple to investors, but whether the whole delivers something the parts cannot. Integration is worth keeping only if it is real and someone is accountable for it.",
-    "It also applies inside organisations. A global capability centre that owns engineering, data and operations for its parent can be run as three cost centres or as one integrated capability. The integrated version can solve cross-functional problems faster, but only if leaders insist on shared goals and shared metrics. Without them, the integration exists on the organisation chart and nowhere else. Gerstner's real achievement was forcing the company to behave as one firm, which is a cultural act more than a structural one.",
-    "There are limits to the analogy. IBM in 1993 had enormous scale and a deep customer base to draw on, and it took years and painful cuts to turn the strategy into results. Few firms can copy the move directly. The portable lessons are narrower: test any proposed split against customer value, change culture before you announce a vision, and be honest about the people cost. If you are weighing a reorganisation this quarter, ask which customers benefit from your units working as one, and make sure the answer shapes the plan."
-   ],
-   "sources": [
+   "id": "india",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 3,
+   "cards": [
     {
-     "title": "Wikipedia: Lou Gerstner",
-     "url": "https://en.wikipedia.org/wiki/Lou_Gerstner"
+     "tag": "GCC Watch",
+     "title": "GCCs now out-hire IT services firms by 60,000 a year",
+     "visual": {
+      "type": "bars",
+      "title": "People hired in a year, per recruiter Xpheno",
+      "items": [
+       {
+        "label": "GCCs, FY25",
+        "value": 110,
+        "display": "110K"
+       },
+       {
+        "label": "IT services, FY25",
+        "value": 100,
+        "display": "100K"
+       },
+       {
+        "label": "GCCs, FY26",
+        "value": 180,
+        "display": "180K",
+        "hot": true
+       },
+       {
+        "label": "IT services, FY26",
+        "value": 120,
+        "display": "120K"
+       }
+      ]
+     },
+     "what": "Recruiter Xpheno says GCCs hired 180,000 people in FY26, against 120,000 at IT services firms. A year earlier the gap was 10,000.",
+     "why": "Captive centres now set the talent market. Pay pressure and competition for skills rise for every employer.",
+     "say": "Is our talent plan benchmarked against GCCs, or still against IT services firms?",
+     "deeper": [
+      "The numbers were cited by YourStory. New arrivals keep coming: Starbucks plans its first India centre in Chennai with about 800 hires, and SplashBI is opening in Hyderabad with a stated investment of over $100 million. Mid-size companies are now following the large banks and retailers.",
+      "For leaders, two things follow. Retention plans built for an IT services market are out of date. And the role of a centre is shifting from cost to capability, which changes who it reports to and how its value is measured."
+     ],
+     "sources": [
+      {
+       "title": "YourStory: Starbucks to set up first India GCC in Chennai, plans to hire 800",
+       "url": "https://yourstory.com/2026/09/starbucks-set-up-first-india-gcc-in-chennai-plans-to-hire-800"
+      },
+      {
+       "title": "YourStory: SplashBI opens GCC in Hyderabad, to invest over $100 million",
+       "url": "https://yourstory.com/2026/11/splashbi-opens-gcc-in-hyderabad-to-invest-over-100-million"
+      }
+     ]
     }
    ]
   },
   {
-   "n": 5,
-   "section": "Startup Story",
-   "minutes": 5,
-   "title": "Traversal hit $1 billion by fixing what AI-written code breaks",
-   "figure": {
-    "value": "73,000",
-    "label": "monthly AI investigations, up from 513 at the start of the year"
-   },
-   "what": "Traversal raised $120 million at a $1 billion valuation on 3 November for AI agents that find the root cause of software outages.",
-   "why": "As AI writes more code, the scarce skill moves from writing software to keeping it running. The reliability layer is becoming a product category.",
-   "use": "Ask your engineering head what share of incidents are now traced to AI-assisted changes, and how long root-cause analysis takes. Use the answers to size a pilot.",
-   "body": [
-    "Traversal, a New York startup, announced a 120 million dollar Series B at a 1 billion dollar valuation on 3 November 2026. Kleiner Perkins, Redpoint Ventures and Khosla Ventures co-led, with Sequoia Capital, Battery Ventures and Amex Ventures taking part, and the company has now raised 173 million dollars in total. It emerged from stealth only in June 2025 with 48 million dollars from Sequoia and Kleiner Perkins. Reaching a unicorn valuation in about seventeen months is quick, and the reason is more interesting than the headline.",
-    "The company sells what it calls an AI site reliability engineer. When a service breaks, its agents trace the fault through logs, metrics, code and deployment history, search and test possible causes, and suggest a fix. Behind that sit several components: a model of production that turns telemetry and code into a map an AI can read, a search engine that tests many possible causes at once, and workers that start an investigation the moment an alert fires. It also built a public benchmark with Cornell Tech and Columbia University to test how well general AI agents find root causes.",
-    "The founders matter to the story. Chief executive Anish Agarwal did his doctorate at MIT and has held a faculty post at Columbia. His co-founders include Raj Agrawal, also from MIT, Raaz Dwivedi, who has a Berkeley doctorate and a faculty post at Cornell Tech, and Ahmed Lone, who came from quantitative trading at Citadel Securities. This is a research-led team that chose a hard, specific problem, causal reasoning over messy systems, instead of a general assistant. That choice gave it something harder to copy than a thin layer over a public model.",
-    "Now the problem it addresses. Agarwal told Forbes that AI-written software breaks in fundamentally new ways. The logic is easy to follow. Coding assistants let teams ship more changes, faster, and often with less understanding of each change. The volume of code rises, but the number of people able to diagnose a failure at three in the morning does not. Operational complexity grows with output, so a new bottleneck forms behind the productivity gain. Traversal sells relief for that bottleneck, which is a better pitch than promising to write more code.",
-    "The growth figures are what attracted investors. The company reports that annual recurring revenue has grown nine times since the start of the year, that customers ran more than 150,000 investigations last quarter, and that monthly investigations rose from 513 to nearly 73,000 over the year. These are company-reported numbers, and a nine-fold revenue rise from a small base is easier than from a large one. Still, usage that grows over a hundred times in a year suggests customers are not just trying the product but building it into on-call routines.",
-    "Its customer list includes Nubank, Harvey, DigitalOcean, PepsiCo, American Express and Blackstone. Nubank's founder and chief executive, David Velez, said five weeks into the rollout that it was already becoming part of how on-call engineers work incidents. Notice the mix: a digital bank, a legal AI company, a cloud provider and large traditional enterprises. Reliability pain is not limited to technology firms. Any company that runs critical software and is adopting AI coding tools is a candidate buyer.",
-    "What is the business lesson? Find the second-order problem created by a major wave. The first wave of generative AI created demand for tools that generate code, text and images. The second-order effect was more output to review, test, secure and operate. Startups that serve that downstream burden often face less direct competition from the large model providers, and their value grows with every unit of AI output their customers produce. Traversal is a clean example of selling the shovel's maintenance contract, not the shovel.",
-    "There are risks to weigh. Autonomous diagnosis is only as good as the telemetry and access it receives, and giving an agent access to production systems raises security and change-control questions. Valuations at this stage assume the lead can be defended against cloud platforms and observability vendors, which are moving into the same space. A buyer should expect consolidation, price changes and shifting partnerships over the next two years, and should avoid long lock-ins until the category settles.",
-    "What should you do with this? Start with your own data. Pull the last quarter's major incidents, tag how many involved AI-assisted changes, and measure how many hours went into finding the cause rather than fixing it. If diagnosis consumes a large share of the time, a pilot of an AI reliability tool is justified, with clear guardrails on access and a defined success measure. If you run a capability centre that owns platform operations, this is also a concrete way to show the business how AI changes engineering work."
-   ],
-   "sources": [
+   "id": "markets",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Thursday, 12 November",
+    "why": "Nvidia's CEO exit and a 3% jump in oil pulled Asia and Wall Street down. Europe and India still closed higher.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,299.35",
+      "change": 0.18
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "81,911.01",
+      "change": 0.04
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "60,819.36",
+      "change": -0.7
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "24,008.55",
+      "change": -1.26
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,655.83",
+      "change": -0.67
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,863.56",
+      "change": 0.26
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "26,816.06",
+      "change": 0.57
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,592.40",
+      "change": -0.35
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "25,366.09",
+      "change": -0.39
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "52,297.09",
+      "change": -0.36
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "Under $3,950",
+      "change": -1.0
+     },
+     {
+      "name": "Brent crude",
+      "value": "$95.82",
+      "change": 3.3
+     },
+     {
+      "name": "USD/INR",
+      "value": "94.04",
+      "change": 0.35,
+      "note": "33 paise weaker"
+     }
+    ],
+    "sources": [
+     {
+      "title": "Business Standard: Sensex ends volatile session marginally higher, Nifty at 25,299",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"
+     },
+     {
+      "title": "Armenpress: Asian Stocks, 12-11-26",
+      "url": "https://armenpress.am/en/article/1265507"
+     },
+     {
+      "title": "Investing.com: European shares close at new high",
+      "url": "https://ph.investing.com/news/stock-market-news/european-shares-hit-record-highs-as-defensive-appeal-offsets-nvidia-shock-2693944"
+     },
+     {
+      "title": "MLQ: European stocks close higher (Investing.com closing quotes)",
+      "url": "https://mlq.ai/news/european-stocks-close-higher-as-burberry-and-munich-re-outweigh-a-chip-selloff-after-nvidias-ceo-exit/"
+     },
+     {
+      "title": "AP via Yahoo Finance: How major US stock indexes fared Thursday 11/12/2026",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211731317.html"
+     },
+     {
+      "title": "PTI via The Sen Times: Gold falls Rs 2,200 in Delhi",
+      "url": "https://thesentimes.com/gold-falls-rs-2200-to-rs-1-43-lakh-10gm-in-delhi-silver-remains-steady/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "builder",
+   "title": "Builder edition",
+   "sub": "Fridays only. What sells, distribution, gaps",
+   "minutes": 3,
+   "cards": [
     {
-     "title": "The Next Web: Traversal raises $120M at a $1B valuation to fix what AI code breaks",
-     "url": "https://thenextweb.com/news/traversal-120m-series-b-1b-valuation-ai-sre"
-    },
-    {
-     "title": "Tech Startups: Startup Funding News Today, November 4, 2026",
-     "url": "https://techstartups.com/2026/11/04/startup-funding-news-today-november-4-2026-fal-traversal-lingchuan-technology-more/"
+     "tag": "Builder: what sells",
+     "title": "AI apps earn 41% more per payer, then lose them faster",
+     "visual": {
+      "type": "bars",
+      "title": "Annual subscribers still paying after a year, RevenueCat",
+      "unit": "%",
+      "items": [
+       {
+        "label": "AI apps",
+        "value": 21.1,
+        "hot": true
+       },
+       {
+        "label": "Other apps",
+        "value": 30.7
+       }
+      ]
+     },
+     "what": "RevenueCat data shows AI apps earn $30.16 per payer in year one, against $21.37. Only 21.1% of annual subscribers stay.",
+     "why": "AI helps sell the first subscription. It does not yet keep the customer, and every use has a cost.",
+     "say": "Pick one app. Measure who is still active in month two before adding any AI feature.",
+     "sayLabel": "Try it this week",
+     "deeper": [
+      "The figures come from RevenueCat's 2026 State of Subscription Apps report, built on more than 115,000 apps. AI apps also convert trials to paid at 8.5%, against 5.6% for others. So the front of the funnel is strong. The weakness appears later: 21.1% annual retention against 30.7%.",
+      "For a solo builder, that points to where effort pays. A sharper paywall adds little if the habit is missing. Decide what a user should come back for each week, build that first, and treat the AI feature as a reason to stay, not just a reason to try."
+     ],
+     "sources": [
+      {
+       "title": "PPC Land: AI apps earn 41% more per user but churn 30% faster, RevenueCat finds",
+       "url": "https://ppc.land/ai-apps-earn-41-more-per-user-but-churn-30-faster-revenuecat-finds/"
+      },
+      {
+       "title": "E-Commerce Times: AI Apps Generate Revenue but Struggle With Retention",
+       "url": "https://www.ecommercetimes.com/?p=178505"
+      },
+      {
+       "title": "RevenueCat: State of Subscription Apps 2026",
+       "url": "https://www.revenuecat.com/state-of-subscription-apps-2026/"
+      }
+     ]
     }
    ]
   },
   {
-   "n": 6,
-   "section": "History",
-   "minutes": 5,
-   "title": "Kodak invented the digital camera in 1975 and still lost the decade",
-   "figure": {
-    "value": "1975",
-    "label": "year Kodak's engineers built the first digital camera"
-   },
-   "what": "Kodak built a digital camera in 1975 yet filed for bankruptcy in 2012, after high-margin film sales fell faster than low-margin digital products could replace them.",
-   "why": "Invention is not the hard part. The hard part is letting a new product cannibalise a profitable one before someone else does.",
-   "use": "Name the most profitable product your team would be unwilling to cannibalise. Ask who is building its replacement, and what would make you launch it first.",
-   "body": [
-    "The story of Kodak is usually told as a failure to see the future. That version is wrong, and the correction is what makes it useful. Kodak engineer Steve Sasson built a digital camera in 1975. The company understood the technology early, held deep expertise in imaging, and had a global brand. In 2012 it filed for bankruptcy. The gap between those two dates is not a story of ignorance. It is a story of incentives, and of how hard it is to act against your own profit pool.",
-    "The economics explain much. Film was a high-margin business, and every roll sold created demand for processing and paper as well. Digital cameras, by contrast, had low margins and were undercut by Asian competitors. According to the historical summary, high-margin film sales fell while digital products brought in less profit per unit. Every digital camera sold to a customer was a lost stream of film purchases. Inside the company, the new business looked smaller and poorer than the old one, and each budget meeting favoured the old one.",
-    "Competition added pressure from a different direction. Kodak's share of the US film market declined from 80.1 percent to 74.7 percent in 1997, while Fujifilm's rose from about 10 percent in the early 1990s to 17 percent. Fujifilm had entered the US market in 1958, beaten Kodak to become the official film of the 1984 Los Angeles Olympics, and used aggressive marketing and price cutting. Kodak had to defend its core against a hungry rival at the same time as it faced a technological shift that threatened to remove the core entirely.",
-    "The contrast with Fujifilm is the sharpest lesson. The same sources describe Fujifilm as more successful at diversifying, including into digital photography. Both firms saw the same shift. One of them treated film as a declining asset to be managed while building new businesses around its capabilities. The other, Kodak, attempted diversification into chemical operations and printer ink that did not work. The difference was not foresight but execution in choosing adjacent businesses where its strengths still counted for something.",
-    "A common reading says Kodak's leaders were complacent. The more accurate view is that they were rational inside a system that rewarded the wrong thing. Quarterly results depended on film. Careers were built in film. Distribution relationships, advertising and manufacturing all assumed film. A manager who proposed accelerating digital was proposing to shrink the division that paid the bills, and to do it before the market forced the issue. Few organisations reward that behaviour, which is why so few do it.",
-    "This pattern is the one to watch in the current wave of AI. Many established firms earn healthy margins from work that AI can compress: analysis, coding, document handling, support functions and professional services. The temptation is to adopt AI as a cost tool at the edges while protecting the revenue line that depends on the old way of working. That is the film strategy. It feels safe each quarter, and the risk accumulates in the background until a competitor sets a new price for the same outcome.",
-    "There is also a lesson about what counts as early warning. The signal that mattered at Kodak was not the existence of the technology, which the company had, but the pace at which customers and competitors adopted it. Leaders who track internal prototypes will feel reassured. Leaders who track external behaviour, such as buyer expectations, competitor pricing and the way new entrants package the product, will see the threat sooner. Ask what your customers' younger teams already do without you.",
-    "What can a leader do about it? Create a protected route for the cannibalising product, with its own goals, its own metrics and a different time horizon. Make a named executive accountable for the replacement of your best-selling offer, and reward progress on it even when it reduces the current line's numbers. Set a date for a decision rather than leaving it to drift. And publicly define what would cause you to retire your own product, so that the debate happens before the market forces it.",
-    "There is an important caveat. Cannibalising too early can also destroy value, and not every new technology deserves a bet. The aim is not to chase every change but to keep the option alive and the capability current, so that you can move quickly when the signals confirm. Kodak's lesson is that having the invention in a laboratory is worth little if the organisation is built to protect the product it was meant to replace. Review your own portfolio with that question this quarter."
-   ],
-   "sources": [
-    {
-     "title": "Wikipedia: Kodak",
-     "url": "https://en.wikipedia.org/wiki/Kodak"
-    }
-   ]
-  },
-  {
-   "n": 7,
-   "section": "Mind + Science",
-   "minutes": 5,
-   "title": "The planning fallacy: your timeline is a wish, so borrow someone else's",
-   "figure": {
-    "value": "55.5",
-    "label": "days students actually needed, against 33.9 predicted"
-   },
-   "what": "In a 1994 study, students predicted 33.9 days for their thesis and took 55.5, longer even than their own worst-case guess of 48.6.",
-   "why": "Teams plan from the best case in their heads. Using outcomes from similar past projects corrects the bias that internal estimates cannot.",
-   "use": "For your next plan, find five similar past projects, take their actual durations and costs, and compare them with your estimate before you commit a date.",
-   "body": [
-    "Every leader has approved a plan that looked sensible and then ran late. The behavioural science behind this has a name: the planning fallacy, a concept associated with Daniel Kahneman and Amos Tversky from 1979. It describes the tendency to underestimate the time, cost and risk of a planned action, even when we know that similar projects have overrun. The bias is stubborn because it does not come from carelessness. It comes from the way people build an estimate in the first place.",
-    "The best-known evidence is a 1994 study by Roger Buehler and colleagues, in which 37 psychology students estimated how long their senior theses would take. On average they predicted 33.9 days. When asked for a best case, if everything went as well as possible, the answer was 27.4 days. When asked for a worst case, they said 48.6 days. The students then took, on average, 55.5 days. Their actual time was longer than their own worst-case guess, and only about 30 percent finished in the time they had predicted.",
-    "Think about what that means for a project team. People asked for a pessimistic scenario still produced one that was too optimistic. The worst case they imagined was still a story in which the plan mostly worked. The mind builds a forecast by picturing a path from here to done, and that picture leaves out the unplanned: the illness, the dependency, the late decision, the rework. Because the story feels complete, the estimate feels reliable. Confidence and accuracy are not the same thing, and planning exposes the gap.",
-    "A famous case at scale is the Sydney Opera House. The article on the planning fallacy records an expected completion in 1963, with a scaled-down version opening in 1973, a decade later, and a cost of 102 million dollars against an original estimate of 7 million. Those numbers are often cited because the gap is so large. The lesson for leaders is not that big projects are cursed. It is that the first estimate, made when the least is known, tends to be treated as a commitment when it is really a hope.",
-    "The research suggests three practical remedies. The first is called the segmentation effect: breaking a task into smaller parts and estimating each, which tends to surface work that a single global guess hides. The second is implementation intentions, where people specify when, where and how they will carry out each step, turning a vague plan into a scheduled one. The third, and probably the most powerful for organisations, is reference class forecasting, which predicts the outcome of a planned action from actual outcomes of similar actions.",
-    "Reference class forecasting works because it replaces the inside view with the outside view. The inside view asks how this project will unfold, given its particular plan and team. The outside view asks how projects like this one have actually gone. The second question is harder to answer flatteringly. If similar migrations ran forty percent over time, then a plan that claims to be on time needs a reason it will beat the pattern, and enthusiasm is not a reason. The method is humbling, which is exactly why it helps.",
-    "This matters in current work because many leaders are now planning AI programmes, platform migrations and capability-centre builds, areas with thin internal history and high excitement. Both conditions make the fallacy worse. When there is little experience to draw on, teams lean on the best case and on vendor timelines. A useful discipline is to ask for the reference class explicitly: which comparable programmes in this company or in the industry have run, how long did they take, and what happened to scope along the way.",
-    "There is also a social side. Leaders often reward the person who commits to the aggressive date and punish the one who offers a realistic range, which teaches everyone to give optimistic numbers. Changing this requires visible behaviour. Ask for ranges instead of single dates. Praise estimates that later prove accurate. Treat a flagged risk as useful information, not disloyalty. The fastest way to improve the quality of plans is to make it safe to say that the plan is probably too short.",
-    "To use this now, take your most important live project and run three steps this week. First, split the remaining work into pieces of no more than two weeks each and re-estimate. Second, find at least five similar past projects and write down how far each one overran. Third, set your commitment at the level the reference class supports, and keep the stretch date as an internal goal. You will probably communicate a later date, and you will probably hit it, which is a better trade than a confident date that slips."
-   ],
-   "sources": [
-    {
-     "title": "Wikipedia: Planning fallacy",
-     "url": "https://en.wikipedia.org/wiki/Planning_fallacy"
-    }
-   ]
-  },
-  {
-   "n": 8,
-   "section": "Track and Watch",
-   "minutes": 2,
-   "title": "Five dates from Shenzhen to Santa Clara and the GCC decade",
-   "what": "Five dated events and trends, from a Trump-Xi meeting and Nvidia's results to the January mineral deadline.",
-   "why": "Each one tests a claim made in today's edition: supply risk, AI infrastructure demand, agent reliability and the Indian talent market.",
-   "use": "Pick two items that touch your plans and put a decision date for each in your calendar before the event, not after it.",
-   "watch": [
-    {
-     "when": "Week of 16 Nov",
-     "title": "Trump-Xi meeting at APEC in Shenzhen",
-     "why": "The expected meeting is the next test of the US-China truce. Watch for any change to chip, mineral or tariff terms that alters your supply planning."
-    },
-    {
-     "when": "17 Nov",
-     "title": "Nvidia third-quarter FY27 results and CFO commentary",
-     "why": "Results land at about 1:20 p.m. PT. Look at data centre demand and agent-related infrastructure comments, as a read on how fast enterprises are building."
-    },
-    {
-     "when": "10 Jan 2027",
-     "title": "China's suspended critical-mineral controls expire",
-     "why": "The two-month extension runs out on this date. Without another extension, licensing pressure on materials used in chips and motors could return."
-    },
-    {
-     "when": "Through 2027",
-     "title": "AI reliability tools move into the mainstream",
-     "why": "Traversal's growth suggests incident diagnosis is becoming a product category. Watch cloud and observability vendors respond with their own agents and bundled pricing."
-    },
-    {
-     "when": "Through 2031",
-     "title": "Embark projects 1 to 1.4 million new GCC jobs in India",
-     "why": "The estimate, reported by YourStory, frames the talent contest ahead. Track whether hiring, pay and attrition at centres keep pace with it."
-    }
-   ],
-   "body": [],
-   "sources": [
-    {
-     "title": "NVIDIA: NVIDIA Sets Conference Call for Third-Quarter Financial Results",
-     "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
-    },
-    {
-     "title": "The National: China extends pause on rare earth export curbs for two months",
-     "url": "https://www.thenationalnews.com/news/us/2026/11/09/china-extends-pause-on-rare-earth-export-curbs-for-two-months/"
-    },
-    {
-     "title": "The Next Web: Traversal raises $120M at a $1B valuation",
-     "url": "https://thenextweb.com/news/traversal-120m-series-b-1b-valuation-ai-sre"
-    },
-    {
-     "title": "YourStory: Starbucks to set up first India GCC in Chennai (related coverage lists the Embark report)",
-     "url": "https://yourstory.com/2026/09/starbucks-set-up-first-india-gcc-in-chennai-plans-to-hire-800"
-    }
-   ]
+   "id": "question",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "If a critical supplier lost its chief executive tonight, which of our programmes would slip first?",
+    "context": "Prompted by Nvidia. Most risk registers rank suppliers by spend. Few rank them by how much of the roadmap depends on one firm's delivery, pricing or leadership."
+   }
   }
- ],
- "stack": {
-  "company": "Nvidia",
-  "title": "Nvidia now sells the safety layer for agents, in silicon",
-  "figure": {
-   "value": "30x",
-   "label": "agentic throughput per megawatt claimed for Vera Rubin NVL72"
-  },
-  "what": "On 21 October at GTC Berlin, Nvidia launched the OpenShell Reference Architecture, joining Vera Rubin, Vera CPUs and BlueField-4 to run, monitor and stop AI agents.",
-  "why": "The chip vendor is moving into agent governance. Your security, platform and infrastructure choices are converging into one decision.",
-  "use": "Ask your CIO and CISO whether agent controls are planned in software only, and whether hardware-level enforcement belongs in the next infrastructure refresh.",
-  "layers": [
-   {
-    "layer": "Compute",
-    "name": "Vera Rubin NVL72",
-    "note": "Rack-scale systems for pretraining, post-training and inference. Nvidia claims 30x agentic throughput per megawatt."
-   },
-   {
-    "layer": "Models",
-    "name": "Nemotron",
-    "note": "Nvidia's open model family, one of the models that can run on OpenShell infrastructure alongside closed models."
-   },
-   {
-    "layer": "Runtime",
-    "name": "OpenShell, Vera CPUs",
-    "note": "Open-source secure runtime for agents, with Vera CPUs running the agent harness and tool use."
-   },
-   {
-    "layer": "Govern",
-    "name": "BlueField-4, Sentry",
-    "note": "DPUs monitor agent behaviour out of band and enforce policy in silicon, quarantining agents that leave their boundary."
-   },
-   {
-    "layer": "Edge",
-    "name": "DGX Spark, Station",
-    "note": "Desktop and edge systems extend the same architecture to retail, healthcare, manufacturing and software teams."
-   }
-  ],
-  "focus": 3,
-  "body": [
-   "On 21 October, at GTC Berlin, Nvidia announced the OpenShell Reference Architecture, now available. It joins Vera Rubin infrastructure for model inference, Vera CPUs that run agent harnesses and tool use, and BlueField-4 data processing units running a security framework called Sentry. The pitch is that agents get freedom to act inside clear boundaries, contained, monitored and under control. Jensen Huang framed it as agents thinking on Rubin, acting on Vera and being governed on BlueField.",
-   "The notable move is the governance layer. Sentry gives out-of-band monitoring of agent behaviour and policy enforcement in hardware. If an agent tries to leave its software boundary, Nvidia says Sentry quarantines it in milliseconds, and that the approach lifts agent capacity by up to 20 percent. These are vendor claims and deserve independent testing. The strategic point stands regardless: the company that sells the compute now also proposes to sell the control point that sits beneath your software controls.",
-   "The partner list shows how seriously the ecosystem is taking it. Anthropic, AWS, Google Cloud, Microsoft, OpenAI, SAP, ServiceNow, IBM and Palantir are among those working with the architecture. SAP is integrating it with its Joule Studio runtime. ServiceNow announced general availability of ServiceNow Arc, a personal long-running agent governed at runtime and enforced through OpenShell, with policies that can revoke an agent's access across software and hardware within seconds. BBVA and Santander are exploring it as a framework.",
-   "For an enterprise leader the implication is that agent governance is becoming a stack decision, not just a policy document. Today many firms control agents through identity tools, prompts and application permissions. Hardware enforcement adds a layer that an agent cannot talk its way past, which matters as agents gain access to real systems. It also adds dependence on one supplier. Before committing, ask how policies are defined, who can override them, and whether the same controls work across your clouds.",
-   "For GCCs and transformation programmes the point is practical. Centres that build and run agents for their parents will be asked to prove containment and auditability, and a reference architecture gives them a template and a vocabulary. Platform teams should map OpenShell and Sentry against existing cloud and security tooling, and run a small trial on one agent workflow. Keep one date in view: Nvidia reports third-quarter results on 17 November, where its commentary on agent-driven demand will show how fast this is moving."
-  ],
-  "watch": [
-   {
-    "when": "17 Nov",
-    "title": "Third-quarter FY27 results and CFO commentary",
-    "why": "Results arrive at about 1:20 p.m. PT, with the call at 2 p.m. PT. Look for how Nvidia describes agent and inference demand."
-   },
-   {
-    "when": "Next 6 months",
-    "title": "Security and platform vendors ship OpenShell integrations",
-    "why": "Cybersecurity and enterprise software partners are building support now. Early integrations will show whether hardware enforcement fits existing tools."
-   }
-  ],
-  "sources": [
-   {
-    "title": "NVIDIA: NVIDIA Launches OpenShell Reference Architecture for Safe AI Agents",
-    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-OpenShell-Reference-Architecture-for-Safe-AI-Agents/default.aspx"
-   },
-   {
-    "title": "NVIDIA: NVIDIA Sets Conference Call for Third-Quarter Financial Results",
-    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
-   }
-  ],
-  "next": "Meta"
- }
+ ]
 }

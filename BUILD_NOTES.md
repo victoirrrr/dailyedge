@@ -1,22 +1,17 @@
-# Daily Edge v3 build notes (resume file)
+# Daily Edge v4 build notes
 
-Goal: home page with six sections in two groups.
-- Work: Stock Watch (world indexes, yesterday's move and why), Daily Edge (8 short reads: 4 news, 2 good to know, 1 startup, 1 story), Tech to learn (weekly track, one step per weekday; Stack Watch folded in here)
-- Build: What's selling in vibe-coded apps (Mon), Distribution playbook (Wed), Underserved AI-first markets (Fri)
+Goal: a digest that fits 20 minutes and never feels like reading. Seven blocks, one phone screen per item, about 60 words per card, depth behind a tap.
 
-Rules: plain language, reads 300 to 400 words, about 15 minutes a day, visuals drawn from data, no em dashes, sources on everything. Palette: paper #F3F2EF, graphite #1B1E22, orange #EE5A2E.
+Blocks and minutes: Top 3 that matter (5), AI in the enterprise (4), Strategy move decoded (3), India and GCC lens (3), Markets in 60 seconds (1), One idea to keep or, on Fridays, Builder edition (3), Question of the day (1).
 
-Edition schema v3 (editions/YYYY-MM-DD.json): existing keys plus
-- markets {asof, title, summary, indexes[{name,region,close,change,why}], extras[{name,value,change}], body[], sources[]}
-- learn {topic, total, steps[{n,title,body[],diagram[{label,note}],try}], sources[]}
-- build {selling{}, distribution{}, gaps{}} each {updated, title, figure{}, what, why, use, bars[{label,value,unit,note}], body[], sources[]}; gaps also has scores[{label,score}]
-Old editions (8 articles + stack) must still render.
+Card: tag, title (max 12 words), one visual (stat, bars or steps), What, Why it matters, Say it in the room, optional "Go deeper" (70 to 150 words) with sources.
 
-## Status
-- [x] 1. Content for 2026-11-11: markets, learn, build added to the edition file
-- [x] 2. index.html rebuilt (home + section views + visuals)
-- [x] 3. Rendered and checked at phone width
-- [x] 4. Pushed to main and mirrored to artifact fa307d16-f022-41bd-86d6-dc26c3f2e9d7
-- [x] 5. Morning task trig_01EuCQHL7o6Vsxs4DMvo4GSE updated to schema v3
+Appearance: Auto, Light, Dark. Stored on the device under `de-theme`. Palette: paper #F3F2EF, graphite #1B1E22, orange #EE5A2E.
 
-Note (11 Nov): the morning task was found switched off (enabled=false) when its prompt was updated. Not re-enabled; owner to confirm.
+Edition schema v4: {"v":4,"date","label","blocks":[{id,title,sub,minutes,cards[]|markets{}|question{}}]}. Full rules in ops/EDITION_INSTRUCTIONS.md; ops/validate.py enforces them. Editions without "blocks" (v2 and v3) are mapped to blocks by the app so the archive still opens.
+
+## Status (13 Nov 2026)
+- [x] index.html rebuilt for v4 with light and dark mode
+- [x] 2026-11-13 edition rewritten in v4
+- [x] Instructions and validator moved to v4
+- [x] Morning task pointed at ops/EDITION_INSTRUCTIONS.md

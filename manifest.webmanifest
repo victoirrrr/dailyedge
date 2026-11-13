@@ -2,7 +2,7 @@
   "id": "/dailyedge/?app=daily-edge",
   "name": "Daily Edge",
   "short_name": "Daily Edge",
-  "description": "Eight short reads a day on applied AI, GCCs, geopolitics and transformation, with a Sunday recap.",
+  "description": "A 20-minute daily digest in seven blocks: top stories, enterprise AI, strategy, India and GCCs, markets and one question.",
   "start_url": "./?source=app",
   "scope": "./",
   "display": "standalone",

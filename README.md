@@ -1,9 +1,9 @@
 # Daily Edge
 
-A personal daily briefing: 8 short reads on applied AI, GCCs, geopolitics, transformation, startups, history and behavioural science, plus a Sunday recap.
+A personal 20-minute daily digest in seven blocks: Top 3 that matter, AI in the enterprise, Strategy move decoded, India and GCC lens, Markets in 60 seconds, One idea to keep (Builder edition on Fridays) and Question of the day.
 
-- `index.html` is the whole app (static, no build step).
-- `editions/index.json` lists editions; `editions/YYYY-MM-DD.json` holds each day's 8 articles.
-- `recaps/YYYY-MM-DD.json` holds the Sunday recap.
+- `index.html` is the whole app (static, no build step). Light, dark and auto appearance.
+- `editions/index.json` lists editions; `editions/YYYY-MM-DD.json` holds each day's blocks (schema v4). Older editions (8 articles) still open through the "Earlier editions" list.
+- `ops/EDITION_INSTRUCTIONS.md` is what the morning task follows; `ops/validate.py` checks an edition before it is pushed.
 
 New editions are committed every morning at about 7:30 AM IST by a scheduled task. GitHub Pages serves the site from the `main` branch root.
