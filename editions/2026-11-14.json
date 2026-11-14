@@ -1,0 +1,624 @@
+{
+ "v": 4,
+ "date": "2026-11-14",
+ "label": "Saturday, 14 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "group": "News scan",
+   "cards": [
+    {
+     "tag": "Technology",
+     "title": "A Microsoft outage froze email and Teams for over a day",
+     "visual": {
+      "type": "stat",
+      "value": "7.4M",
+      "label": "Downdetector reports worldwide, peaking near 20,000 a minute"
+     },
+     "what": "Exchange Online server failures hit Outlook, Teams and Copilot for over 24 hours. Agencies, airlines and trading firms were affected.",
+     "why": "One vendor's email layer now carries the working day. One server fault stopped communication for businesses and governments.",
+     "say": "Which of our critical processes stop if email and Teams are down for 24 hours?",
+     "deeper": [
+      "The outage began on 12 November, around 1725 GMT by Ookla's count, and was still easing on Friday after more than 24 hours. Microsoft said server problems tied to Exchange Online were behind it. It said it is not aware of malicious activity and has ruled out AI as the cause.",
+      "Euronext, Maersk, Indian airlines and Australian agencies reported effects, and one Taiwanese firm used fax to confirm trades. Morningstar DBRS estimates insured losses of $300 million to $500 million. Microsoft is a vendor and its account of the cause is preliminary, so watch for a full post-incident report."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Microsoft Outlook, Teams outage eases after over a day",
+       "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/"
+      },
+      {
+       "title": "BleepingComputer: Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+       "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "US factory-gate inflation hits 6.5%, a four-year high",
+     "visual": {
+      "type": "stat",
+      "value": "6.5%",
+      "label": "US producer prices in October, year on year, the most since November 2022"
+     },
+     "what": "Producer prices rose 0.3% in October, a little under forecasts, but food and goods prices are climbing. Markets weigh a December Fed hike.",
+     "why": "Dearer money and a stronger dollar reach India through the rupee, bond yields and capital flows.",
+     "say": "What happens to our funding plan if the Fed raises rates in December and again in January?",
+     "deeper": [
+      "Producer prices rose 0.3% in October after an upwardly revised 1.4% jump in September. Food prices rose 1.3% in the month. Diesel is still up 115.2% on a year ago, even after a 7.9% monthly fall. The AI buildout adds pressure: electronic components rose 31.7% year on year.",
+      "Markets are split between a 25 and a 50 basis point Fed rise in December, with another expected in January. The Fed held at 3.75% to 4.00% last month. The dollar index hit its highest level in nearly 19 months on Thursday, and the rupee closed at 94.20 on Friday."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: US producer prices rise moderately in October, but inflation broadens out",
+       "url": "https://www.reuters.com/business/us-producer-prices-rise-further-october-2026-11-13/"
+      },
+      {
+       "title": "PTI via ETV Bharat: Rupee falls 8 paise to settle at 94.20",
+       "url": "https://www.etvbharat.com/en/business/rupee-vs-us-dollar-exchange-rate-on-november-13-2026-enn26111300976"
+      }
+     ]
+    },
+    {
+     "tag": "Geopolitics",
+     "title": "Oil fell 16% in a week, then rebounded; Iran blockade stays",
+     "visual": {
+      "type": "stat",
+      "value": "-16%",
+      "label": "Brent's fall in the week to 6 November, its steepest weekly drop since COVID"
+     },
+     "what": "Brent rebounded on attacks on Saudi energy sites and tankers. It settled near $95.84 on Friday as Trump said he will keep the blockade.",
+     "why": "Energy costs now move on headlines. Plans built on a single oil price can break within days.",
+     "say": "Do our budgets use a range for oil, or one number?",
+     "deeper": [
+      "Brent fell 16% in the week to 6 November, its steepest weekly drop since the start of the COVID pandemic, after President Trump played down new strikes on Iran. It then rose over two sessions on Houthi attacks on Saudi energy infrastructure and attacks on tankers leaving the Gulf.",
+      "On Friday Trump said no deal was needed and the blockade would stay. Brent settled at $95.84 and was heading for a second weekly decline. The war is in its ninth month. EIA data showed US crude stocks up 4.7 million barrels in the week to 6 November."
+     ],
+     "sources": [
+      {
+       "title": "Reuters via Euronext: Oil prices set for second weekly decline as Trump sticks with Iran blockade",
+       "url": "https://live.euronext.com/en/financial-news/oil-prices-set-second-weekly-decline-trump-sticks-iran-blockade"
+      },
+      {
+       "title": "Reuters: Oil down more than $7 a barrel in post settlement trade",
+       "url": "https://www.reuters.com/business/energy/oil-falls-open-trump-says-fresh-iran-attacks-unlikely-2026-11-08/"
+      },
+      {
+       "title": "Business Times: Oil prices set for second straight weekly drop",
+       "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-set-second-straight-weekly-drop-signs-growing-supply-surplus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "group": "News scan",
+   "cards": [
+    {
+     "tag": "Governance",
+     "title": "The Fed ranks AI debt top of its financial risk list",
+     "visual": {
+      "type": "stat",
+      "value": "87%",
+      "label": "of Fed survey contacts cite AI as a risk, up from 50% in May"
+     },
+     "what": "AI-related debt issuance hit $680 billion by October 2026, nearly a third of investment-grade corporate issuance, says the Fed.",
+     "why": "Your AI suppliers are funded by complex, circular deals. A funding shock could hit their delivery, pricing and survival.",
+     "say": "Which of our AI vendors depend on that debt, and what is our exit plan?",
+     "deeper": [
+      "The Fed's Financial Stability Report, released on 13 November, found advanced computing debt issuance was five times the whole of 2023. Debt, guarantees and leases not yet started could exceed $3 trillion. The Fed likened the cycle to the late 1990s telecom boom.",
+      "It warned that circular financing can let big firms absorb losses, yet leave their true exposure far above what balance sheets show. The survey ran in September and October, before Nvidia's CEO exit. Watch hedge fund leverage, which is at its highest since 2013."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: AI rockets to top of worries about financial system in latest Fed survey",
+       "url": "https://www.reuters.com/business/finance/ai-rockets-top-worries-about-financial-system-latest-fed-survey-2026-11-13/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "group": "News scan",
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Anglo American exits De Beers; Botswana becomes top shareholder",
+     "visual": {
+      "type": "stat",
+      "value": "30%",
+      "label": "Botswana's planned De Beers stake, doubled from 15% under the Anglo sale"
+     },
+     "what": "Anglo is selling De Beers to a consortium led by a former De Beers CEO. Botswana will double its holding to 30%.",
+     "why": "A miner is shedding a business hurt by falling prices and synthetics, and handing control to producer countries.",
+     "say": "Which of our units is worth more to someone else, and who would pay most?",
+     "deeper": [
+      "Anglo American put De Beers up for sale in 2024 as part of a wider restructuring, as diamond prices fell and synthetic stones gained ground. The preferred bidder is the Global Diamond Consortium, led by former De Beers CEO Gareth Penny. Botswana holds a right of first refusal, so its backing was key.",
+      "Namibia, Angola and Oman are also working towards co-ownership, and Richemont and Signet are among firms in talks to join. Binding documents are not yet signed, so terms can still change."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Botswana to double De Beers holding under Anglo stake sale",
+       "url": "https://www.reuters.com/world/africa/botswana-will-double-de-beers-stake-30-part-anglo-stake-sale-2026-11-09/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "group": "News scan",
+   "cards": [
+    {
+     "tag": "RBI Watch",
+     "title": "India's inflation breaks the RBI's 6% limit; a December hike looms",
+     "visual": {
+      "type": "stat",
+      "value": "6.09%",
+      "label": "India's October inflation, above the RBI's 6% limit for the first time"
+     },
+     "what": "Food inflation rose to 8.94%. Economists expect another 25 basis point rate rise in December.",
+     "why": "Borrowing costs rise for firms and households. The RBI's repo rate is 5.50% today after its first hike in nearly four years.",
+     "say": "If rates rise 25 basis points in December, which rupee loans or capex plans need a recheck?",
+     "deeper": [
+      "Food is nearly 40% of the CPI basket, and onions, garlic and ginger led the rise. Core inflation rose to 4.5%, according to IDFC First Bank. The RBI expects inflation to average 6% in October to December. An Axis Bank economist expects readings above 6% until June 2027.",
+      "The 10-year bond held at 7.25%, and traders still bet on about 100 basis points of hikes. Brent had eased to about $92 when Reuters reported this, which helped the rupee. The rupee closed at 94.20 per dollar on Friday."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: India's inflation breaches central bank's 6% limit, bolsters case for rate hikes",
+       "url": "https://www.reuters.com/world/india/india-october-inflation-tops-rbis-6-limit-strengthens-case-rate-hikes-2026-11-12/"
+      },
+      {
+       "title": "Times of India: At 6.09%, retail inflation breaches RBI's upper tolerance limit",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/at-6-09-retail-inflation-breaches-rbis-upper-tolerance-limit-after-two-years/articleshow/135782584.cms"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "group": "News scan",
+   "markets": {
+    "asof": "Closes of Friday, 13 November",
+    "why": "Nvidia's slide and rate-hike worries hit tech, and the Hang Seng fell 1.55%. Oil was steady and gold edged up.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,144.30",
+      "change": -0.61
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "81,592.45",
+      "change": -0.39
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "61,142.35",
+      "change": 0.53
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "23,637.60",
+      "change": -1.55
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,634.35",
+      "change": -0.59
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,902.56",
+      "change": 0.36
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "26,757",
+      "change": null,
+      "note": "Unverified"
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,561.67",
+      "change": -0.4
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "25,136.27",
+      "change": -0.91
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "52,347.55",
+      "change": 0.1
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,881.75",
+      "change": 0.14,
+      "note": "Spot"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$95.84",
+      "change": 0.02
+     },
+     {
+      "name": "USD/INR",
+      "value": "94.20",
+      "change": 0.09,
+      "note": "8 paise weaker"
+     }
+    ],
+    "sources": [
+     {
+      "title": "AP via KRMG: How major US stock indexes fared Friday 11/13/2026",
+      "url": "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/"
+     },
+     {
+      "title": "Armenpress: Asian Stocks up, 13-11-26",
+      "url": "https://armenpress.am/en/article/1265619"
+     },
+     {
+      "title": "Business Standard: Sensex snaps 3-day winning run, Nifty at 25,144",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+     },
+     {
+      "title": "PTI via ETV Bharat: Rupee falls 8 paise to settle at 94.20",
+      "url": "https://www.etvbharat.com/en/business/rupee-vs-us-dollar-exchange-rate-on-november-13-2026-enn26111300976"
+     },
+     {
+      "title": "Business Times: Oil prices set for second straight weekly drop",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-set-second-straight-weekly-drop-signs-growing-supply-surplus"
+     },
+     {
+      "title": "Trading Economics: Gold; Germany DAX",
+      "url": "https://tradingeconomics.com/commodity/gold"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "title": "Concept of the day",
+   "sub": "Pre-mortem",
+   "minutes": 3,
+   "group": "Learn",
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Pre-mortem: imagine the plan failed, then ask why",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Imagine failure",
+        "note": "Assume the plan failed a year from now.",
+        "hot": true
+       },
+       {
+        "label": "List reasons",
+        "note": "Each person writes causes alone, then shares."
+       },
+       {
+        "label": "Fix the plan",
+        "note": "Add safeguards against the likeliest causes."
+       }
+      ]
+     },
+     "whatLabel": "The idea",
+     "what": "Before launch, assume the project has failed. Each person writes down why. Then change the plan to fix those reasons.",
+     "whyLabel": "When to use it",
+     "why": "Before approving programmes, launches or migrations, when optimism is high and doubters stay quiet.",
+     "sayLabel": "Use it this week",
+     "say": "Pick one live plan. Ask the team for three reasons it failed, then rank them.",
+     "deeper": [
+      "Psychologist Gary Klein described the premortem in Harvard Business Review in September 2007. It builds on research into prospective hindsight by Deborah Mitchell, Jay Russo and Nancy Pennington in 1989.",
+      "It does not predict the future. It makes it safe to voice doubts early, when changing course is cheap. It works best when people write their reasons alone first, so senior voices do not set the list."
+     ],
+     "sources": [
+      {
+       "title": "Harvard Business Review: Performing a Project Premortem (Gary Klein, 2007)",
+       "url": "https://hbr.org/2007/09/performing-a-project-premortem"
+      },
+      {
+       "title": "ResearchGate: Performing a Project Premortem",
+       "url": "https://www.researchgate.net/publication/3229642_Performing_a_Project_Premortem"
+      }
+     ]
+    },
+    {
+     "tag": "The evidence",
+     "title": "Imagining failure produced about 30% more reasons in a 1989 study",
+     "visual": {
+      "type": "bars",
+      "title": "Reasons given for an outcome, index (plain forecast = 100), 1989 study as reported",
+      "items": [
+       {
+        "label": "Plain forecast",
+        "value": 100
+       },
+       {
+        "label": "Imagined it had happened",
+        "value": 130,
+        "hot": true
+       }
+      ]
+     },
+     "whatLabel": "Example",
+     "what": "Mitchell, Russo and Pennington found that people who imagined an event had already happened gave about 30% more reasons for it.",
+     "whyLabel": "The lesson",
+     "why": "Hindsight framing unlocks risks that forward-looking talk misses, and it makes raising doubts feel safe.",
+     "sayLabel": "Say it in the room",
+     "say": "Assume this launch failed in a year. What are the three most likely reasons?",
+     "deeper": [
+      "The 30% figure is the one usually quoted from the 1989 study, and here it comes from a secondary review, so treat it as a rough guide. The study was small and run in a lab, not in firms.",
+      "A live example: this week's Microsoft outage. A premortem on any move to one email provider asks: a year on, email was down for a day. What did we depend on, and what was our fallback?"
+     ],
+     "sources": [
+      {
+       "title": "Harvard Business Review: Performing a Project Premortem (Gary Klein, 2007)",
+       "url": "https://hbr.org/2007/09/performing-a-project-premortem"
+      },
+      {
+       "title": "Rework: Pre-Mortem, Gary Klein's technique (review of the 1989 research)",
+       "url": "https://resources.rework.com/libraries/project-management/pre-mortem"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "Tech to learn",
+   "sub": "AI agents and tools: step 2 of 5",
+   "minutes": 2,
+   "group": "Learn",
+   "track": {
+    "topic": "How AI agents use tools",
+    "step": 2,
+    "total": 5,
+    "plan": [
+     "What makes an agent an agent",
+     "Tools: how a model takes action",
+     "MCP: one plug for many tools",
+     "Guardrails and human approval",
+     "Cost, failure modes and testing"
+    ],
+    "next": "Google Cloud's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 2 of 5",
+     "title": "A model never acts itself: it asks your code to",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Describe tools",
+        "note": "You give names, purposes and input formats."
+       },
+       {
+        "label": "Model asks",
+        "note": "It returns a structured call, not an action.",
+        "hot": true
+       },
+       {
+        "label": "App runs it",
+        "note": "Your code does the work and checks it."
+       },
+       {
+        "label": "Result returns",
+        "note": "The model reads it, then answers or continues."
+       }
+      ]
+     },
+     "whatLabel": "How it works",
+     "what": "You list tools with names and input formats. The model replies with a structured request. Your software runs it and returns the result.",
+     "whyLabel": "Why it matters",
+     "why": "Control sits with your code. You can limit, log and approve each action before anything real happens.",
+     "sayLabel": "Try it",
+     "say": "Ask your tech team which tools our pilot agent may call, and who approved each.",
+     "deeper": [
+      "This follows Anthropic's developer documentation, and Anthropic is a vendor; other providers use similar patterns. The model never runs anything itself. For tools you define, the reply carries a tool_use block and a stop reason of tool_use. Your app runs it, sends back a tool_result, and the loop repeats until the model gives a final answer.",
+      "A few tools, such as web search, run on the vendor's servers instead. Those results come back without your code in the loop, so check what each tool can do before you switch it on."
+     ],
+     "sources": [
+      {
+       "title": "Claude Platform Docs: How tool use works",
+       "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works"
+      },
+      {
+       "title": "Claude Platform Docs: Tool use with Claude",
+       "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "title": "Case file",
+   "sub": "Maersk, 2017: rebuilding after NotPetya",
+   "minutes": 2,
+   "group": "Learn",
+   "cards": [
+    {
+     "tag": "Resilience",
+     "title": "Maersk rebuilt its whole network in ten days after NotPetya",
+     "visual": {
+      "type": "stat",
+      "value": "10 days",
+      "label": "Maersk's rebuild of 4,000 servers and 45,000 PCs after NotPetya, 2017"
+     },
+     "whatLabel": "Situation and move",
+     "what": "In 2017 NotPetya malware hit Maersk. Staff reinstalled 4,000 servers, 45,000 PCs and 2,500 applications.",
+     "whyLabel": "Result",
+     "why": "The core came back in ten days; full recovery took nearly two months. One estimate puts the cost at $300 million.",
+     "sayLabel": "The lesson",
+     "say": "Have we ever rehearsed rebuilding our core systems from nothing, and how long would it take?",
+     "deeper": [
+      "Maersk's chair Jim Hagemann Snabe called the rebuild a heroic effort over ten days. The ten days covers the network of servers and PCs. The Columbia University case study says full recovery took nearly two months.",
+      "Caveat: the $300 million figure is an estimate quoted by the consultancy LRQA, and other sources differ. The case shows that recovery capacity, not only prevention, decides how bad an outage becomes. It ties to this week's Microsoft outage."
+     ],
+     "sources": [
+      {
+       "title": "Columbia SIPA: NotPetya, a Columbia University Case Study",
+       "url": "https://www.sipa.columbia.edu/sites/default/files/2022-11/NotPetya%20Final.pdf"
+      },
+      {
+       "title": "Cyber Defense Magazine: Maersk reinstalled 45,000 PCs and 4,000 servers",
+       "url": "https://www.cyberdefensemagazine.com/maersk-reinstalled-45000-pcs-and-4000-servers-after-notpetya-attack/"
+      },
+      {
+       "title": "LRQA: NotPetya ransomware attack on Maersk, key learnings",
+       "url": "https://www.lrqa.com/en/insights/articles/notpetya-ransomware-attack-on-maersk-key-learnings/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "title": "Reference shelf",
+   "sub": "Perrow, 1984: Normal Accidents",
+   "minutes": 1,
+   "group": "Learn",
+   "cards": [
+    {
+     "tag": "Book, 1984",
+     "title": "Perrow's Normal Accidents: tight systems fail in ways no one planned",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Many interactions"
+       },
+       {
+        "label": "Little slack"
+       },
+       {
+        "label": "Normal accident",
+        "hot": true
+       }
+      ]
+     },
+     "whatLabel": "Core idea",
+     "what": "In systems with many hidden interactions and little slack, small faults will sometimes cascade into big failures. Perrow called these normal accidents.",
+     "whyLabel": "Why leaders cite it",
+     "why": "It explains why outages recur in cloud, AI and finance, and why more safeguards can add complexity.",
+     "sayLabel": "Line to use",
+     "say": "Our risk is not one weak part; it is parts tied so tightly that one fault spreads.",
+     "deeper": [
+      "Sociologist Charles Perrow published Normal Accidents in 1984. His two warning signs are interactive complexity, where parts affect each other in ways no one foresaw, and tight coupling, where a fault spreads fast and cannot be stopped.",
+      "Other researchers, in the high-reliability school, argue that well-run organisations can avoid many such failures. Both views help when reviewing a vendor outage."
+     ],
+     "sources": [
+      {
+       "title": "Psychology of Safety: Normal Accidents",
+       "url": "https://psychsafety.com/normal-accidents/"
+      },
+      {
+       "title": "Ohio University: Normal Accidents by Charles Perrow",
+       "url": "https://people.ohio.edu/piccard/entropy/perrow.html"
+      },
+      {
+       "title": "High-Reliability.org: Perrow and complex organizations",
+       "url": "https://www.high-reliability.org/PerrowComplex"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "title": "Term of the day",
+   "sub": "Concentration risk",
+   "minutes": 1,
+   "group": "Learn",
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Concentration risk",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "One supplier"
+       },
+       {
+        "label": "One fault"
+       },
+       {
+        "label": "Wide outage",
+        "hot": true
+       }
+      ]
+     },
+     "whatLabel": "Meaning",
+     "what": "The danger of relying heavily on one supplier, platform, region or customer, so a single failure hurts the whole business.",
+     "whyLabel": "Why it is used now",
+     "why": "Microsoft's outage and the Fed's AI debt warning both show shared dependencies that few firms track.",
+     "sayLabel": "Use it in a sentence",
+     "say": "Email and chat sit with one vendor. That is concentration risk, so we need a tested fallback.",
+     "deeper": [
+      "Concentration risk is not the same as using one supplier. It is about what happens when that supplier fails, and whether you have a tested alternative. Reuters said this week's outage deepens questions about reliance on a handful of Big Tech firms."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Microsoft Outlook, Teams outage eases after over a day",
+       "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/"
+      },
+      {
+       "title": "Reuters: AI rockets to top of worries about financial system in latest Fed survey",
+       "url": "https://www.reuters.com/business/finance/ai-rockets-top-worries-about-financial-system-latest-fed-survey-2026-11-13/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "group": "Close",
+   "question": {
+    "text": "If our email and Teams stopped for 24 hours tomorrow, which three decisions could we not take?",
+    "context": "Prompted by Microsoft's outage. Most continuity plans cover data centres, not the daily tools where decisions, approvals and customer messages actually flow."
+   }
+  }
+ ]
+}

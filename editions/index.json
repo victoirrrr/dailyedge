@@ -1,6 +1,7 @@
 {
-  "latest": "2026-11-13",
+  "latest": "2026-11-14",
   "editions": [
+    {"date": "2026-11-14", "label": "Saturday, 14 November 2026", "lead": "A Microsoft outage froze email and Teams for over a day"},
     {"date": "2026-11-13", "label": "Friday, 13 November 2026", "lead": "Nvidia loses its founder CEO overnight; the CFO steps in"},
     {"date": "2026-11-12", "label": "Thursday, 12 November 2026", "lead": "Anthropic's IPO filing is a supplier risk file for every AI buyer"},
     {"date": "2026-11-11", "label": "Wednesday, 11 November 2026", "lead": "Personal AI agents are the new shadow IT, now with admin rights"},
