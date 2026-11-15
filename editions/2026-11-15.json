@@ -1,0 +1,623 @@
+{
+ "v": 4,
+ "date": "2026-11-15",
+ "label": "Sunday, 15 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Applied Materials posts record $10.41 billion quarter on AI chip demand",
+     "visual": {
+      "type": "stat",
+      "value": "+53%",
+      "label": "Applied Materials Q4 revenue growth versus a year earlier, to $10.41 billion"
+     },
+     "what": "Revenue hit $10.41 billion, up 53%. Operating income was $3.66 billion. Management expects chip systems sales to grow over 40% in 2026.",
+     "why": "AI spending is reaching the machines that make chips, so equipment makers give an early read on demand.",
+     "say": "Where is the next bottleneck in our AI supply chain: chips, power or tools?",
+     "deeper": [
+      "Applied Materials reported on 12 November for its fiscal year ended 25 October. Full-year revenue was a record $34.45 billion, up 21%. Non-GAAP earnings per share were $4.16 for the quarter, up 92%. It generated $3.30 billion of operating cash and returned $2.42 billion to shareholders.",
+      "These are the company's own figures and its CEO's outlook. Watch whether other equipment makers and chip buyers confirm the same demand."
+     ],
+     "sources": [
+      {
+       "title": "Applied Materials (SEC filing): Fourth quarter and fiscal year 2026 results",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "A telecom upgrade triggered the longest US ground stop in 25 years",
+     "visual": {
+      "type": "stat",
+      "value": "4+ hrs",
+      "label": "Nationwide US departure halt on 13 November, the longest in 25 years"
+     },
+     "what": "On 13 November US departures stopped for over four hours. A contractor's upgrade to an old telecom system flooded air traffic routers.",
+     "why": "A routine change at one vendor halted a national system. Change control and rollback matter as much as cyber defence.",
+     "say": "Which upgrades by our vendors could stop a critical process, and what is the rollback plan?",
+     "deeper": [
+      "Transportation Secretary Sean Duffy said the stop followed updates by L3Harris to an older communication system, moving from copper wire to fibre. He said one router flooded others with over 1,000 connection attempts about every five seconds. The FAA said it saw zero evidence of anything nefarious or AI-related.",
+      "About 9,000 US flights were cancelled on Friday and over 3,700 on Saturday morning. The FAA expects recovery by the end of Sunday. The cause is the government's account so far, so watch for a formal investigation."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT's Duffy",
+       "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+      },
+      {
+       "title": "Al Jazeera: FAA ground stop lifted: Why were US flights grounded, and what's next?",
+       "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "EU readies 22nd Russia sanctions package before the 26 November summit",
+     "visual": {
+      "type": "stat",
+      "value": "22nd",
+      "label": "Sanctions package now being prepared, due before the 26 to 27 November summit"
+     },
+     "what": "The Commission will present a 22nd package and a plan to fund Ukraine in 2027 before the 26 to 27 November summit.",
+     "why": "Reported measures cover banks, crypto and third-country routes. Firms should screen suppliers and payment partners.",
+     "say": "Have we screened our suppliers and payment partners for links to Russian banks or crypto platforms?",
+     "deeper": [
+      "Reports say the package may add restrictions on banks, crypto platforms and routes through third countries. Ideas also include a ban on Belarusian and Russian athletes at EU-hosted events and visa limits on Russian ex-combatants.",
+      "Separately, EU ambassadors tentatively agreed new listings, which foreign ministers are due to finalise on 16 November. Reports differ on when the full package is adopted, from end of November to a December meeting. Contents are proposals until the Council approves them."
+     ],
+     "sources": [
+      {
+       "title": "Detroit News: EU to present new Russia sanctions package, Ukraine funding measures by year-end",
+       "url": "https://www.detroitnews.com/story/news/world/2026/11/12/eu-present-new-russia-sanctions-package-ukraine-funding-measures-by-year-end/92739360007/"
+      },
+      {
+       "title": "Anadolu: EU preparing 22nd Russia sanctions package, Ukraine funding plan",
+       "url": "https://www.aa.com.tr/en/world/eu-preparing-22nd-russia-sanctions-package-ukraine-funding-plan/4122379"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Governance",
+     "title": "Claude moves into meetings and spreadsheets; admins hold the switches",
+     "visual": {
+      "type": "stat",
+      "value": "Nov 19",
+      "label": "Date Claude Data switches on by default for Enterprise customers"
+     },
+     "what": "Anthropic added Claude Meetings, Whiteboards and Sheets in beta. Calls with external guests need admin approval.",
+     "why": "AI is moving from a chat window into daily work tools. Defaults and admin settings now shape the risk.",
+     "say": "Who decides which new AI features are switched on by default for our staff, and who reviews them?",
+     "deeper": [
+      "Anthropic announced the tools on 10 November. Meetings joins Google Meet calls in beta on Team and Enterprise plans. For Enterprise, Whiteboards and Sheets start disabled, and Claude Data, which builds dashboards from CRM or warehouse links, switches on from 19 November. Team workspaces get all three from the start.",
+      "This follows BetaNews' report. Anthropic is a vendor, so check its documentation and your own contract before changing settings."
+     ],
+     "sources": [
+      {
+       "title": "BetaNews: Claude Meetings joins Google Meet calls in Anthropic push",
+       "url": "https://betanews.com/article/claude-meetings-whiteboards-sheets-anthropic/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Strathcona buys Greenfire to build a faster-growing oil sands major",
+     "visual": {
+      "type": "bars",
+      "title": "Premium on Greenfire's 6 November close, by offer option (Rigzone)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Share offer",
+        "value": 15
+       },
+       {
+        "label": "Cash offer",
+        "value": 39,
+        "hot": true
+       }
+      ]
+     },
+     "what": "Greenfire holders can take 0.25 Strathcona shares or CAD 11 in cash each. The deal is worth up to about US$2.06 billion.",
+     "why": "Leadership is buying years of drilling inventory to grow faster than larger rivals, using shares as currency.",
+     "say": "Is our growth plan bought or built, and how many years of runway does each give us?",
+     "deeper": [
+      "The companies say the merger creates an oil sands major with faster growth than larger rivals. Greenfire plans to lift output to about 60,000 barrels a day over five years. Shareholder meetings are set for January, and regulatory and court approvals are needed.",
+      "Rigzone did not give synergy figures, so the savings case is unproven. The cash option is capped by how many holders choose it, so watch the final mix."
+     ],
+     "sources": [
+      {
+       "title": "Rigzone: Strathcona, Greenfire Agree Oil Sands Merger",
+       "url": "https://www.rigzone.com/news/strathcona_greenfire_agree_oil_sands_merger-09-nov-2026-185042-article/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Macro",
+     "title": "Wholesale inflation may top 12% on Monday; the RBI may hike more",
+     "visual": {
+      "type": "bars",
+      "title": "India wholesale (WPI) inflation, % a year (Business Standard, Ind-Ra)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Aug",
+        "value": 9.92
+       },
+       {
+        "label": "Sep",
+        "value": 11.39
+       },
+       {
+        "label": "Oct (forecast)",
+        "value": 12,
+        "display": "12+",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Wholesale prices rose 11.39% in September. India Ratings expects over 12% for October, with data due Monday 16 November.",
+     "why": "Wholesale prices hit input costs first. Expect pressure on margins, pricing and next year's budgets.",
+     "say": "What does a 12% wholesale print do to our input costs and next year's budget?",
+     "deeper": [
+      "India Ratings said wholesale inflation is driven by energy prices, a weak rupee and base effects, and that it could ease if the West Asia crisis resolves. Its chief economist said the RBI could raise rates by 50 to 75 basis points in this cycle.",
+      "The forecast dates from 15 October and is one agency's view. Retail inflation was 6.09% in October. Check Monday's official release before quoting the October wholesale figure."
+     ],
+     "sources": [
+      {
+       "title": "Business Standard: India's WPI inflation may breach 12%, retail 6% in October: Ind-Ra",
+       "url": "https://www.business-standard.com/economy/news/india-s-wpi-inflation-may-breach-12-retail-6-in-october-ind-ra-126101501030_1.html"
+      },
+      {
+       "title": "India Inflation: Data release calendar 2026-27",
+       "url": "https://indiainflation.com/release-calendar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "group": "News scan",
+   "markets": {
+    "asof": "Closes of Friday, 13 November",
+    "why": "Nvidia's slide and rate-hike worries hit tech, and the Hang Seng fell 1.55%. Oil was steady and gold edged up.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,144.30",
+      "change": -0.61
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "81,592.45",
+      "change": -0.39
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "61,142.35",
+      "change": 0.53
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "23,637.60",
+      "change": -1.55
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,634.35",
+      "change": -0.59
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,902.56",
+      "change": 0.36
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "26,757",
+      "change": null,
+      "note": "Unverified"
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,561.67",
+      "change": -0.4
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "25,136.27",
+      "change": -0.91
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "52,347.55",
+      "change": 0.1
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,881.75",
+      "change": 0.14,
+      "note": "Spot"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$95.84",
+      "change": 0.02
+     },
+     {
+      "name": "USD/INR",
+      "value": "94.20",
+      "change": 0.09,
+      "note": "8 paise weaker"
+     }
+    ],
+    "sources": [
+     {
+      "title": "AP via KRMG: How major US stock indexes fared Friday 11/13/2026",
+      "url": "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/"
+     },
+     {
+      "title": "Armenpress: Asian Stocks up, 13-11-26",
+      "url": "https://armenpress.am/en/article/1265619"
+     },
+     {
+      "title": "Business Standard: Sensex snaps 3-day winning run, Nifty at 25,144",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bn-agrochem-share-split-november-13-126111300069_1.html"
+     },
+     {
+      "title": "PTI via ETV Bharat: Rupee falls 8 paise to settle at 94.20",
+      "url": "https://www.etvbharat.com/en/business/rupee-vs-us-dollar-exchange-rate-on-november-13-2026-enn26111300976"
+     },
+     {
+      "title": "Business Times: Oil prices set for second straight weekly drop",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-set-second-straight-weekly-drop-signs-growing-supply-surplus"
+     },
+     {
+      "title": "Trading Economics: Gold; Germany DAX",
+      "url": "https://tradingeconomics.com/commodity/gold"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Operating leverage",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Operating leverage: fixed costs make profit grow faster than sales",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Fixed costs",
+        "note": "Plants and salaried staff stay put."
+       },
+       {
+        "label": "Sales rise",
+        "note": "Extra revenue arrives without matching cost."
+       },
+       {
+        "label": "Profit jumps",
+        "note": "Operating income outgrows sales.",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Part of your costs are fixed. When sales rise, those costs do not, so operating profit grows faster than sales.",
+     "why": "Use it to judge growth plans, price cuts and capacity decisions. It also works in reverse when sales fall.",
+     "say": "Divide the percent change in operating profit by the percent change in sales. Above 1 means leverage.",
+     "deeper": [
+      "The degree of operating leverage is the percent change in operating income divided by the percent change in sales. It comes from cost accounting and cost-volume-profit analysis, and textbooks do not credit one inventor, so cite it as a standard finance tool.",
+      "A high ratio means many fixed costs. That helps in growth and hurts in a downturn. The ratio holds only within a limited range of sales."
+     ],
+     "sources": [
+      {
+       "title": "Wikipedia: Operating leverage",
+       "url": "https://en.wikipedia.org/wiki/Operating_leverage"
+      },
+      {
+       "title": "The Motley Fool: Degree of operating leverage",
+       "url": "https://www.fool.com/the-ascent/small-business/accounting/degree-of-operating-leverage/"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "The evidence",
+     "title": "Applied Materials: revenue up 53%, operating profit up about 114%",
+     "visual": {
+      "type": "bars",
+      "title": "Applied Materials Q4 FY2026 vs Q4 FY2025, % change (company release, our arithmetic)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Revenue",
+        "value": 53
+       },
+       {
+        "label": "GAAP operating income",
+        "value": 114,
+        "hot": true
+       }
+      ]
+     },
+     "what": "Revenue rose from $6.80 billion to $10.41 billion. GAAP operating income rose from about $1.71 billion to $3.66 billion.",
+     "why": "The leverage ratio is about 2.2. Each 1% of extra sales brought roughly 2.2% more operating profit.",
+     "say": "When sales grow 10%, how much should operating profit grow, and why?",
+     "deeper": [
+      "We worked out last year's operating income from the 25.2% GAAP operating margin on $6,800 million of revenue, so it is approximate. Divide 114% by 53% to get about 2.2.",
+      "GAAP net income grew only 43% because of items below the operating line, while non-GAAP earnings per share rose 92%. This is an upswing. The same leverage cuts profit faster if sales fall. All figures are the company's own."
+     ],
+     "sources": [
+      {
+       "title": "Applied Materials (SEC filing): Fourth quarter and fiscal year 2026 results",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828026073360/exhibit991q42026earningsre.htm"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "MCP, one plug: step 3 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "How AI agents use tools",
+    "step": 3,
+    "total": 5,
+    "plan": [
+     "What makes an agent an agent",
+     "Tools: how a model takes action",
+     "MCP: one plug for many tools",
+     "Guardrails and human approval",
+     "Cost, failure modes and testing"
+    ],
+    "next": "Google Cloud's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 3 of 5",
+     "title": "MCP is one plug that lets AI apps use many tools",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "AI app",
+        "note": "Claude, ChatGPT or an in-house assistant."
+       },
+       {
+        "label": "MCP client",
+        "note": "Speaks the shared protocol for the app."
+       },
+       {
+        "label": "MCP server",
+        "note": "Wraps one tool or data source.",
+        "hot": true
+       },
+       {
+        "label": "Your system",
+        "note": "Files, database, CRM or search."
+       }
+      ]
+     },
+     "what": "MCP is an open standard. Any AI app that speaks it can use any tool that offers an MCP server.",
+     "why": "Build a connector once and reuse it everywhere. It cuts integration work and makes switching AI vendors easier.",
+     "say": "Ask your tech team which of our systems already have MCP servers, and who approved them.",
+     "deeper": [
+      "Anthropic, a vendor, released MCP in November 2024. In December 2025 it was moved to the Agentic AI Foundation under the Linux Foundation, with AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft and OpenAI as platinum members. The foundation says over 10,000 MCP servers are published.",
+      "The official docs compare MCP to a USB-C port for AI. Each server is also a door into your systems, so step 4 covers guardrails and human approval."
+     ],
+     "sources": [
+      {
+       "title": "Linux Foundation: Formation of the Agentic AI Foundation",
+       "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation"
+      },
+      {
+       "title": "Model Context Protocol: What is MCP?",
+       "url": "https://modelcontextprotocol.io/docs/getting-started/intro"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Southwest, 2022: crew software buckled",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case file",
+     "title": "Southwest's crew software could not re-plan, and 16,700 flights vanished",
+     "visual": {
+      "type": "stat",
+      "value": "16,700",
+      "label": "Flights Southwest cancelled over the December 2022 holidays"
+     },
+     "what": "In December 2022 a storm hit. Southwest's crew tool SkySolver could not reassign crews at scale, so it cancelled flights.",
+     "why": "It cancelled about 16,700 flights and estimated losses of $725 million to $825 million.",
+     "say": "Recovery tools are tested only in a crisis. Test them at peak load before it comes.",
+     "deeper": [
+      "Weather was the trigger. Southwest told the Senate that SkySolver was overwhelmed by sorting which pilots and flight attendants could work which flights. The pilots' union said it was never designed to look back. Southwest said it was upgrading software.",
+      "The loss figure is Southwest's own estimate, and weather played a part. Compare today's FAA stop: again an ageing system struggling when conditions changed."
+     ],
+     "sources": [
+      {
+       "title": "CBS News: Southwest Airlines executive apologizes for December meltdown",
+       "url": "https://www.cbsnews.com/amp/texas/news/southwest-capitol-hill-december-meltdown"
+      },
+      {
+       "title": "Dallas Morning News: Southwest Airlines December meltdown came after years of tech failures",
+       "url": "https://dallasnews.com/business/airlines/2023/02/08/southwest-airlines-december-meltdown-came-after-years-of-tech-failures"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Goldratt, 1984: The Goal",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Book, 1984",
+     "title": "Goldratt's The Goal: output is set by the slowest step",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Find constraint",
+        "hot": true
+       },
+       {
+        "label": "Use it fully"
+       },
+       {
+        "label": "Widen it"
+       }
+      ]
+     },
+     "what": "A system's output is capped by its slowest step. Improving anything else adds cost, not output.",
+     "why": "It stops leaders funding fixes in the wrong place. It applies to factories, software teams and approval queues.",
+     "say": "Before we fund another fix, which single step limits our total output today?",
+     "deeper": [
+      "Eliyahu Goldratt introduced the Theory of Constraints in the 1984 novel The Goal, written with Jeff Cox. A fictional plant manager learns to find the bottleneck and organise work around it. Goldratt urged tracking throughput, inventory and operating expense.",
+      "It is a novel, so the plant is invented. Treat it as a teaching tool and test its ideas on your own data."
+     ],
+     "sources": [
+      {
+       "title": "Think Insights: Theory of Constraints",
+       "url": "https://thinkinsights.net/strategy/theory-constraints"
+      },
+      {
+       "title": "Lean Production: Theory of Constraints",
+       "url": "https://leanproduction.com/theory-of-constraints"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Shadow fleet",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Shadow fleet",
+     "visual": {
+      "type": "stat",
+      "value": "632",
+      "label": "Vessels the EU had already listed before its 21st package added 41 more"
+     },
+     "what": "Ageing tankers with hidden ownership that carry sanctioned oil outside normal shipping, insurance and price-cap rules.",
+     "why": "The EU keeps adding vessels, and reported plans also target refineries and the services around these ships.",
+     "say": "Tighter shadow fleet listings could raise shipping and insurance costs on our energy-linked supply routes.",
+     "deeper": [
+      "The EU's Ukraine delegation said its 21st package added 41 vessels to the 632 already sanctioned. It also widened the test to any vessel providing services, supplies or fuel to such ships.",
+      "Counts change with every package, so check the current listing criteria before you rely on a number."
+     ],
+     "sources": [
+      {
+       "title": "EEAS: 21st package of sanctions: EU hits Russian energy, financial services and crypto hard",
+       "url": "https://www.eeas.europa.eu/delegations/ukraine/21st-package-sanctions-eu-hits-russian-energy-financial-services-and-crypto-hard_en"
+      },
+      {
+       "title": "New Voice of Ukraine: EU sanctions against Russia, oil refineries and shadow fleet are on the list",
+       "url": "https://english.nv.ua/nation/eu-sanctions-against-russia-oil-refineries-and-shadow-fleet-are-on-the-list-package-22-coming-50658732.html"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "The FAA stop followed a vendor upgrade. Which of our critical systems could a vendor change halt, and who owns rollback?",
+    "context": "Prompted by the FAA ground stop. Most risk reviews focus on attacks, but change by a trusted vendor can stop operations just as fully. Ask who approves and who can reverse."
+   }
+  }
+ ]
+}
