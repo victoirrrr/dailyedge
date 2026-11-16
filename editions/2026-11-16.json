@@ -1,0 +1,646 @@
+{
+ "v": 4,
+ "date": "2026-11-16",
+ "label": "Monday, 16 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Anthropic's IPO is six times oversubscribed ahead of Wednesday pricing",
+     "visual": {
+      "type": "stat",
+      "value": "6x",
+      "label": "Reported orders versus the 825 million shares on offer in Anthropic's IPO"
+     },
+     "what": "Bloomberg reports orders are about six times the 825 million shares offered at $70 to $78. Pricing is expected on 18 November.",
+     "why": "Heavy demand shows how much the market values AI platforms. Buyers of AI services should expect a well-funded supplier.",
+     "say": "Does our AI vendor strategy still hold if our main supplier is this well funded?",
+     "deeper": [
+      "Reuters says Anthropic aims to raise up to $64.4 billion by selling 825 million shares. At the top of the range it would be worth about $1.02 trillion on shares outstanding after the IPO and a private placement. Trading is expected to start on 19 November. A separate $26 billion private placement at the IPO price goes to seven chip and tech companies, including Nvidia, Alphabet and Microsoft.",
+      "Bankers told investors that existing backers get priority, so some buyers will receive less than they asked for. These are press reports, not company announcements, and the final price, size and dates could change."
+     ],
+     "sources": [
+      {
+       "title": "Investing.com (Reuters): Anthropic's IPO is about six times oversubscribed, Bloomberg News reports",
+       "url": "https://www.investing.com/news/stock-market-news/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-5023345"
+      },
+      {
+       "title": "StockAnalysis: Anthropic's IPO draws about 6 times the orders for its shares",
+       "url": "https://stockanalysis.com/news/anthropic-ipo-six-times-oversubscribed/"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "US and China hold first trade council meeting but reach no deal",
+     "visual": {
+      "type": "stat",
+      "value": "$60B",
+      "label": "Tariff reduction deal Beijing wants Washington to implement first"
+     },
+     "what": "The first trade council meeting ended without a final deal. Beijing wants a $60 billion tariff cut implemented first.",
+     "why": "Tariff terms set import costs and sourcing choices. The talks come ahead of a Xi and Trump summit.",
+     "say": "Which of our products and suppliers are exposed to US-China tariff changes, and what is plan B?",
+     "deeper": [
+      "Reuters reports the two sides met ahead of a Xi and Trump summit. Beijing has urged Washington to implement a $60 billion tariff reduction deal, which it calls a prerequisite for buying more US farm goods. Modern Diplomacy says the video meeting ended with no comprehensive solution.",
+      "Separately, Treasury Secretary Scott Bessent said he expects trade deals with Mexico and Canada, a day after Trump threatened to double tariffs on Mexico. These are each side's stated positions, so watch for the summit date and any signed text."
+     ],
+     "sources": [
+      {
+       "title": "Express Tribune (Reuters): China, US discuss tariffs, farm trade",
+       "url": "https://tribune.com.pk/story/2640355/china-us-discuss-tariffs-farm-trade"
+      },
+      {
+       "title": "Modern Diplomacy: Can China and the US Settle the Tariff Fight at Their First Trade Council Meeting?",
+       "url": "https://moderndiplomacy.eu/2026/11/15/can-china-and-the-us-settle-the-tariff-fight-at-their-first-trade-council-meeting"
+      }
+     ]
+    },
+    {
+     "tag": "Macro",
+     "title": "Japan's economy unexpectedly shrinks as energy costs bite",
+     "visual": {
+      "type": "stat",
+      "value": "-0.1%",
+      "label": "Japan Q3 GDP change, annualized, against a poll forecast of +0.3%"
+     },
+     "what": "Real GDP fell 0.1% annualized in July to September. Economists polled by Reuters expected 0.3% growth. Net exports cut 0.6 points.",
+     "why": "Energy imports are squeezing a big importer. It may complicate the Bank of Japan's plan to raise rates.",
+     "say": "How exposed are our Japan sales and costs to energy prices and a weaker consumer?",
+     "deeper": [
+      "The previous quarter grew 1.4% annualized. CNBC links the fall to higher energy import costs after the Iran war, with household energy subsidies reported to have expired in September. Another report, citing the Cabinet Office, says consumer spending fell 0.3% and blames record rain in Tokyo.",
+      "LSEG puts a 75.6% chance on a Bank of Japan rise of 25 basis points in December. The causes are disputed, so treat the energy story as one explanation."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+       "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+      },
+      {
+       "title": "Mezha: Japan's economy contracts for first time in a year as bad weather weighs on spending",
+       "url": "https://mezha.net/eng/news/mezha-a4a48c4418a286b07a1d16fe_japan-s_economy_contracts/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Governance",
+     "title": "88% use or test AI agents, yet humans stay in the loop",
+     "visual": {
+      "type": "bars",
+      "title": "Enterprise leaders using or testing AI agents, % (Zapier survey)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "2025",
+        "value": 72
+       },
+       {
+        "label": "2026",
+        "value": 88,
+        "hot": true
+       }
+      ]
+     },
+     "what": "Zapier says 88% of enterprise leaders use or test AI agents, up from 72%. Only 30% of adopters say agents handle most tasks alone.",
+     "why": "Adoption is fast but autonomy is limited. Governance decides which tasks agents may do and who checks them.",
+     "say": "Which agent tasks may run without a human check, and who signed that off?",
+     "deeper": [
+      "Zapier published the update on 9 November 2026. Grant Thornton's 2026 survey of 950 leaders found only 5% let agents make high-stakes decisions without human review, and 60% limit agents to moderate-risk tasks.",
+      "Zapier sells automation tools, and surveys are self-reported, so treat both as signals, not measurements. Today's Tech to learn card covers how approval gates work in practice."
+     ],
+     "sources": [
+      {
+       "title": "Zapier: State of agentic AI adoption survey",
+       "url": "https://zapier.com/blog/ai-agents-survey/"
+      },
+      {
+       "title": "Grant Thornton: 2026 AI Impact Survey",
+       "url": "https://www.grantthornton.com/services/advisory-services/artificial-intelligence/2026-ai-impact-survey"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Restructuring",
+     "title": "PepsiCo cuts about 1,000 North America jobs to move faster",
+     "visual": {
+      "type": "stat",
+      "value": "~1,000",
+      "label": "North American roles PepsiCo is cutting, about 0.3% of its 306,000 staff worldwide"
+     },
+     "what": "PepsiCo will cut about 1,000 North America roles over the next week. Its North America CEO says work is too complex and fragmented.",
+     "why": "Leadership is trading headcount for speed after a weak year, with an activist investor watching.",
+     "say": "Are we cutting layers to speed up decisions, or only cutting cost?",
+     "deeper": [
+      "PepsiCo now expects core earnings per share to rise 1% to 2% this year, against a prior aim at the low end of 4% to 6%. Weak beverage volumes and pressure on snack demand are cited. Elliott Investment Management took a stake of about $4 billion a year ago.",
+      "The company has not formally detailed the cuts. The memo was reported by the WSJ and Reuters. Check the next earnings call for savings targets."
+     ],
+     "sources": [
+      {
+       "title": "Fox Business: PepsiCo to cut about 1,000 North American jobs as it seeks to improve performance",
+       "url": "https://www.foxbusiness.com/retail/pepsico-cut-1000-north-american-jobs-seeks-improve-performance"
+      },
+      {
+       "title": "BNN Bloomberg: PepsiCo to cut around 1,000 jobs in North America, WSJ reports",
+       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/09/pepsico-to-cut-around-1000-jobs-in-north-america-wsj-reports/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "GCC Watch",
+     "title": "India's GCC count: over 2,000 by one tally, 1,721 by another",
+     "visual": {
+      "type": "bars",
+      "title": "Estimates of GCCs in India (ANSR, NASSCOM-Zinnov FY2026, AIM tracker)",
+      "items": [
+       {
+        "label": "ANSR",
+        "value": 2000,
+        "display": "2,000+"
+       },
+       {
+        "label": "NASSCOM-Zinnov",
+        "value": 2117,
+        "display": "2,117"
+       },
+       {
+        "label": "AIM tracker",
+        "value": 1721,
+        "display": "1,721",
+        "hot": true
+       }
+      ]
+     },
+     "what": "ANSR says India has over 2,000 GCCs employing over 2.3 million people, adding over 1.5% to GDP. Other trackers differ.",
+     "why": "Counts depend on who measures. Quote the source and method before using a GCC number in a plan.",
+     "say": "Which GCC count and source are we using in our plan, and how was it measured?",
+     "deeper": [
+      "ANSR, which helps firms set up GCCs, says Bengaluru has over 1,000 centres and Hyderabad over 500. It says emerging tier-2 cities host over 220 units, growing about 11% a year. NASSCOM-Zinnov, as cited by one outlet, counts 2,117 GCCs in FY2026. A tracker lists 1,721 as of 14 November across 44 cities.",
+      "Gaps come from different definitions. ANSR is a vendor with a stake in the story. The GCC Summit is on 25 November in Bengaluru."
+     ],
+     "sources": [
+      {
+       "title": "GlobeNewswire: ANSR Research Puts India's GCC Count at More Than 2,000",
+       "url": "https://www.globenewswire.com/news-release/2026/11/05/3397214/0/en/ansr-research-puts-india-s-gcc-count-at-more-than-2-000.html"
+      },
+      {
+       "title": "GCC Explorer: List of GCC Companies in India (2026)",
+       "url": "https://gccexplorer.com/list-of-gcc-companies-in-india"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Friday, 13 November",
+    "why": "Tech fell as Nvidia slid, but the Dow edged up and the S&P 500 still gained 2.5% for the week.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,144.30",
+      "change": -0.61
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "81,592.45",
+      "change": -0.39
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "61,142.35",
+      "change": 0.53
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "23,637.60",
+      "change": -1.55
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,634.35",
+      "change": -0.59
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,902.56",
+      "change": 0.36
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "26,749.95",
+      "change": -0.08
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,561.67",
+      "change": -0.4
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "25,136.27",
+      "change": -0.91
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "52,347.55",
+      "change": 0.1
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,881.75",
+      "change": 0.14,
+      "note": "Spot"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$95.84",
+      "change": 0.02
+     },
+     {
+      "name": "USD/INR",
+      "value": "94.20",
+      "change": 0.09,
+      "note": "8 paise weaker"
+     }
+    ],
+    "sources": [
+     {
+      "title": "AP via KRMG: How major US stock indexes fared Friday 11/13/2026",
+      "url": "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/"
+     },
+     {
+      "title": "Armenpress: Asian Stocks up, 13-11-26",
+      "url": "https://armenpress.am/en/article/1265619"
+     },
+     {
+      "title": "HDFC Sky: Sensex falls 319 points, Nifty slips below 25,150",
+      "url": "https://hdfcsky.com/news/market-close-report-today-november-13-2026-nifty-sensex-decline-as-inflation-oil-weigh"
+     },
+     {
+      "title": "PTI via ETV Bharat: Rupee falls 8 paise to settle at 94.20",
+      "url": "https://www.etvbharat.com/en/business/rupee-vs-us-dollar-exchange-rate-on-november-13-2026-enn26111300976"
+     },
+     {
+      "title": "Ad-hoc-news: DAX slips 0.08% after record run, closes at 26,749.95 points",
+      "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-slips-0-08-prozent-after-record-run-closes-at-26-749-95-points/70506904"
+     },
+     {
+      "title": "Business Times: Oil prices set for second straight weekly drop",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-set-second-straight-weekly-drop-signs-growing-supply-surplus"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Price discovery",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Price discovery: let real orders, not guesses, set the price",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Set a range",
+        "note": "Publish a low and high price."
+       },
+       {
+        "label": "Collect orders",
+        "note": "Buyers state how much they want."
+       },
+       {
+        "label": "Read demand",
+        "note": "Compare orders with supply.",
+        "hot": true
+       },
+       {
+        "label": "Fix the price",
+        "note": "Set it where demand meets supply."
+       }
+      ]
+     },
+     "what": "Publish a price range, collect firm orders, then set the price where demand meets supply. Strong demand can lift the price.",
+     "why": "Use it for pricing, vendor bids and capacity sales whenever you do not know what buyers will pay.",
+     "say": "Before we set a price, can we collect real orders at three price points?",
+     "deeper": [
+      "In book-building, a bank collects investor orders at different prices and then sets the offer price. It is a standard method in share offerings, and no single person is credited with it, so cite it as a standard finance tool.",
+      "Orders are indications, not guarantees, and the seller may favour some buyers over others. The same logic works in auctions, tenders and internal budget rounds."
+     ],
+     "sources": [
+      {
+       "title": "StockAnalysis: Anthropic's IPO is said to be multiple times oversubscribed at $70 to $78 a share",
+       "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "The evidence",
+     "title": "Anthropic's IPO book: about six times the shares on offer",
+     "visual": {
+      "type": "bars",
+      "title": "Anthropic IPO: shares on offer vs reported orders, multiples (Bloomberg via Reuters)",
+      "unit": "x",
+      "items": [
+       {
+        "label": "Shares on offer",
+        "value": 1
+       },
+       {
+        "label": "Orders",
+        "value": 6,
+        "hot": true
+       }
+      ]
+     },
+     "what": "825 million shares at $70 to $78 aim to raise up to $64.4 billion. Orders are about six times that, near 4.95 billion shares.",
+     "why": "Demand far above supply pushes the price toward the top of the range or above.",
+     "say": "When demand is six times supply, what should we do: raise price, widen supply or pick buyers?",
+     "deeper": [
+      "Our arithmetic: six times 825 million is about 4.95 billion shares. Reports say bankers told investors that existing backers get priority, so some buyers will get less than they asked for. Final price and size are expected on 18 November.",
+      "Some outlets say pricing above the range is likely, but that is analysis, not a company statement. Reported orders can fall away before pricing, so treat 6x as a signal."
+     ],
+     "sources": [
+      {
+       "title": "Investing.com (Reuters): Anthropic's IPO is about six times oversubscribed",
+       "url": "https://www.investing.com/news/stock-market-news/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-5023345"
+      },
+      {
+       "title": "StockAnalysis: Anthropic's IPO draws about 6 times the orders for its shares",
+       "url": "https://stockanalysis.com/news/anthropic-ipo-six-times-oversubscribed/"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Agent guardrails: step 4 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "How AI agents use tools",
+    "step": 4,
+    "total": 5,
+    "plan": [
+     "What makes an agent an agent",
+     "Tools: how a model takes action",
+     "MCP: one plug for many tools",
+     "Guardrails and human approval",
+     "Cost, failure modes and testing"
+    ],
+    "next": "Google Cloud's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 4 of 5",
+     "title": "Guardrails: let agents act freely on small things, ask on big ones",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Agent proposes",
+        "note": "Picks a tool and its inputs."
+       },
+       {
+        "label": "Policy check",
+        "note": "Least privilege allows or blocks it."
+       },
+       {
+        "label": "Human approves",
+        "note": "Only for high-impact or irreversible actions.",
+        "hot": true
+       },
+       {
+        "label": "Action runs",
+        "note": "Logged so it can be audited."
+       }
+      ]
+     },
+     "what": "Give agents only the access a task needs. Require a human yes before high-impact actions. Log everything.",
+     "why": "Agents act on real systems. Approval for everything slows work; approval for nothing invites damage.",
+     "say": "Ask which agent actions need human approval, and who is on call to approve them.",
+     "deeper": [
+      "Okta, an identity vendor, describes least privilege for agents as limiting each agent to the resources and actions its current task needs, and treating agents as identities of their own. Anthropic's CISO guide, also a vendor view, describes a single-purpose, least-privilege service account with no human identity attached.",
+      "Grant Thornton's survey found only 5% of firms let agents make high-stakes decisions without human review. Step 5 covers cost, failure modes and testing."
+     ],
+     "sources": [
+      {
+       "title": "Okta: How to implement least privilege for AI agents",
+       "url": "https://www.okta.com/identity-101/how-to-implement-least-privilege-for-ai-agents/"
+      },
+      {
+       "title": "Anthropic: Zero risk isn't the job: a CISO's guide to agentic AI",
+       "url": "https://claude.com/blog/ciso-guide-to-agentic-ai"
+      },
+      {
+       "title": "Grant Thornton: 2026 AI Impact Survey",
+       "url": "https://www.grantthornton.com/services/advisory-services/artificial-intelligence/2026-ai-impact-survey"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Netflix, 2011: Qwikster and a 60% price rise",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case file",
+     "title": "Netflix split its service and raised prices, then lost 800,000 US subscribers",
+     "visual": {
+      "type": "stat",
+      "value": "800,000",
+      "label": "US subscribers Netflix lost in Q3 2011 after its price rise and Qwikster plan"
+     },
+     "what": "In 2011 Netflix raised its combined plan by about 60%, to $15.98. It then announced Qwikster to split DVDs from streaming.",
+     "why": "It ended September with 23.8 million US subscribers, down about 800,000. It dropped Qwikster, and shares fell.",
+     "say": "Test big price or brand changes on customer trust first, and keep a way back.",
+     "deeper": [
+      "AP reported the loss after Netflix had warned of about 600,000. Time blames mostly the backlash to the price rise; a business case study credits both the price rise and Qwikster. Shares fell sharply after the report, by 28% to 35% depending on the AP account.",
+      "Netflix later recovered, so this is a costly trust and communication error, not a failed business. All figures are from 2011 press reports."
+     ],
+     "sources": [
+      {
+       "title": "Time: Netflix Loses 800,000 Subscribers After Price Hike, Qwikster Debacle",
+       "url": "https://techland.time.com/?p=100787"
+      },
+      {
+       "title": "AP via Washington Times: Netflix shares tank amid backlash and defections",
+       "url": "https://www.washingtontimes.com/news/2011/oct/25/netflix-shares-tank-amid-backlash-and-defections/"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Christensen, 1997: The Innovator's Dilemma",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Book, 1997",
+     "title": "Christensen's Innovator's Dilemma: good management can miss cheap disruptors",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Cheap entrant"
+       },
+       {
+        "label": "Serves low end"
+       },
+       {
+        "label": "Climbs upmarket",
+        "hot": true
+       },
+       {
+        "label": "Leader loses"
+       }
+      ]
+     },
+     "what": "Well-run firms listen to their best customers, so they miss cheaper technologies that start small and improve.",
+     "why": "It explains why strong incumbents fail in new markets. Leaders cite it when judging AI or platform shifts.",
+     "say": "Which cheap, simple rival are we ignoring because our best customers do not ask for it?",
+     "deeper": [
+      "Clayton Christensen published the book in 1997. He used the hard disk drive industry as his main example and argued that great firms can fail while doing everything right for current customers.",
+      "The sources here are summaries, so read the book itself and test the theory against your own market before you lean on it."
+     ],
+     "sources": [
+      {
+       "title": "Finxter: The Innovator's Dilemma [Summary]",
+       "url": "https://blog.finxter.com/the-innovators-dilemma-summary/"
+      },
+      {
+       "title": "SuperSummary: The Innovator's Dilemma",
+       "url": "https://www.supersummary.com/the-innovators-dilemma/summary"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Annualized growth rate",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Annualized growth rate",
+     "visual": {
+      "type": "stat",
+      "value": "-0.1%",
+      "label": "Japan Q3 GDP change on an annualized basis, against a forecast of +0.3%"
+     },
+     "what": "A quarter's growth restated as a full-year pace. It lets you compare quarters with yearly figures.",
+     "why": "Headlines quote it often, and it swings widely. Check whether a figure is annualized or quarter on quarter.",
+     "say": "Japan's GDP fell 0.1% annualized, so the drop in the quarter itself was smaller.",
+     "deeper": [
+      "Japan's Q3 GDP fell 0.1% annualized, while growth was 1.1% from a year earlier, per reports. A rough rule is to divide an annualized rate by about four to get the quarterly change. The exact conversion compounds the rate.",
+      "Agencies in different countries quote GDP on different bases, so check the basis before you compare."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+       "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+      },
+      {
+       "title": "PANews: Japan's Q3 GDP contracts 0.1% annualized, first negative growth in four quarters",
+       "url": "https://panews.io/articles/01a1e1db-d857-7527-a916-197cb182c28d"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "Anthropic's IPO is six times oversubscribed. Which of our AI contracts assume today's prices will hold?",
+    "context": "Prompted by the IPO demand. A well-funded AI supplier can invest or reprice. Ask whether contracts have price caps, exit terms and a second source."
+   }
+  }
+ ]
+}
