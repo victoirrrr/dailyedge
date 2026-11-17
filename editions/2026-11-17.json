@@ -1,0 +1,618 @@
+{
+ "v": 4,
+ "date": "2026-11-17",
+ "label": "Tuesday, 17 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Wall Street falls for a third day as Nvidia's results loom",
+     "visual": {
+      "type": "stat",
+      "value": "-1.9%",
+      "label": "S&P 500 fall on Monday, its third straight loss, before Nvidia reports on Tuesday"
+     },
+     "what": "The S&P 500 fell 1.92% and the Nasdaq 2.49%. Nvidia closed at $156.14, its lowest since July 2025, before Tuesday's results.",
+     "why": "Nvidia's results are a test of AI demand. AI spending shapes vendor prices and your own budgets.",
+     "say": "Which of our plans assume AI chip and cloud prices stay stable if this selloff continues?",
+     "deeper": [
+      "Eurasia Business News reports Nvidia fell 4.12% and the VIX volatility index rose about 19%, citing CNN. The Wall Street Journal reports the board is not considering bringing back founder Jensen Huang, while Colette Kress stays interim CEO.",
+      "Fed Chair Kevin Warsh said staff are modelling AI scenarios but gave no rate guidance. These are press accounts of one trading day, so the picture can change after Nvidia reports."
+     ],
+     "sources": [
+      {
+       "title": "Eurasia Business News: Nasdaq slides 2.5% as Nvidia turmoil and chip restrictions hit tech",
+       "url": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/"
+      },
+      {
+       "title": "Sharecast: Europe close: Stocks fall ahead of Nvidia earnings",
+       "url": "https://www.sharecast.com/amp/news/market-report-europe-close/stoxx-600-dax-cac-40-nvidia-jensen-huang-novo-nordisk-legal-general--24183298.html"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "US tightens AI chip rules to stop Chinese remote access",
+     "visual": {
+      "type": "stat",
+      "value": "5",
+      "label": "Countries now needing US licences for advanced AI chips: Singapore, Malaysia, Thailand, Indonesia, Brazil"
+     },
+     "what": "Commerce issued an interim rule. Data centres in five countries need licences for advanced chips. Those serving Chinese firms get 90 days to apply.",
+     "why": "Compute supply in Southeast Asia gets tighter and more political. Plan for delays if you rely on those data centres.",
+     "say": "Do any of our cloud or AI vendors run capacity in Malaysia, Singapore or Thailand, and are they licensed?",
+     "deeper": [
+      "Reuters says the rule came days after Nvidia CEO Jensen Huang resigned, amid scrutiny of Singapore firm Megaspeed. Shipment licences do not apply to US companies operating data centres in the five countries. Politico says comments are due 60 days after Federal Register publication.",
+      "Fortune notes the House passed the Remote Access Security Act in January and the Senate has not acted. This is an interim rule, so details and enforcement could change."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: US to curb China's access to AI chips as Trump heads to Asia",
+       "url": "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/"
+      },
+      {
+       "title": "Politico: Commerce closes China's backdoor to Nvidia chips after White House steps in",
+       "url": "https://www.politico.com/news/2026/11/16/commerce-closes-chinas-backdoor-to-nvidia-chips-after-white-house-steps-in-01167199"
+      },
+      {
+       "title": "Fortune: The Nvidia scandal fuels tougher China chip rules",
+       "url": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+      }
+     ]
+    },
+    {
+     "tag": "Macro",
+     "title": "ECB warns that an AI valuation reset could threaten financial stability",
+     "visual": {
+      "type": "stat",
+      "value": "5.14%",
+      "label": "US 10-year Treasury yield on Monday, as technology shares fell"
+     },
+     "what": "ECB Vice President Boris Vujcic said AI share valuations are stretched and the risk of a sharp repricing has risen.",
+     "why": "A reset in AI shares could hit lenders, funds and company financing. High bond yields add pressure.",
+     "say": "If AI valuations fell sharply, which of our suppliers or lenders would feel it first?",
+     "deeper": [
+      "PYMNTS reports Vujcic spoke on Monday and linked the warning to a recent IMF report on AI and financial stability. Bloomberg's headline says AI and high public debt are the biggest euro zone risks. The ECB's Financial Stability Review is scheduled for 18 November.",
+      "Share Talk puts the US 10-year yield at 5.14% and the 30-year at 5.48% on Monday. A warning is not a forecast, so watch the review for the ECB's own evidence."
+     ],
+     "sources": [
+      {
+       "title": "PYMNTS: ECB Warns Rapid AI Expansion Threatens EU Financial Stability",
+       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ecb-warns-rapid-ai-expansion-threatens-eu-financial-stability/"
+      },
+      {
+       "title": "Share Talk: FTSE 100 closes lower amid US technology sell-off",
+       "url": "https://www.share-talk.com/ftse-100-closes-lower-amid-us-technology-sell-off/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI value",
+     "title": "Only a third of AI-active firms say AI met its business case",
+     "visual": {
+      "type": "bars",
+      "title": "Share meeting AI business case by stage, HFS Research and Rackspace",
+      "unit": "%",
+      "items": [
+       {
+        "label": "One function",
+        "value": 37
+       },
+       {
+        "label": "Several functions",
+        "value": 28,
+        "hot": true
+       },
+       {
+        "label": "Embedded in operations",
+        "value": 56
+       }
+      ]
+     },
+     "what": "Only 33% of 502 AI leaders say their biggest AI programme met its business case. Governance gaps are near universal at 96%.",
+     "why": "Returns fall from 37% to 28% when AI spreads across functions. Nobody owns live performance, cost and governance.",
+     "say": "Who owns live performance, cost and governance for each AI programme after go-live, and how is it measured?",
+     "deeper": [
+      "HFS surveyed 502 senior AI decision makers at firms with at least $100 million revenue in August and September 2026. 78% said governance failures threaten scaling more than technology failures, and 44% lack one consistent way to run AI in production.",
+      "Rackspace co-ran the survey and sells managed AI operations, so it benefits from the finding. HFS says the groups differ, so the pattern does not prove cause."
+     ],
+     "sources": [
+      {
+       "title": "MarketScale: HFS survey: only a third of AI-active enterprises hit their AI business case",
+       "url": "https://www.marketscale.com/industries/software-and-technology/hfs-survey-finds-only-a-third-of-enterprises-hit-their-ai-business-case"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Merck KGaA buys its quality-control automation partner for $0.75 a share",
+     "visual": {
+      "type": "stat",
+      "value": "$0.75",
+      "label": "Cash per share Merck KGaA will pay for Rapid Micro Biosystems"
+     },
+     "what": "After an 18-month partnership, Merck KGaA will buy the maker of Growth Direct, which automates microbial quality control. Close expected December.",
+     "why": "Merck gets to own a proven partner's tool instead of renting it. The target had about $7 million in cash.",
+     "say": "Which supplier or partner of ours is so central that we should own it, not rent it?",
+     "deeper": [
+      "Merck KGaA's Paolo Carli says customers need faster results, more efficient quality control and robust data integrity. Rapid Micro's third-quarter revenue rose 21.6% to $9.5 million, but it lost $11.3 million and withdrew 2026 guidance.",
+      "The tender offer has not started and needs enough shareholders to tender. Quantisnow shows the stock rose about 15% to $0.74, just below the offer. Terms come from the companies' own releases."
+     ],
+     "sources": [
+      {
+       "title": "Quiver Quantitative (GlobeNewswire): Merck KGaA to acquire Rapid Micro Biosystems at $0.75 per share",
+       "url": "https://www.quiverquant.com/news/Merck+KGaA%2C+Darmstadt%2C+Germany+to+Acquire+Rapid+Micro+Biosystems+in+All-Cash+Transaction+at+%240.75+Per+Share"
+      },
+      {
+       "title": "Quantisnow: Rapid Micro Biosystems Form 8-K, third quarter 2026 results",
+       "url": "https://www.quantisnow.com/insight/rapid-micro-biosystems-inc-filed-sec-form-8-k-results-of-6793093"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "GCC Watch",
+     "title": "Mars opens a Hyderabad GCC with Genpact, built around AI agents",
+     "visual": {
+      "type": "stat",
+      "value": "1,000",
+      "label": "Mars associates the Hyderabad centre aims to reach, from 400+ Genpact staff at launch"
+     },
+     "what": "The 60,000 sq ft centre opens with 400+ Genpact staff. Mars aims to move to 1,000 Mars associates over time.",
+     "why": "A partner builds and runs it first, then the firm takes over. Agentic operations sit at the core of the design.",
+     "say": "Should our next GCC start partner-run, with a plan to move to our own staff?",
+     "deeper": [
+      "Mars and Genpact have worked together since 2018. Genpact says the centre will run agentic operations inside a governance framework, with human oversight. Mars has seven factories in India since 1995 and over 2,400 associates there.",
+      "Mars also cites a $55 million Hyderabad pet nutrition factory expansion and a $12 million Royal Canin centre. The source is a company release with Genpact, a service vendor, so growth plans are aims, not commitments."
+     ],
+     "sources": [
+      {
+       "title": "PR Newswire: Mars expands its presence in India and opens Global Capability Center with Genpact",
+       "url": "https://www.prnewswire.com/in/news-releases/mars-expands-its-presence-in-india-and-opens-global-capability-center-in-collaboration-with-genpact-302937903.html"
+      },
+      {
+       "title": "Times of India: Mars Inc opens first GCC in Hyderabad with plans to hire 1,000 techies",
+       "url": "https://timesofindia.indiatimes.com/city/hyderabad/mars-inc-opens-first-gcc-in-hyderabad-with-plans-to-hire-1000-techies/articleshow/135776571.cms"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Monday, 16 November",
+    "why": "Tech led US stocks lower before Nvidia's results and new chip export rules. Oil fell over 3%.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,291.10",
+      "change": 0.58
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "82,104.79",
+      "change": 0.63
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "59,662.02",
+      "change": -2.42
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "23,753.84",
+      "change": 0.49
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,602.57",
+      "change": -0.87
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,881.55",
+      "change": -0.19
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "26,598.64",
+      "change": -0.57
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,416.59",
+      "change": -1.92
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "24,509.76",
+      "change": -2.49
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "51,608.17",
+      "change": -1.41
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,830.74",
+      "change": null,
+      "note": "Session low"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$92.44",
+      "change": -3.55
+     },
+     {
+      "name": "USD/INR",
+      "value": "93.92",
+      "change": -0.29,
+      "note": "Rupee firmer"
+     }
+    ],
+    "sources": [
+     {
+      "title": "AP via WTOP: How major US stock indexes fared Monday 11/16/2026",
+      "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-monday-11-16-2026"
+     },
+     {
+      "title": "Armenpress: Asian Stocks, 16/11/26",
+      "url": "https://armenpress.am/en/article/1265773"
+     },
+     {
+      "title": "Sharecast: Europe close: Stocks fall ahead of Nvidia earnings",
+      "url": "https://www.sharecast.com/amp/news/market-report-europe-close/stoxx-600-dax-cac-40-nvidia-jensen-huang-novo-nordisk-legal-general--24183298.html"
+     },
+     {
+      "title": "Share Talk: FTSE 100 closes lower amid US technology sell-off",
+      "url": "https://www.share-talk.com/ftse-100-closes-lower-amid-us-technology-sell-off/"
+     },
+     {
+      "title": "PTI via Telangana Today: Rupee snaps two-day losing streak, settles at 93.92",
+      "url": "https://telanganatoday.com/rupee-snaps-two-day-losing-streak-settles-at-93-92-against-dollar"
+     },
+     {
+      "title": "Eurasia Business News: Nasdaq slides 2.5% as Nvidia turmoil hits tech",
+      "url": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-nasdaq-slides-2-5-as-nvidia-turmoil-and-chip-restrictions-hit-tech/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Goodhart's law",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Goodhart's law: a target stops being a good measure",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Pick a proxy",
+        "note": "A number that stands in for the goal."
+       },
+       {
+        "label": "Set a target",
+        "note": "Tie pay or promotion to it."
+       },
+       {
+        "label": "People game it",
+        "note": "The number rises, the goal does not.",
+        "hot": true
+       },
+       {
+        "label": "Add a check",
+        "note": "Pair it with a quality or outcome measure."
+       }
+      ]
+     },
+     "what": "When a measure becomes a target, people optimise the number and it stops reflecting the real goal.",
+     "why": "Use it when reviewing KPIs, incentive plans and AI success metrics, especially anything tied to pay.",
+     "say": "Pick one KPI we track, name how it could be gamed, and add a quality check.",
+     "deeper": [
+      "Economist Charles Goodhart made the original point in a 1975 paper on UK monetary policy: a statistical regularity tends to break once it is used for control. The familiar wording, when a measure becomes a target, comes from anthropologist Marilyn Strathern in 1997.",
+      "Earlier versions exist, such as Campbell's law from around 1969. These sources are secondary summaries, so read the original texts before quoting them. Today's AI story fits: a business case built on hours saved can hide where the hours went."
+     ],
+     "sources": [
+      {
+       "title": "Wikipedia: Goodhart's law",
+       "url": "https://en.wikipedia.org/wiki/Goodhart%27s_law"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "The evidence",
+     "title": "Wells Fargo's sales targets show Goodhart's law at work",
+     "visual": {
+      "type": "stat",
+      "value": "$185M",
+      "label": "Penalties announced in September 2016 over sales-practice abuses at Wells Fargo"
+     },
+     "what": "Wells Fargo set cross-sell goals and incentives. The CFPB found over 1.5 million unauthorised deposit accounts and 500,000 credit card accounts.",
+     "why": "Pressure on a count produced unauthorised accounts. The measure rose; real customer value did not.",
+     "say": "Which of our KPIs could be hit without helping the customer? Add a quality or outcome check beside it.",
+     "deeper": [
+      "On 8 September 2016 the CFPB, the OCC and the City of Los Angeles announced penalties totalling $185 million. The CFPB's $100 million share was the largest in its history to that date. The bank says it fired about 5,300 employees between January 2011 and March 2016.",
+      "Account counts differ by report: Reuters said more than 2 million in total. These figures come from law-firm and trade press summaries of the regulators' orders, so check the orders for exact numbers."
+     ],
+     "sources": [
+      {
+       "title": "Goodwin: CFPB imposes record fine on national bank",
+       "url": "https://www.goodwinlaw.com/publications/2017/03/cfpb-imposes-record-fine-on-national-bank"
+      },
+      {
+       "title": "The Financial Brand: Wells Fargo axes 5,300 employees in cross-selling scam",
+       "url": "https://thefinancialbrand.com/news/bank-cross-selling/wells-fargo-bank-cross-selling-60947"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Agent testing and cost: step 5 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "How AI agents use tools",
+    "step": 5,
+    "total": 5,
+    "plan": [
+     "What makes an agent an agent",
+     "Tools: how a model takes action",
+     "MCP: one plug for many tools",
+     "Guardrails and human approval",
+     "Cost, failure modes and testing"
+    ],
+    "next": "Google Cloud's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 5 of 5",
+     "title": "Test agents on real cases, cap their spend, and trace every step",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Set budgets",
+        "note": "Cap spend and steps per task."
+       },
+       {
+        "label": "Trace every step",
+        "note": "Log each tool call and input."
+       },
+       {
+        "label": "Test real cases",
+        "note": "Start with 20 to 50 examples.",
+        "hot": true
+       },
+       {
+        "label": "Roll out slowly",
+        "note": "Send a small share of traffic first."
+       }
+      ]
+     },
+     "what": "Start with 20 to 50 real test cases. Set spending caps per task. Log every tool call so failures can be traced.",
+     "why": "One looping request can burn money and time. Testing the path, not just the answer, catches it early.",
+     "say": "Before go-live, show me the test set, the spend cap and the trace log.",
+     "deeper": [
+      "An AWS builder post suggests starting with 20 to 50 representative test cases. Coralogix gives an example of one runaway request with 47 model calls costing $0.31; repeated once a minute, that is $13,392 a month. Hard caps can also stop legitimate long tasks, so thresholds may need to flex.",
+      "Another guide suggests canary rollouts to 5 to 10% of traffic. These are vendor and community sources, so treat the numbers as illustrations. Tomorrow starts a new five-step track on Google Cloud's AI stack."
+     ],
+     "sources": [
+      {
+       "title": "AWS Builder Center: Your AI agent passed the demo. How do you know it won't fail in production?",
+       "url": "https://builder.aws.com/content/3KvDOCrOnciMda9OpDyZ6WR1HII/your-ai-agent-passed-the-demo-how-do-you-know-it-wont-fail-in-production"
+      },
+      {
+       "title": "Coralogix: Why traditional testing fails for AI agents and what actually works",
+       "url": "https://coralogix.com/ai-blog/why-traditional-testing-fails-for-ai-agents-and-what-actually-works/"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Knight Capital, 2012: a faulty release",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case file",
+     "title": "Knight Capital, 2012: a faulty release lost $440 million in 45 minutes",
+     "visual": {
+      "type": "stat",
+      "value": "$440M",
+      "label": "Reported loss from a faulty software release on 1 August 2012"
+     },
+     "what": "Old code was wrongly redeployed in July 2012. On 1 August the router sent over 4 million orders to fill 212 customer orders.",
+     "why": "Losses reached about $440 million. 97 automated warning emails went without action. The SEC fined it $12 million.",
+     "say": "Automate with kill switches, release checks and alerts that someone must act on.",
+     "deeper": [
+      "The SEC says code moved in 2005 was deployed again by mistake in July 2012. In the first 45 minutes of trading on 1 August the router sent more than 4 million orders. The loss is reported as $440 million by one source and over $460 million by another.",
+      "The SEC settled on 16 October 2013, in its first case under the market access rule, with Knight neither admitting nor denying the findings. This is a pre-AI automation failure, so use it as an analogy for agent controls, not proof."
+     ],
+     "sources": [
+      {
+       "title": "SEC: Press release 2013-222, Knight Capital settles market access rule charges",
+       "url": "https://www.sec.gov/news/press-release/2013-222"
+      },
+      {
+       "title": "WilmerHale: Knight Capital settles Rule 15c3-5 violations with SEC, agrees to pay $12 million",
+       "url": "https://www.wilmerhale.com/en/insights/client-alerts/knight-capital-settles-rule-15c3-5-violations-with-sec-agrees-to-pay-12-million"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Coase, 1937: The Nature of the Firm",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Paper, 1937",
+     "title": "Coase's The Nature of the Firm: firms exist to cut transaction costs",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Buy on market"
+       },
+       {
+        "label": "Pay contract costs"
+       },
+       {
+        "label": "Bring in-house",
+        "hot": true
+       },
+       {
+        "label": "Overhead rises"
+       }
+      ]
+     },
+     "what": "Using the market has costs, such as finding prices and writing contracts. Firms exist where organising inside costs less.",
+     "why": "Leaders cite it for make-versus-buy choices, outsourcing and captive centres.",
+     "say": "Does it cost less to run this in-house than to contract it, counting all the friction?",
+     "deeper": [
+      "Ronald Coase published the essay in 1937. He defined transaction costs as the cost of using the price system, and noted that firms stop growing when overhead rises and managers err. It drew little notice until the 1970s. He won the 1991 Nobel Prize for this line of work.",
+      "Use it to frame the Mars GCC story: when does owning a capability beat renting it? The sources here are secondary summaries."
+     ],
+     "sources": [
+      {
+       "title": "Wikipedia: Ronald Coase",
+       "url": "https://en.wikipedia.org/wiki/Ronald_Coase"
+      },
+      {
+       "title": "VoxEU: Coase theorem and economics of Coase",
+       "url": "https://voxeu.org/article/coase-theorem-and-economics-coase"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Term premium",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Term premium",
+     "visual": {
+      "type": "stat",
+      "value": "5.14%",
+      "label": "US 10-year Treasury yield on 16 November, per Share Talk"
+     },
+     "what": "Extra yield investors demand for holding a long bond instead of rolling short-term ones, because rates may move unexpectedly.",
+     "why": "Long yields at 5.14% raise borrowing costs for firms and governments. Part of any rise can be this premium.",
+     "say": "The 10-year yield is 5.14%, but how much is term premium rather than expected policy rates?",
+     "deeper": [
+      "The New York Fed describes it as compensation for the risk that short-term yields do not evolve as expected. Its estimate comes from a five-factor model, the ACM model, and is updated weekly. Check the NY Fed site for the current reading, which I did not verify today.",
+      "The yield level comes from a London market report. A high yield alone does not say whether policy expectations or the premium is driving it."
+     ],
+     "sources": [
+      {
+       "title": "NY Fed Liberty Street Economics: Treasury term premia, 1961 to present",
+       "url": "https://libertystreeteconomics.newyorkfed.org/2014/05/treasury-term-premia-1961-present/"
+      },
+      {
+       "title": "Share Talk: FTSE 100 closes lower amid US technology sell-off",
+       "url": "https://www.share-talk.com/ftse-100-closes-lower-amid-us-technology-sell-off/"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "Nvidia reports on Tuesday and the ECB warns of an AI repricing. Which of our plans break if AI spending slows?",
+    "context": "Prompted by the selloff and the ECB warning. Ask which budgets, vendor contracts and growth plans assume AI spending keeps rising, and what the fallback is."
+   }
+  }
+ ]
+}
