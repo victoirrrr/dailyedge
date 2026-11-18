@@ -1,6 +1,7 @@
 {
-  "latest": "2026-11-17",
+  "latest": "2026-11-18",
   "editions": [
+    {"date": "2026-11-18", "label": "Wednesday, 18 November 2026", "lead": "Nvidia's sales double to $115.8 billion in its first quarter without Huang"},
     {"date": "2026-11-17", "label": "Tuesday, 17 November 2026", "lead": "Wall Street falls for a third day as Nvidia's results loom"},
     {"date": "2026-11-16", "label": "Monday, 16 November 2026", "lead": "Anthropic's IPO is six times oversubscribed ahead of Wednesday pricing"},
     {"date": "2026-11-15", "label": "Sunday, 15 November 2026", "lead": "Applied Materials posts record $10.41 billion quarter on AI chip demand"},

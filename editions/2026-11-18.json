@@ -1,0 +1,647 @@
+{
+ "v": 4,
+ "date": "2026-11-18",
+ "label": "Wednesday, 18 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Nvidia's sales double to $115.8 billion in its first quarter without Huang",
+     "visual": {
+      "type": "stat",
+      "value": "$115.8B",
+      "label": "Nvidia third-quarter revenue, up 103% from a year ago"
+     },
+     "what": "Data centre sales were $107.6 billion. Nvidia guided next quarter to $127.4 to $132.6 billion and raised its buyback by $150 billion.",
+     "why": "AI demand is still rising after a three-day selloff. Chip and cloud prices stay firm, so budgets stay tight.",
+     "say": "Which of our AI plans assume chip and cloud prices fall, when Nvidia is guiding higher?",
+     "deeper": [
+      "Interim CEO Colette Kress said Nvidia now expects fiscal 2028 revenue to grow about 75%, up from 70%. The board says it will not bring back Jensen Huang. Shares rose about 2% after hours, per one summary.",
+      "One analysis says next quarter has 14 weeks, not 13, so the guide is softer than it looks, and it assumes no China data centre sales. Figures are from press coverage of Nvidia's filing."
+     ],
+     "sources": [
+      {
+       "title": "CoinDesk: Nvidia tops estimates, issues strong guidance, adds $150 billion to buyback",
+       "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
+      },
+      {
+       "title": "Motley Fool: Nvidia sales double under an interim CEO",
+       "url": "https://www.fool.com/investing/2026/11/17/nvidia-sales-double-under-an-interim-ceo-rapid-earnings-reaction/"
+      },
+      {
+       "title": "Yahoo Finance: Nvidia earnings live, Q3 beat, board will not reinstate Huang",
+       "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "Trump meets Xi in Shenzhen Thursday, with chips and tariffs at stake",
+     "visual": {
+      "type": "stat",
+      "value": "19 Nov",
+      "label": "Expected date of the Trump and Xi meeting in Shenzhen at APEC"
+     },
+     "what": "Chips are the most contested topic. Beijing says the new US chip access rule runs counter to earlier consensus. A January truce deadline looms.",
+     "why": "Export rules and tariffs decide where AI hardware can be sold and built. Your vendors' supply plans depend on them.",
+     "say": "If chip rules tighten again, which of our vendors face supply or price risk first?",
+     "deeper": [
+      "Reports say the White House does not expect a new tariff deal and will focus on implementing the existing trade agreement. A senior US official said no further progress on the Board of Trade initiative will be announced.",
+      "Trump started his Asia trip in Manila for the ASEAN summit. Meeting details come from press reports before the summit, so outcomes may differ."
+     ],
+     "sources": [
+      {
+       "title": "CNN: Trump kicks off Asia trip with first stop in the Philippines",
+       "url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines"
+      },
+      {
+       "title": "Foreign Policy: Trump's Asia trip, ASEAN, the Quad, and a possible Xi, Putin APEC meeting",
+       "url": "https://foreignpolicy.com/2026/11/13/trump-asia-visit-apec-china-philippines-quad-asean-xi-putin/"
+      },
+      {
+       "title": "MLQ: What is on the table when Trump meets Xi in Shenzhen",
+       "url": "https://mlq.ai/news/what-is-on-the-table-when-trump-meets-xi-in-shenzhen-chips-tariffs-and-the-january-truce-deadline/"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "Anthropic prices its IPO today, and may go above its range",
+     "visual": {
+      "type": "stat",
+      "value": "$78",
+      "label": "Top of the $70 to $78 marketed range per share; pricing may go higher"
+     },
+     "what": "Anthropic is selling 825 million shares. At the top of the range that implies a valuation of $1.405 trillion. Demand is about six times supply.",
+     "why": "A giant AI supplier is becoming a public company. Its price shows how investors value AI platforms.",
+     "say": "Do we have a plan if our AI model supplier's pricing or priorities change after it lists?",
+     "deeper": [
+      "CNBC reports Anthropic is likely to price above the range. Trading on Nasdaq under ANT is due to start the day after pricing. Retail investors may get up to 20% of the offering.",
+      "A separate $26 billion private placement brings in major AI names. Pricing was not confirmed at the time of writing, and reports of an above-range price come from sources."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: Anthropic IPO guide: the price range, date and more",
+       "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
+      },
+      {
+       "title": "investingLive: Anthropic IPO six times oversubscribed",
+       "url": "https://investinglive.com/stocks/anthropic-ipo-six-times-oversubscribed-what-retail-investors-can-realistically-expect/"
+      },
+      {
+       "title": "Memeburn: Anthropic's IPO is 7x oversubscribed, but its record depends on $26 billion from its own suppliers",
+       "url": "https://memeburn.com/anthropics-ipo-is-7x-oversubscribed-but-its-record-depends-on-26-billion/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI governance",
+     "title": "Only 28% of CIOs measure both performance and outcomes for AI agents",
+     "visual": {
+      "type": "bars",
+      "title": "CIOs reporting each gap, Harris Poll for Dataiku, 685 CIOs",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Measure agent outcomes",
+        "value": 28,
+        "hot": true
+       },
+       {
+        "label": "Budgets at risk if missed",
+        "value": 72
+       },
+       {
+        "label": "No lifecycle standard",
+        "value": 83
+       }
+      ]
+     },
+     "what": "In a survey of 685 CIOs, 83% lack one standard way to manage agents. Only 28% measure both operations and business outcomes.",
+     "why": "Agents are multiplying faster than owners and metrics. 72% say budgets could be cut or frozen if targets slip.",
+     "say": "Who owns each live agent, and which outcome number proves it earns its cost?",
+     "deeper": [
+      "The same survey says 84% of CIOs think staff create agents faster than IT can govern them, and 97% see more board pressure to show AI returns. Oliver Wyman's October survey found only 3% of CIOs see enterprise value in their profit and loss.",
+      "Dataiku sells AI platforms and sponsored the survey, so the framing serves its pitch. Publication dates in the coverage are unclear, so treat this as a recent survey, not today's news."
+     ],
+     "sources": [
+      {
+       "title": "Dataiku: Global AI Confessions report, CIO edition 2026",
+       "url": "https://www.dataiku.com/company/news/global-ai-confessions-report-cio-edition-2026"
+      },
+      {
+       "title": "The National CIO Review: CIOs face growing pressure to prove AI ROI",
+       "url": "https://nationalcioreview.com/articles-insights/extra-bytes/cios-face-growing-pressure-to-prove-ai-roi/"
+      },
+      {
+       "title": "Oliver Wyman: Agentic AI governance and investment for sustainable growth",
+       "url": "https://www.oliverwyman.com/our-expertise/insights/2026/oct/it-organizations-govern-fund-agentic-ai.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Canadian Natural pays C$2.53 billion to consolidate the Montney next door",
+     "visual": {
+      "type": "stat",
+      "value": "25%",
+      "label": "Premium to Advantage Energy's prior Friday close in the C$13.55 a share cash offer"
+     },
+     "what": "The deal adds about 79,000 barrels of oil equivalent a day. Price is about C$32,000 per flowing barrel. Cash and credit lines fund it.",
+     "why": "Assets sit next to existing sites, so scale cuts cost per barrel. The buyer keeps its payout policy.",
+     "say": "Which neighbouring asset or supplier would cut our unit costs if we bought it?",
+     "deeper": [
+      "Closing is expected in the first quarter of 2027, after Competition Act and Alberta court approval. Advantage's board said a sale was the best way to realise value after a strategic review. Analysts see a run of Montney consolidation.",
+      "Advantage's third-quarter output was about 87,000 barrels a day, above the 79,000 in the deal release. Terms come from the company's own release and press reports."
+     ],
+     "sources": [
+      {
+       "title": "Boe Report: Canadian Natural enters into agreement to acquire Advantage Energy",
+       "url": "https://boereport.com/2026/11/16/canadian-natural-resources-limited-enters-into-agreement-to-acquire-advantage-energy-ltd/"
+      },
+      {
+       "title": "Quantisnow: Canadian Natural to buy Advantage Energy for C$2.53 billion, a 25% premium",
+       "url": "https://www.quantisnow.com/articles/canadian-natural-buys-advantage-energy-c-2-53-billion-25-percent-premium"
+      },
+      {
+       "title": "OGJ: Canadian Natural to add Montney, Charlie Lake assets through Advantage acquisition",
+       "url": "https://www.ogj.com/general-interest/companies/news/55419148/canadian-natural-resources-to-add-montney-charlie-lake-assets-through-advantage-energy-acquisition"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "India macro",
+     "title": "India's wholesale inflation hits a series high of 12.29% on fuel",
+     "visual": {
+      "type": "stat",
+      "value": "12.29%",
+      "label": "India's wholesale price inflation in October 2026, up from 11.39% in September"
+     },
+     "what": "Fuel and power inflation rose to 32.84%. Food inflation eased to 8.58%. Retail inflation was 6.09%, above the RBI's 6% limit.",
+     "why": "Input costs hit margins and wage talks. A GCC or services budget set in rupees needs a cost buffer.",
+     "say": "Have we stress-tested our India cost plan for a fuel-led inflation spike?",
+     "deeper": [
+      "ICRA's Rahul Agrawal said the print beat its 11.8% estimate, and fuel and power explained 83 of the 90 basis point rise. Forbes India says economists see October as the peak but flag oil and pass-through risks.",
+      "Figures are provisional government data as reported by the press. Wholesale prices are not what consumers pay, so watch the retail series and the RBI's next move."
+     ],
+     "sources": [
+      {
+       "title": "Business Standard: Wholesale inflation rises to 12.29% in October as fuel, power prices surge",
+       "url": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
+      },
+      {
+       "title": "Forbes India: WPI inflation hits series-high 12.29 percent in October",
+       "url": "https://www.forbesindia.com/business/economy/wpi-inflation-hits-series-high-12-29-percent-in-october-as-fuel-prices-surge-article/3000572"
+      },
+      {
+       "title": "Goodreturns: WPI data October 2026, fuel inflation surges to 32.84%",
+       "url": "https://www.goodreturns.in/news/wpi-data-october-2026-fuel-inflation-surges-to-32-84-wholesale-inflation-climbs-for-third-month-1547359.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Tuesday, 17 November",
+    "why": "AI shares and chip-export worries hit Wall Street and Europe before Nvidia's results. India rose for a second day.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,387.40",
+      "change": 0.38
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "82,532.19",
+      "change": 0.52
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "58,860.43",
+      "change": -1.34
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "23,508.17",
+      "change": -1.03
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,584.58",
+      "change": -0.5
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,689.87",
+      "change": -1.76
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "26,045.37",
+      "change": -2.08
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,340.53",
+      "change": -1.03
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "24,328.38",
+      "change": -0.74
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "50,759.42",
+      "change": -1.64
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,845.26",
+      "change": null,
+      "note": "Unverified"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$93.26",
+      "change": null,
+      "note": "Unverified"
+     },
+     {
+      "name": "USD/INR",
+      "value": "93.47",
+      "change": null,
+      "note": "Unverified"
+     }
+    ],
+    "sources": [
+     {
+      "title": "AP via WTOP: How major US stock indexes fared Tuesday 11/17/2026",
+      "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-17-2026"
+     },
+     {
+      "title": "Business Standard: Sensex ends 427 pts up, Nifty at 25,387; banks shine",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
+     },
+     {
+      "title": "Armenpress: Asian Stocks down, 17/11/26",
+      "url": "https://armenpress.am/en/article/1265909"
+     },
+     {
+      "title": "Cappnotes: Closing Look, Tuesday, November 17, 2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
+     },
+     {
+      "title": "Kitco: Gold trades near one-year low as US retail sales slow",
+      "url": "https://www.kitco.com/news/article/2026-11-17/gold-trades-near-one-year-low-us-retail-sales-slow-kitco-am-report"
+     },
+     {
+      "title": "HDFC Sky: Brent crude price today, November 17, 2026",
+      "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-17-2026-brent-falls-0-7percent-to-91-8-wti-slips-to-85-2-as-surplus-looms"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Jevons paradox",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Jevons paradox: cheaper efficiency can raise total use",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Efficiency gain",
+        "note": "Each unit of work costs less."
+       },
+       {
+        "label": "Price falls",
+        "note": "New uses become affordable."
+       },
+       {
+        "label": "Demand jumps",
+        "note": "Total use can exceed the saving.",
+        "hot": true
+       },
+       {
+        "label": "Plan for more",
+        "note": "Budget for volume, not unit cost."
+       }
+      ]
+     },
+     "what": "When a resource gets cheaper to use, people use more of it. Total use can rise even as each unit gets leaner.",
+     "why": "Use it for AI compute, cloud and any plan that banks on efficiency saving money overall.",
+     "say": "Our unit cost fell, but did our total bill? Show me volume next to price.",
+     "deeper": [
+      "William Stanley Jevons described it in his 1865 book The Coal Question. He saw that Watt's more efficient steam engine led to more coal use in Britain, because engines spread to more industries.",
+      "It only holds when the rebound is above 100%. Critics note Jevons missed later fuel substitutes. Sources are secondary summaries, so read the book before quoting it."
+     ],
+     "sources": [
+      {
+       "title": "Wikipedia: Jevons paradox",
+       "url": "https://en.wikipedia.org/wiki/Jevons_paradox"
+      },
+      {
+       "title": "Wikipedia: The Coal Question",
+       "url": "https://en.wikipedia.org/wiki/The_Coal_Question"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "The evidence",
+     "title": "Nvidia's sales doubled as AI got cheaper per task",
+     "visual": {
+      "type": "stat",
+      "value": "+103%",
+      "label": "Nvidia revenue growth year on year to $115.8 billion in its latest quarter"
+     },
+     "what": "Nvidia revenue rose 103% to $115.8 billion. Data centre sales were $107.6 billion. Demand for compute is still climbing.",
+     "why": "Cheaper AI per task has not cut spending so far. It may fit Jevons, but this is an analogy, not proof.",
+     "say": "If AI per task keeps getting cheaper, how much more will we use, and who pays?",
+     "deeper": [
+      "Press coverage of Nvidia's quarter shows revenue more than doubling and guidance above analyst estimates for next quarter. Whether efficiency gains caused the demand growth is my reading, not a claim in these sources.",
+      "Treat this as a way to frame budgets: model volume growth, not only price per unit, and ask suppliers for volume forecasts as well as price lists. Figures are from press coverage of Nvidia's filing."
+     ],
+     "sources": [
+      {
+       "title": "CoinDesk: Nvidia tops estimates, issues strong guidance, adds $150 billion to buyback",
+       "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization"
+      },
+      {
+       "title": "Motley Fool: Nvidia sales double under an interim CEO",
+       "url": "https://www.fool.com/investing/2026/11/17/nvidia-sales-double-under-an-interim-ceo-rapid-earnings-reaction/"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Google Cloud AI stack: step 1 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "Google Cloud's AI stack",
+    "step": 1,
+    "total": 5,
+    "plan": [
+     "The four layers, chip to app",
+     "TPUs: Google's own AI chips",
+     "Gemini models and the model garden",
+     "The agent platform and data layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "AWS's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 1 of 5",
+     "title": "Google sells AI in four layers: chips, models, platform and app",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Custom chips",
+        "note": "TPUs built for AI work."
+       },
+       {
+        "label": "Gemini models",
+        "note": "The frontier models on top."
+       },
+       {
+        "label": "Agent platform",
+        "note": "Where firms build and run agents.",
+        "hot": true
+       },
+       {
+        "label": "Gemini Enterprise",
+        "note": "The app staff use at work."
+       }
+      ]
+     },
+     "what": "Google owns four layers: its own TPU chips, Gemini models, a cloud platform for building agents, and an employee-facing product.",
+     "why": "Owning every layer can mean lower cost and tighter fit. It also means deeper lock-in to one supplier.",
+     "say": "Ask your cloud team which of the four layers we use today, and which we could swap.",
+     "deeper": [
+      "Reports from Cloud Next 2026 say Google renamed Vertex AI as the Gemini Enterprise Agent Platform and folded Agentspace into Gemini Enterprise. Ironwood, the seventh-generation TPU, is built mainly for inference, per Google's own blog.",
+      "Coverage of 2026 naming is secondary, so check Google's pages for current product names. Google is a vendor, so its framing favours its own stack."
+     ],
+     "sources": [
+      {
+       "title": "The Next Web: Google just launched its agentic enterprise play, from chip to inbox",
+       "url": "https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era"
+      },
+      {
+       "title": "Google Cloud blog: Inside the Ironwood TPU codesigned AI stack",
+       "url": "https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Kodak, 1975: invented digital, protected film",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case file",
+     "title": "Kodak invented the digital camera in 1975, then shelved it",
+     "visual": {
+      "type": "stat",
+      "value": "$16B",
+      "label": "Approximate Kodak revenue at its 1996 peak, per press accounts"
+     },
+     "what": "Engineer Steve Sasson built a digital camera in 1975. Management reportedly said it was cute but to keep quiet. Film earned the profits.",
+     "why": "Revenue peaked near $16 billion in 1996. Kodak filed for Chapter 11 in January 2012.",
+     "say": "Do not shelve a cannibalising product. Launch it before a rival does.",
+     "deeper": [
+      "Accounts say managers feared digital would eat film sales. Kodak earned patent income on digital until about 2007. Causes of the decline are debated; the invention alone did not decide it.",
+      "Revenue figures come from secondary articles and blogs, so check Kodak's filings before repeating them. Link it to today's software selloff: protecting a current revenue line is risky when AI changes the product."
+     ],
+     "sources": [
+      {
+       "title": "PetaPixel: What Kodak said about digital photography in 1975",
+       "url": "https://petapixel.com/2017/09/21/kodak-said-digital-photography-1975/"
+      },
+      {
+       "title": "Business Insider India: This man invented the digital camera in 1975, and his bosses at Kodak never let it see the light of day",
+       "url": "https://www.businessinsider.in/tech/this-man-invented-the-digital-camera-in-1975-and-his-bosses-at-kodak-never-let-it-see-the-light-of-day/articleshow/48520882.cms"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Hayek, 1945: The Use of Knowledge in Society",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Paper, 1945",
+     "title": "Hayek: prices carry knowledge no single planner can hold",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Local knowledge"
+       },
+       {
+        "label": "Price moves",
+        "hot": true
+       },
+       {
+        "label": "People adjust"
+       },
+       {
+        "label": "No central plan"
+       }
+      ]
+     },
+     "what": "Knowledge is scattered across many people. Prices pass on what matters, such as that tin is scarcer, without the reasons.",
+     "why": "Leaders cite it on central planning versus local decisions, and on what a price signal can tell you.",
+     "say": "Which decisions do we keep central that the people with local knowledge could make better?",
+     "deeper": [
+      "Friedrich Hayek published the essay in the American Economic Review in 1945 (vol. 35, no. 4). His tin market example shows people respond to a higher price without knowing why it rose.",
+      "Critics say he did not show markets are efficient, only that prices carry information. Use it to frame oil, fuel and chip prices today. Sources here are summaries and the Econlib text."
+     ],
+     "sources": [
+      {
+       "title": "Econlib: The Use of Knowledge in Society",
+       "url": "https://www.econlib.org/library/Essays/hykKnw.html"
+      },
+      {
+       "title": "AcaWiki: The use of knowledge in society",
+       "url": "https://acawiki.org/The_use_of_knowledge_in_society"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Cost-push inflation",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Cost-push inflation",
+     "visual": {
+      "type": "stat",
+      "value": "32.84%",
+      "label": "India's wholesale fuel and power inflation in October 2026"
+     },
+     "what": "Prices rise because production costs rise, such as fuel, raw materials or wages, even when demand has not grown.",
+     "why": "India's fuel-led wholesale inflation, at 12.29%, is a cost-push case. Central banks may look past temporary cost shocks.",
+     "say": "Is this inflation cost-push or demand-pull, and will the shock fade?",
+     "deeper": [
+      "The RBA's explainer describes it as inflation that starts on the supply side when production costs increase. Other explainers add that it can be mild or severe, and may cause a recession in extreme cases.",
+      "The label helps decide the policy response, but real inflation often mixes both causes. Check the data source before using the term in a room."
+     ],
+     "sources": [
+      {
+       "title": "RBA: Causes of inflation (explainer)",
+       "url": "https://rba.gov.au/education/resources/explainers/pdf/causes-of-inflation.pdf"
+      },
+      {
+       "title": "Business Standard: Wholesale inflation rises to 12.29% in October as fuel, power prices surge",
+       "url": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "Nvidia guides higher while AI agents lack owners and metrics. How do we budget for more AI volume with outcome measures attached?",
+    "context": "Prompted by Nvidia's results and the CIO survey. Ask who owns each AI programme's total cost, and what business outcome justifies growth in volume."
+   }
+  }
+ ]
+}
