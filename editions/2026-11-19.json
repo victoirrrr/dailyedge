@@ -1,0 +1,636 @@
+{
+ "v": 4,
+ "date": "2026-11-19",
+ "label": "Thursday, 19 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Anthropic raises $81.3 billion in the largest IPO on record",
+     "visual": {
+      "type": "stat",
+      "value": "$81.3B",
+      "label": "Raised by Anthropic at $83 a share, above its $70 to $78 range"
+     },
+     "what": "Anthropic sold about 980 million shares at $83, valuing it near $1.5 trillion fully diluted. Trading starts Thursday on Nasdaq as ANT.",
+     "why": "A major AI supplier now reports to public investors, so its prices, spending and risks get quarterly scrutiny.",
+     "say": "Which of our AI contracts depend on Anthropic, and what changes now it reports every quarter?",
+     "deeper": [
+      "CNBC reports the deal was upsized and beat SpaceX's June IPO, which raised $75 billion at first and $85.7 billion in total once underwriters sold extra shares. That extra-share step is today's term of the day.",
+      "Reports say each of the seven co-founders sold nearly 3.4 million shares. Watch the first trade on Thursday and whether underwriters sell extra shares, which would lift the total raised. Some early reports cited people familiar with the matter."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+       "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+      },
+      {
+       "title": "US News (AP): Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion",
+       "url": "https://www.usnews.com/news/business/articles/2026-11-18/anthropic-prices-its-ipo-at-83-per-share-valuing-the-artificial-intelligence-giant-at-1-5-trillion"
+      },
+      {
+       "title": "TechCrunch: Anthropic reportedly prices IPO at $83 a share, above projected range",
+       "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "Palo Alto pays $4.5 billion for a 50-person AI startup",
+     "visual": {
+      "type": "stat",
+      "value": "$4.5B",
+      "label": "All-stock price Palo Alto Networks agreed to pay for Applied Compute"
+     },
+     "what": "Applied Compute helps firms train custom open-weight AI models and agents. Founded in May 2025, it reports about $100 million in annualised revenue.",
+     "why": "Security vendors are buying AI skills to protect models firms run themselves. The price shows how scarce that talent is.",
+     "say": "Who secures the open-weight models we run ourselves, and is it on our security vendor's roadmap?",
+     "deeper": [
+      "The price is about $1.25 billion above the $3.25 billion valuation Applied Compute set weeks earlier, when it raised $350 million. Palo Alto expects the unit to add more than $1 billion of security annual recurring revenue by 2029. CEO Yash Patil, an OpenAI alumnus, becomes co-chief AI officer.",
+      "Palo Alto announced the deal with results: quarterly revenue of $3.44 billion beat forecasts and shares rose over 7% after hours. Closing needs regulatory clearance. The revenue target is the buyer's own forecast."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+       "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
+      },
+      {
+       "title": "SiliconANGLE: Palo Alto Networks bets $4.5B on AI startup Applied Compute as earnings top forecasts",
+       "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/"
+      },
+      {
+       "title": "BankInfoSecurity: Palo Alto's $4.5B Applied Compute purchase targets AI risks",
+       "url": "https://www.bankinfosecurity.com/palo-altos-45b-applied-compute-purchase-targets-ai-risks-a-33443"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "Fed minutes: almost all officials see more rate hikes ahead",
+     "visual": {
+      "type": "stat",
+      "value": "10-2",
+      "label": "October vote to hold US rates at 3.75% to 4%; two wanted a hike"
+     },
+     "what": "Minutes of the October meeting show almost all officials expect further hikes. Two said December could need more than a quarter point.",
+     "why": "Higher US rates lift borrowing costs worldwide and strengthen the dollar, squeezing emerging market currencies and growth plans.",
+     "say": "If US rates rise again in December, which of our plans assume cheap capital?",
+     "deeper": [
+      "The two who voted for a hike in October were Governor Lisa Cook and Cleveland Fed President Beth Hammack. The minutes did not name the two officials who floated a bigger December move. Markets now price a December hike; the Fed meets on 8 and 9 December.",
+      "The news hit the Dow and gold on Wednesday, and the S&P 500 fell below its 200-day average, a level traders watch for trend breaks."
+     ],
+     "sources": [
+      {
+       "title": "KSAT (AP): Fed minutes: higher interest rates needed in December as inflation worries mount",
+       "url": "https://www.ksat.com/business/2026/11/18/fed-minutes-higher-interest-rates-needed-in-december-as-inflation-worries-mount/"
+      },
+      {
+       "title": "Yahoo Finance: Fed minutes: officials favored holding rates steady in October, but they see hikes ahead",
+       "url": "https://finance.yahoo.com/economy/policy/article/fed-minutes-officials-favored-holding-rates-steady-in-october-but-they-see-hikes-ahead-195719301.html"
+      },
+      {
+       "title": "US News: Fed poised to raise rates further to stem inflation",
+       "url": "https://www.usnews.com/news/economy/articles/2026-11-18/fed-poised-to-raise-rates-further-to-stem-inflation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Operating model",
+     "title": "Microsoft and Salesforce put CRM inside Copilot; prices stay unknown",
+     "visual": {
+      "type": "stat",
+      "value": "38",
+      "label": "Prebuilt sales skills in the Salesforce in Copilot plugin, now in preview"
+     },
+     "what": "Copilotforce brings Salesforce data and sales workflows into Copilot, Teams and Fabric, with data shared between both platforms without copying it.",
+     "why": "Agents may live where staff already work, not inside each app. Control splits: Salesforce governs CRM access, Microsoft its compliance.",
+     "say": "Before any pilot, ask who owns the agent, who pays both licences, and who audits changes it writes.",
+     "deeper": [
+      "The firms announced Copilotforce at Microsoft Ignite on 17 November. Teams support is still in pilot. Changes written back to the CRM need explicit user confirmation. Accenture is the design partner and calls itself customer zero.",
+      "Pricing, required licences and regional dates were not disclosed. These are vendor announcements reported by trade press, so treat the claims as plans until general availability."
+     ],
+     "sources": [
+      {
+       "title": "TechTarget: Microsoft unveils Copilotforce, expands Office inside Copilot",
+       "url": "https://www.techtarget.com/news/microsoft-unveils-copilotforce-expands-office-inside-copilot/875038/"
+      },
+      {
+       "title": "Neowin: After years of rivalry, Microsoft and Salesforce join forces again with Copilotforce",
+       "url": "https://www.neowin.net/news/after-years-of-rivalry-microsoft-and-salesforce-join-forces-again-with-copilotforce/"
+      },
+      {
+       "title": "tbreak: Copilotforce: Microsoft and Salesforce bring CRM to Copilot",
+       "url": "https://tbreak.com/copilotforce-microsoft-salesforce-copilot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Textron sells its industrial arm for $1.2 billion to focus on aerospace",
+     "visual": {
+      "type": "stat",
+      "value": "$1.2B",
+      "label": "Price Kingswood Capital agreed to pay for Textron's Industrial segment"
+     },
+     "what": "Textron is selling Kautex fuel systems and its specialised vehicles unit, including E-Z-GO golf carts, to private equity firm Kingswood.",
+     "why": "Leadership is solving for focus: a pure aerospace and defence group is simpler for investors to value and managers to run.",
+     "say": "Which of our units would a buyer value more than we do? That is the divestment test.",
+     "deeper": [
+      "Textron expects about $1.1 billion after tax and costs, and a noncash charge of $350 million to $400 million this quarter. Closing is expected in the first half of 2027. What remains is Textron Aviation, Bell and Textron Systems.",
+      "Reuters notes the sale follows an April plan to separate the unit and last year's sale of the powersports business. A new buyback of up to 35 million shares suggests some proceeds go back to shareholders."
+     ],
+     "sources": [
+      {
+       "title": "Textron: Textron to sell its Industrial segment to Kingswood Capital Management for $1.2 billion",
+       "url": "https://investor.textron.com/news-releases/news-details/2026/Textron-to-Sell-its-Industrial-Segment-to-Kingswood-Capital-Management-for-1-2-Billion/default.aspx"
+      },
+      {
+       "title": "Investing.com (Reuters): Cessna jet maker Textron to sell industrial business for $1.2 billion",
+       "url": "https://investing.com/news/stock-market-news/cessna-jet-maker-textron-to-sell-industrial-business-for-12-billion-5036071"
+      },
+      {
+       "title": "FINANCE channel: Textron sells Industrial in $1.2 billion aerospace pivot",
+       "url": "https://finchannel.com/textron-agrees-to-1-2-billion-industrial-sale-in-aerospace-pivot/142118/american-business-trends/2026/11/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Macro signal",
+     "title": "India's goods trade gap hits a 12-month high of $39.88 billion",
+     "visual": {
+      "type": "bars",
+      "title": "India goods trade, October 2026, $ billion (Commerce Ministry)",
+      "items": [
+       {
+        "label": "Exports",
+        "value": 49.47
+       },
+       {
+        "label": "Imports",
+        "value": 89.35,
+        "hot": true
+       },
+       {
+        "label": "Gap",
+        "value": 39.88
+       }
+      ]
+     },
+     "what": "Fuel pushed goods imports to a record $89.35 billion in October. Exports rose 45% to $49.47 billion. Services narrowed the total gap to $20.09 billion.",
+     "why": "A wide goods gap pressures the rupee and imported inflation, which already sits above the RBI's limit.",
+     "say": "How much of our cost base is priced in dollars or tied to fuel, and is it hedged?",
+     "deeper": [
+      "Services, including IT and other business services, did the heavy lifting: estimated exports of $40.51 billion against imports of $20.72 billion. The October services figures are estimates, because the latest RBI data covers September.",
+      "Over April to October the combined deficit widened by $10.10 billion. Business Standard links much of the rise in both exports and imports to higher energy prices. The data were released on 13 November."
+     ],
+     "sources": [
+      {
+       "title": "Business Standard: India's trade deficit at 12-month high as October imports hit record",
+       "url": "https://www.business-standard.com/economy/news/india-s-trade-deficit-at-12-month-high-as-october-imports-hit-record-126111300926_1.html"
+      },
+      {
+       "title": "ETV Bharat: India's exports surge nearly 30% to USD 89.99 billion in October, trade deficit narrows to USD 20.09 billion",
+       "url": "https://www.etvbharat.com/en/business/india-exports-surge-in-october-2026-trade-deficit-narrows-according-to-government-data-enn26111303443"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Wednesday, 18 November",
+    "why": "Fed minutes pointing to more rate hikes hit the Dow, Europe and gold. India fell on profit taking.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,227.95",
+      "change": -0.63
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "82,031.81",
+      "change": -0.61
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "59,024.28",
+      "change": 0.28
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "23,294.75",
+      "change": -0.91
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,587.83",
+      "change": 0.09
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,551.17",
+      "change": -1.3
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "25,736.24",
+      "change": -1.19
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,323.63",
+      "change": -0.23
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "24,429.89",
+      "change": 0.42
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "50,198.17",
+      "change": -1.11
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,741.90",
+      "change": -3.16,
+      "note": "Dec futures"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$91.95",
+      "change": -1.28,
+      "note": "Futures"
+     },
+     {
+      "name": "USD/INR",
+      "value": "93.47",
+      "change": -0.52,
+      "note": "Rupee firmer"
+     }
+    ],
+    "sources": [
+     {
+      "title": "Motley Fool: Stock market today, Nov. 18: S&P 500 breaks key support as Fed minutes signal more rate hikes ahead",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+     },
+     {
+      "title": "Yahoo Finance: S&P 500 historical data",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+     },
+     {
+      "title": "The Hawk (IANS): Sensex and Nifty on 18 November 2026: share market closing",
+      "url": "https://www.thehawk.in/share-market-today/2026-11-18"
+     },
+     {
+      "title": "Armenpress: Asian Stocks, 18/11/26",
+      "url": "https://armenpress.am/en/article/1266016"
+     },
+     {
+      "title": "Ad Hoc News: DAX ends 1.19% lower at 25,736 points as rate fears return",
+      "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-ends-1-19-prozent-lower-at-25-736-points-as-rate-fears-return/70532391"
+     },
+     {
+      "title": "MarketScreener: FTSE 100 sinks as miners plummet, inflation rises",
+      "url": "https://www.marketscreener.com/news/ftse-100-sinks-as-miners-plummet-inflation-rises-ce785edddd8cff27"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Winner's curse",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Winner's curse: the top bidder often paid too much",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Uncertain value",
+        "note": "No one knows the true worth."
+       },
+       {
+        "label": "Many bidders",
+        "note": "Each makes an honest guess."
+       },
+       {
+        "label": "Highest guess wins",
+        "note": "The winner is often the most optimistic.",
+        "hot": true
+       },
+       {
+        "label": "Shade your bid",
+        "note": "Bid below your own estimate."
+       }
+      ]
+     },
+     "what": "When many bidders guess an uncertain value, the winner is usually the one who guessed highest, so winning often means overpaying.",
+     "why": "Use it for acquisitions, talent bidding wars, auctions and any contest where the prize's value is unclear.",
+     "say": "On our next bid, ask: if we win, what did we see that every rival missed?",
+     "deeper": [
+      "Three Atlantic Richfield engineers, Ed Capen, Bob Clapp and Bill Campbell, named it in a 1971 paper, Competitive Bidding in High-Risk Situations. They argued oil firms earned poor returns on Gulf of Mexico lease auctions because winners overestimated reserves.",
+      "The curse grows with uncertainty and with the number of bidders. The fix is not to stop bidding but to adjust your estimate for the fact that you won."
+     ],
+     "sources": [
+      {
+       "title": "AAPG Explorer: Bid winners can face 'curse'",
+       "url": "https://explorer.aapg.org/story/articleid/46487/-bid-winners-can-face-curse"
+      },
+      {
+       "title": "Kagel and Levin: Winner's curse, encyclopedia entry (Ohio State)",
+       "url": "https://www.asc.ohio-state.edu/kagel.4/Encyclopedia_SS.pdf"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "The evidence",
+     "title": "MBA students paid $10.01 for jars worth $8",
+     "visual": {
+      "type": "stat",
+      "value": "$10.01",
+      "label": "Average winning bid for a jar of coins worth $8.00"
+     },
+     "what": "In 1983, Bazerman and Samuelson auctioned jars of coins to MBA students. The winning bid averaged $10.01, a $2.01 loss per winner.",
+     "why": "Smart people overpay when value is uncertain and rivals are many. Experience alone does not cure it.",
+     "say": "Palo Alto paid $1.25 billion over a weeks-old valuation. What would make us walk away?",
+     "deeper": [
+      "Max Bazerman and William Samuelson ran the auctions in 12 Boston University classes and published the results in the Journal of Conflict Resolution. Richard Thaler later summarised the jar result in a 1988 review of the winner's curse.",
+      "The link to today's Palo Alto deal is an illustration, not a verdict. A strategic buyer may know things rivals do not, which is the honest test for any premium."
+     ],
+     "sources": [
+      {
+       "title": "Thaler (1988): Anomalies: the winner's curse, Journal of Economic Perspectives",
+       "url": "https://stafforini.com/pdfs/thaler-1988-anomalies-winner-curse.pdf"
+      },
+      {
+       "title": "Bazerman and Samuelson (1983): I won the auction but don't want the prize",
+       "url": "https://www.cs.princeton.edu/courses/archive/spr10/cos444/papers/BazermanSamuelson83.pdf"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Google Cloud AI stack: step 2 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "Google Cloud's AI stack",
+    "step": 2,
+    "total": 5,
+    "plan": [
+     "The four layers, chip to app",
+     "TPUs: Google's own AI chips",
+     "Gemini models and the model garden",
+     "The agent platform and data layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "AWS's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 2 of 5",
+     "title": "TPUs are Google's own chips, built only for AI maths",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "AI is maths",
+        "note": "Models are mostly huge grids of multiplication."
+       },
+       {
+        "label": "Custom chip",
+        "note": "A TPU does that maths and little else."
+       },
+       {
+        "label": "Linked pods",
+        "note": "Ironwood joins up to 9,216 chips as one.",
+        "hot": true
+       },
+       {
+        "label": "Rented capacity",
+        "note": "Firms rent TPU time through Google Cloud."
+       }
+      ]
+     },
+     "what": "A TPU is a chip Google designed for the maths inside AI models. Unlike a GPU, it trades flexibility for speed and lower cost.",
+     "why": "TPUs give Google a cost lever that Nvidia buyers lack, and give customers a second source of AI compute.",
+     "say": "Ask your cloud team what it would take to run one of our models on TPUs.",
+     "deeper": [
+      "Ironwood is the seventh generation, listed as TPU7x. Google's documentation gives each chip 192 GiB of fast memory and a peak of 4,614 trillion operations a second at low precision. A full pod of 9,216 chips draws nearly 10 megawatts.",
+      "Peak figures are Google's own and real speed depends on software. Code written for Nvidia's CUDA tools does not move over for free, which is the hidden switching cost."
+     ],
+     "sources": [
+      {
+       "title": "Google Cloud documentation: TPU7x (Ironwood)",
+       "url": "https://docs.cloud.google.com/tpu/docs/tpu7x"
+      },
+      {
+       "title": "Google blog: Ironwood, the first Google TPU for the age of inference",
+       "url": "https://blog.google/products/google-cloud/ironwood-tpu-age-of-inference/"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Apple, 1997: cut 70% of products",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case file",
+     "title": "Jobs cut Apple to four product lines and returned it to profit",
+     "visual": {
+      "type": "stat",
+      "value": "$309M",
+      "label": "Apple's fiscal 1998 profit, a year after losing over $1 billion"
+     },
+     "what": "Back as interim CEO in 1997, Jobs drew a two by two grid: consumer or pro, desktop or portable. About 70% of products went.",
+     "why": "Apple swung from a loss of about $1 billion in fiscal 1997 to a $309 million profit in fiscal 1998.",
+     "say": "Focus is subtraction. Name one product or project we would cut if we could only keep four.",
+     "deeper": [
+      "Accounts say Apple sold more than 15 computer platforms before the cut and four after. Jobs also secured a $150 million investment from Microsoft in 1997, and the iMac launched in 1998.",
+      "Caveat: sources differ on the 1997 loss, from $816 million to $1.045 billion, depending on the period counted. The turnaround had several causes, so do not credit the grid alone."
+     ],
+     "sources": [
+      {
+       "title": "Apple History: Company history, 1997 to 2000",
+       "url": "https://apple-history.com/h7"
+      },
+      {
+       "title": "SlashGear: How Steve Jobs' 1997 return to Apple saved the company",
+       "url": "https://www.slashgear.com/833462/how-steve-jobs-1997-return-to-apple-saved-the-company"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Porter, 1996: What Is Strategy?",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Article, 1996",
+     "title": "Porter's What Is Strategy?: choosing what not to do",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Run efficiently"
+       },
+       {
+        "label": "Pick a position",
+        "hot": true
+       },
+       {
+        "label": "Accept trade-offs"
+       },
+       {
+        "label": "Fit activities"
+       }
+      ]
+     },
+     "what": "Doing the same things better than rivals is operational effectiveness, not strategy. Strategy means different activities, and trade-offs about what to leave out.",
+     "why": "It separates improvement programmes from real strategic choices, and gives leaders a test for vague plans.",
+     "say": "If our plan has no trade-offs, it is an improvement list, not a strategy.",
+     "deeper": [
+      "Michael Porter published the article in Harvard Business Review in November 1996. He uses firms such as IKEA and Vanguard to show how trade-offs and fit across activities make a position hard to copy. It pairs well with today's Textron and Apple stories."
+     ],
+     "sources": [
+      {
+       "title": "Porter (1996): What Is Strategy?, Harvard Business Review reprint",
+       "url": "https://is.muni.cz/el/1456/podzim2013/MPH_BUPM/um/43756461/Porter_What_is_Strategy_1996.pdf"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Greenshoe option",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Greenshoe option",
+     "visual": {
+      "type": "stat",
+      "value": "15%",
+      "label": "Typical extra shares underwriters may sell in an IPO"
+     },
+     "what": "An IPO clause letting underwriters sell about 15% more shares than planned, then buy them from the issuer or the market.",
+     "why": "Anthropic's record IPO may get bigger if underwriters use it, as SpaceX's did in June.",
+     "say": "Is that the headline raise, or the total after the greenshoe?",
+     "deeper": [
+      "Underwriters oversell the deal, then cover. If the price falls, they buy shares in the market, which supports the price. If it rises, they buy extra shares from the company at the IPO price. The option usually runs about 30 days. The name comes from Green Shoe Manufacturing, the first firm to use it, in 1963 by Bloomberg's account."
+     ],
+     "sources": [
+      {
+       "title": "Wikipedia: Greenshoe",
+       "url": "https://en.wikipedia.org/wiki/Greenshoe"
+      },
+      {
+       "title": "Bloomberg: How Alibaba boosted its IPO size by taking a walk in greenshoes",
+       "url": "https://www.bloomberg.com/news/articles/2014-09-22/how-alibaba-boosted-its-ipo-size-by-taking-a-walk-in-greenshoes"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "Palo Alto paid $1.25 billion above a weeks-old valuation for AI talent. What would make us walk away from a deal?",
+    "context": "Prompted by the Applied Compute deal and the winner's curse. Agreeing a walk-away price before bidding starts is the simplest guard against overpaying in a hot market."
+   }
+  }
+ ]
+}
