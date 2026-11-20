@@ -1,0 +1,696 @@
+{
+ "v": 4,
+ "date": "2026-11-20",
+ "label": "Friday, 20 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Wall Street's six-day slide deepens as AI stocks keep falling",
+     "visual": {
+      "type": "stat",
+      "value": "-8.2%",
+      "label": "S&P 500 drop from its October record after six straight losses"
+     },
+     "what": "The S&P 500 fell 2% to 7,175.83 on Thursday and the Dow lost 1,101 points. More than 90% of S&P stocks fell.",
+     "why": "Investors doubt that heavy AI spending will pay back soon, while higher US rates raise the cost of waiting.",
+     "say": "If AI valuations reset further, which of our plans depend on partners' share prices or cheap funding?",
+     "deeper": [
+      "Anthropic's debut did not stop the slide. Its shares opened at $111.50, well above the $83 IPO price, then closed at $97.17, up 17%, worth about $1.8 trillion fully diluted. Nvidia reversed an early gain to fall 3.3%.",
+      "Kitco notes the 10-year Treasury yield near 5.04% and futures pricing about a 90% chance of a December Fed hike. For the week so far the Dow is down 6.2%. Watch Friday's US consumer sentiment survey."
+     ],
+     "sources": [
+      {
+       "title": "myMotherLode (AP): How major US stock indexes fared Thursday 11/19/2026",
+       "url": "https://mymotherlode.com/news/national/11324998/how-major-us-stock-indexes-fared-thursday-11-19-2026.html"
+      },
+      {
+       "title": "CNBC: Anthropic IPO takeaways: ANT debuts with $1.8 trillion market cap",
+       "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+      },
+      {
+       "title": "Kitco: Gold falls below $3,650, silver tumbles as Fed rate concerns pressure metals",
+       "url": "https://www.kitco.com/news/article/2026-11-19/gold-falls-below-3650-silver-tumbles-fed-rate-concerns-pressure-metals"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "Hackers hit vendors of JPMorgan, Visa and Mastercard, not the banks",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Vendor breached",
+        "hot": true
+       },
+       {
+        "label": "Marketing data taken"
+       },
+       {
+        "label": "Customers notified"
+       }
+      ]
+     },
+     "what": "JPMorgan said attackers reached marketing data held by vendors, possibly customer names and emails. Mastercard and Visa reported separate vendor breaches.",
+     "why": "Your security is only as strong as the firms holding your data. Vendors are now the easiest way in.",
+     "say": "Which vendors hold our customer data, and when did we last check how they protect it?",
+     "deeper": [
+      "Visa said its incident involved a provider in Asia Pacific and no card numbers were affected. Mastercard said a limited set of email addresses from one benefit programme was exposed and contained. JPMorgan did not name the vendors or say when the attack happened, and will offer credit monitoring where appropriate.",
+      "Payment networks were not disrupted. A ransomware group has reportedly claimed the attack, but the companies have not confirmed that. Expect boards and regulators to ask harder questions about vendor risk."
+     ],
+     "sources": [
+      {
+       "title": "ABC News: JPMorganChase, Mastercard, Visa report cyberattack on third-party service providers",
+       "url": "https://abcnews.com/US/jpmorgan-chase-reports-cyberattack-party-service-providers/story?id=138287705"
+      },
+      {
+       "title": "Yahoo Finance: JPMorgan, Visa, and Mastercard disclose cyberattack on third-party vendors",
+       "url": "https://finance.yahoo.com/markets/article/jpmorgan-visa-and-mastercard-disclose-cyberattack-on-third-party-vendors-190314490.html"
+      }
+     ]
+    },
+    {
+     "tag": "Geopolitics",
+     "title": "Trump, Xi and Putin sign a peace declaration but no arms deal",
+     "visual": {
+      "type": "stat",
+      "value": "90 min",
+      "label": "Length of the first three-way US, China and Russia summit, in Shenzhen"
+     },
+     "what": "The leaders reaffirmed that nuclear war cannot be won, pledged UN reform and more fuel supplies, but set no arms control talks.",
+     "why": "Big-power deals made without Europe or Ukraine can shift sanctions, energy flows and supply chain risk for global firms.",
+     "say": "If US, China and Russia ties warm, which of our sanctions or sourcing assumptions change first?",
+     "deeper": [
+      "The declaration did not mention Russia's war in Ukraine or the US conflict with Iran. It backed immunity for state officials in international courts, which critics linked to the court warrants against Putin. Trump said he and Xi agreed AI guardrails were good.",
+      "European leaders met in Berlin to back Ukraine; Germany's Merz said a Yalta format will not bring peace. Watch the Group of 20 summit Trump hosts in Florida in a few weeks, where he is expected to meet Xi again."
+     ],
+     "sources": [
+      {
+       "title": "Korea Times (Reuters): Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+       "url": "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit"
+      },
+      {
+       "title": "Euronews: Trilateral summit ends with 'peace declaration' but no mention of Ukraine and Iran",
+       "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia"
+      },
+      {
+       "title": "Newser: Rare Trump-Xi-Putin summit ends with joint declaration",
+       "url": "https://www.newser.com/story/400290/rare-trump-xi-putin-summit-ends-with-joint-declaration.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Governance",
+     "title": "A Senate bill would make firms disclose AI boards and AI debt",
+     "visual": {
+      "type": "stat",
+      "value": "$10.3T",
+      "label": "Brookings estimate of US AI infrastructure investment needed from 2025 to 2032"
+     },
+     "what": "The bipartisan AUDIT AI Act asks public firms to disclose any AI governance policy and board AI committee, or explain why not.",
+     "why": "AI oversight moves from IT to the board, and off-balance-sheet AI financing becomes visible to investors.",
+     "say": "If we had to publish our AI governance policy tomorrow, could we, and who owns it?",
+     "deeper": [
+      "Senators Warner, Kennedy, Alsobrooks and Rounds introduced the bill on 19 November. It would also require disclosure of AI joint ventures, special purpose vehicles and big debt deals, plus standard risk disclosure on reliance on third-party models, compute concentration, costs and data liabilities. The SEC would study how firms account for AI spending.",
+      "It is a bill, not law, and the senators' own release is the main source. The $10.3 trillion figure is a Brookings estimate, about 3.6% of US GDP a year. Boards need not wait: name an owner for AI oversight now."
+     ],
+     "sources": [
+      {
+       "title": "Senator Warner: Bipartisan legislation to increase transparency and oversight of AI investments",
+       "url": "https://www.warner.senate.gov/newsroom/press-releases/warner-kennedy-alsobrooks-rounds-introduce-bipartisan-legislation-to-increase-transparency-and-oversight-of-ai-investments/"
+      },
+      {
+       "title": "The Alexandria Brief: Beyer outlines federal AI safety rules; Warner bill targets AI financing",
+       "url": "https://www.alexandriabrief.com/beyer-outlines-federal-ai-safety-rules-warner-bill-targets-ai-financing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Intuit sells Mailchimp for $3.68 billion, under a third of its price",
+     "visual": {
+      "type": "bars",
+      "title": "Mailchimp deal value, $ billion (CNBC)",
+      "items": [
+       {
+        "label": "Bought, 2021",
+        "value": 12,
+        "display": "$12B"
+       },
+       {
+        "label": "Sold, 2026",
+        "value": 3.68,
+        "display": "$3.68B",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Intuit is selling its email marketing unit to Bending Spoons, owner of Evernote and Vimeo, for $3.68 billion in cash and stock.",
+     "why": "Leadership is solving for growth: Mailchimp revenue fell 1% while Intuit grew 12%, so the unit dragged the whole story.",
+     "say": "Which of our acquisitions would we buy today at their current value? Keep only those.",
+     "deeper": [
+      "Intuit paid $12 billion in 2021 to move beyond tax and accounting. Mailchimp's quarterly revenue fell to $313 million, and Intuit expects it flat to down 1% this year. Intuit began reporting it as a separate segment in August, a common step before a sale. Closing is expected in early 2027.",
+      "Investors were not soothed: Intuit's full-year outlook came in below forecasts and its shares fell 15% in extended trading. Bending Spoons, backed by Berkshire Hathaway, specialises in buying faded software brands, including Airtable this year."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+       "url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html"
+      },
+      {
+       "title": "Investing.com: Intuit reports Q1 revenue up 12%, to sell Mailchimp for $3.68B",
+       "url": "https://www.investing.com/news/company-news/intuit-reports-q1-revenue-up-12-to-sell-mailchimp-for-368b-93CH-5039930"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "GCC Watch",
+     "title": "Karnataka hosts 1,088 of India's 2,117 GCCs and leads on AI",
+     "visual": {
+      "type": "bars",
+      "title": "GCCs with a dedicated AI budget, % (KDEM and Zinnov)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Karnataka",
+        "value": 69,
+        "hot": true
+       },
+       {
+        "label": "India",
+        "value": 57
+       }
+      ]
+     },
+     "what": "A state study says Karnataka's GCCs employ 1.11 lakh AI and machine learning staff, 43% of India's GCC AI talent.",
+     "why": "AI work is concentrating where senior AI talent already sits, raising the bar for GCCs in other cities.",
+     "say": "Does our India centre have its own AI budget and training, or does it wait for headquarters?",
+     "deeper": [
+      "Released at the Bengaluru Tech Summit on 19 November, the study by the Karnataka Digital Economy Mission and Zinnov says the state drew 217 of India's 510 new GCCs between FY2021 and FY2026. Bengaluru carries 44% of senior AI leadership GCC job postings.",
+      "Caveat: the study comes from a state body that promotes Karnataka, so treat rankings as advocacy, and GCC counts differ by source. Its useful part is the maturity checklist: AI budget, role-based training, shared platforms and responsible AI practice."
+     ],
+     "sources": [
+      {
+       "title": "Deccan Herald: Karnataka extends its lead in hosting GCCs",
+       "url": "https://www.deccanherald.com/business/karnataka-extends-its-lead-in-hosting-gccs-4224306"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Thursday, 19 November",
+    "why": "AI valuation worries drove a sixth straight US loss and weighed on Europe. India rallied on foreign buying.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,514.30",
+      "change": 1.14
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "83,021.75",
+      "change": 1.21
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "59,444.21",
+      "change": 0.71
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "22,841.62",
+      "change": -1.95
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,577.62",
+      "change": -0.28
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,452.68",
+      "change": -0.93
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "25,463.81",
+      "change": -1.06
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,175.83",
+      "change": -2.02
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "23,879.20",
+      "change": -2.25
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "49,097.06",
+      "change": -2.19
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,625.50",
+      "change": -2.65,
+      "note": "Spot, late US"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$91.98",
+      "change": 0.03,
+      "note": "Futures"
+     },
+     {
+      "name": "USD/INR",
+      "value": "93.36",
+      "change": -0.05,
+      "note": "Provisional"
+     }
+    ],
+    "sources": [
+     {
+      "title": "myMotherLode (AP): How major US stock indexes fared Thursday 11/19/2026",
+      "url": "https://mymotherlode.com/news/national/11324998/how-major-us-stock-indexes-fared-thursday-11-19-2026.html"
+     },
+     {
+      "title": "Kitco: Gold falls below $3,650, silver tumbles as Fed rate concerns pressure metals",
+      "url": "https://www.kitco.com/news/article/2026-11-19/gold-falls-below-3650-silver-tumbles-fed-rate-concerns-pressure-metals"
+     },
+     {
+      "title": "Armenpress: Asian Stocks down, 19/11/26",
+      "url": "https://armenpress.am/en/article/1266148"
+     },
+     {
+      "title": "Deccan Herald (PTI): Rupee rallies for fourth session to close 5 paise higher at 93.36",
+      "url": "https://www.deccanherald.com/business/markets/rupee-rallies-for-fourth-session-to-close-5-paise-higher-at-9336-against-us-dollar-4224014"
+     },
+     {
+      "title": "Business Standard: Sensex rebounds 990 pts, Nifty settles at 25,514",
+      "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Sunk cost fallacy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Sunk cost fallacy: past spending should not steer the next decision",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Money spent",
+        "note": "Already gone, whatever you decide next."
+       },
+       {
+        "label": "Pull to continue",
+        "note": "We hate to look wasteful."
+       },
+       {
+        "label": "Ask fresh",
+        "note": "Would we start this today, knowing what we know?",
+        "hot": true
+       },
+       {
+        "label": "Decide forward",
+        "note": "Weigh only future costs and gains."
+       }
+      ]
+     },
+     "what": "Money, time or effort already spent cannot be recovered, yet it pulls us to keep going so we do not look wasteful.",
+     "why": "Use it on troubled projects, weak acquisitions, stalled hires and long vendor contracts before the next funding round.",
+     "say": "Pick one project and ask: if we had not started, would we fund it today?",
+     "deeper": [
+      "Economists have long said sunk costs should not affect choices. Psychologists Hal Arkes and Catherine Blumer of Ohio University named and tested the bias in their 1985 paper The Psychology of Sunk Cost. They traced it to a wish not to appear wasteful.",
+      "Today's Mailchimp sale is the opposite move: Intuit accepted a price far below the $12 billion it paid. The fix is a forward-only test, ideally asked by someone who did not make the original decision."
+     ],
+     "sources": [
+      {
+       "title": "Arkes and Blumer (1985): The psychology of sunk cost, Organizational Behavior and Human Decision Processes",
+       "url": "https://www.sciencedirect.com/science/article/pii/0749597885900494"
+      },
+      {
+       "title": "Watson: The sunk cost fallacy: what the research actually shows",
+       "url": "https://watson.co.il/en/articles/sunk-cost-fallacy-theater-tickets"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "The evidence",
+     "title": "Theatre buyers who paid full price went to more plays",
+     "visual": {
+      "type": "bars",
+      "title": "Season ticket prices, randomly assigned, $ (Arkes and Blumer, 1985)",
+      "items": [
+       {
+        "label": "Full price",
+        "value": 15,
+        "display": "$15",
+        "hot": true
+       },
+       {
+        "label": "Small discount",
+        "value": 13,
+        "display": "$13"
+       },
+       {
+        "label": "Big discount",
+        "value": 8,
+        "display": "$8"
+       }
+      ]
+     },
+     "what": "In 1982, the first 60 season ticket buyers at Ohio University's theatre were randomly charged $15, $13 or $8. Full payers attended more.",
+     "why": "The price paid changed nothing about the plays, yet it changed behaviour. Past spending shapes choices it should not.",
+     "say": "Intuit walked away from a $12 billion purchase. What are we keeping only because we paid for it?",
+     "deeper": [
+      "Researchers tracked attendance for six months; the full-price group used more tickets in the first half of the season. The paper also posed a hypothetical: finish a $10 million radar-blank plane, 90% done, after a rival announces a better one?",
+      "Caveat: it was one small study. A 2010 field experiment in Zambia by Ashraf, Berry and Shapiro found no sunk cost effect on product use, so treat the bias as a risk to check, not a law."
+     ],
+     "sources": [
+      {
+       "title": "Arkes and Blumer (1985): The psychology of sunk cost, ResearchGate copy",
+       "url": "https://www.researchgate.net/publication/4812596_The_psychology_of_sunk_cost"
+      },
+      {
+       "title": "Watson: The sunk cost fallacy: what the research actually shows",
+       "url": "https://watson.co.il/en/articles/sunk-cost-fallacy-theater-tickets"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Google Cloud AI stack: step 3 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "Google Cloud's AI stack",
+    "step": 3,
+    "total": 5,
+    "plan": [
+     "The four layers, chip to app",
+     "TPUs: Google's own AI chips",
+     "Gemini models and the model garden",
+     "The agent platform and data layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "AWS's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 3 of 5",
+     "title": "Model Garden: one shop for Gemini and 200-plus other models",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Pick a task",
+        "note": "Text, images, video, speech or code."
+       },
+       {
+        "label": "Browse the garden",
+        "note": "Over 200 models from Google and partners."
+       },
+       {
+        "label": "Choose a size",
+        "note": "A bigger model is not always better.",
+        "hot": true
+       },
+       {
+        "label": "Tune and deploy",
+        "note": "Adapt with your own data, then launch."
+       }
+      ]
+     },
+     "what": "Model Garden is Google Cloud's catalogue of AI models: Google's own Gemini family, open models like Gemma and Llama, and partners such as Anthropic's Claude.",
+     "why": "Choice lowers lock-in at the model layer: teams can switch models without leaving Google's platform and security controls.",
+     "say": "List the three AI tasks we run most and test a smaller, cheaper model on each.",
+     "deeper": [
+      "Gemini is Google's main family of models, alongside task models such as Imagen for images, Veo for video and Chirp for speech. Google now calls the wider platform the Gemini Enterprise Agent Platform, formerly Vertex AI. Each model is priced separately.",
+      "These are vendor claims from Google's product page. Model choice inside one cloud reduces model lock-in but not cloud lock-in, which step 5 covers. Next: the agent platform and data layer."
+     ],
+     "sources": [
+      {
+       "title": "Google Cloud: Model Garden in Gemini platform",
+       "url": "https://cloud.google.com/model-garden"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "eBay, 2005: bought Skype, then let go",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case file",
+     "title": "eBay paid $2.6 billion for Skype, wrote off $1.4 billion, then sold",
+     "visual": {
+      "type": "stat",
+      "value": "$8.5B",
+      "label": "Microsoft's 2011 price for Skype, two years after eBay sold control"
+     },
+     "what": "eBay bought Skype for $2.6 billion in 2005. Synergies never came; it wrote down $1.4 billion in 2007 and sold 70% in 2009.",
+     "why": "The 2009 deal valued Skype at $2.75 billion. A kept 30% stake gave eBay a $1.4 billion net gain by 2011.",
+     "say": "Admit a misfit early, sell control to better owners, and keep a stake for the upside.",
+     "deeper": [
+      "eBay's board cited a lack of synergies with its commerce focus. A group led by Silver Lake paid $1.9 billion in cash plus a $125 million note for the majority stake, after eBay explored an IPO. New owners overhauled management and settled patent litigation before Microsoft paid $8.5 billion.",
+      "Caveat: these figures come from eBay's own 2014 account, written to rebut activist Carl Icahn, who argued eBay sold too cheaply. The buyers made almost $4 billion, so the exit timing is still debated."
+     ],
+     "sources": [
+      {
+       "title": "eBay Inc.: eBay Inc. reiterates 'The Truth About Skype'",
+       "url": "https://www.ebayinc.com/stories/news/ebay-inc-reiterates-truth-about-skype/"
+      },
+      {
+       "title": "ABC News: EBay sells big hunk of Skype",
+       "url": "https://abcnews.com/Technology/ebay-sells-big-hunk-skype/story?id=8468311"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Minsky, 1992: The Financial Instability Hypothesis",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Paper, 1992",
+     "title": "Minsky: long booms breed the risky debt that ends them",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Hedge finance"
+       },
+       {
+        "label": "Speculative finance"
+       },
+       {
+        "label": "Ponzi finance",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Minsky sorted borrowers into hedge, who repay from income; speculative, who must roll debt; and Ponzi, who borrow to pay interest.",
+     "why": "Each credit boom revives it, and today's AI data centre debt and off-balance-sheet deals invite the same test.",
+     "say": "Stability breeds instability: good years quietly shift debt to borrowers who need everything to keep going right.",
+     "deeper": [
+      "Hyman Minsky wrote it as Working Paper No. 74 for the Levy Economics Institute in May 1992. He argued that in long good times finance drifts from hedge to speculative and Ponzi units, and that a credit squeeze can then force asset sales and falling prices. It pairs with today's AUDIT AI bill."
+     ],
+     "sources": [
+      {
+       "title": "Minsky (1992): The Financial Instability Hypothesis, Levy Economics Institute Working Paper 74",
+       "url": "https://www.levyinstitute.org/pubs/wp74.pdf"
+      },
+      {
+       "title": "RePEc: The Financial Instability Hypothesis",
+       "url": "https://ideas.repec.org/p/lev/wrkpap/wp_74.html"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Special purpose vehicle",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Special purpose vehicle",
+     "visual": {
+      "type": "stat",
+      "value": "80%",
+      "label": "Blue Owl funds' stake in Meta's $27 billion Hyperion data centre venture"
+     },
+     "what": "A separate legal company set up for one project. It borrows and owns assets on its own, so debt can stay off the parent's books.",
+     "why": "AI builders use them to fund data centres, and today's AUDIT AI bill would force firms to disclose them.",
+     "say": "How much of this partner's AI spending sits in special purpose vehicles, and who guarantees that debt?",
+     "deeper": [
+      "In October 2025 Meta set up a joint venture with Blue Owl Capital for its Hyperion data centre campus, with about $27 billion in development costs. Meta owns 20%, and S&P said it would not add the venture's debt to Meta's. Reports describe a residual value guarantee from Meta, so the risk does not fully leave."
+     ],
+     "sources": [
+      {
+       "title": "Forbes: The strange case of Meta",
+       "url": "https://www.forbes.com/sites/shivaramrajgopal/2025/11/16/the-strange-case-of-meta/"
+      },
+      {
+       "title": "Global Data Center Hub: Meta and Blue Owl's $27B bet",
+       "url": "https://www.globaldatacenterhub.com/p/meta-blue-owls-27b-bet-is-this-the"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "builder",
+   "group": "Build",
+   "title": "Builder edition",
+   "sub": "Fridays only. What sells, distribution, gaps",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Builder: distribution",
+     "title": "Small apps win installs organically; paid ads matter more at scale",
+     "visual": {
+      "type": "bars",
+      "title": "Median organic share of installs by app size, % (Linkrunner)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Under 1K",
+        "value": 93.1
+       },
+       {
+        "label": "1K to 10K",
+        "value": 85.1
+       },
+       {
+        "label": "10K to 50K",
+        "value": 64.6,
+        "hot": true
+       }
+      ]
+     },
+     "what": "Across 92 apps and 8.23 million installs, the median app got 82.6% of installs organically. Apps under 1,000 installs hit 93.1%.",
+     "why": "Early growth comes from store search, word of mouth and referrals. Paid ads matter more once apps pass 10,000 installs.",
+     "say": "Before buying ads, tag where each install comes from and double down on your top organic source.",
+     "sayLabel": "Try it this week",
+     "deeper": [
+      "Linkrunner, an attribution platform, measured its customers' apps from December 2025 to March 2026. Social and community apps were 99.5% organic; e-commerce and travel relied on paid. The paid share across the network rose from 34.4% in December to 53.2% in February.",
+      "Caveat: Linkrunner sells measurement tools, the sample is small and many apps are Indian. Organic means any install not matched to an ad, so it includes untracked referrals. For a solo builder: earn organic pull first, then test paid with tight tracking."
+     ],
+     "sources": [
+      {
+       "title": "Linkrunner: Mobile App Growth Benchmark Report 2026, organic vs paid install split",
+       "url": "https://linkrunner.io/mobile-app-growth-benchmark-report-2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "If a vendor holding our customer data were breached tonight, how fast would we know, and who would tell customers?",
+    "context": "Prompted by vendor breaches at JPMorgan, Visa and Mastercard. Many firms map their own systems well but not the data their vendors hold, which is where attackers now look."
+   }
+  }
+ ]
+}
