@@ -1,6 +1,7 @@
 {
-  "latest": "2026-11-20",
+  "latest": "2026-11-21",
   "editions": [
+    {"date": "2026-11-21", "label": "Saturday, 21 November 2026", "lead": "S&P 500 and Dow enter a correction as Nvidia sinks 13.8%"},
     {"date": "2026-11-20", "label": "Friday, 20 November 2026", "lead": "Wall Street's six-day slide deepens as AI stocks keep falling"},
     {"date": "2026-11-19", "label": "Thursday, 19 November 2026", "lead": "Anthropic raises $81.3 billion in the largest IPO on record"},
     {"date": "2026-11-18", "label": "Wednesday, 18 November 2026", "lead": "Nvidia's sales double to $115.8 billion in its first quarter without Huang"},

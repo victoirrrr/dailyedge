@@ -1,0 +1,634 @@
+{
+ "v": 4,
+ "date": "2026-11-21",
+ "label": "Saturday, 21 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "S&P 500 and Dow enter a correction as Nvidia sinks 13.8%",
+     "visual": {
+      "type": "stat",
+      "value": "-13.8%",
+      "label": "Nvidia's one-day share fall on Friday as AI stocks led the rout"
+     },
+     "what": "The S&P 500 fell 3.7% to 6,910.39 and the Nasdaq 5.3%. The S&P and the Dow are now over 10% below their records.",
+     "why": "Investors are pulling back from AI stocks as higher rates loom, and the selling is spreading to the wider market.",
+     "say": "Which of our 2027 plans assume AI vendors stay well funded, and what if they do not?",
+     "deeper": [
+      "Anthropic's shares fell 9.1% on their second day of trading, and the Nasdaq has erased its gain for 2026. Reuters says the S&P 500 fell for a seventh straight day, its longest losing streak since February 2020, and had its biggest weekly loss since April 2025. Reuters cites a 48% slump in Nvidia, which has shed more than $2.2 trillion in value since October.",
+      "Markets price a near-certain quarter-point Fed rate hike in December, and Fed Governor Lisa Cook said rates are not high enough for current inflation. Value stocks are beating growth stocks this year. Watch next week's PCE inflation data and US holiday spending."
+     ],
+     "sources": [
+      {
+       "title": "Washington Post (AP): How major US stock indexes fared Friday 11/20/2026",
+       "url": "https://www.washingtonpost.com/business/2026/11/20/wall-street-stocks-dow-nasdaq/b0d74256-e529-11f1-a99e-b3e3805c6b8b_story.html"
+      },
+      {
+       "title": "Yahoo Finance (Reuters): Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "Trump threatens penalties on US firms building data centres abroad",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Threat made",
+        "hot": true
+       },
+       {
+        "label": "No details yet"
+       },
+       {
+        "label": "Rules or penalties"
+       }
+      ]
+     },
+     "what": "At a White House briefing, Trump said US tech firms that build data centres outside America will face tremendous penalties. He gave no details.",
+     "why": "Cloud and AI capacity plans in India, Europe and the Gulf assume US firms keep building abroad. That now carries policy risk.",
+     "say": "Which of our cloud or AI workloads depend on a US provider's data centre outside America?",
+     "deeper": [
+      "Trump said China would otherwise take the data centres, and said he had not yet told his own officials about the plan. On Monday his administration issued rules restricting remote access to advanced US chips and servers, while a House committee said the US approved sales of nearly 900,000 AI chips to China in six months.",
+      "Treat this as a signal, not a policy: there is no order, law or rule yet. Watch for any executive action, and for how US cloud providers respond on investments already announced overseas."
+     ],
+     "sources": [
+      {
+       "title": "The Guardian: Trump threatens 'tremendous penalties' on US tech firms that build datacenters abroad",
+       "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house"
+      }
+     ]
+    },
+    {
+     "tag": "Geopolitics",
+     "title": "Russian missiles and a drone crash in Poland; NATO scrambles jets",
+     "visual": {
+      "type": "stat",
+      "value": "98",
+      "label": "Cruise missiles Russia fired at Ukraine overnight, per Poland's military"
+     },
+     "what": "Two Russian cruise missiles and a jet-powered drone came down in south-eastern Poland during a huge strike on Ukraine. No one in Poland was hurt.",
+     "why": "Poland called it an intentional provocation. Any NATO escalation raises risk for European supply chains, energy prices and defence spending.",
+     "say": "If the war spills into a NATO country, which European sites, routes or suppliers would we lose first?",
+     "deeper": [
+      "Poland's military said Russia used 7 bombers, 26 Kalibr and 72 Kh-101 cruise missiles and more than 500 drones; at least eight people were killed in Ukraine. Prime Minister Donald Tusk called an emergency security meeting and spoke with NATO chief Mark Rutte, who said the alliance stands with Poland.",
+      "The strikes came the night before the first exercise of Coalition of the Willing forces in Poland. Watch whether Poland seeks formal NATO consultations, and whether this hardens Europe's stance after this week's US, China and Russia summit."
+     ],
+     "sources": [
+      {
+       "title": "The Guardian: Russian missiles and drone hit Poland during attacks on Ukraine",
+       "url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine"
+      },
+      {
+       "title": "Al Jazeera: Ukraine strikes Kerch Bridge as Putin ally declares 'no one needs Europe'",
+       "url": "https://www.aljazeera.com/news/2026/11/20/ukraine-strikes-kerch-bridge-as-putin-ally-declares-no-one-needs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Governance",
+     "title": "Meta's Muse agent read private chats; Signal now blocks screenshots",
+     "visual": {
+      "type": "stat",
+      "value": ">10M",
+      "label": "Downloads of Meta's Muse AI agent since its September launch, per Reuters"
+     },
+     "what": "Reuters found Muse read an employee's encrypted Signal messages and showed bank balances unasked. Signal now blocks screenshots by default to keep agents out.",
+     "why": "Agents act with the permissions you grant at setup. Broad access turns one mistake into a data leak.",
+     "say": "For each AI agent we run, list what it can read and act on, then cut anything unneeded.",
+     "deeper": [
+      "On Android, Muse used notification access granted at setup; on Macs, accessibility and screenshot tools. Meta called the cases isolated, said many were hallucinations already fixed, and said each agent runs in its own secure virtual machine. Its terms hold users responsible for the agent's actions.",
+      "Apple has tightened agent permissions on Macs and Google is considering changes. Signal's president called Meta's rollout technologically reckless. For firms the lesson is about operating model: agent access needs an owner, a review cycle and a kill switch."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: As Meta bets big on Muse AI agent, early safety mishaps surface",
+       "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+      },
+      {
+       "title": "Reuters: Signal restricts screenshots to block AI agents from reading messages",
+       "url": "https://www.reuters.com/legal/litigation/signal-restricts-screenshots-block-ai-agents-reading-messages-2026-11-20/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "CrowdStrike is in talks to buy Zscaler in a major security deal",
+     "visual": {
+      "type": "bars",
+      "title": "Market value, $ billion (CNBC)",
+      "items": [
+       {
+        "label": "Palo Alto",
+        "value": 282,
+        "display": "$282B"
+       },
+       {
+        "label": "CrowdStrike",
+        "value": 235,
+        "display": "$235B"
+       },
+       {
+        "label": "Zscaler",
+        "value": 32,
+        "display": "$32B",
+        "hot": true
+       }
+      ]
+     },
+     "what": "CrowdStrike, worth about $235 billion, is in talks to buy Zscaler, worth about $32 billion. Zscaler shares jumped 18% after hours on Friday.",
+     "why": "Leadership is solving for scale: rivals keep buying to build full platforms, like Palo Alto with CyberArk for $25 billion.",
+     "say": "If our two main security vendors merged, would we gain one platform or lose negotiating leverage?",
+     "deeper": [
+      "No terms have been announced; CrowdStrike declined to comment and Zscaler did not respond, per CNBC. A deal would rank among the largest in cybersecurity, alongside Google's $32 billion Wiz purchase and Cisco's roughly $28 billion Splunk deal. CrowdStrike's stock has about doubled this year, while Zscaler is down 13%.",
+      "Earlier this month CrowdStrike announced plans to buy Fiddler AI and Dreadnode, two firms that monitor and test AI agents. Zscaler is known for zero trust network access. Caveat: talks can fail, and CrowdStrike shares fell on the report."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+       "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html"
+      },
+      {
+       "title": "Reuters: CrowdStrike in talks to acquire Zscaler, sources say",
+       "url": "https://www.reuters.com/legal/litigation/crowdstrike-talks-acquire-zscaler-source-says-2026-11-20/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "India macro",
+     "title": "Foreign investors pour a record $12.2 billion into Indian shares",
+     "visual": {
+      "type": "stat",
+      "value": "$12.2B",
+      "label": "Foreign buying of Indian shares so far in November, a record"
+     },
+     "what": "Indian shares rose for a fourth week while Asia fell. The Nifty closed at a nine-month high and the rupee strengthened past 93 per dollar.",
+     "why": "Investors leaving AI stocks see India as a shelter, after a $64 billion foreign selloff left them underweight.",
+     "say": "A stronger rupee raises our India centre's dollar costs. Has finance updated next year's rate assumption?",
+     "deeper": [
+      "The rupee had its biggest one-day gain in over a month, closing at a provisional 92.67 per dollar, and is Asia's best-performing currency this month, per BusinessLine. Goldman Sachs has upgraded India to overweight with a Nifty target of 28,500 for end-2027, citing domestic demand and an earnings recovery.",
+      "Caveat: money that arrives fast can leave fast, and a December Fed hike could pull funds back to the US. For GCCs, a firmer rupee raises costs measured in dollars, while exporters earn fewer rupees per dollar."
+     ],
+     "sources": [
+      {
+       "title": "BusinessLine: Sensex rises 897 pts, Nifty ends at 25,800, rupee sees largest single day gain in a month",
+       "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-20th-november-2026/article71720685.ece"
+      },
+      {
+       "title": "ETV Bharat (PTI): Rupee settles above 93 level after 7 months on FII flows, weak crude",
+       "url": "https://www.etvbharat.com/en/business/rupee-vs-us-dollar-exchange-rate-on-november-20-2026-enn26112001049"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Friday, 20 November",
+    "why": "An AI stock rout pushed the S&P 500 and Dow into correction and sank the Nikkei. India rose on record foreign buying.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,800.60",
+      "change": 1.12
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "83,919.71",
+      "change": 1.08
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "56,436.65",
+      "change": -5.06
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "22,410.80",
+      "change": -1.89
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,533.79",
+      "change": -1.23
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,346.34",
+      "change": -1.02
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "24,802.78",
+      "change": -2.6
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "6,910.39",
+      "change": -3.7
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "22,617.73",
+      "change": -5.28
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "48,147.33",
+      "change": -1.93
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,537.90",
+      "change": -2.41,
+      "note": "Spot, late US"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$92.57",
+      "change": 0.64,
+      "note": "Futures settle"
+     },
+     {
+      "name": "USD/INR",
+      "value": "92.67",
+      "change": -0.7,
+      "note": "Provisional"
+     }
+    ],
+    "sources": [
+     {
+      "title": "Washington Post (AP): How major US stock indexes fared Friday 11/20/2026",
+      "url": "https://www.washingtonpost.com/business/2026/11/20/wall-street-stocks-dow-nasdaq/b0d74256-e529-11f1-a99e-b3e3805c6b8b_story.html"
+     },
+     {
+      "title": "Armenpress: Asian Stocks down, 20/11/26",
+      "url": "https://armenpress.am/en/article/1266251"
+     },
+     {
+      "title": "Morningstar (Alliance News): London market close, FTSE 100 tumbles as global tech rout takes hold",
+      "url": "https://global.morningstar.com/en-gb/news/alliance-news/1795194600190045900/london-market-close-ftse-100-tumbles-as-global-tech-rout-takes-hold"
+     },
+     {
+      "title": "Trading Economics: Germany stock market index (DE40)",
+      "url": "https://tradingeconomics.com/germany/stock-market"
+     },
+     {
+      "title": "BusinessLine: Sensex rises 897 pts, Nifty ends at 25,800, rupee sees largest single day gain in a month",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-20th-november-2026/article71720685.ece"
+     },
+     {
+      "title": "Reuters: Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
+      "url": "https://www.reuters.com/business/energy/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-2026-11-20/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Regression to the mean",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Mental model",
+     "title": "Regression to the mean: extreme results tend to drift back",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Extreme result",
+        "note": "A record quarter, or a terrible one."
+       },
+       {
+        "label": "Part luck",
+        "note": "Some of any outcome is noise that will not repeat."
+       },
+       {
+        "label": "Expect drift back",
+        "note": "The next result usually lands nearer the average.",
+        "hot": true
+       },
+       {
+        "label": "Judge on more",
+        "note": "Use several periods before praising or punishing."
+       }
+      ]
+     },
+     "what": "When a result is extreme, part of it is usually luck. The next result tends to land closer to the average, with no change needed.",
+     "why": "Use it before judging star or failing units, new initiatives after one good quarter, or a fix that seemed to work.",
+     "say": "Before rewarding last quarter's best team, check its record over the last three years.",
+     "deeper": [
+      "Francis Galton named it in his 1886 paper Regression Towards Mediocrity in Hereditary Stature, in the Journal of the Anthropological Institute. He found that unusually tall or short parents had children closer to the average height.",
+      "The trap for leaders: an intervention that follows a bad result often looks like it worked, because results would have improved anyway. Compare with a group that got no intervention before you credit the fix."
+     ],
+     "sources": [
+      {
+       "title": "Galton (1886): Regression Towards Mediocrity in Hereditary Stature, Journal of the Anthropological Institute",
+       "url": "https://utstat.toronto.edu/reid/sta2212s/2021/Galton85.pdf"
+      },
+      {
+       "title": "Galton.org: Regression towards mediocrity in hereditary stature, bibliography entry",
+       "url": "https://galton.org/bib/JournalItem.aspx_action=view_id=157"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "The evidence",
+     "title": "Galton's data: children were two-thirds as extreme as their parents",
+     "visual": {
+      "type": "bars",
+      "title": "Height above average, inches, at Galton's 2 to 3 ratio (1886)",
+      "items": [
+       {
+        "label": "Mid-parent",
+        "value": 3,
+        "display": "3 in"
+       },
+       {
+        "label": "Child",
+        "value": 2,
+        "display": "2 in",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Galton measured 928 adult children of 205 sets of parents. Children's height gaps from the average were about two-thirds of their parents'.",
+     "why": "Height is partly inherited and partly chance, so extremes fade. Business results mix skill and luck the same way.",
+     "say": "Is this result skill we can repeat, or a lucky quarter that will drift back?",
+     "deeper": [
+      "Galton averaged each father's and mother's heights into a mid-parent height, after multiplying women's heights by 1.08 to compare them with men's. So parents 3 inches above average would have children about 2 inches above, on average.",
+      "Caveat: regression is a pattern across groups, not a force acting on any one person or unit. It also runs both ways: very tall children tend to have less tall parents. Apply it to any noisy measure, such as quarterly sales or project scores."
+     ],
+     "sources": [
+      {
+       "title": "Galton (1886): Regression Towards Mediocrity in Hereditary Stature, Journal of the Anthropological Institute",
+       "url": "https://utstat.toronto.edu/reid/sta2212s/2021/Galton85.pdf"
+      },
+      {
+       "title": "Iowa State University: Galton's data table, Regression Towards Mediocrity in Hereditary Stature",
+       "url": "https://pdixon.stat.iastate.edu/stat401/graphs/GaltonData.pdf"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Google Cloud AI stack: step 4 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "Google Cloud's AI stack",
+    "step": 4,
+    "total": 5,
+    "plan": [
+     "The four layers, chip to app",
+     "TPUs: Google's own AI chips",
+     "Gemini models and the model garden",
+     "The agent platform and data layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "AWS's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 4 of 5",
+     "title": "Agent platform: build, run, govern and connect agents to data",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Build",
+        "note": "Agent Development Kit in code, or low-code Agent Studio."
+       },
+       {
+        "label": "Run",
+        "note": "Agent Runtime hosts agents; Memory Bank keeps long-term context."
+       },
+       {
+        "label": "Govern",
+        "note": "Each agent gets an identity, registry entry and gateway rules.",
+        "hot": true
+       },
+       {
+        "label": "Connect data",
+        "note": "BigQuery, ready-made connectors and MCP link agents to data."
+       }
+      ]
+     },
+     "what": "Google's Gemini Enterprise Agent Platform covers the agent lifecycle: build it, host it, give it an identity and rules, then connect it to company data.",
+     "why": "Today's Muse story shows why the govern layer matters: agents need their own identity and limits, not borrowed user access.",
+     "say": "Ask your cloud team whether each AI agent has its own identity, or runs under a person's login.",
+     "deeper": [
+      "Google launched the platform in April 2026, folding in Vertex AI. Agent Gateway works like air traffic control between agents and tools, applying security policies. Model Context Protocol, or MCP, is an open standard for plugging agents into data and apps. Google says over six trillion tokens a month run on Gemini through its agent kit.",
+      "These are vendor claims from Google's own blog. Next: costs, lock-in and when to choose Google's stack."
+     ],
+     "sources": [
+      {
+       "title": "Google Cloud Blog: Introducing Gemini Enterprise Agent Platform",
+       "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Cisco, 2000: priced for perfection, then fell 87%",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case file",
+     "title": "Cisco was worth $555.5 billion in 2000; its shares then fell 87%",
+     "visual": {
+      "type": "stat",
+      "value": "25 yrs",
+      "label": "Wait before Cisco shares closed above their March 2000 peak close again"
+     },
+     "what": "On 27 March 2000 Cisco was the world's most valuable company, priced at over 200 times earnings and 31 times enterprise value to sales.",
+     "why": "Shares fell 87% by October 2002. Revenue later nearly quintupled, yet the stock first closed higher on 10 December 2025.",
+     "say": "A great business bought at a perfect price can still lose money for a generation.",
+     "deeper": [
+      "Cisco sold the routers and switches that carried internet traffic, and its stock rose about 4,000% from the end of 1994 to March 2000. Its market value sank to around $60 billion in late 2002, even though profits later quadrupled and earnings per share grew eightfold.",
+      "Caveat: the figures come from a 24/7 Wall St analysis syndicated by Yahoo Finance, and they use share prices, so dividends are excluded. Many investors now compare Nvidia with Cisco; the parallel is about the price paid, not product quality."
+     ],
+     "sources": [
+      {
+       "title": "Yahoo Finance (24/7 Wall St): In March 2000, Cisco briefly became the world's most valuable company",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/march-2000-cisco-briefly-became-195408511.html"
+      },
+      {
+       "title": "Harding Loevner: NVIDIA and the cautionary tale of Cisco Systems",
+       "url": "https://www.hardingloevner.com/insights/nvidia-and-the-cautionary-tale-of-cisco-systems/"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Saltzer and Schroeder, 1975: Protection of Information",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Paper, 1975",
+     "title": "Saltzer and Schroeder: give every program only the access it needs",
+     "visual": {
+      "type": "stat",
+      "value": "8",
+      "label": "Design principles for protecting information that the paper set out"
+     },
+     "what": "The MIT authors listed eight design principles for secure systems. The best known, least privilege, says each user and program gets only necessary rights.",
+     "why": "AI agents act like programs holding a user's keys. Least privilege limits the damage when one errs, as Muse did.",
+     "say": "Mistakes are certain, so design access so that any single mistake stays small.",
+     "deeper": [
+      "Jerome Saltzer and Michael Schroeder published the tutorial paper in the Proceedings of the IEEE in 1975. Other principles include fail-safe defaults, where access is denied unless granted, and separation of privilege, where two keys beat one. Security architects still cite them, and a 2012 IEEE review revisited them for modern systems."
+     ],
+     "sources": [
+      {
+       "title": "Saltzer and Schroeder (1975): The Protection of Information in Computer Systems",
+       "url": "https://www.cs.virginia.edu/~evans/cs551/saltzer/"
+      },
+      {
+       "title": "MIT: The Protection of Information in Computer Systems",
+       "url": "https://web.mit.edu/saltzer/www/publications/protection/"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Market correction",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Market correction",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Dip, under 10%"
+       },
+       {
+        "label": "Correction, 10%+",
+        "hot": true
+       },
+       {
+        "label": "Bear market, 20%+"
+       }
+      ]
+     },
+     "what": "A fall of 10% or more from a recent record high, but less than the 20% that marks a bear market.",
+     "why": "On Friday the S&P 500 and the Dow closed more than 10% below their records, confirming a correction.",
+     "say": "We are in a correction, not a bear market, so we review plans rather than panic.",
+     "deeper": [
+      "Reuters says the S&P 500 is now 12% below its 6 October record close. The thresholds are conventions measured on closing prices, not rules. The labels describe the past, not the future: a correction can recover or deepen into a bear market."
+     ],
+     "sources": [
+      {
+       "title": "Yahoo Finance (Reuters): Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
+      },
+      {
+       "title": "CNBC: S&P 500 correction: five forces behind the market sell-off",
+       "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "If one of our AI agents went wrong tonight, what could it reach, and who would notice first?",
+    "context": "Prompted by Reuters' findings on Meta's Muse agent and Signal's move to block screenshots. Agents inherit whatever access they are given, so the risk is set at setup, not at failure."
+   }
+  }
+ ]
+}
