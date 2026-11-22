@@ -1,0 +1,679 @@
+{
+ "v": 4,
+ "date": "2026-11-22",
+ "label": "Sunday, 22 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "IG Metall calls 23,000 German workers out on strike Monday",
+     "visual": {
+      "type": "bars",
+      "title": "Pay rise on the table, %, per Reuters",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Union demand",
+        "value": 5,
+        "display": "5%",
+        "hot": true
+       },
+       {
+        "label": "Employer offer, from July 2028",
+        "value": 1.3,
+        "display": "1.3%"
+       }
+      ]
+     },
+     "what": "Germany's largest union will stage a 24-hour strike at 19 northern firms, including Mercedes-Benz, Meyer Werft and Siemens Gamesa, after 12,300 walked out Friday.",
+     "why": "Wage fights at Europe's industrial core raise costs and delivery risk for anyone buying German cars, ships or wind kit.",
+     "say": "Which of our suppliers sit in Germany's metal and electrical industry, and what is our plan if strikes spread?",
+     "deeper": [
+      "IG Metall wants a 5% rise, or, where firms leave the industry-wide deal, commitments on investment, products, sites and jobs. Employers offered no permanent rise for the first 20 months and 1.3% from July 2028. Reuters also reports Volkswagen is seeking a pay freeze and flexible hours in its own talks.",
+      "Watch whether Monday's walkout leads to a deal or wider strikes. A gap this large between the two sides is why both are using pressure rather than talks alone."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: German car and shipyard workers set to strike as IG Metall union extends walkout",
+       "url": "https://www.reuters.com/business/world-at-work/german-car-shipyard-workers-set-strike-ig-metall-union-extends-walkout-2026-11-21/"
+      },
+      {
+       "title": "Reuters: Volkswagen seeks pay freeze, flexible hours in showdown with union",
+       "url": "https://www.reuters.com/business/world-at-work/volkswagen-demands-pay-freeze-flexible-hours-looming-showdown-with-union-2026-11-19/"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "China vows countermeasures after US bars its telecoms from US numbers",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Service ban"
+       },
+       {
+        "label": "Lab testing ban"
+       },
+       {
+        "label": "Phone numbers ban",
+        "hot": true
+       },
+       {
+        "label": "Networks, data centres?"
+       }
+      ]
+     },
+     "what": "The FCC voted Thursday to bar China Mobile, China Telecom and China Unicom from direct access to US phone numbers. Beijing demands a reversal.",
+     "why": "US and China are decoupling telecom layer by layer, so firms using Chinese carriers or gear face rising switching costs.",
+     "say": "Do any of our voice, SMS or network vendors route through Chinese carriers or Huawei and ZTE gear?",
+     "deeper": [
+      "The FCC says the rule targets scam robocalls and national security. Direct access is the cheaper way for internet calling firms to get numbers. Providers using equipment from firms on the FCC's risk list, including Huawei and ZTE, are also barred. Last month the FCC voted to ban Chinese labs from testing US electronics from December 2028.",
+      "China's commerce ministry said the move runs against the consensus of the two leaders. Next on the FCC list: barring Chinese telecoms from connecting to US networks or running US data centres."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: China opposes US FCC ban on Chinese telecoms' direct access to US phone numbers",
+       "url": "https://www.reuters.com/world/china-opposes-us-fcc-ban-chinese-telecoms-direct-access-us-phone-numbers-2026-11-22/"
+      },
+      {
+       "title": "Reuters: FCC votes to ban Chinese telecoms from direct access to US phone numbers",
+       "url": "https://www.reuters.com/world/fcc-votes-ban-chinese-telecoms-direct-access-us-phone-numbers-2026-11-19/"
+      }
+     ]
+    },
+    {
+     "tag": "Geopolitics",
+     "title": "Tankers hit near Hormuz as Iran enforces its shipping limits",
+     "visual": {
+      "type": "stat",
+      "value": "1/5",
+      "label": "Share of global crude that passed through Hormuz before the Iran war"
+     },
+     "what": "UK agency UKMTO reported two tanker strikes by projectiles near Oman's Khasab on Saturday. Iran said a tanker hit a mine nearby.",
+     "why": "Each attack keeps oil, freight and insurance costs high, feeding the inflation that is pushing central banks to hike.",
+     "say": "How much of our cost base moves with oil and shipping, and have we priced a longer Hormuz disruption?",
+     "deeper": [
+      "No casualties were reported. A tanker near Khasab also caught fire after an attack on Friday. Tehran has imposed restrictions on ships using the strait and attacked vessels it says broke them. Separately, Bahrain said an Iranian attack hit an industrial facility, and in the Baltic a sanctioned Russian cargo ship burned after a drone strike Finland blamed on Ukraine.",
+      "Reuters could not verify Iran's mine account. Watch Brent when markets reopen Monday."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz",
+       "url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/"
+      },
+      {
+       "title": "Reuters: Russian cargo ship ablaze in Baltic Sea after drone strike, crew evacuates",
+       "url": "https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI economics",
+     "title": "Microsoft claims its coding model matches rivals at 40% of the price",
+     "visual": {
+      "type": "bars",
+      "title": "MAI Code 2 vs GPT-6.1 Sol, % of rival, Microsoft claim via Axios",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Performance",
+        "value": 98,
+        "display": "98%"
+       },
+       {
+        "label": "Price",
+        "value": 40,
+        "display": "40%",
+        "hot": true
+       }
+      ]
+     },
+     "what": "At Ignite, Microsoft launched MAI Code 2 and Code 2 Flash for coding, and Cyber 2 Flash for security, in GitHub Copilot and Foundry.",
+     "why": "Cheap specialist models make paying frontier prices for routine coding hard to justify. Model choice becomes a cost decision, not loyalty.",
+     "say": "Which of our AI workloads are routine enough to move to a cheaper specialist model, and what would we save?",
+     "deeper": [
+      "Microsoft also claims Code 2 reaches 96% of Claude Opus 5.5's performance at 5% of the cost. These are vendor claims on a hand-picked set of benchmarks, and Axios notes part of the price gap comes from promotional discounts. Mustafa Suleyman says specialist models fit more knowledge into fewer parameters, but they handle complex maths or science less well.",
+      "Test on your own tasks before switching. Access to the cyber model will be limited to a small set of customers."
+     ],
+     "sources": [
+      {
+       "title": "Quartz: Microsoft is unveiling cheaper coding and cybersecurity AI models to rival OpenAI and Anthropic",
+       "url": "https://qz.com/microsoft-coding-cybersecurity-ai-models-openai-anthropic-111826"
+      },
+      {
+       "title": "Reuters: Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI",
+       "url": "https://www.reuters.com/legal/litigation/microsoft-unveils-ai-models-coding-cybersecurity-it-takes-anthropic-openai-2026-11-17/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Skydance merges two TV studios into one with 120 series",
+     "visual": {
+      "type": "stat",
+      "value": "120+",
+      "label": "Active series at the combined Warner Bros. Television Studios"
+     },
+     "what": "After its $81 billion takeover of Warner Bros., Skydance will fold Paramount Television Studios into Warner Bros. TV, under co-presidents Channing Dungey and Matt Thunell.",
+     "why": "The problem: two studios with overlapping shows, staff and costs. Merging them is where takeover savings usually come from.",
+     "say": "After an acquisition, which overlapping units do we merge first, and who decides which brand survives?",
+     "deeper": [
+      "The combined studio launches in early 2027; until then both run separately. CBS Studios stays a separate unit. The studio still sells to rivals such as Apple TV, Netflix and Prime Video, so it keeps outside revenue while serving Skydance's own platforms. This is the first time Skydance kept only one of the two old brands, and Warner Bros. won.",
+      "Caveat: co-leadership can blur accountability. Watch for job cuts and whether outside buyers keep ordering shows."
+     ],
+     "sources": [
+      {
+       "title": "Skydance: Skydance Announces Plans to Combine Warner Bros. Television Group and Paramount Television Studios",
+       "url": "https://www.skydance.com/news/press/skydance-announces-plans-to-combine-warner-bros-television-group-and-paramount-television-studios"
+      },
+      {
+       "title": "ABC News (AP): Skydance to combine Warner Bros. TV Group and Paramount Television Studios",
+       "url": "https://abcnews.com/Business/wireStory/skydance-combine-warner-bros-tv-group-paramount-television-138262015"
+      },
+      {
+       "title": "Deadline: Warner Bros. TV and Paramount TV Studios to merge",
+       "url": "https://deadline.com/2026/11/warner-bros-tv-paramount-tv-studios-merge-dungey-thunell-1237228079/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Regulation",
+     "title": "SEBI proposes scrapping extra ownership disclosures for foreign investors",
+     "visual": {
+      "type": "stat",
+      "value": "$62.2B",
+      "label": "Foreign portfolio money pulled from Indian shares, October 2024 to October 2026"
+     },
+     "what": "SEBI wants to drop its 2023 Additional Disclosure Framework, which forces large or concentrated foreign funds to name every ultimate owner.",
+     "why": "After two years of outflows, India is cutting friction to win back foreign capital and support the rupee.",
+     "say": "If foreign funds return to India, which of our listed peers or partners gains most from cheaper capital?",
+     "deeper": [
+      "The rule covers funds with over 50% of Indian equity holdings in one corporate group, or over Rs 50,000 crore in Indian shares. They must disclose owners down to individuals, with no minimum threshold. SEBI says this goes beyond global norms. Outflows were Rs 5.61 lakh crore, or about $62.24 billion.",
+      "Anti-money laundering ownership rules would still apply. Comments are open until 11 December 2026, and some changes need Finance Ministry action."
+     ],
+     "sources": [
+      {
+       "title": "NDTV Profit: India's FPI norms are stricter than US and UK. Now SEBI wants to roll them back",
+       "url": "https://www.ndtvprofit.com/markets/india-s-fpi-norms-are-stricter-than-us-and-uk-now-sebi-wants-to-roll-them-back-12355725"
+      },
+      {
+       "title": "BusinessLine: SEBI proposes scrapping additional disclosure framework for foreign investors",
+       "url": "https://www.thehindubusinessline.com/markets/sebi-proposes-scrapping-additional-disclosure-framework-for-foreign-investors/article71725278.ece"
+      },
+      {
+       "title": "Business Standard: Sebi proposes removing additional disclosure framework for FPIs",
+       "url": "https://www.business-standard.com/markets/news/sebi-proposes-removing-additional-disclosure-framework-for-fpis-126112001177_1.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Friday, 20 November",
+    "why": "An AI stock rout pushed the S&P 500 and Dow into correction and sank the Nikkei. India rose on record foreign buying.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,800.60",
+      "change": 1.12
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "83,919.71",
+      "change": 1.08
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "56,436.65",
+      "change": -5.06
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "22,410.80",
+      "change": -1.89
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,533.79",
+      "change": -1.23
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,346.34",
+      "change": -1.02
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "24,802.78",
+      "change": -2.6
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "6,910.39",
+      "change": -3.7
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "22,617.73",
+      "change": -5.28
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "48,147.33",
+      "change": -1.93
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,537.90",
+      "change": -2.41,
+      "note": "Spot, late US"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$92.57",
+      "change": 0.64,
+      "note": "Futures settle"
+     },
+     {
+      "name": "USD/INR",
+      "value": "92.67",
+      "change": -0.7,
+      "note": "Provisional"
+     }
+    ],
+    "sources": [
+     {
+      "title": "Washington Post (AP): How major US stock indexes fared Friday 11/20/2026",
+      "url": "https://www.washingtonpost.com/business/2026/11/20/wall-street-stocks-dow-nasdaq/b0d74256-e529-11f1-a99e-b3e3805c6b8b_story.html"
+     },
+     {
+      "title": "Armenpress: Asian Stocks down, 20/11/26",
+      "url": "https://armenpress.am/en/article/1266251"
+     },
+     {
+      "title": "Morningstar (Alliance News): London market close, FTSE 100 tumbles as global tech rout takes hold",
+      "url": "https://global.morningstar.com/en-gb/news/alliance-news/1795194600190045900/london-market-close-ftse-100-tumbles-as-global-tech-rout-takes-hold"
+     },
+     {
+      "title": "Trading Economics: Germany stock market index (DE40)",
+      "url": "https://tradingeconomics.com/germany/stock-market"
+     },
+     {
+      "title": "BusinessLine: Sensex rises 897 pts, Nifty ends at 25,800, rupee sees largest single day gain in a month",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-20th-november-2026/article71720685.ece"
+     },
+     {
+      "title": "Reuters: Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
+      "url": "https://www.reuters.com/business/energy/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-2026-11-20/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "BATNA",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Negotiation",
+     "title": "BATNA: your power comes from your best walk-away option",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "List alternatives",
+        "note": "What can you do if talks fail?"
+       },
+       {
+        "label": "Pick the best",
+        "note": "That option is your BATNA."
+       },
+       {
+        "label": "Set walk-away point",
+        "note": "Never accept a deal worse than it.",
+        "hot": true
+       },
+       {
+        "label": "Read theirs",
+        "note": "Their alternatives limit what they will concede."
+       }
+      ]
+     },
+     "what": "BATNA means Best Alternative to a Negotiated Agreement. It is what you will do if this deal fails, and it sets your floor.",
+     "why": "Use it before any vendor renewal, pay talk, partnership or acquisition, so you know when to walk away.",
+     "say": "Before our next renewal, write down our BATNA and theirs on one page.",
+     "deeper": [
+      "Roger Fisher and William Ury, with Bruce Patton, introduced the idea in Getting to Yes, first published in 1981. Their point: the strength of your position depends less on argument and more on how good your alternative is.",
+      "The practical move is to improve your BATNA before talks, for example by lining up a second supplier, rather than only polishing your pitch."
+     ],
+     "sources": [
+      {
+       "title": "Program on Negotiation, Harvard Law School: What is BATNA?",
+       "url": "https://www.pon.harvard.edu/daily/batna/translate-your-batna-to-the-current-deal/"
+      },
+      {
+       "title": "Wikipedia: Getting to Yes",
+       "url": "https://en.wikipedia.org/wiki/Getting_to_Yes"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "Worked example",
+     "title": "IG Metall's strike: both sides test the other's walk-away point",
+     "visual": {
+      "type": "bars",
+      "title": "Gap in German metal pay talks, %, per Reuters",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Union asks",
+        "value": 5,
+        "display": "5%",
+        "hot": true
+       },
+       {
+        "label": "Employers offer, from 2028",
+        "value": 1.3,
+        "display": "1.3%"
+       }
+      ]
+     },
+     "what": "IG Metall wants 5%. Employers offer no permanent rise for 20 months, then 1.3% from July 2028. Strikes test how costly no deal is.",
+     "why": "A strike lowers the employer's BATNA by making no deal expensive. Employers bet workers cannot afford long walkouts.",
+     "say": "What is the other side's best option if we walk away, and how can we make it less attractive?",
+     "deeper": [
+      "The union also offers a second path: firms that leave the industry-wide deal can give commitments on investment, sites and jobs instead of pay. That widens the set of possible agreements, a classic Getting to Yes move from positions to interests.",
+      "Caveat: real BATNAs are rarely known exactly. Each side guesses the other's, which is why strikes and deadlines are used to reveal them."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: German car and shipyard workers set to strike as IG Metall union extends walkout",
+       "url": "https://www.reuters.com/business/world-at-work/german-car-shipyard-workers-set-strike-ig-metall-union-extends-walkout-2026-11-21/"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Google Cloud AI stack: step 5 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "Google Cloud's AI stack",
+    "step": 5,
+    "total": 5,
+    "plan": [
+     "The four layers, chip to app",
+     "TPUs: Google's own AI chips",
+     "Gemini models and the model garden",
+     "The agent platform and data layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "AWS's AI stack"
+   },
+   "cards": [
+    {
+     "tag": "Step 5 of 5",
+     "title": "Longer commitments cut Google's AI prices, and deepen lock-in",
+     "visual": {
+      "type": "bars",
+      "title": "Google list price per capacity unit, code completion, by commitment",
+      "items": [
+       {
+        "label": "1 week",
+        "value": 7.14,
+        "display": "$7.14"
+       },
+       {
+        "label": "1 month",
+        "value": 3.7,
+        "display": "$3.70"
+       },
+       {
+        "label": "1 year",
+        "value": 2.74,
+        "display": "$2.74",
+        "hot": true
+       }
+      ]
+     },
+     "what": "You pay per use, or reserve capacity called Provisioned Throughput. A one-year commitment costs about 62% less per unit than one week.",
+     "why": "Discounts reward commitment, but they tie you to Google's chips, models and data tools. Exit costs grow over time.",
+     "say": "Ask finance how much AI spend is committed to one cloud, and when each commitment ends.",
+     "deeper": [
+      "Google is also giving 50% credits back on Provisioned Throughput spend for some Gemini models until 30 November or 31 December 2026. Promotions like this lower first-year costs but make later switching harder. Choose Google when your data already sits in BigQuery, you want Gemini, or TPUs price well for your workload.",
+      "Prices are from Google's own pricing page and change often. Next: AWS's AI stack."
+     ],
+     "sources": [
+      {
+       "title": "Google Cloud: Agent Platform pricing",
+       "url": "https://cloud.google.com/model-garden/pricing"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "AOL Time Warner, 2000: a merger at peak bubble",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case",
+     "title": "AOL Time Warner: the merger that lost $98.7 billion in a year",
+     "visual": {
+      "type": "bars",
+      "title": "AOL Time Warner share price, $, per PBS",
+      "items": [
+       {
+        "label": "After merger, 2000",
+        "value": 71,
+        "display": "$71"
+       },
+       {
+        "label": "Low, July 2002",
+        "value": 8.7,
+        "display": "$8.70",
+        "hot": true
+       }
+      ]
+     },
+     "what": "In January 2000, internet firm AOL agreed to buy media giant Time Warner using its soaring shares, betting online and content would fuse.",
+     "why": "In 2002 the company posted a $98.7 billion annual loss, then the largest by a US company, mostly goodwill write-downs.",
+     "say": "When we pay with high-priced stock, are we buying value or just spending a bubble?",
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson",
+     "deeper": [
+      "The deal was announced on 10 January 2000, near the top of the dot-com boom. AOL's value fell as internet advertising slumped, and new accounting rules forced write-downs, including a $35 billion charge on the AOL unit in the fourth quarter. Steve Case and Ted Turner both announced their exits in January 2003.",
+      "Caveat: much of the loss was non-cash, and Time Warner's film and cable networks kept performing. Today, the same Warner Bros. is again being combined, this time by Skydance."
+     ],
+     "sources": [
+      {
+       "title": "PBS NewsHour: AOL Time Warner posts record $99 billion annual loss",
+       "url": "https://www.pbs.org/newshour/nation/media-jan-june03-aoltw_01-30"
+      },
+      {
+       "title": "Wikipedia: Merger of AOL and Time Warner",
+       "url": "https://en.wikipedia.org/wiki/Merger_of_AOL_and_Time_Warner"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Schelling, 1960: The Strategy of Conflict",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Book, 1960",
+     "title": "Schelling: in conflict, credible commitments beat raw strength",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Mixed motives",
+        "note": "Rivals still share an interest in avoiding disaster."
+       },
+       {
+        "label": "Commit visibly",
+        "note": "Tie your hands so threats become believable.",
+        "hot": true
+       },
+       {
+        "label": "Focal points",
+        "note": "Obvious options help both sides coordinate."
+       }
+      ]
+     },
+     "what": "Thomas Schelling showed most conflicts are bargains, where each side tries to shape what the other expects it to do.",
+     "why": "It explains strikes, trade bans and shipping threats as signals meant to change the other side's choices, not just to cause harm.",
+     "say": "A threat only works if the other side believes we would actually carry it out.",
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use",
+     "deeper": [
+      "Schelling, an economist, used game theory for bargaining and deterrence. Today's strike in Germany, the US telecom bans and Iran's shipping limits all fit his frame: each side commits publicly to raise the cost of not reaching a deal."
+     ],
+     "sources": [
+      {
+       "title": "Harvard University Press: The Strategy of Conflict",
+       "url": "https://www.hup.harvard.edu/books/9780674840317"
+      },
+      {
+       "title": "Myerson, University of Chicago: Learning from Schelling's Strategy of Conflict",
+       "url": "https://home.uchicago.edu/~rmyerson/stratofc2010.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Ultimate beneficial owner",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Ultimate beneficial owner",
+     "visual": {
+      "type": "bars",
+      "title": "Ownership share that makes you a beneficial owner, %, per NDTV Profit",
+      "unit": "%",
+      "items": [
+       {
+        "label": "US, UK, Singapore",
+        "value": 25,
+        "display": "25%"
+       },
+       {
+        "label": "India, PMLA rules",
+        "value": 10,
+        "display": "10 to 15%",
+        "hot": true
+       }
+      ]
+     },
+     "what": "The real person who ultimately owns or controls a company or fund, behind any chain of holding firms.",
+     "why": "SEBI's plan to drop extra look-through rules for foreign funds has put ownership disclosure in the headlines.",
+     "say": "Before we sign this joint venture, can we name the ultimate beneficial owners of our partner?",
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence",
+     "deeper": [
+      "Anti-money laundering rules use an ownership threshold to decide who counts. NDTV Profit reports most major markets use 25%, while India uses 10% or 15% depending on the investor's legal form. SEBI's extra framework went further, with no threshold at all for some large foreign funds."
+     ],
+     "sources": [
+      {
+       "title": "NDTV Profit: India's FPI norms are stricter than US and UK. Now SEBI wants to roll them back",
+       "url": "https://www.ndtvprofit.com/markets/india-s-fpi-norms-are-stricter-than-us-and-uk-now-sebi-wants-to-roll-them-back-12355725"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "If our biggest supplier walked away tomorrow, what is our best alternative, and how long would it take to switch?",
+    "context": "Prompted by IG Metall's strike and the US ban on Chinese telecoms. Both show that leverage comes from alternatives, so knowing your BATNA before a crisis is cheaper than finding it during one."
+   }
+  }
+ ]
+}
