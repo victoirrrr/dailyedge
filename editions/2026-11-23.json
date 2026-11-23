@@ -1,0 +1,672 @@
+{
+ "v": 4,
+ "date": "2026-11-23",
+ "label": "Monday, 23 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Amazon nears a $7.5 billion deal for AI start-up Decart",
+     "visual": {
+      "type": "bars",
+      "title": "Decart's value, $ billion, per the Financial Times",
+      "items": [
+       {
+        "label": "Funding round, May 2026",
+        "value": 4,
+        "display": "$4B"
+       },
+       {
+        "label": "Reported Amazon price",
+        "value": 7.5,
+        "display": "$7.5B",
+        "hot": true
+       }
+      ]
+     },
+     "what": "The FT reports Amazon is in advanced talks to buy Decart, whose software makes AI models run more efficiently and frees chip capacity.",
+     "why": "Big tech is buying software that squeezes more work from each chip, to cut its reliance on Nvidia.",
+     "say": "Are we paying for more AI compute when software could get more from what we already have?",
+     "deeper": [
+      "Decart was founded in 2023 by three Israeli engineers and was an early user of Trainium3, Amazon's own AI chip launched in late 2025 to rival Nvidia. It also makes Lucy and Oasis, tools that edit live video and generate interactive virtual worlds. Investors in its May round included Sequoia, Benchmark and Nvidia.",
+      "The talks could still collapse, and neither company commented. The FT notes the Nasdaq 100 fell 10.4% last week, its worst week since Covid, yet buyers are still paying up for AI efficiency."
+     ],
+     "sources": [
+      {
+       "title": "Financial Times: Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+       "url": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616"
+      },
+      {
+       "title": "Seeking Alpha: Amazon nearing $7.5B deal to buy AI start-up Decart: FT",
+       "url": "https://seekingalpha.com/news/4675396-amazon-nears-75b-deal-buy-ai-start-up-decart"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "US intelligence chief warns more tech outages are coming",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "AI finds flaws"
+       },
+       {
+        "label": "Rushed patching"
+       },
+       {
+        "label": "Systems fail",
+        "hot": true
+       },
+       {
+        "label": "Services halt"
+       }
+      ]
+     },
+     "what": "US intelligence chief Jay Clayton said on ABC on Sunday that more outages will follow as firms and agencies replace ageing systems.",
+     "why": "This month's failures came from upgrades and security patches, not attacks. Fixing systems is now a resilience risk itself.",
+     "say": "When we push an urgent security patch, what is our tested rollback if a system does not come back up?",
+     "deeper": [
+      "Recent failures hit a nationwide US air travel halt, a Microsoft outage, a glitch at several major banks and the NSA's network. Clayton says none were coordinated or state-backed. AP reports AI tools recently found sweeping flaws in PHP and a Java bug, which set off a rush of patches; Clayton said some patched systems did not come back up as expected.",
+      "Separate reports of hacks at the FBI and the Department of Agriculture are still being investigated."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: US intelligence chief predicts more tech outages as systems undergo upgrades",
+       "url": "https://www.reuters.com/business/finance/us-intelligence-chief-predicts-more-tech-outages-systems-undergo-upgrades-2026-11-22/"
+      },
+      {
+       "title": "WBRZ (AP): Tech outages are piling up, and AI is raising the stakes",
+       "url": "https://www.wbrz.com/news/tech-outages-are-piling-up-and-ai-is-raising-the-stakes-could-this-be-the-new-normal-/"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "COP31 climate talks collapse without a deal over fossil fuels",
+     "visual": {
+      "type": "stat",
+      "value": "100+",
+      "label": "Countries that pushed to keep fossil fuel language in the deal, per CNN"
+     },
+     "what": "The EU and others rejected the final text from hosts Turkey and Australia on Sunday because it did not mention fossil fuels at all.",
+     "why": "No global deal means climate rules will come country by country, so firms face a patchwork of carbon policies.",
+     "say": "Which of our markets set our carbon costs now that there is no global push, and are we tracking each?",
+     "deeper": [
+      "It was the longest COP on record, running two days into overtime, and the first failure to adopt a deal since Copenhagen in 2009. Oil producers including Saudi Arabia and Russia resisted fossil fuel language; the US has pulled out of international climate action. Australia's Chris Bowen blamed rows over fossil fuels and finance.",
+      "Context from Reuters: projected warming has fallen from about 4C in 2015 to 2.8C, but the UN says 1.5C will be overshot."
+     ],
+     "sources": [
+      {
+       "title": "Reuters via Yahoo: COP31 climate talks collapse as EU and others reject deal",
+       "url": "https://www.yahoo.com/news/science/articles/cop31-climate-talks-close-final-233939002.html"
+      },
+      {
+       "title": "CNN: Global climate summit collapses as countries fail to agree on moving away from fossil fuels",
+       "url": "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI governance",
+     "title": "Attackers' AI agents found and used a new flaw in 11 minutes",
+     "visual": {
+      "type": "stat",
+      "value": "11 min",
+      "label": "Time AI agents took from mapping an app to writing files on its server"
+     },
+     "what": "Amazon says a China-linked group used Cairn, an open-source AI hacking tool, whose agents found an unknown flaw in medical imaging software.",
+     "why": "Agent-driven attacks move faster than people can triage alerts, so defence needs automated detection and response.",
+     "say": "How long does our security team take to triage an alert, and is that faster than an attacking agent?",
+     "deeper": [
+      "The agents planned and adjusted their own steps and ran for 16 hours without a break. They broke into two universities through MONAI Label, a tool for labelling medical images. Amazon found the campaign on 10 September because the attackers left their own Cairn control panel online without a password. The software's maintainers have released a fix.",
+      "Amazon links the actor to China with moderate confidence, based on prompts and timestamps. Amazon is a security vendor too."
+     ],
+     "sources": [
+      {
+       "title": "AWS Security Blog: Chinese-nexus actor's Cairn AI agents found a zero-day on their own",
+       "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/"
+      },
+      {
+       "title": "The Record: Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day",
+       "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Lilly turns weight-loss cash into a $5.9 billion cancer bet",
+     "visual": {
+      "type": "stat",
+      "value": "$5.9B",
+      "label": "Maximum milestone payments to Stipple Bio, on top of upfront cash and equity"
+     },
+     "what": "Eli Lilly signed a cancer research and licensing deal with Cambridge, Massachusetts start-up Stipple Bio, worth up to $5.9 billion.",
+     "why": "The problem: a pipeline leaning on weight-loss drugs. Paying mostly on milestones buys new science while capping the cost of failure.",
+     "say": "When we buy an innovation bet, how much do we pay upfront versus only when it works?",
+     "deeper": [
+      "Stipple's platform finds molecules that bind to markers on the surface of tumour cells. Lilly will pair them with its own cancer technologies across several drug types and gets exclusive worldwide rights. Stipple also gets tiered royalties on any sales. The upfront payment and Lilly's equity stake were not disclosed.",
+      "Caveat: headline values like this assume every milestone is hit, which is rare in drug research. Watch how much Lilly actually pays out."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Lilly signs cancer research deal with Stipple Bio worth up to $5.9 billion",
+       "url": "https://www.reuters.com/legal/litigation/lilly-signs-oncology-research-deal-with-stipple-bio-worth-up-59-billion-2026-11-16/"
+      },
+      {
+       "title": "Fierce Biotech: Lilly signs $5.9B deal with Stipple to unlock oncology targets",
+       "url": "https://www.fiercebiotech.com/biotech/eli-lilly-dots-59b-deal-stipple-unlock-oncology-targets"
+      },
+      {
+       "title": "Boston Business Journal: Lilly signs $5.9B cancer research deal with Cambridge company",
+       "url": "https://www.bizjournals.com/boston/news/2026/11/17/eli-lilly-stipple-bio-deal.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "GCC Watch",
+     "title": "Zurich plans to grow its Hyderabad centre from 112 to 1,000 staff",
+     "visual": {
+      "type": "bars",
+      "title": "Zurich Hyderabad capability centre staff, per BusinessLine",
+      "items": [
+       {
+        "label": "Today",
+        "value": 112,
+        "display": "112"
+       },
+       {
+        "label": "Target, mid-2028",
+        "value": 1000,
+        "display": "1,000",
+        "hot": true
+       }
+      ]
+     },
+     "what": "The Swiss insurer will hire in phases for cloud and platform engineering, data and AI, software, cybersecurity and quality engineering.",
+     "why": "Insurers are moving ownership of technology and AI work to India, not just support tasks. That raises competition for senior talent.",
+     "say": "Which of our global technology roles could be owned from India, not just delivered from there?",
+     "deeper": [
+      "Zurich, which employs over 65,000 people worldwide, says India teams will gain greater global ownership of technology, and ideas built in Hyderabad will be used across the group. It calls its approach AI-first: teams will redesign whole workflows to find where AI helps and where human judgement must stay.",
+      "The plan was announced on 19 November. A nearly ninefold rise in under two years is a steep hiring ramp to watch."
+     ],
+     "sources": [
+      {
+       "title": "BusinessLine: Zurich Insurance targets 1,000 staff at Hyderabad capability centre by mid-2028",
+       "url": "https://www.thehindubusinessline.com/money-and-banking/zurich-insurance-targets-1000-staff-at-hyderabad-capability-centre-by-mid-2028/article71719876.ece"
+      },
+      {
+       "title": "ET Infra: Zurich to expand Hyderabad global capability centre to 1000 staff",
+       "url": "https://datacenters.economictimes.indiatimes.com/news/market-insights-analysis/zurich-to-expand-hyderabad-global-capability-centre-to-1000-staff/136043128"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Friday, 20 November",
+    "why": "An AI stock rout pushed the S&P 500 and Dow into correction and sank the Nikkei. India rose on record foreign buying.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,800.60",
+      "change": 1.12
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "83,919.71",
+      "change": 1.08
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "56,436.65",
+      "change": -5.06
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "22,410.80",
+      "change": -1.89
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,533.79",
+      "change": -1.23
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,346.34",
+      "change": -1.02
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "24,802.78",
+      "change": -2.6
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "6,910.39",
+      "change": -3.7
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "22,617.73",
+      "change": -5.28
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "48,147.33",
+      "change": -1.93
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,537.90",
+      "change": -2.41,
+      "note": "Spot, late US"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$92.57",
+      "change": 0.64,
+      "note": "Futures settle"
+     },
+     {
+      "name": "USD/INR",
+      "value": "92.67",
+      "change": -0.7,
+      "note": "Provisional"
+     }
+    ],
+    "sources": [
+     {
+      "title": "Washington Post (AP): How major US stock indexes fared Friday 11/20/2026",
+      "url": "https://www.washingtonpost.com/business/2026/11/20/wall-street-stocks-dow-nasdaq/b0d74256-e529-11f1-a99e-b3e3805c6b8b_story.html"
+     },
+     {
+      "title": "Armenpress: Asian Stocks down, 20/11/26",
+      "url": "https://armenpress.am/en/article/1266251"
+     },
+     {
+      "title": "Morningstar (Alliance News): London market close, FTSE 100 tumbles as global tech rout takes hold",
+      "url": "https://global.morningstar.com/en-gb/news/alliance-news/1795194600190045900/london-market-close-ftse-100-tumbles-as-global-tech-rout-takes-hold"
+     },
+     {
+      "title": "Trading Economics: Germany stock market index (DE40)",
+      "url": "https://tradingeconomics.com/germany/stock-market"
+     },
+     {
+      "title": "BusinessLine: Sensex rises 897 pts, Nifty ends at 25,800, rupee sees largest single day gain in a month",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-20th-november-2026/article71720685.ece"
+     },
+     {
+      "title": "Reuters: Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
+      "url": "https://www.reuters.com/business/energy/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-2026-11-20/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Tragedy of the commons",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Economics",
+     "title": "Tragedy of the commons: shared resources get overused",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Shared resource",
+        "note": "Open to all, owned by no one."
+       },
+       {
+        "label": "Private gain",
+        "note": "Each user keeps the full benefit of using more."
+       },
+       {
+        "label": "Shared cost",
+        "note": "The damage is spread across everyone.",
+        "hot": true
+       },
+       {
+        "label": "Fix the rules",
+        "note": "Limits, monitoring or clear ownership."
+       }
+      ]
+     },
+     "what": "When everyone can use a resource and no one bears its full cost, each user takes more until it is ruined.",
+     "why": "Use it for shared budgets, shared platforms, cloud spend, talent pools or anything every team draws on.",
+     "say": "Pick one shared resource in your organisation and ask who pays when it is overused.",
+     "deeper": [
+      "Ecologist Garrett Hardin made the idea famous in a 1968 article in Science, using the image of herders adding cattle to a shared pasture. Economists link it to the free-rider problem and the prisoner's dilemma.",
+      "Today's COP31 collapse is the idea at global scale: the atmosphere is a commons, and each country gains from emitting while the cost is shared. Inside firms, shared cloud accounts with no chargeback behave the same way."
+     ],
+     "sources": [
+      {
+       "title": "Science: The Tragedy of the Commons, Garrett Hardin, 1968",
+       "url": "https://www.science.org/doi/10.1126/science.162.3859.1243"
+      },
+      {
+       "title": "Wikipedia: Tragedy of the commons",
+       "url": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "Worked example",
+     "title": "Canada's cod stocks fell 93% before the fishery was shut",
+     "visual": {
+      "type": "stat",
+      "value": "93%",
+      "label": "Fall in northern cod biomass, 1962 to 1992, per the Science History Institute"
+     },
+     "what": "Open access let fleets keep fishing the northern cod. Canada closed the fishery on 2 July 1992; about 37,000 jobs went.",
+     "why": "Each boat gained by fishing more, so no one held back. By the time limits came, the stock had collapsed.",
+     "say": "Are we waiting for a crisis before we put limits on a shared resource we all draw on?",
+     "deeper": [
+      "Britannica notes unemployment in Newfoundland and Labrador peaked at 20%, and the province lost 10% of its population within a decade. The ban was meant to be temporary, but the stock has been slow to recover.",
+      "Caveat: officials and scientists also misjudged how many fish were left, so it was a failure of measurement and rules, not only of individual users."
+     ],
+     "sources": [
+      {
+       "title": "Science History Institute: A Tragedy with No End",
+       "url": "https://www.sciencehistory.org/stories/magazine/a-tragedy-with-no-end/"
+      },
+      {
+       "title": "Britannica: Cod fishery collapse of 1992",
+       "url": "https://www.britannica.com/event/cod-fishery-collapse-of-1992"
+      },
+      {
+       "title": "Wikipedia: Collapse of the Atlantic northwest cod fishery",
+       "url": "https://en.wikipedia.org/wiki/Collapse_of_the_Atlantic_northwest_cod_fishery"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "AWS AI stack: step 1 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "AWS's AI stack",
+    "step": 1,
+    "total": 5,
+    "plan": [
+     "The three layers, chip to app",
+     "Trainium and Inferentia chips",
+     "Bedrock and model choice",
+     "AgentCore and the agent layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "Nvidia and the chip supply chain"
+   },
+   "cards": [
+    {
+     "tag": "Step 1 of 5",
+     "title": "AWS sells AI in three layers: chips, build tools and apps",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Infrastructure",
+        "note": "Trainium and Inferentia chips, plus Nvidia GPU servers."
+       },
+       {
+        "label": "Build layer",
+        "note": "Bedrock for models, AgentCore for agents, SageMaker.",
+        "hot": true
+       },
+       {
+        "label": "Applications",
+        "note": "Ready-made assistants such as Quick Suite and Kiro."
+       }
+      ]
+     },
+     "what": "AWS rents its own chips, offers many models through one Bedrock connection, and sells finished AI assistants on top.",
+     "why": "Most firms buy at the middle layer. It decides which models you can swap and how tied you are to AWS.",
+     "say": "Ask your cloud team which AWS layer our AI projects use, and whether any run on Trainium.",
+     "deeper": [
+      "Bedrock gives access to Amazon's Nova models and third-party models through a single API, so you can test and switch models without rewriting apps. AgentCore lets teams build and run agents with any framework or model. SageMaker is for training and hosting your own models.",
+      "Amazon says its chip business has passed a $25 billion annual revenue run rate, a vendor figure. The Decart talks show AWS buying software to make its chips more attractive. Next: the chips."
+     ],
+     "sources": [
+      {
+       "title": "AWS Decision Guides: Choosing a generative AI service",
+       "url": "https://docs.aws.amazon.com/decision-guides/latest/decision-guides/genai-guide.html"
+      },
+      {
+       "title": "Amazon: How Amazon's AI chip business reached a $25B revenue run rate",
+       "url": "https://www.aboutamazon.com/news/aws/amazon-ai-chips-business-history"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Amazon, 2015: bought a chip start-up to own silicon",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case",
+     "title": "Amazon's small 2015 chip buy became a $25 billion business",
+     "visual": {
+      "type": "bars",
+      "title": "Annapurna Labs, $ billion: price per Reuters, run rate per Amazon",
+      "items": [
+       {
+        "label": "Price, 2015 (up to)",
+        "value": 0.37,
+        "display": "$0.37B"
+       },
+       {
+        "label": "Chip run rate, 2026",
+        "value": 25,
+        "display": "$25B",
+        "hot": true
+       }
+      ]
+     },
+     "what": "In January 2015 Amazon agreed to buy Israeli chip designer Annapurna Labs for AWS, reportedly for up to $370 million.",
+     "why": "Annapurna built Nitro, Graviton CPUs, Inferentia and Trainium. Amazon says the chip business now runs above $25 billion a year.",
+     "say": "Own the layer your costs depend on, years before everyone else needs it.",
+     "deeper": [
+      "The deal came long before the AI boom. Amazon now counts Anthropic, OpenAI, Meta and Uber among its chip customers, and Trainium3 is its rival to Nvidia GPUs. Today's Decart talks follow the same logic: buy capability that makes Amazon's own chips more useful.",
+      "Caveat: the price was never officially disclosed; Reuters cited Israeli newspaper Globes. The $25 billion is Amazon's own revenue run rate, not profit, and much of it is internal use."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Amazon to buy Israeli start-up Annapurna Labs",
+       "url": "https://www.reuters.com/article/technology/amazon-to-buy-israeli-start-up-annapurna-labs-idUSKBN0KV0SG/"
+      },
+      {
+       "title": "Reuters: Amazon in talks to buy Israeli start-up Annapurna Labs, newspaper",
+       "url": "https://www.reuters.com/article/world/amazon-in-talks-to-buy-israeli-start-up-annapurna-labs-newspaper-idUSKBN0KV0UC/"
+      },
+      {
+       "title": "Amazon: How Amazon became one of the world's top chip companies in a decade",
+       "url": "https://www.aboutamazon.com/news/aws/amazon-ai-chips-business-history"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Ostrom, 1990: Governing the Commons",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Book, 1990",
+     "title": "Ostrom: communities can manage shared resources without state or market",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Clear boundaries",
+        "note": "Everyone knows who may use what."
+       },
+       {
+        "label": "Local monitoring",
+        "note": "Users themselves watch the rules are kept.",
+        "hot": true
+       },
+       {
+        "label": "Graduated sanctions",
+        "note": "Warnings first, then rising penalties."
+       }
+      ]
+     },
+     "what": "Elinor Ostrom studied fisheries, forests and irrigation systems that lasted for centuries and found eight shared design principles.",
+     "why": "It answers Hardin: overuse is not fate. Good local rules, monitoring and fair penalties can keep a commons healthy.",
+     "say": "Shared resources fail without rules, but the best rules are made by the people who use them.",
+     "deeper": [
+      "Ostrom won the 2009 Nobel Memorial Prize in Economic Sciences for this work, the first woman to do so. Her principles fit shared platforms, data and budgets inside firms. COP31 shows the hard case: a global commons with weak monitoring and no sanctions."
+     ],
+     "sources": [
+      {
+       "title": "Nobel Prize: Elinor Ostrom, Prize Lecture",
+       "url": "https://www.nobelprize.org/uploads/2018/06/ostrom_lecture.pdf"
+      },
+      {
+       "title": "Wikipedia: Elinor Ostrom",
+       "url": "https://en.wikipedia.org/wiki/Elinor_Ostrom"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Zero-day",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Zero-day",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Flaw unknown"
+       },
+       {
+        "label": "Attacker finds it",
+        "hot": true
+       },
+       {
+        "label": "Vendor alerted"
+       },
+       {
+        "label": "Patch released"
+       }
+      ]
+     },
+     "what": "A software flaw the maker does not know about yet, so it has had zero days to fix it.",
+     "why": "Amazon says attackers' AI agents found one on their own, and AI tools are finding flaws faster than teams patch.",
+     "say": "If a zero-day hit our core software tonight, what could we switch off while waiting for a patch?",
+     "deeper": [
+      "A zero-day exploit is the attack that uses such a flaw. In the Cairn case, Amazon told the maintainers of MONAI Label, who released a fix. Until a patch exists, defenders rely on limiting access and watching for unusual behaviour."
+     ],
+     "sources": [
+      {
+       "title": "AWS Security Blog: Chinese-nexus actor's Cairn AI agents found a zero-day on their own",
+       "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "An attacker's AI agent broke in within 11 minutes. Would our team even notice something that fast?",
+    "context": "Amazon's Cairn findings and the US warning on outages point the same way: AI speeds up both attacks and patching, so detection and rollback speed now matter as much as prevention."
+   }
+  }
+ ]
+}

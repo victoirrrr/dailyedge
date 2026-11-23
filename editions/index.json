@@ -1,6 +1,7 @@
 {
-  "latest": "2026-11-22",
+  "latest": "2026-11-23",
   "editions": [
+    {"date": "2026-11-23", "label": "Monday, 23 November 2026", "lead": "Amazon nears a $7.5 billion deal for AI start-up Decart"},
     {"date": "2026-11-22", "label": "Sunday, 22 November 2026", "lead": "IG Metall calls 23,000 German workers out on strike Monday"},
     {"date": "2026-11-21", "label": "Saturday, 21 November 2026", "lead": "S&P 500 and Dow enter a correction as Nvidia sinks 13.8%"},
     {"date": "2026-11-20", "label": "Friday, 20 November 2026", "lead": "Wall Street's six-day slide deepens as AI stocks keep falling"},
