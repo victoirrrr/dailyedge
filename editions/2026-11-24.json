@@ -1,0 +1,649 @@
+{
+ "v": 4,
+ "date": "2026-11-24",
+ "label": "Tuesday, 24 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Nvidia rehires Jensen Huang 11 days after he resigned",
+     "visual": {
+      "type": "stat",
+      "value": "31.5%",
+      "label": "Nvidia's one-day share gain on Monday, adding nearly $1 trillion, per Reuters"
+     },
+     "what": "Nvidia's board reversed itself under pressure from President Trump, less than a week after its chair said Huang would not return.",
+     "why": "Markets priced Huang as worth about $1 trillion. That is key person risk, and boards struggle to govern it.",
+     "say": "If our most important leader left tomorrow, which decisions would stall, and who would own them?",
+     "deeper": [
+      "Huang resigned on 12 November after admitting extramarital affairs, including with Alice Huang, a businesswoman accused of ties to Beijing; China denies the spying claims. Nvidia says that, based on US government input, his return poses no national security risk. The board has set up committees on foreign intelligence targeting and on export controls, and its investigation is unfinished.",
+      "Lawmakers from both parties objected. Huang testifies at a public Senate Banking Committee hearing on 3 December. Watch whether China customers who paused orders come back."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Huang returns as Nvidia CEO after Trump intervention in abrupt board reversal",
+       "url": "https://www.reuters.com/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/"
+      },
+      {
+       "title": "SEC: Nvidia Form 8-K press release, 23 November 2026",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "Applied Digital signs a $5.4 billion, 18-year AI data centre lease",
+     "visual": {
+      "type": "bars",
+      "title": "Applied Digital's new lease value, $ billion, per Reuters",
+      "items": [
+       {
+        "label": "Base term, 18 years",
+        "value": 5.4,
+        "display": "$5.4B"
+       },
+       {
+        "label": "All renewals, 33 years",
+        "value": 12.7,
+        "display": "$12.7B",
+        "hot": true
+       }
+      ]
+     },
+     "what": "The data centre builder leased 150 megawatts to an unnamed investment-grade hyperscaler. Delivery is due to start in the first half of 2028.",
+     "why": "Despite last week's AI sell-off, cloud giants are still locking in power and space for years, at higher prices.",
+     "say": "Do our AI capacity plans assume compute gets cheaper, while providers sign longer, pricier contracts?",
+     "deeper": [
+      "Applied Digital says its contracted base-term lease revenue now exceeds $41 billion, or about $100 billion with renewals, and 75% is tied to investment-grade customers. The deal follows a 210 MW, 15-year lease worth about $5.2 billion signed in June.",
+      "It plans to fund the build through its $5 billion equity partnership with Macquarie Asset Management, then project financing. Caveat: delivery depends on development milestones, utility arrangements and approvals, and these figures are the company's own."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Applied Digital signs $5.4 billion AI data center lease with hyperscaler",
+       "url": "https://www.reuters.com/business/applied-digital-signs-54-billion-ai-data-center-lease-with-hyperscaler-2026-11-23/"
+      }
+     ]
+    },
+    {
+     "tag": "Geopolitics",
+     "title": "Iran vows to use all its tools against the US naval blockade",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Imposed 13 April"
+       },
+       {
+        "label": "Lifted in June"
+       },
+       {
+        "label": "Restored 14 July"
+       },
+       {
+        "label": "Hormuz still shut",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Iran's foreign ministry called the blockade military aggression on Monday and said Hormuz reopens only if the US meets its conditions.",
+     "why": "Visible Iranian crude exports are near zero. Any clash at Hormuz would hit oil, shipping and India's import bill.",
+     "say": "If Hormuz shipping is disrupted for a month, what happens to our freight, fuel costs and supplier deliveries?",
+     "deeper": [
+      "Iran's conditions include halting hostilities, lifting the blockade and waiving sanctions. Spokesperson Esmaeil Baghaei dismissed reports of Iranian ships loading oil as speculation, after TankerTrackers.com said a tanker was loading Iranian crude through a ship-to-ship transfer.",
+      "Oil fell anyway. Alliance News quoted Brent at $88.84 a barrel at the London close, down from $91.88 on Friday, as more Middle East supply and a Libyan pipeline restart eased worries."
+     ],
+     "sources": [
+      {
+       "title": "Investing.com (Reuters): Iran says it will use all its tools to confront US naval blockade",
+       "url": "https://www.investing.com/news/commodities-news/iran-says-it-will-use-all-its-tools-to-confront-us-naval-blockade-5044777"
+      },
+      {
+       "title": "Al Jazeera: Iran says it will use 'all available means' to counter US blockade",
+       "url": "https://www.aljazeera.com/news/2026/11/23/iran-says-it-will-use-all-available-means-to-counter-us-blockade"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI governance",
+     "title": "AWS chief: build AI agents with limits, not kill switches",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Scope permissions",
+        "note": "An agent gets no more than its human operator.",
+        "hot": true
+       },
+       {
+        "label": "Stress test",
+        "note": "Probe controls, because agents act unexpectedly."
+       },
+       {
+        "label": "Monitor always",
+        "note": "Watch models and stop boundary breaches."
+       },
+       {
+        "label": "Kill switch",
+        "note": "A last resort, like an emergency brake."
+       }
+      ]
+     },
+     "what": "In a Monday blog post, AWS CEO Matt Garman said safe AI comes from engineered controls around agents, not emergency off buttons.",
+     "why": "It turns AI safety into an operating model choice: permissions, testing and monitoring that teams own every day.",
+     "say": "Does any AI agent here have more system access than the person it works for?",
+     "deeper": [
+      "Garman wrote that an agent should at most inherit the permissions of the human operating it, and often far fewer. He also urged firms to stress test their controls and keep monitoring models. Reuters notes the post comes amid fears over rogue agents, after reports of agent swarms breaching systems and evading safeguards.",
+      "Caveat: AWS sells the cloud tools that do this, so the advice also serves its business. Today's reference shelf on system safety makes the same argument from engineering."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Amazon's AWS CEO says engineering, not kill switches, is path to AI safety",
+       "url": "https://www.reuters.com/legal/litigation/amazons-aws-ceo-says-engineering-not-kill-switches-is-path-ai-safety-2026-11-23/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "ABB pays $2.65 billion for fans to cool AI data centres",
+     "visual": {
+      "type": "stat",
+      "value": "18.6x",
+      "label": "Ziehl-Abegg's price as a multiple of expected 2026 EBITDA, per Reuters"
+     },
+     "what": "ABB will buy Ziehl-Abegg, a privately held German maker of fans, motors and ventilation, for $2.65 billion including debt.",
+     "why": "The problem: grow faster in data centres, ABB's fastest growing segment, by adding cooling to its motors and drives.",
+     "say": "When we buy into a hot market, are we paying for synergies we can actually deliver?",
+     "deeper": [
+      "Ziehl-Abegg expects about $1.4 billion in 2026 revenue, so ABB pays 1.9 times sales. Data centre business made around 9% of ABB's 2025 revenue. ABB will keep the headquarters in Kuenzelsau and expects to close in the second half of 2027.",
+      "Vontobel called the price rich for a low-margin target and said the deal will dilute ABB's high return on invested capital. ABB is still seeking a way out of robotics after China blocked a $5.4 billion sale to SoftBank."
+     ],
+     "sources": [
+      {
+       "title": "Investing.com (Reuters): ABB to acquire Germany's Ziehl-Abegg for $2.65 billion",
+       "url": "https://www.investing.com/news/stock-market-news/abb-to-acquire-germanys-ziehlabegg-for-265-billion-5044422"
+      },
+      {
+       "title": "Swissinfo (Bloomberg): ABB buys German data center cooling firm for $2.2 billion",
+       "url": "https://www.swissinfo.ch/eng/abb-buys-german-cooling-firm-ziehl-abegg-for-$2.2-billion/92422021"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "GCC Watch",
+     "title": "India's pharma capability centres now add $10.5 billion in value",
+     "visual": {
+      "type": "stat",
+      "value": "$10.5B",
+      "label": "Gross value added by India's pharma GCCs, per an EY-OPPI report"
+     },
+     "what": "EY and drugmakers' body OPPI say pharma GCCs employ 1.2 lakh people, and 16 of the top 20 biopharma firms run one here.",
+     "why": "Work is moving up from support to research, regulatory writing and AI. That raises demand for scarce scientific talent.",
+     "say": "Which of our expert functions, not just back-office tasks, could an India centre own within two years?",
+     "deeper": [
+      "The report cites Novo Nordisk's Bengaluru centre cutting regulatory document review from about 40 hours to 40 minutes. Across all sectors, it puts GCC gross value added at $182 billion, supporting 10.4 million jobs.",
+      "Caveat: OPPI represents research-based drugmakers and EY sells GCC advisory work, so both have an interest in a bullish view. Watch whether India's specialist pharma talent pipeline keeps pace with demand."
+     ],
+     "sources": [
+      {
+       "title": "Times of India: India's pharma GCCs are evolving into global innovation hubs contributing $10.5B in GVA, says EY-OPPI report",
+       "url": "https://timesofindia.indiatimes.com/city/hyderabad/indias-pharma-gccs-are-evolving-into-global-innovation-hubs-contributing-10-5b-in-gva-says-ey-oppi-report/articleshow/136107624.cms"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Monday, 23 November",
+    "why": "Huang's return to Nvidia sparked a global tech rally. India, which closed first, fell on bank and metal selling.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,349.65",
+      "change": -1.75
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "82,435.99",
+      "change": -1.77
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "56,436.65",
+      "change": null,
+      "note": "Holiday"
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "22,383.74",
+      "change": -0.12
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,538.95",
+      "change": 0.15
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,480.82",
+      "change": 1.3
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "25,337.27",
+      "change": 2.15
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,237.17",
+      "change": 4.73
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "24,089.56",
+      "change": 6.51
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "49,595.31",
+      "change": 3.01
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,669.27",
+      "change": 3.49,
+      "note": "Spot, London close"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$88.84",
+      "change": -3.31,
+      "note": "London close"
+     },
+     {
+      "name": "USD/INR",
+      "value": "92.92",
+      "change": 0.32,
+      "note": "Provisional"
+     }
+    ],
+    "sources": [
+     {
+      "title": "Fox Business: US stocks rebound as battered AI and chip stocks rally after correction",
+      "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+     },
+     {
+      "title": "Armenpress: Asian Stocks down, 23/11/26",
+      "url": "https://armenpress.am/en/article/1266412"
+     },
+     {
+      "title": "LSE (Alliance News): London market close, stocks fly as Nvidia restores Jensen Huang as CEO",
+      "url": "https://www.lse.co.uk/news/london-market-close-stocks-fly-as-nvidia-restores-jensen-huang-as-ceo-obksjxpahamk69y.html"
+     },
+     {
+      "title": "Trading Economics: The DAX Index closes 2.15% higher",
+      "url": "https://tradingeconomics.com/germany/stock-market/news/603671"
+     },
+     {
+      "title": "Zee Business: Sensex tumbles 1,484 points, Nifty slips below 25,350",
+      "url": "https://www.zeebiz.com/market-news/news-stock-market-closing-bell-sensex-tumbles-1484-points-nifty-slips-below-25350-405902"
+     },
+     {
+      "title": "The Hindu (PTI): Rupee snaps 5-day rally, settles at 92.92 against US dollar",
+      "url": "https://www.thehindu.com/business/markets/rupee-snaps-5-day-rally-tumbles-30-paise-to-settle-at-9292-against-us-dollar/article71734465.ece"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Principal-agent problem",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Governance",
+     "title": "Principal-agent problem: those who run it may not own it",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Owner delegates",
+        "note": "Shareholders hire managers to act for them."
+       },
+       {
+        "label": "Interests differ",
+        "note": "Managers may chase pay, power or comfort."
+       },
+       {
+        "label": "Hidden actions",
+        "note": "Owners cannot see everything managers do.",
+        "hot": true
+       },
+       {
+        "label": "Align and monitor",
+        "note": "Boards, incentives and disclosure close the gap."
+       }
+      ]
+     },
+     "what": "When one party acts for another and knows more, it can serve itself. The resulting losses are called agency costs.",
+     "why": "Use it on boards, CEO pay, vendor contracts, AI agents and any team acting on your behalf.",
+     "say": "Pick one delegated decision this week and ask: how would we know if incentives pulled the wrong way?",
+     "deeper": [
+      "Economists Michael Jensen and William Meckling formalised it in 1976 in the Journal of Financial Economics, splitting agency costs into monitoring, bonding and residual loss. Stephen Ross had framed the principal's problem in 1973.",
+      "Today's Nvidia story shows the hard case: a board acting for shareholders faces one founder seen as worth about $1 trillion. AI agents add a new twist, which is why AWS wants them limited to their human's permissions."
+     ],
+     "sources": [
+      {
+       "title": "Journal of Financial Economics: Jensen and Meckling, Theory of the Firm, 1976",
+       "url": "https://www.sciencedirect.com/science/article/pii/0304405X7690026X"
+      },
+      {
+       "title": "Wikipedia: Principal-agent problem",
+       "url": "https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "Worked example",
+     "title": "WeWork, 2019: its value fell from $47 billion to about $15 billion",
+     "visual": {
+      "type": "bars",
+      "title": "WeWork value, $ billion, per City AM",
+      "items": [
+       {
+        "label": "SoftBank round, Jan 2019",
+        "value": 47,
+        "display": "$47B"
+       },
+       {
+        "label": "Likely IPO value, Sep 2019",
+        "value": 15,
+        "display": "~$15B",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Investors balked at WeWork's IPO over governance and founder Adam Neumann's conduct. Neumann stepped down and the IPO was withdrawn.",
+     "why": "Public investors priced in agency costs that private backers had overlooked. Governance gaps showed up as a lower price.",
+     "say": "Investors mark down any company where the leader answers to no one. Governance is part of the price.",
+     "deeper": [
+      "WeWork's filing showed it spent about $2 for every $1 of revenue. Neumann called the scrutiny a significant distraction, two co-chief executives took over, and the company moved to sell his $60 million private jet. It confirmed the withdrawal on 30 September 2019.",
+      "Caveat: the loss-making business model worried investors as much as governance, so the fall mixes both. The $15 billion was an estimate, not a market price."
+     ],
+     "sources": [
+      {
+       "title": "City AM: WeWork confirms it will withdraw IPO filing amid investor apathy",
+       "url": "https://www.cityam.com/wework-confirms-it-will-withdraw-ipo-filing/"
+      },
+      {
+       "title": "Irish Times: WeWork to formally withdraw IPO filing to focus on revamping business",
+       "url": "https://www.irishtimes.com/business/markets/wework-to-formally-withdraw-ipo-filing-to-focus-on-revamping-business-1.4035453"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "AWS AI stack: step 2 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "AWS's AI stack",
+    "step": 2,
+    "total": 5,
+    "plan": [
+     "The three layers, chip to app",
+     "Trainium and Inferentia chips",
+     "Bedrock and model choice",
+     "AgentCore and the agent layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "Nvidia and the chip supply chain"
+   },
+   "cards": [
+    {
+     "tag": "Step 2 of 5",
+     "title": "Trainium and Inferentia: Amazon's own chips to cut AI costs",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Training",
+        "note": "Trainium teaches models on huge data sets."
+       },
+       {
+        "label": "Inference",
+        "note": "Inferentia, and now Trainium, answers user requests."
+       },
+       {
+        "label": "Neuron software",
+        "note": "Runs PyTorch and JAX code on both chips."
+       },
+       {
+        "label": "Price-performance",
+        "note": "AWS claims 30 to 40% gains over GPUs.",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Trainium chips train AI models and now also serve them. Inferentia was built for inference. One software kit, Neuron, runs both.",
+     "why": "Own chips let AWS claim better price-performance than its Nvidia GPU servers, but software must be tuned for Neuron.",
+     "say": "Ask your cloud team to price one AI workload on Trainium and on GPUs, side by side.",
+     "deeper": [
+      "AWS says Trn2 instances offer 30 to 40% better price performance than its GPU-based P5e and P5en instances. Trainium3, its first 3nm AI chip, carries 144 GB of fast memory, and one Trn3 UltraServer links up to 144 chips. AWS says that gives up to 4.4 times the performance of Trn2 UltraServers.",
+      "These are vendor figures, not independent benchmarks. Neuron supports PyTorch and JAX, which cuts switching effort but does not remove it. Next: Bedrock and model choice."
+     ],
+     "sources": [
+      {
+       "title": "AWS: Amazon EC2 Trn2 instances and UltraServers",
+       "url": "https://aws.amazon.com/ec2/instance-types/trn2/"
+      },
+      {
+       "title": "AWS: Amazon EC2 Trn3 UltraServers",
+       "url": "https://aws.amazon.com/ec2/instance-types/trn3/"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Disney, 2022: brought back its former CEO",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case",
+     "title": "Disney rehired Bob Iger and its shares jumped 6.3% in a day",
+     "visual": {
+      "type": "stat",
+      "value": "6.3%",
+      "label": "Disney's share gain on 21 November 2022, after Iger's return, per Variety"
+     },
+     "what": "With shares down 41% in 2022 and streaming losses rising, Disney's board ousted Bob Chapek and recalled Iger for two years.",
+     "why": "Shares closed at $97.57. Investors rewarded a known leader, but the board also admitted its succession plan had failed.",
+     "say": "A boomerang CEO buys time, not a successor. Fix succession while the returning leader steadies things.",
+     "deeper": [
+      "Iger had stepped down as CEO less than a year earlier, and on his return he was asked to help find a permanent successor. Reuters now places Huang on its list of US boomerang CEOs, leaders rehired by the company they left.",
+      "Caveat: a one-day share jump says little about long-term value. Iger's term was later extended, so the succession problem he was meant to solve stayed open for years."
+     ],
+     "sources": [
+      {
+       "title": "Variety: Disney stock pops on Bob Iger's return as CEO",
+       "url": "https://variety.com/2022/tv/news/disney-stock-rises-bob-iger-ceo-replaces-chapek-1235438600/"
+      },
+      {
+       "title": "Reuters: Jensen Huang's Nvidia return puts him on US Inc's 'Boomerang' CEO list",
+       "url": "https://www.reuters.com/legal/transactional/jensen-huangs-nvidia-return-puts-him-us-incs-boomerang-ceo-list-2026-11-23/"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Leveson, 2011: Engineering a Safer World",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Book, 2011",
+     "title": "Leveson: accidents come from weak controls, not just broken parts",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Set constraints",
+        "note": "Define what the system must never do."
+       },
+       {
+        "label": "Design controls",
+        "note": "Each layer enforces those constraints.",
+        "hot": true
+       },
+       {
+        "label": "Feedback loops",
+        "note": "Watch behaviour and correct drift early."
+       }
+      ]
+     },
+     "what": "MIT's Nancy Leveson argues complex systems fail when controls and feedback break down, not only when parts fail. Her model is STAMP.",
+     "why": "It suits software, AI and organisations, where failures come from interactions. Garman's AWS post makes the same case.",
+     "say": "Safety is a control problem: decide what must never happen, then enforce it at every layer.",
+     "deeper": [
+      "STAMP stands for System-Theoretic Accident Model and Processes. It widens the causes of accidents to human, social, economic and regulatory factors. The book applies it to cases including a friendly-fire helicopter loss in the first Gulf War, the Vioxx recall and the US Navy's SUBSAFE programme."
+     ],
+     "sources": [
+      {
+       "title": "MIT Industrial Liaison Program: Engineering a Safer World, Nancy Leveson",
+       "url": "https://ilp.mit.edu/node/25027"
+      },
+      {
+       "title": "MIT News: Engineering a safer world",
+       "url": "https://news.mit.edu/2012/engineering-a-safer-world-0423"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Hyperscaler",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Hyperscaler",
+     "visual": {
+      "type": "stat",
+      "value": "150 MW",
+      "label": "Capacity Applied Digital just leased to one unnamed hyperscaler, per Reuters"
+     },
+     "what": "A cloud giant that runs data centres at huge scale, such as AWS, Microsoft Azure or Google Cloud.",
+     "why": "Hyperscalers sign most big AI capacity deals, so their contracts signal whether AI spending is holding up.",
+     "say": "Our AI roadmap depends on hyperscaler capacity, so we should track their long-term lease commitments.",
+     "deeper": [
+      "The word comes from hyperscale computing: systems that can add servers quickly as demand grows. Data centre builders prize hyperscaler tenants because they are usually investment-grade, which makes construction easier to finance. Applied Digital says 75% of its contracted lease revenue is tied to investment-grade customers."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Applied Digital signs $5.4 billion AI data center lease with hyperscaler",
+       "url": "https://www.reuters.com/business/applied-digital-signs-54-billion-ai-data-center-lease-with-hyperscaler-2026-11-23/"
+      },
+      {
+       "title": "Wikipedia: Hyperscale computing",
+       "url": "https://en.wikipedia.org/wiki/Hyperscale_computing"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "Nvidia's board bowed to one indispensable leader. Who here is so central that our board could not say no?",
+    "context": "Huang's return added nearly $1 trillion in value but raised governance doubts. Naming key person risk early lets boards build successors and controls before a crisis."
+   }
+  }
+ ]
+}
