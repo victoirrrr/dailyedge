@@ -1,0 +1,664 @@
+{
+ "v": 4,
+ "date": "2026-11-25",
+ "label": "Wednesday, 25 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Sanofi pays $41 billion for Insmed to replace its top drug",
+     "visual": {
+      "type": "stat",
+      "value": "$41B",
+      "label": "Insmed's equity value at Sanofi's $175 a share, all cash, per Sanofi"
+     },
+     "what": "Sanofi will buy US biotech Insmed, maker of lung drugs Brinsupri and Arikayce. It is the year's biggest biopharma deal.",
+     "why": "Dupixent, Sanofi's best seller, loses key patents in a few years. Buying approved drugs is faster than inventing them.",
+     "say": "Which of our profit engines has an expiry date, and is our plan to replace it building or buying?",
+     "deeper": [
+      "Sanofi says Brinsupri, launched in the US in August 2025, earned $1.09 billion through 30 September 2026. Arikayce made $433.8 million in 2025. Sanofi will fund the deal with cash and debt, expects it to close in the first half of 2027 and to add to earnings per share by the end of 2028.",
+      "BioPharma Dive calls it the largest biopharma buy since Pfizer's $43 billion Seagen deal in 2023, and notes Sanofi shares rose nearly 10%. Caveat: past Sanofi deals, such as Bioverativ and Synthorx, led to billion-dollar write-downs."
+     ],
+     "sources": [
+      {
+       "title": "SEC: Sanofi Form 6-K press release on Insmed, 24 November 2026",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001121404/000119312526473314/d130092dex991.htm"
+      },
+      {
+       "title": "BioPharma Dive: Sanofi, with $41B Insmed buy, inks year's biggest biopharma acquisition",
+       "url": "https://www.biopharmadive.com/news/sanofi-insmed-acquisition-deal-immunology-rare-disease/875627/"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "Huawei is convicted in the US of fraud and trade secret theft",
+     "visual": {
+      "type": "bars",
+      "title": "Counts in the US criminal case against Huawei, per Reuters",
+      "items": [
+       {
+        "label": "Guilty",
+        "value": 10,
+        "display": "10",
+        "hot": true
+       },
+       {
+        "label": "Acquitted",
+        "value": 2,
+        "display": "2"
+       }
+      ]
+     },
+     "what": "A Brooklyn jury found Huawei guilty on 10 of 12 counts, including bank fraud, sanctions violations and conspiring to steal trade secrets.",
+     "why": "It hardens the case for keeping Chinese network gear out of supply chains, just as US and China talk trade.",
+     "say": "Do we know which of our critical suppliers sit on a US blacklist, or could soon?",
+     "deeper": [
+      "Huawei was cleared of racketeering conspiracy and obstruction, and its lawyer said it fully expects to appeal. Prosecutors argued it misled banks about its Iran business and took source code from Cisco and antenna technology from Quintel. Sentencing is set for 14 September 2027, and the penalty is not yet known.",
+      "The case began in 2018 and led to the detention of finance chief Meng Wanzhou in Canada. Experts quoted by Reuters say it has not dented Huawei's business, which now plays a key role in China's AI push."
+     ],
+     "sources": [
+      {
+       "title": "US News (Reuters): China's Huawei convicted in sprawling US criminal trial over Iran business",
+       "url": "https://www.usnews.com/news/world/articles/2026-11-24/chinas-huawei-convicted-at-us-criminal-trial-stemming-from-iran-business"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "US readies new tariffs on China, the EU, India and 13 others",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Probe opens, March"
+       },
+       {
+        "label": "Hearings held"
+       },
+       {
+        "label": "Findings due",
+        "hot": true
+       },
+       {
+        "label": "Tariffs imposed"
+       }
+      ]
+     },
+     "what": "The US trade office is expected to publish its probe into subsidised overcapacity in 16 economies within days, followed by higher tariffs.",
+     "why": "The duties would replace tariffs the Supreme Court struck down and stack on July's 10% to 12.5% levies.",
+     "say": "If US tariffs on our India or China supply rise again next month, who pays: us, suppliers or customers?",
+     "deeper": [
+      "AP says the action uses Section 301 of the 1974 Trade Act, which lets the president hit countries that discriminate against US commerce. Rates and timing are not yet clear, and the White House did not comment. USTR's March fact sheet lists India among the 16, alongside China, the EU, Japan, Mexico, Korea and Vietnam.",
+      "The move follows heavy Republican losses in this month's midterms, fuelled by worries over prices. Watch the published rates, product exclusions and whether Congress tries to limit them."
+     ],
+     "sources": [
+      {
+       "title": "WSB Radio (AP): US ready to slap tariffs on China, EU and others over subsidized production",
+       "url": "https://www.wsbradio.com/news/business/us-ready-slap/HV7YY43ELQ4TXGSXGZJFKRYWEM/"
+      },
+      {
+       "title": "USTR: Fact sheet on Section 301 investigations into structural excess capacity",
+       "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/march/fact-sheet-ustr-initiates-section-301-investigations-structural-excess-capacity-and-production"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI economics",
+     "title": "HPE's AI sales surge, but margins shrink as AI grows",
+     "visual": {
+      "type": "bars",
+      "title": "HPE Cloud and AI operating margin, %, per HPE and GuruFocus",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Q4 FY25",
+        "value": 9.3,
+        "display": "9.3%"
+       },
+       {
+        "label": "Q4 FY26",
+        "value": 18.4,
+        "display": "18.4%"
+       },
+       {
+        "label": "FY27 guide",
+        "value": 14,
+        "display": "~14%",
+        "hot": true
+       }
+      ]
+     },
+     "what": "HPE posted record quarterly revenue of $14.5 billion, up 50%. It then guided its Cloud and AI margin down to about 14%.",
+     "why": "AI server volume does not equal AI profit. Pricey parts and heavy AI mix thin the margin on every box.",
+     "say": "In our AI budget, which costs are falling with volume, and which are rising as we scale?",
+     "deeper": [
+      "HPE raised its fiscal 2027 revenue outlook to $59.4 billion to $63.1 billion, growth of 27% to 35%. On the call, management said a heavier AI server mix and higher input costs will weigh on gross margin, which was 38.2% in the quarter. Shares fell about 16% on Tuesday.",
+      "For buyers, this says AI hardware makers are chasing volume and may trade price for share. Caveat: the 14% figure is guidance from the earnings call, not a result."
+     ],
+     "sources": [
+      {
+       "title": "SEC: HPE fiscal 2026 fourth quarter results, Form 8-K exhibit",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001645590/000164559026000097/ex-991x11232026x8k.htm"
+      },
+      {
+       "title": "GuruFocus: HPE Q4 2026 earnings call highlights",
+       "url": "https://www.gurufocus.com/news/9216211/hewlett-packard-enterprise-co-hpe-q4-2026-earnings-call-highlights-record-revenue-surging-ai-orders-and-a-bold-fiscal-2027-outlook"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "NextEra's $66.8 billion Dominion deal clears a US antitrust probe",
+     "visual": {
+      "type": "stat",
+      "value": "$66.8B",
+      "label": "Value of NextEra Energy's planned takeover of Dominion Energy, per International Finance"
+     },
+     "what": "The US Justice Department closed its antitrust review of NextEra's purchase of Dominion. State regulators must still approve it.",
+     "why": "The problem: AI data centres need far more power. Scale helps a utility fund grids and plants faster.",
+     "say": "When a supplier merges to gain scale, do we get better capacity, or just less bargaining power?",
+     "deeper": [
+      "The deal, announced in May and approved by both sets of shareholders in September, would create one of the world's largest electric utilities. It is expected to close in the second half of 2027. NextEra has signed three hub projects with about 16.5 gigawatts of capacity.",
+      "Caveat: politicians in several states, including Virginia, have raised concerns about electricity bills and market power, so state approvals may carry conditions. Watch what NextEra offers customers to win them."
+     ],
+     "sources": [
+      {
+       "title": "International Finance: US DOJ closes antitrust probe into NextEra Energy's USD 66.8 billion Dominion deal",
+       "url": "https://internationalfinance.com/utilities/us-doj-closes-antitrust-probe-into-nextera-energys-usd-66-8-billion-dominion-deal/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "India macro",
+     "title": "S&P sees India growing 7% and the RBI raising rates twice",
+     "visual": {
+      "type": "stat",
+      "value": "7%",
+      "label": "S&P Global Ratings' India GDP growth forecast for this fiscal year and next"
+     },
+     "what": "S&P expects 25 basis point RBI rate hikes in December and early 2027, as El Nino and a weak monsoon lift food prices.",
+     "why": "Fast growth with rising rates means dearer credit for expansion. Plans for India centres should price in costlier money.",
+     "say": "Does our India plan still work if borrowing costs rise half a point by early 2027?",
+     "deeper": [
+      "S&P says strong goods exports, public investment and household spending drove growth in the June and September quarters, with electronics, engineering goods and chemicals standing out. It expects inflation to average 5.3% this fiscal year, with risks to the upside.",
+      "Official July to September GDP data is due on 30 November; the RBI had forecast 7.2%. Caveat: S&P wrote before the new US tariff plans, which name India among 16 targets and could hit those same exports."
+     ],
+     "sources": [
+      {
+       "title": "Fibre2Fashion: India's GDP growth seen at 7% this fiscal and next, says S&P",
+       "url": "https://www.fibre2fashion.com/news/textile-news/india-s-gdp-growth-seen-at-7-this-fiscal-next-s-p-315255-newsdetails.htm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Tuesday, 24 November",
+    "why": "Chip stocks gave back part of Monday's rally and tariff fears hit Europe. India was shut for Guru Nanak Jayanti.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,349.65",
+      "change": null,
+      "note": "Holiday"
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "82,435.99",
+      "change": null,
+      "note": "Holiday"
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "58,644.63",
+      "change": 3.91
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "22,219.65",
+      "change": -0.73
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,548.37",
+      "change": 0.27
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,467.07",
+      "change": -0.13
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "25,012",
+      "change": -1.29
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,201.09",
+      "change": -0.5
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "23,733.54",
+      "change": -1.48
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "50,018.70",
+      "change": 0.85
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,550.79",
+      "change": -2.31,
+      "note": "Spot"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$91.40",
+      "change": 2.27,
+      "note": "Settlement"
+     },
+     {
+      "name": "USD/INR",
+      "value": "92.92",
+      "change": null,
+      "note": "Holiday"
+     }
+    ],
+    "sources": [
+     {
+      "title": "CNBC: Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price",
+      "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+     },
+     {
+      "title": "Armenpress: Asian Stocks down, 24-11-26",
+      "url": "https://armenpress.am/en/article/1266527"
+     },
+     {
+      "title": "BBN Times: FTSE 100 today, London slips 0.13% to 10,467.07 as miners weigh",
+      "url": "https://www.bbntimes.com/financial/ftse-100-today-london-slips-0-13-to-10-467-07-as-miners-weigh"
+     },
+     {
+      "title": "Trading Economics: Germany stock market, the DAX closes 1.29% lower",
+      "url": "https://tradingeconomics.com/germany/stock-market"
+     },
+     {
+      "title": "Forbes Middle East: Brent crude rises 2.27% to $91.40",
+      "url": "https://www.forbesmiddleeast.com/industry/energy/brent-crude-rises-227-to-9140-wti-gains-235-to-8205"
+     },
+     {
+      "title": "Goodreturns: Stock market holiday November 24, BSE, NSE and MCX shut",
+      "url": "https://www.goodreturns.in/news/stock-market-holiday-tomorrow-november-24-2026-bse-nse-mcx-shut-on-tuesday-settlement-holiday-impact-1549033.html"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Build, borrow or buy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Strategy",
+     "title": "Build, borrow or buy: pick the right path to new capabilities",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Build",
+        "note": "Grow it inside when it fits your skills."
+       },
+       {
+        "label": "Borrow",
+        "note": "Contract or ally when you need partner help."
+       },
+       {
+        "label": "Buy",
+        "note": "Acquire only if you can integrate the target.",
+        "hot": true
+       },
+       {
+        "label": "Review often",
+        "note": "Change paths as the gap and market shift."
+       }
+      ]
+     },
+     "what": "There are three ways to get a capability you lack: develop it, partner for it or acquire it. Each suits different conditions.",
+     "why": "Use it for pipeline gaps, AI skills, new markets or any growth decision where buying seems the obvious answer.",
+     "say": "Take one capability gap this week and argue the case for all three paths before choosing.",
+     "deeper": [
+      "Laurence Capron of INSEAD and Will Mitchell set out the framework in Build, Borrow, or Buy: Solving the Growth Dilemma, Harvard Business Review Press, 2012. Their research found most firms lean on only one or two paths out of habit.",
+      "They pose questions in sequence: can we build it with our own resources, do we need close partner work, and can we really integrate a seller? Buying comes last because integration is where most deals fail."
+     ],
+     "sources": [
+      {
+       "title": "O'Reilly: Build, Borrow, or Buy, contents",
+       "url": "https://oreilly.com/library/view/build-borrow-or/9781422143728/toc.html"
+      },
+      {
+       "title": "Thinkers50: Laurence Capron on Build, Borrow or Buy",
+       "url": "https://thinkers50.com/?p=2360"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "Worked example",
+     "title": "Sanofi chose buy: two approved drugs instead of years of research",
+     "visual": {
+      "type": "bars",
+      "title": "Consensus sales by 2035 for Insmed drugs, $ billion, per BioPharma Dive",
+      "items": [
+       {
+        "label": "Brinsupri",
+        "value": 6.8,
+        "display": "$6.8B",
+        "hot": true
+       },
+       {
+        "label": "Arikayce",
+        "value": 1.3,
+        "display": "$1.3B"
+       }
+      ]
+     },
+     "what": "Facing Dupixent's patent cliff, Sanofi bought Insmed for $41 billion rather than wait for its own pipeline to deliver.",
+     "why": "Buying fits when time is short and the asset is proven. The risk moves to price and integration.",
+     "say": "We buy when time matters more than price, but only if we can integrate what we buy.",
+     "deeper": [
+      "Jefferies analyst Michael Leuchten said the deal gives Sanofi two sizeable lung franchises ahead of Dupixent's patent losses; the consensus figures in the chart come from his note. Sanofi also uses the borrow path, for example its long alliance with Regeneron on Dupixent itself.",
+      "Caveat: forecasts to 2035 are estimates, not results. Sanofi's own record shows the risk of the buy path, with large write-downs on earlier deals such as Bioverativ."
+     ],
+     "sources": [
+      {
+       "title": "BioPharma Dive: Sanofi, with $41B Insmed buy, inks year's biggest biopharma acquisition",
+       "url": "https://www.biopharmadive.com/news/sanofi-insmed-acquisition-deal-immunology-rare-disease/875627/"
+      },
+      {
+       "title": "Fierce Pharma: Sanofi touts vigorous defense to extend Dupixent US exclusivity",
+       "url": "https://www.fiercepharma.com/pharma/sanofi-expects-extend-its-loe-dupixent-beyond-2031"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "AWS AI stack: step 3 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "AWS's AI stack",
+    "step": 3,
+    "total": 5,
+    "plan": [
+     "The three layers, chip to app",
+     "Trainium and Inferentia chips",
+     "Bedrock and model choice",
+     "AgentCore and the agent layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "Nvidia and the chip supply chain"
+   },
+   "cards": [
+    {
+     "tag": "Step 3 of 5",
+     "title": "Bedrock: one AWS service to rent many AI models",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Pick models",
+        "note": "Choose from many providers' models in one place."
+       },
+       {
+        "label": "One API",
+        "note": "Swap models without rewriting the app."
+       },
+       {
+        "label": "Route and cache",
+        "note": "Send easy prompts to cheaper models.",
+        "hot": true
+       },
+       {
+        "label": "Guard data",
+        "note": "Guardrails, and your data is not used for training."
+       }
+      ]
+     },
+     "what": "Bedrock is AWS's managed service for using other firms' AI models, plus Amazon's own, through a single API with security built in.",
+     "why": "Model choice stays open, so you can switch to cheaper or better models as prices and rankings change.",
+     "say": "Ask your team which of your AI tasks could run on a smaller, cheaper model without losing quality.",
+     "deeper": [
+      "AWS says Bedrock offers hundreds of models and never stores or uses customer data to train them. Its Intelligent Prompt Routing picks between two models in a family, such as Claude, Llama or Nova, per request. AWS claims routing can cut costs by up to 30% and prompt caching by up to 90% for supported models.",
+      "These are vendor figures, and savings depend on the workload. Not every model supports every feature, so check before you commit. Next: AgentCore and the agent layer."
+     ],
+     "sources": [
+      {
+       "title": "AWS: Amazon Bedrock",
+       "url": "https://aws.amazon.com/bedrock/"
+      },
+      {
+       "title": "AWS News Blog: Reduce costs and latency with Bedrock Intelligent Prompt Routing and prompt caching",
+       "url": "https://aws.amazon.com/blogs/aws/reduce-costs-and-latency-with-amazon-bedrock-intelligent-prompt-routing-and-prompt-caching-preview/"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Harley-Davidson, 2018: moved output to dodge tariffs",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case",
+     "title": "Harley-Davidson moved EU production abroad after tariffs hit 31%",
+     "visual": {
+      "type": "bars",
+      "title": "EU tariff on US-made motorcycles, %, per Fortune",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Before 22 June 2018",
+        "value": 6,
+        "display": "6%"
+       },
+       {
+        "label": "After",
+        "value": 31,
+        "display": "31%",
+        "hot": true
+       }
+      ]
+     },
+     "what": "When the EU hit back at US steel tariffs, each bike cost about $2,200 more. Harley shifted EU-bound output to overseas plants.",
+     "why": "The tariff would cost $90 million to $100 million a year, which Harley chose to absorb rather than pass on.",
+     "say": "Tariffs rarely stay put. Map where you could make or source each product before you need to move.",
+     "deeper": [
+      "Harley sold almost 40,000 bikes in the EU in 2017 and had plants in Australia, Brazil, India and Thailand. It said moving production was not its preference but the only sustainable option, and expected the shift to take up to 18 months. Its shares fell 2.7% on the day.",
+      "Caveat: President Trump publicly attacked the move, so the case shows political cost as well as financial cost. Today's US tariff plans could force similar choices."
+     ],
+     "sources": [
+      {
+       "title": "Fortune (Bloomberg): Harley-Davidson is moving some production overseas to deal with the EU-Trump trade war",
+       "url": "https://fortune.com/2018/06/25/harley-davidson-trump-trade-war-eu/"
+      },
+      {
+       "title": "CBS News: Harley-Davidson, blaming tariffs, will shift some manufacturing overseas",
+       "url": "https://cbsnews.com/news/harley-davidson-to-move-some-manufacturing-overseas-blaming-tariffs"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Ricardo, 1817: Principles of Political Economy and Taxation",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Book, 1817",
+     "title": "Ricardo: both sides gain when each makes what it does relatively best",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Compare costs",
+        "note": "Look at what each side gives up."
+       },
+       {
+        "label": "Specialise",
+        "note": "Each makes what costs it relatively least.",
+        "hot": true
+       },
+       {
+        "label": "Trade",
+        "note": "Both end up with more than alone."
+       }
+      ]
+     },
+     "what": "David Ricardo showed trade pays even if one country is better at everything. What matters is relative, not absolute, cost.",
+     "why": "It is the classic argument against tariffs, cited whenever trade barriers rise, as they may again this week.",
+     "say": "Trade wins come from relative strengths, so ask what we give up, not just who is cheaper.",
+     "deeper": [
+      "Ricardo's famous example used England and Portugal making cloth and wine: Portugal was better at both, yet both gained by specialising and trading. The idea, called comparative advantage, remains a basis of trade economics. Critics note it assumes workers and capital move easily between industries, which is often not true."
+     ],
+     "sources": [
+      {
+       "title": "Econlib: David Ricardo, On the Principles of Political Economy and Taxation",
+       "url": "https://www.econlib.org/library/Ricardo/ricP.html"
+      },
+      {
+       "title": "Wikipedia: Comparative advantage",
+       "url": "https://en.wikipedia.org/wiki/Comparative_advantage"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Patent cliff",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Patent cliff",
+     "visual": {
+      "type": "stat",
+      "value": "€15.7B",
+      "label": "Dupixent's 2025 global sales, the revenue Sanofi must protect, per Pharmaceutical Technology"
+     },
+     "what": "The sharp fall in a drug's sales when its patents expire and cheaper copies arrive.",
+     "why": "Sanofi's $41 billion Insmed deal is a bet to soften the cliff facing Dupixent, its biggest drug.",
+     "say": "Our top product faces a patent cliff in five years; what fills the gap?",
+     "deeper": [
+      "Dupixent sold €15.7 billion in 2025, up 25.2% at constant exchange rates. Its core US patent runs to March 2031, and Sanofi says it will defend it vigorously. The term now travels beyond pharma, to any business whose main profit source has a known end date."
+     ],
+     "sources": [
+      {
+       "title": "Pharmaceutical Technology: Sanofi FY2025 sales results",
+       "url": "https://www.pharmaceutical-technology.com/news/sanofi-fy2025-sales-results/"
+      },
+      {
+       "title": "Fierce Pharma: Sanofi touts vigorous defense to extend Dupixent US exclusivity",
+       "url": "https://www.fiercepharma.com/pharma/sanofi-expects-extend-its-loe-dupixent-beyond-2031"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "New US tariffs may hit India and China. If costs rose 10%, would we build, borrow or buy capacity elsewhere?",
+    "context": "Sixteen economies face Section 301 tariffs within days. Harley-Davidson's 2018 shift shows moving production takes up to 18 months, so the choice is worth framing before rates are published."
+   }
+  }
+ ]
+}

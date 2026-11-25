@@ -1,6 +1,7 @@
 {
-  "latest": "2026-11-24",
+  "latest": "2026-11-25",
   "editions": [
+    {"date": "2026-11-25", "label": "Wednesday, 25 November 2026", "lead": "Sanofi pays $41 billion for Insmed to replace its top drug"},
     {"date": "2026-11-24", "label": "Tuesday, 24 November 2026", "lead": "Nvidia rehires Jensen Huang 11 days after he resigned"},
     {"date": "2026-11-23", "label": "Monday, 23 November 2026", "lead": "Amazon nears a $7.5 billion deal for AI start-up Decart"},
     {"date": "2026-11-22", "label": "Sunday, 22 November 2026", "lead": "IG Metall calls 23,000 German workers out on strike Monday"},
