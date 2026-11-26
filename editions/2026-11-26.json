@@ -1,0 +1,693 @@
+{
+ "v": 4,
+ "date": "2026-11-26",
+ "label": "Thursday, 26 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "US inflation hits 3.8% and a December Fed rate hike looks certain",
+     "visual": {
+      "type": "stat",
+      "value": "3.8%",
+      "label": "US PCE inflation in October, year on year, per BEA"
+     },
+     "what": "The Fed's preferred gauge rose to 3.8% in October. Core inflation was 3.3%, above the 3.2% forecast.",
+     "why": "Markets fully price a quarter-point hike on 9 December. Debt-funded plans, including AI build-outs, get costlier.",
+     "say": "Which of our plans only work if money stays cheap, and what is our hurdle rate now?",
+     "deeper": [
+      "The BEA data show PCE prices up 3.8% from a year earlier, in line with the Dow Jones consensus and nearly twice the Fed's goal. Core PCE was 3.3%. Barron's reports its three-month annualised rate climbed to 3.6% from 3% in September. CNBC says inflation spiked again after the late-February attacks on Iran led by the US and Israel, and has run above target for about five and a half years.",
+      "CME FedWatch put the odds of a 25 basis point hike at the 8 to 9 December meeting at 98%, per Investor's Business Daily. CNBC adds that expectations for hikes in 2027 eased a little. Watch whether the Fed signals more by March. Caveat: the headline matched forecasts; the surprise was in core inflation."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: PCE inflation report October 2026, Fed's preferred gauge accelerated to 3.8%",
+       "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+      },
+      {
+       "title": "Investor's Business Daily: PCE inflation overshoots as Fed fears worsen AI-stock volatility",
+       "url": "https://www.investors.com/news/pce-inflation-oct-federal-reserve-sp-500-ai-nvidia-liquidity-crunch/"
+      },
+      {
+       "title": "Barron's: Hot inflation and strong growth raise the risk of more Fed rate hikes",
+       "url": "https://www.barrons.com/articles/pce-inflation-gdp-fed-rate-hikes-40ca18e9"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "Wall Street expects Anthropic's debt to be rated junk",
+     "visual": {
+      "type": "bars",
+      "title": "US bond market size, $ trillion (NDTV Profit, citing WSJ)",
+      "unit": "$T",
+      "items": [
+       {
+        "label": "Investment grade",
+        "value": 8.6,
+        "display": "$8.6T"
+       },
+       {
+        "label": "US junk",
+        "value": 1.7,
+        "display": "$1.7T",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Bond-fund managers told the Wall Street Journal they expect a BB rating, one or two notches below investment grade, for Anthropic's debt.",
+     "why": "It has committed to spend $900 billion. Junk ratings mean costlier debt and fewer buyers for AI build-outs.",
+     "say": "If our AI vendors borrow at junk rates, how exposed are we if their funding tightens?",
+     "deeper": [
+      "The Wall Street Journal reported on 23 November, after Anthropic's turbulent IPO, that several large bond-fund managers expect rating firms to place the company in the BB range. NDTV Profit adds that investment grade opens a $8.6 trillion market, against about $1.7 trillion for US junk bonds, which usually carry higher borrowing costs.",
+      "Caveat: these are investor expectations, not published ratings, and the planned bond size was not stated in the text I could read. The story shows how AI spending is moving from cash to credit markets."
+     ],
+     "sources": [
+      {
+       "title": "WSJ: Anthropic committed to spend $900 billion; Wall Street expects its debt to be junk",
+       "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d"
+      },
+      {
+       "title": "NDTV Profit: Anthropic's potential bond issues may be rated junk despite $1.1 trillion valuation",
+       "url": "https://www.ndtvprofit.com/markets/anthropics-potential-bond-issues-may-be-rated-junk-despite-1-1-trillion-valuation-says-report-12374718"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "US proposes new tariffs: 17% on India, 20% or more on China",
+     "visual": {
+      "type": "bars",
+      "title": "Proposed US tariff rate, % (Kotak Neo)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "India",
+        "value": 17,
+        "display": "17%",
+        "hot": true
+       },
+       {
+        "label": "China",
+        "value": 20,
+        "display": "20%+"
+       },
+       {
+        "label": "EU",
+        "value": 20,
+        "display": "Up to 20%"
+       },
+       {
+        "label": "Japan",
+        "value": 15,
+        "display": "15%"
+       }
+      ]
+     },
+     "what": "Washington proposed new levies on 14 trading partners, per CNBC. India would face 17%, China at least 20%, the EU up to 20%.",
+     "why": "These are proposals, not final rules. Exporters and supply chains in these markets now face cost and sourcing choices.",
+     "say": "If a 17% tariff reached our India supply, would we absorb it, pass it on or move?",
+     "deeper": [
+      "Kotak Neo lists proposed rates of 17% for India, at least 20% for China, up to 20% for the EU, 20% for Vietnam, at least 18% for Thailand and 15% for Japan and Taiwan. The Wall Street Journal, relayed by Eurasia Business News, said levies on China could rise to 40% if US and China talks collapse.",
+      "Markets were already tense: the tariff plans landed on the same day as the hot inflation data. Caveat: the page I read gave no comment period or effective date, so timing is open."
+     ],
+     "sources": [
+      {
+       "title": "Kotak Neo: India faces proposed 17% US tariff as Washington unveils fresh trade levies",
+       "url": "https://www.kotakneo.com/news/global-markets/us-proposes-17-percent-tariff-on-india"
+      },
+      {
+       "title": "Eurasia Business News: Stock market today, 25 November 2026",
+       "url": "https://eurasiabusinessnews.com/2026/11/25/stock-market-today-nov-25-2026-nasdaq-trims-losses-gold-price-falls-brent-oil-91/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI value",
+     "title": "77% of CFOs hit unexpected AI agent costs; only 17% worry much",
+     "visual": {
+      "type": "stat",
+      "value": "77%",
+      "label": "of surveyed CFOs saw unexpected agentic AI costs, Bain survey of 150"
+     },
+     "what": "Bain surveyed 150 CFOs and finance leaders in North America and Europe. Agent spending is outpacing the controls to see and manage it.",
+     "why": "Agents make spending decisions in real time. A dashboard can explain an overrun but cannot stop one.",
+     "say": "Does every AI agent we run have a named owner, a budget and a spending cap?",
+     "deeper": [
+      "Bain's 23 November release says only 17% of CFOs are highly concerned, despite the 77% who met surprise costs. It recommends four steps: register every agent with a named owner, cost centre and budget before it touches company systems; automate spending controls that trigger near a limit; measure unit economics against a defined outcome and baseline cost; and govern jointly with CIOs.",
+      "Caveat: this is a survey of 150 large-company finance leaders, and Bain is a consultancy that sells advice in this area."
+     ],
+     "sources": [
+      {
+       "title": "Bain & Company: 77% of CFOs report unexpected agentic AI costs, but only 17% are highly concerned",
+       "url": "https://www.bain.com/about/media-center/press-releases/2026/77-of-cfos-and-finance-leaders-report-unexpected-agentic-ai-costs-but-only-17-are-highly-concerned-bain-company/"
+      },
+      {
+       "title": "Futurum: CFOs are flying blind on agentic AI costs",
+       "url": "https://futurumgroup.com/insights/cfos-are-flying-blind-on-agentic-ai-costs/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Airbus sells its US space unit to Cerberus to sharpen focus",
+     "visual": {
+      "type": "stat",
+      "value": "200K",
+      "label": "square feet: the Florida satellite plant in the Cerberus deal, per FlightGlobal"
+     },
+     "what": "Cerberus agreed on 24 November to buy Airbus's US Space Systems business. No price was given. Closing is expected by end-2026.",
+     "why": "Airbus is shifting effort to a European satellite venture and autonomous military aviation, per Bloomberg and FlightGlobal.",
+     "say": "Which unit of ours would be worth more under an owner who invests in it than under us?",
+     "deeper": [
+      "Cerberus says it will invest in the engineering team, product portfolio and US supply chain to build an independent, US-owned satellite platform. The unit includes a 200,000 sq ft small satellite factory in Merritt Island, Florida, where the Arrow satellites are assembled, per FlightGlobal.",
+      "Airbus does not break out the US arm's revenue and no price was disclosed, per Breaking Defense. Caveat: Airbus's reasoning comes from press reports, not deal terms. Watch for regulatory approvals before year-end."
+     ],
+     "sources": [
+      {
+       "title": "PR Newswire: Cerberus to acquire the US Space Systems business of Airbus",
+       "url": "https://www.prnewswire.com/news-releases/cerberus-to-acquire-the-us-space-systems-business-of-airbus-302949473.html"
+      },
+      {
+       "title": "FlightGlobal: Airbus will divest US space business to focus on autonomous military aviation",
+       "url": "https://www.flightglobal.com/defence/2026/11/airbus-will-divest-us-space-business-to-focus-on-autonomous-military-aviation/"
+      },
+      {
+       "title": "Breaking Defense: Investment firm Cerberus to buy space business of US Airbus arm",
+       "url": "https://breakingdefense.com/2026/11/investment-firm-cerberus-to-buy-space-business-of-us-airbus-arm/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "GCC Watch",
+     "title": "Uttar Pradesh backs four GCCs worth about ₹1,710 crore",
+     "visual": {
+      "type": "bars",
+      "title": "Proposed investment, ₹ crore (India Today)",
+      "unit": "₹ Cr",
+      "items": [
+       {
+        "label": "Havells",
+        "value": 879,
+        "display": "879",
+        "hot": true
+       },
+       {
+        "label": "LG Soft",
+        "value": 634,
+        "display": "634"
+       },
+       {
+        "label": "Ameriprise",
+        "value": 112.84,
+        "display": "112.84"
+       },
+       {
+        "label": "MetLife",
+        "value": 84,
+        "display": "84"
+       }
+      ]
+     },
+     "what": "UP approved comfort letters for four proposed GCCs in Gautam Buddha Nagar: Havells, LG Soft, Ameriprise and MetLife.",
+     "why": "States now compete for capability centres with policy incentives. Jobs depend on how fast plans become working centres.",
+     "say": "Which Indian state offers us the best mix of talent, incentives and speed for our next centre?",
+     "deeper": [
+      "UP's GCC Policy 2024 was notified on 7 May 2025, with implementation rules issued on 7 January 2026. It offers incentives to global firms setting up in-house technology and business centres, with focus on Noida, Greater Noida, Lucknow, Kanpur and Varanasi, and two categories: Level-I and Advanced GCCs.",
+      "The four projects total ₹1,709.84 crore. Two sit under the Noida Authority and two on private land at Embassy Oxygen Business Park. Caveat: these are proposals; actual jobs depend on implementation speed."
+     ],
+     "sources": [
+      {
+       "title": "India Today: Uttar Pradesh GCC policy, four projects worth ₹1,709.84 crore secure comfort letters",
+       "url": "https://www.indiatoday.in/india/story/uttar-pradesh-gcc-policy-four-projects-rs-1709-crore-utrith-3045723-2026-11-24"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Wednesday, 25 November",
+    "why": "Hot US inflation and new tariff plans hit tech and Asia. India rebounded on foreign inflows and a stronger rupee.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,819.25",
+      "change": 1.85
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "83,938.28",
+      "change": 1.82
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "57,011.62",
+      "change": -2.78
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "21,966.01",
+      "change": -1.14
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,476.47",
+      "change": -2.03
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,434",
+      "change": -0.32
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "24,702",
+      "change": -1.26,
+      "note": "CFD quote"
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,186",
+      "change": -0.21
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "23,586",
+      "change": -0.62
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "50,183",
+      "change": 0.33
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,547.29",
+      "change": null,
+      "note": "Unverified, late spot"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$94.61",
+      "change": 3.51,
+      "note": "Settlement"
+     },
+     {
+      "name": "USD/INR",
+      "value": "92.16",
+      "change": -0.74,
+      "note": "Approx close"
+     }
+    ],
+    "sources": [
+     {
+      "title": "Armenpress: Asian Stocks down, 25-11-26",
+      "url": "https://armenpress.am/en/article/1266618"
+     },
+     {
+      "title": "Kotak Neo: Closing bell, 25 November 2026",
+      "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-recover-on-fii-buying-and-lower-crude-prices/"
+     },
+     {
+      "title": "Yahoo Finance: Stock market today, Nov. 25, Dow erases 1,100-point loss",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-25-221745503.html"
+     },
+     {
+      "title": "Trading Economics: United Kingdom stock market",
+      "url": "https://tradingeconomics.com/united-kingdom/stock-market"
+     },
+     {
+      "title": "Trading Economics: Germany stock market",
+      "url": "https://tradingeconomics.com/germany/stock-market"
+     },
+     {
+      "title": "CNBC: Oil prices rise after Houthis say they attacked Saudi refinery",
+      "url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Cost of capital",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Finance",
+     "title": "Cost of capital: the return a project must beat",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Debt cost",
+        "note": "What lenders charge, set by credit risk."
+       },
+       {
+        "label": "Equity cost",
+        "note": "What owners expect for bearing more risk."
+       },
+       {
+        "label": "Blend them",
+        "note": "Weight each by its share of funding."
+       },
+       {
+        "label": "Hurdle rate",
+        "note": "Fund only projects that beat the blend.",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Cost of capital is the blended price of the debt and equity that fund a project. It sets the minimum return worth accepting.",
+     "why": "Rate hikes and credit downgrades raise it, so projects that looked fine last year can quietly destroy value.",
+     "say": "Take one project this week and test whether its return still beats today's cost of capital.",
+     "deeper": [
+      "Franco Modigliani and Merton Miller laid the base theory in their 1958 paper, The Cost of Capital, Corporation Finance and the Theory of Investment, in the American Economic Review. It asked what capital really costs a firm when funds come from debt, equity or both.",
+      "Finance teams later turned the idea into the weighted average cost of capital, used as a hurdle rate. Lenders price debt by credit risk, so a rating change flows straight into the blend."
+     ],
+     "sources": [
+      {
+       "title": "American Economic Review: Modigliani and Miller, 1958",
+       "url": "https://www.aeaweb.org/aer/top20/48.3.261-297.pdf"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "Worked example",
+     "title": "Dropping from BBB to BB adds about one point of spread",
+     "visual": {
+      "type": "bars",
+      "title": "Spread over Treasuries, % (ICE BofA indexes via FRED, 24 Nov)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "BBB bonds",
+        "value": 1.22,
+        "display": "1.22%"
+       },
+       {
+        "label": "BB bonds",
+        "value": 2.25,
+        "display": "2.25%",
+        "hot": true
+       }
+      ]
+     },
+     "what": "On 24 November the average BB bond paid 2.25 points over Treasuries. BBB paid 1.22. The gap is about 1.03 points.",
+     "why": "On $10 billion of debt that gap is about $103 million a year, before any rate hike.",
+     "say": "A rating notch can cost more than the savings a project promises. Have we priced it?",
+     "deeper": [
+      "These are index averages from the ICE BofA option-adjusted spread series on FRED, not a quote for any one company. The $103 million is simple arithmetic: 1.03% of $10 billion. S&P's historical data show a 3-year cumulative default rate of 0.91% for BBB and 4.17% for BB, which is why lenders charge more.",
+      "Link to today: Anthropic's debt is expected to rate BB. Caveat: spreads move daily, and a new borrower's own pricing may differ from the index."
+     ],
+     "sources": [
+      {
+       "title": "FRED: ICE BofA BB option-adjusted spread",
+       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A1HYBB"
+      },
+      {
+       "title": "FRED: ICE BofA BBB option-adjusted spread",
+       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A4CBBB"
+      },
+      {
+       "title": "S&P Global Ratings: Understanding credit ratings",
+       "url": "https://www.spglobal.com/ratings/en/credit-ratings/about/understanding-credit-ratings"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "AWS AgentCore: step 4 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "AWS's AI stack",
+    "step": 4,
+    "total": 5,
+    "plan": [
+     "The three layers, chip to app",
+     "Trainium and Inferentia chips",
+     "Bedrock and model choice",
+     "AgentCore and the agent layer",
+     "Costs, lock-in and when to choose it"
+    ],
+    "next": "Nvidia and the chip supply chain"
+   },
+   "cards": [
+    {
+     "tag": "Step 4 of 5",
+     "title": "AgentCore: AWS's toolkit for running AI agents in production",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Runtime",
+        "note": "Runs each agent in an isolated session."
+       },
+       {
+        "label": "Gateway",
+        "note": "Turns APIs into tools agents can call."
+       },
+       {
+        "label": "Memory",
+        "note": "Keeps context across sessions."
+       },
+       {
+        "label": "Observability",
+        "note": "Traces every step; caps limit runaway cost.",
+        "hot": true
+       }
+      ]
+     },
+     "what": "AgentCore is AWS's set of services for production agents: secure runtime, tool gateway, identity, memory and tracing.",
+     "why": "Teams can ship agents with built-in controls, any model or framework, and pay-as-you-go pricing.",
+     "say": "Ask your team what hard limits each agent has on steps, time and tokens.",
+     "deeper": [
+      "AWS's docs list six core services: Harness, Runtime, Memory, Gateway, Identity and Observability. Runtime works with frameworks such as LangGraph and CrewAI and with models from OpenAI, Google, Anthropic and Amazon. Pricing is consumption based: Runtime v1 is $0.0895 per vCPU-hour, and CPU is not billed while an agent waits on a model or tool. Harness lets you set hard caps, such as 50 iterations and 8,192 tokens in AWS's example.",
+      "These are vendor claims. AWS cites a Signal65 study of 75% less time on infrastructure and 5.2 times faster deployment. Lock-in and total cost still need testing. Next: costs, lock-in and when to choose AWS."
+     ],
+     "sources": [
+      {
+       "title": "AWS: Amazon Bedrock AgentCore pricing",
+       "url": "https://aws.amazon.com/bedrock/agentcore/pricing/"
+      },
+      {
+       "title": "AWS docs: What is Amazon Bedrock AgentCore",
+       "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html"
+      },
+      {
+       "title": "AWS docs: Observability and cost controls",
+       "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/harness-operations.html"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Intel, 1985: quit memory, bet on chips",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Case, 1985",
+     "title": "Intel quit memory chips in 1985 and bet on microprocessors",
+     "visual": {
+      "type": "stat",
+      "value": "1 of 8",
+      "label": "Intel fabs still making memory when it chose to exit, per Grove"
+     },
+     "what": "Japanese rivals cut DRAM prices. Grove asked Moore what a new CEO would do. Intel exited memory, finishing by mid-1986.",
+     "why": "1986 was Intel's only loss year, as of 2013. Grove later called the exit \"the best business decision we ever made\".",
+     "say": "Ask what a new leader would do, then do it before a crisis forces you.",
+     "deeper": [
+      "Grove describes the mid-1985 talk with Gordon Moore in Only the Paranoid Survive (1996). Intel's own timeline says falling prices, slumping demand and a supply glut had depressed DRAM by 1985. Commoncog's case summary quotes Grove saying only one of eight fabs was making memories when they decided.",
+      "Caveat: this is Grove's account, written years later, and hindsight makes it tidier than it was. Sources disagree on revenue figures, so none are used here."
+     ],
+     "sources": [
+      {
+       "title": "Intel: Farewell to DRAM, 1985",
+       "url": "https://timeline.intel.com/1985/farewell-to-dram"
+      },
+      {
+       "title": "Commoncog: Intel's near death moment, switching from memories to microprocessors",
+       "url": "https://commoncog.com/c/cases/intel-transition-memories-processors/"
+      },
+      {
+       "title": "Stratechery: The Intel Opportunity",
+       "url": "https://stratechery.com/2013/the-intel-opportunity/"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Akerlof, 1970: The Market for Lemons",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Paper, 1970",
+     "title": "Akerlof, 1970: The Market for Lemons",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Seller knows"
+       },
+       {
+        "label": "Buyer cannot tell"
+       },
+       {
+        "label": "Price sinks"
+       },
+       {
+        "label": "Good sellers exit",
+        "hot": true
+       }
+      ]
+     },
+     "what": "When sellers know quality and buyers cannot, buyers pay an average price. Good sellers leave and bad products crowd the market.",
+     "why": "It explains why ratings, warranties and audits matter: they let honest sellers signal quality.",
+     "say": "Where buyers cannot judge quality, we need a signal that honest sellers can afford and others cannot.",
+     "deeper": [
+      "George Akerlof's paper appeared in the Quarterly Journal of Economics, volume 84, issue 3, 1970, pages 488 to 500. It uses used cars to show how hidden quality can shrink a market. Wikipedia notes it was published only on the fourth attempt.",
+      "Today it frames questions about AI vendors, credit ratings and audits: when buyers cannot judge quality, trusted signals do the work."
+     ],
+     "sources": [
+      {
+       "title": "Akerlof, Quarterly Journal of Economics, 1970 (PDF)",
+       "url": "https://economics.ucsd.edu/~jandreon/Econ264/papers/Akerlof%20QJE%201970.pdf"
+      },
+      {
+       "title": "Wikipedia: The Market for Lemons",
+       "url": "https://en.wikipedia.org/wiki/The_Market_for_Lemons"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Investment grade",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Investment grade",
+     "visual": {
+      "type": "stat",
+      "value": "4.17%",
+      "label": "3-year default rate for BB firms, vs 0.91% for BBB, per S&P"
+     },
+     "what": "A credit rating in the BBB category or higher. BB and lower are speculative, often called junk.",
+     "why": "Anthropic's debt is expected to land in BB, one or two notches short, so its borrowing costs and buyer pool will differ.",
+     "say": "Our supplier is investment grade today; what happens to our contract if it slips below?",
+     "deeper": [
+      "S&P says BBB obligors have adequate capacity to meet commitments but are more exposed to adverse conditions, while BB carries significant speculative characteristics. Its data show a 3-year cumulative default rate of 0.91% for BBB and 4.17% for BB.",
+      "NDTV Profit cites an $8.6 trillion investment-grade bond market against about $1.7 trillion for US junk, which usually costs more to borrow in."
+     ],
+     "sources": [
+      {
+       "title": "S&P Global Ratings: Understanding credit ratings",
+       "url": "https://www.spglobal.com/ratings/en/credit-ratings/about/understanding-credit-ratings"
+      },
+      {
+       "title": "NDTV Profit: Anthropic's potential bond issues may be rated junk",
+       "url": "https://www.ndtvprofit.com/markets/anthropics-potential-bond-issues-may-be-rated-junk-despite-1-1-trillion-valuation-says-report-12374718"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "If our key AI suppliers must borrow at junk rates, how long can they keep prices and service levels steady?",
+    "context": "Anthropic's debt is expected to rate BB while Fed hikes loom. Higher funding costs can reach customers through prices, contract terms or slower capacity."
+   }
+  }
+ ]
+}
