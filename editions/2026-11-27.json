@@ -1,0 +1,745 @@
+{
+ "v": 4,
+ "date": "2026-11-27",
+ "label": "Friday, 27 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "Altria weighs a cash bid for Imperial Brands; Japan Tobacco may join",
+     "visual": {
+      "type": "bars",
+      "title": "Forward P/E multiple, times (LSEG data via Reuters)",
+      "unit": "x",
+      "items": [
+       {
+        "label": "Imperial",
+        "value": 8.3,
+        "display": "8.3x",
+        "hot": true
+       },
+       {
+        "label": "Altria",
+        "value": 12.6,
+        "display": "12.6x"
+       },
+       {
+        "label": "Japan Tobacco",
+        "value": 17.7,
+        "display": "17.7x"
+       }
+      ]
+     },
+     "what": "Altria said it is considering an all-cash offer for Imperial and is talking to a third party about part of it. Imperial shares jumped.",
+     "why": "Imperial trades at 8.3 times forward earnings versus 12.6 for Altria. Cheap assets attract bidders; a joint bid may ease antitrust risk.",
+     "say": "Which of our suppliers or rivals look cheap enough to be bought, and what would a new owner change?",
+     "deeper": [
+      "Reuters says Imperial's shares rose as much as 17.6% on Thursday, valuing it at £25.90 billion ($33.93 billion). Imperial said it has had no approach from Altria or a third party. Bloomberg reported that Japan Tobacco is also weighing a bid, possibly with a partner. Under UK takeover rules, Altria has until 24 December to make a firm offer or walk away.",
+      "Analysts quoted by Reuters say a joint US and Japanese bid could avoid antitrust objections, because Altria sells only in the US while Imperial's brands span Europe and the US. Caveat: nothing is agreed, and Altria's statement is not an offer. Watch for a firm bid, or a move by Japan Tobacco."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: US Marlboro maker Altria explores Imperial cash bid, possible carve-up",
+       "url": "https://www.reuters.com/markets/europe/japan-tobacco-explores-potential-deal-uks-imperial-brands-bloomberg-news-reports-2026-11-26/"
+      },
+      {
+       "title": "CNBC: Marlboro maker Altria explores takeover of UK's Imperial Brands",
+       "url": "https://www.cnbc.com/2026/11/26/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands.html"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "S&P puts Nvidia's AA rating on watch over board independence",
+     "visual": {
+      "type": "stat",
+      "value": "38%",
+      "label": "Fall in Nvidia shares since 6 October, per Reuters"
+     },
+     "what": "S&P placed Nvidia's AA credit rating on watch for a possible one-notch cut, citing board independence after CEO Jensen Huang's exit and return.",
+     "why": "Nvidia helps finance the AI boom. Governance doubts at a core supplier now reach lenders and customers.",
+     "say": "If a core AI supplier's governance fails, what do our contracts and exit rights say?",
+     "deeper": [
+      "S&P said the long tenure of some board members may have compromised their independence, and that governance may not have kept pace with Nvidia's growth. It could cut the rating within 90 days, by one notch, unless investigations and disclosures harm the company's reputation or business prospects. Moody's kept its Aa1 rating and stable outlook, saying Huang's return eases near-term uncertainty.",
+      "Reuters says investors were largely unruffled: Nvidia fell nearly 4% on Wednesday, and its five-year credit default swap spread was little changed. Caveat: a watch is not a downgrade, and the board's own investigation is still running."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
+       "url": "https://www.reuters.com/technology/us-finds-no-evidence-china-directed-executive-spy-nvidia-ceo-wsj-reports-2026-11-25/"
+      },
+      {
+       "title": "Bloomberg: Nvidia at risk of rating cut by S&P over governance concerns",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-25/s-p-says-it-may-downgrade-nvidia-s-ratings-on-governance-worries"
+      }
+     ]
+    },
+    {
+     "tag": "Policy",
+     "title": "Spain's de Cos picked to lead the ECB as rate hikes continue",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Picked 26 Nov"
+       },
+       {
+        "label": "EU approvals"
+       },
+       {
+        "label": "Takes over Feb",
+        "hot": true
+       },
+       {
+        "label": "First meeting March"
+       }
+      ]
+     },
+     "what": "Euro zone countries chose Pablo Hernández de Cos, now head of the BIS, to succeed Christine Lagarde as ECB president in February.",
+     "why": "Policy should not turn. Inflation is rising, the ECB is lifting rates, and French debt strains are the first test.",
+     "say": "Which of our plans assume euro borrowing costs fall in 2027, and what changes if the ECB keeps hiking?",
+     "deeper": [
+      "Reuters calls the 55-year-old a career technocrat who steered Spain through its banking crisis, chaired the Basel Committee on Banking Supervision and now runs the BIS. Analysts quoted say he is a moderate, not a dove or a hawk, and that a change in monetary policy is unlikely. The ECB is expected to keep tightening gently so high energy costs do not spread into wider inflation.",
+      "His nomination still needs formal approvals before he takes over. Watch French bond markets, where fiscal worries and a presidential election next year have pushed borrowing costs up. The ECB can buy bonds if moves look disorderly, but it cannot shield one country from its own fiscal policy."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Spain's De Cos to take over as ECB president from Lagarde",
+       "url": "https://www.reuters.com/world/europe/spains-de-cos-set-be-nominated-by-eu-leaders-new-head-ecb-2026-11-26/"
+      },
+      {
+       "title": "Reuters via US News: ECB turns to crisis veteran De Cos as new strains loom",
+       "url": "https://www.usnews.com/news/world/articles/2026-11-26/ecb-turns-to-crisis-veteran-de-cos-as-new-strains-loom"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI at work",
+     "title": "Coding leads AI token use; multi-step agent workflows trail",
+     "visual": {
+      "type": "bars",
+      "title": "Use case named as top token driver, % of firms (Bloomberg Intelligence, Sept)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Coding",
+        "value": 34,
+        "display": "34%"
+       },
+       {
+        "label": "Agentic workflows",
+        "value": 9,
+        "display": "9%",
+        "hot": true
+       }
+      ]
+     },
+     "what": "A Bloomberg Intelligence survey of 100 large firms found 34% name coding as their top token use. Only 9% name multi-step agent workflows.",
+     "why": "Token and usage costs top the barriers at 20%. Leaders say the fix is an operating model, not technology.",
+     "say": "Does every agent we run have a named business owner, a cost cap and a test before launch?",
+     "deeper": [
+      "The CIO.com piece summarises a Bloomberg summit held with HPE, a vendor. Mercedes-Benz applies four rules to every agent: a named business owner, explainability, data protection, and safety testing before and after launch. Its CIO calls governance an accelerator, because teams need not debate every use case.",
+      "John Hancock's CIO says accountability stays with the buyer, not the model vendor, and asks whether an agent costing $200,000 beats a $50,000-a-year intern. Caveat: the survey covers 100 firms in Europe and the US with at least 5,000 staff, and the article is analyst commentary."
+     ],
+     "sources": [
+      {
+       "title": "CIO: What CIOs use to build an agentic enterprise",
+       "url": "https://www.cio.com/article/4253028/what-cios-use-to-build-an-agentic-enterprise.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "UniCredit cleared to take Commerzbank and wants its own chair",
+     "visual": {
+      "type": "stat",
+      "value": "€39B",
+      "label": "UniCredit's offer for Commerzbank, concluded in July, per Reuters"
+     },
+     "what": "UniCredit has every approval to control Commerzbank. It wants CEO Andrea Orcel as chair and nine of ten shareholder seats on the supervisory board.",
+     "why": "Goal: control without an mBank offer. UniCredit stays just under 50% and keeps units apart until at least 2028.",
+     "say": "When we buy a stake, is the real prize control of the board, and have we planned for it?",
+     "deeper": [
+      "Reuters says UniCredit used derivatives to conclude its €39 billion offer in July, ending a two-year contest. It offered 0.485 of its own shares per Commerzbank share and expects the process to finish by 7 December. Poland's regulator gave the last approval on Wednesday.",
+      "Commerzbank owns 69% of Warsaw-listed mBank, so UniCredit held its stake just below 50% to avoid having to bid for mBank under Polish rules. It plans to keep Commerzbank apart from its German unit HVB until at least 2028. The shareholder vote is expected in January. Caveat: a professor quoted says the board plan sits oddly with the deal reached with Germany's government days earlier."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: UniCredit pushes for Commerzbank management shake-up with CEO Orcel as chair",
+       "url": "https://www.reuters.com/business/finance/unicredit-seeks-commerzbank-shareholder-vote-it-completes-process-take-control-2026-11-26/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "India Macro",
+     "title": "J.P. Morgan sees Nifty at 29,000 by end-2027 and RBI hikes",
+     "visual": {
+      "type": "bars",
+      "title": "Nifty 50 level, J.P. Morgan end-2027 cases vs Thursday close (Reuters)",
+      "items": [
+       {
+        "label": "Bear case",
+        "value": 22000,
+        "display": "22,000"
+       },
+       {
+        "label": "26 Nov close",
+        "value": 25884.5,
+        "display": "25,885"
+       },
+       {
+        "label": "Base case",
+        "value": 29000,
+        "display": "29,000",
+        "hot": true
+       },
+       {
+        "label": "Bull case",
+        "value": 31000,
+        "display": "31,000"
+       }
+      ]
+     },
+     "what": "J.P. Morgan's base case is Nifty 50 at 29,000 by end-2027, up about 12%. It expects three straight 25 basis point RBI hikes.",
+     "why": "India is pitched as a hedge against AI-heavy markets. The bank stays underweight on IT and flags rate and monsoon risks.",
+     "say": "If RBI hikes three times in 2027, which of our India cost and hiring plans change?",
+     "deeper": [
+      "The note, from analysts led by Rajiv Batra, says the Nifty is down 0.94% this year, heading for its first annual loss in 11 years, after a 15.1% slide earlier in 2026. It expects MSCI India earnings growth of 14% in 2027, up from 12% in 2026, and sees scope for $100 billion of net foreign inflows, after about $15.5 billion in November.",
+      "Bull and bear targets are 31,000 and 22,000. It names US rate hikes, weak monsoon rains, food inflation and fiscal consolidation as risks. Caveat: this is one broker's forecast, and it says the valuation story is less forgiving than the earnings story."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: J.P. Morgan sees Indian stocks rise further in 2027 after 'great comeback' of 2026",
+       "url": "https://www.reuters.com/world/india/jp-morgan-sees-indian-stocks-rise-further-2027-after-great-comeback-2026-2026-11-26/"
+      },
+      {
+       "title": "The Hindu BusinessLine: Stock market highlights, 26 November 2026",
+       "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-26-november-2026/article71742218.ece"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Thursday, 26 November",
+    "why": "Tech steadied and US tariff plans looked milder, lifting Europe and Asia. Wall Street was shut; oil rose on Gulf attacks.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,884.50",
+      "change": 0.25
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "84,328.59",
+      "change": 0.47
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "57,499.16",
+      "change": 0.86
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "22,226.88",
+      "change": 1.19
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,476.88",
+      "change": 0.01
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,609.30",
+      "change": 1.75
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "25,216",
+      "change": 2.08
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,182.78",
+      "change": null,
+      "note": "Holiday"
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "23,585.80",
+      "change": null,
+      "note": "Holiday"
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "50,182.95",
+      "change": null,
+      "note": "Holiday"
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,566.99",
+      "change": -0.4,
+      "note": "Late spot"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$96.57",
+      "change": 1.2,
+      "note": "Settlement"
+     },
+     {
+      "name": "USD/INR",
+      "value": "92.44",
+      "change": 0.26,
+      "note": "Provisional close"
+     }
+    ],
+    "sources": [
+     {
+      "title": "The Hindu BusinessLine: Stock market highlights, 26 November 2026",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-26-november-2026/article71742218.ece"
+     },
+     {
+      "title": "Eurasia Business News: European and Asian stocks rally as tariff fears ease",
+      "url": "https://eurasiabusinessnews.com/2026/11/27/stock-markets-today-november-26-2026-european-and-asian-stocks-rally-as-tariff-fears-ease/"
+     },
+     {
+      "title": "BBN Times: FTSE 100 surges 1.75% to 10,609.30",
+      "url": "https://www.bbntimes.com/financial/ftse-100-surges-1-75-to-10-609-30-as-imperial-brands-bid-talk-and-babcock-s-8-7bn-deal-fire-london-rally"
+     },
+     {
+      "title": "finanzen.ch: Xetra close, DAX back above 25,000",
+      "url": "https://www.finanzen.ch/nachrichten/aktien/xetra-schluss-deutliche-erholung-schiebt-dax-wieder-klar-ueber-25-000-punkte-1036803592"
+     },
+     {
+      "title": "Reuters: Brent settles higher as mine strikes, refinery attack stoke supply concerns",
+      "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/"
+     },
+     {
+      "title": "Reuters: Gold drifts lower as Fed rate-hike fears loom",
+      "url": "https://www.reuters.com/world/india/gold-steadies-after-hitting-over-1-year-low-fed-outlook-focus-2026-11-26/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "HHI, market concentration",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Strategy",
+     "title": "HHI: how regulators measure market concentration",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "List shares",
+        "note": "Write each firm's market share in percent."
+       },
+       {
+        "label": "Square them",
+        "note": "Squaring makes big firms count much more."
+       },
+       {
+        "label": "Add them up",
+        "note": "The total is the HHI, up to 10,000."
+       },
+       {
+        "label": "Check the change",
+        "note": "A merger adds 2 x share A x share B.",
+        "hot": true
+       }
+      ]
+     },
+     "what": "The Herfindahl-Hirschman Index adds up each firm's squared market share. Regulators use it to judge if a merger makes a market too concentrated.",
+     "why": "In the US, a market above 1,800 is highly concentrated, and a rise above 100 points triggers a presumption of illegality.",
+     "say": "Before we pursue a deal, what is our share in each market, and what would the HHI change be?",
+     "deeper": [
+      "The index is named for two economists: Albert Hirschman proposed a similar measure in 1945, and Orris Herfindahl used it in his 1950 work on the steel industry. US agencies adopted it for merger review.",
+      "The 2023 US Merger Guidelines set the thresholds above, plus a second test: a merged firm with more than 30% share and an HHI change above 100. Caveat: HHI depends on how the market is defined, and the presumption can be rebutted."
+     ],
+     "sources": [
+      {
+       "title": "US Department of Justice: Merger Guidelines, Guideline 1",
+       "url": "https://www.justice.gov/atr/merger-guidelines/applying-merger-guidelines/guideline-1"
+      },
+      {
+       "title": "US Department of Justice: Herfindahl-Hirschman Index",
+       "url": "https://www.justice.gov/atr/herfindahl-hirschman-index"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "Worked example",
+     "title": "A 20% firm buying a 5% rival adds 200 HHI points",
+     "visual": {
+      "type": "bars",
+      "title": "HHI change, points (US Merger Guidelines example)",
+      "items": [
+       {
+        "label": "Presumption trigger",
+        "value": 100,
+        "display": "100"
+       },
+       {
+        "label": "20% + 5% merger",
+        "value": 200,
+        "display": "200",
+        "hot": true
+       }
+      ]
+     },
+     "what": "In the US guidelines' example, a 20% firm buying a 5% firm raises HHI by 2 x 20 x 5, or 200 points.",
+     "why": "That is double the 100-point trigger. In a highly concentrated market, such a deal is presumed to harm competition.",
+     "say": "Where would a deal like Altria and Imperial overlap, and could the buyers split assets to cut the HHI change?",
+     "deeper": [
+      "Link to today: Reuters says Altria has not sold cigarettes outside the US for two decades, while Imperial's brands span Europe and the US. Analysts quoted say a joint bid with Japan Tobacco could avoid antitrust objections, and Altria is already talking to a third party about part of Imperial.",
+      "The 20% and 5% shares are the guidelines' own illustration, not figures for any real market. Caveat: this is simple arithmetic, and regulators also test other harms, such as removing a likely future entrant."
+     ],
+     "sources": [
+      {
+       "title": "US Department of Justice: Merger Guidelines, Guideline 1",
+       "url": "https://www.justice.gov/atr/merger-guidelines/applying-merger-guidelines/guideline-1"
+      },
+      {
+       "title": "Reuters: US Marlboro maker Altria explores Imperial cash bid, possible carve-up",
+       "url": "https://www.reuters.com/markets/europe/japan-tobacco-explores-potential-deal-uks-imperial-brands-bloomberg-news-reports-2026-11-26/"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Nvidia supply chain: step 1 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "Nvidia and the chip supply chain",
+    "step": 1,
+    "total": 5,
+    "plan": [
+     "Who makes what, design to server",
+     "TSMC and advanced packaging",
+     "Memory and substrates",
+     "Export controls and geopolitics",
+     "Concentration risk and what to ask"
+    ],
+    "next": "How large language models work"
+   },
+   "cards": [
+    {
+     "tag": "Step 1 of 5",
+     "title": "Nvidia designs chips; a network of partners makes them",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Design",
+        "note": "Nvidia designs GPUs and CPUs, then partners build them."
+       },
+       {
+        "label": "Wafers",
+        "note": "TSMC makes the chips on 5nm and 3nm processes."
+       },
+       {
+        "label": "Package",
+        "note": "Advanced packaging joins chips and memory; CoWoS is TSMC's.",
+        "hot": true
+       },
+       {
+        "label": "Assemble",
+        "note": "Foxconn and others build servers and networking systems."
+       }
+      ]
+     },
+     "what": "Nvidia designs the chips. TSMC makes them, packagers such as Amkor and SPIL assemble them, and Foxconn builds the systems.",
+     "why": "Capacity at each step limits how many AI systems ship. Nvidia is now paying partners to expand packaging and substrates.",
+     "say": "Read the first page of Nvidia's 17 November supply-chain release and list each partner's role.",
+     "deeper": [
+      "Nvidia's 17 November release names Amkor, Foxconn, Kinsus, Samsung Electro-Mechanics, SPIL and TSMC as partners expanding capacity across substrates, advanced packaging, wafers and contract manufacturing. It says Vera Rubin NVL72 and Vera CPUs began volume shipments in the third quarter using TSMC's 5nm, 3nm and CoWoS packaging.",
+      "Two Amkor agreements total nearly $3 billion, including prepayments. Caveat: this is Nvidia's own release, a vendor source, and the capacity targets run from 2027 to 2029. Next step: TSMC and advanced packaging."
+     ],
+     "sources": [
+      {
+       "title": "NVIDIA: Expands commitments with supply chain partners to support AI infrastructure buildout",
+       "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "BAT, 2017: bought the rest of Reynolds",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Tobacco M&A",
+     "title": "BAT paid $49.4 billion for the rest of Reynolds in 2017",
+     "visual": {
+      "type": "bars",
+      "title": "BAT's offer for the 57.8% of Reynolds it did not own, $ billion (BAT release)",
+      "unit": "$B",
+      "items": [
+       {
+        "label": "Cash",
+        "value": 24.4,
+        "display": "$24.4B"
+       },
+       {
+        "label": "BAT shares",
+        "value": 25.0,
+        "display": "$25.0B",
+        "hot": true
+       }
+      ]
+     },
+     "what": "BAT already held 42.2% of Reynolds. In 2017 it bought the other 57.8% for about $49.4 billion, roughly half cash and half BAT shares.",
+     "why": "BAT said it gained direct US access and group cash flow. It closed 25 July 2017, about six months after announcement.",
+     "say": "A big deal can buy access and cash flow, but price it for how the core product may decline.",
+     "deeper": [
+      "BAT's release said the deal gave it a balanced presence in emerging and developed markets plus direct access to the US, while keeping a dividend payout of at least 65% and paying down debt. Caveat, years later: in December 2023 BAT wrote down about £25 billion ($31.5 billion) from the value of US cigarette brands such as Newport and Camel, saying traditional cigarettes have no long-term future.",
+      "The write-down is non-cash and does not alone prove the deal failed, but it shows the price depended on smoking rates holding up. Link to today: Altria and Japan Tobacco face the same decline."
+     ],
+     "sources": [
+      {
+       "title": "BAT: Completes acquisition of Reynolds, 25 July 2017",
+       "url": "https://www.bat.com/media/press-releases/_2017/july/Jul_25-BAT_Completes_Acquisition_of_Reynolds"
+      },
+      {
+       "title": "BAT: Announces agreement to acquire Reynolds, 17 January 2017",
+       "url": "https://www.bat.com/media/press-releases/_2017/january/Jan_17_BAT_announces_agreement_to_acquire_Reynolds"
+      },
+      {
+       "title": "Reuters: BAT writes down $31.5 billion from value of US cigarette brands",
+       "url": "https://www.reuters.com/business/retail-consumer/bat-takes-315-bln-charge-us-cigarette-brands-2023-12-06/"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Roll, 1986: The Hubris Hypothesis of Takeovers",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Paper, 1986",
+     "title": "Roll, 1986: The Hubris Hypothesis of Corporate Takeovers",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Sees synergy"
+       },
+       {
+        "label": "Overestimates it"
+       },
+       {
+        "label": "Pays a premium"
+       },
+       {
+        "label": "Bidder holders lose",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Roll argues some takeovers happen because bidders overestimate their target's value. The premium paid is then a transfer from the bidder's shareholders.",
+     "why": "It gives boards a test for deals: ask whether the price rests on real synergies or on confidence.",
+     "say": "Before raising our bid, write down what evidence beyond our confidence supports the synergy we are paying for.",
+     "deeper": [
+      "Richard Roll published the paper in The Journal of Business, volume 59, issue 2, April 1986, pages 197 to 216. It proposes that takeover bids can reflect valuation mistakes by bidders, not only real gains.",
+      "Link to today: with Altria weighing a cash bid for Imperial, which trades at 8.3 times forward earnings, the question is whether any premium rests on evidence. Caveat: this is a hypothesis, not a law, and not every deal fits it."
+     ],
+     "sources": [
+      {
+       "title": "EconPapers: Roll, The Hubris Hypothesis of Corporate Takeovers, Journal of Business, 1986",
+       "url": "https://econpapers.repec.org/RePEc:ucp:jnlbus:v:59:y:1986:i:2:p:197-216"
+      },
+      {
+       "title": "JSTOR: The Hubris Hypothesis of Corporate Takeovers",
+       "url": "https://www.jstor.org/stable/2353017"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Put up or shut up",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Put up or shut up",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Bid is public"
+       },
+       {
+        "label": "28-day clock",
+        "hot": true
+       },
+       {
+        "label": "Firm offer"
+       },
+       {
+        "label": "Or walk away"
+       }
+      ]
+     },
+     "what": "A UK takeover rule: a named possible bidder must announce a firm offer or walk away within 28 days, unless extended.",
+     "why": "Altria's statement started the clock. Reuters says it has until 24 December to make a firm offer or walk away.",
+     "say": "Altria faces a put-up-or-shut-up deadline on 24 December, so we will know soon if the bid is real.",
+     "deeper": [
+      "Rule 2.6 of the UK Takeover Code sets the deadline at 5.00 pm on the 28th day after an announcement naming a possible bidder. The Takeover Panel can consent to an extension. The rule stops a target company from living under a bid threat for months.",
+      "Caveat: the deadline forces a decision, not a deal. The bidder can announce a firm offer, say it does not intend to bid, or seek an extension."
+     ],
+     "sources": [
+      {
+       "title": "The Takeover Panel: Takeover Code, Rule 2.6",
+       "url": "https://code.thetakeoverpanel.org.uk/tp/rules/rule-2/rule-2-6.html"
+      },
+      {
+       "title": "Reuters: US Marlboro maker Altria explores Imperial cash bid, possible carve-up",
+       "url": "https://www.reuters.com/markets/europe/japan-tobacco-explores-potential-deal-uks-imperial-brands-bloomberg-news-reports-2026-11-26/"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "builder",
+   "group": "Build",
+   "title": "Builder edition",
+   "sub": "Fridays only. What sells, distribution, gaps",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Builder: market gap",
+     "title": "Skip general assistants: three apps hold nearly 90% of the time",
+     "visual": {
+      "type": "stat",
+      "value": "~90%",
+      "label": "Share of AI assistant app time in ChatGPT, Gemini and DeepSeek, Q1 2026"
+     },
+     "what": "ChatGPT, Gemini and DeepSeek took nearly 90% of AI assistant time in Q1 2026. AI is spreading into health, finance and education.",
+     "why": "A solo builder cannot out-spend them. Vertical AI apps with a clear job face fewer giants, but over 200,000 apps mention AI.",
+     "say": "Pick one narrow job in health, finance or education and test demand with a landing page before building.",
+     "deeper": [
+      "Sensor Tower, a market-data vendor, reports that AI assistant apps are highly concentrated: ChatGPT, Google Gemini and DeepSeek held nearly 90% of time spent in Q1 2026. ChatGPT's share of unique users fell below 50% in March as rivals gained. Global in-app revenue from AI apps is expected to pass $4 billion in H1 2026, up 36% on the second half of 2025.",
+      "Caveat: the report does not call any vertical underserved. That reading is an inference from the concentration data, and competition is rising, with more than 200,000 apps now mentioning AI in their descriptions."
+     ],
+     "sources": [
+      {
+       "title": "Sensor Tower: State of AI 2026",
+       "url": "https://sensortower.com/blog/state-of-ai-2026"
+      },
+      {
+       "title": "Sensor Tower: State of AI 2026 press release",
+       "url": "https://sensortower.com/press/sensor-tower-state-of-ai-2026-report-global-time-spent-on-generative-ai-apps-projected-to-more-than-double-year-over-year"
+      }
+     ],
+     "whatLabel": "What the data says",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it this week"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "If a key supplier were bought tomorrow, which of our contracts and data rights would the new owner be able to change?",
+    "context": "Altria's possible Imperial bid shows cheap listed firms attract buyers. Change-of-control clauses and exit rights decide how much a new owner can alter terms."
+   }
+  }
+ ]
+}
