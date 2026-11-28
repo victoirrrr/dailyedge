@@ -1,0 +1,681 @@
+{
+ "v": 4,
+ "date": "2026-11-28",
+ "label": "Saturday, 28 November 2026",
+ "blocks": [
+  {
+   "id": "top3",
+   "group": "News scan",
+   "title": "Top 3 that matter",
+   "sub": "Business, technology, policy",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Business",
+     "title": "AI kit imports push the US goods trade gap to $149.5 billion",
+     "visual": {
+      "type": "bars",
+      "title": "US goods trade, October, $ billion (Census Bureau via Reuters)",
+      "items": [
+       {
+        "label": "Imports",
+        "value": 365.3,
+        "display": "365.3",
+        "hot": true
+       },
+       {
+        "label": "Exports",
+        "value": 215.8,
+        "display": "215.8"
+       },
+       {
+        "label": "Deficit",
+        "value": 149.5,
+        "display": "149.5"
+       }
+      ]
+     },
+     "what": "US goods imports rose 6.1% to a record $365.3 billion in October, led by capital goods for the AI build-out.",
+     "why": "Much AI hardware is imported, so AI spending lifts US growth less than it seems. Trade has dragged for four quarters.",
+     "say": "How much of our AI budget buys imported hardware, and how exposed is it to the new tariff plans?",
+     "deeper": [
+      "The goods deficit widened 10.7% to $149.5 billion, its highest since March 2025, against a forecast of $133 billion. Capital goods imports jumped 8.5% in the month and were up 80% from a year earlier. Goldman Sachs economists wrote that the import surge is one reason AI adds less to GDP than corporate spending suggests.",
+      "Goldman cut its fourth-quarter growth estimate by 0.2 points to 2.2%. Caveat: rising inventories may soften the hit. Watch the tariff plans proposed this week, with maximum rates of 20% to 40% on 14 trading partners."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: US goods trade deficit deteriorates further as AI helps to lift imports to record high",
+       "url": "https://www.reuters.com/business/us-goods-trade-deficit-widens-sharply-october-2026-11-27/"
+      }
+     ]
+    },
+    {
+     "tag": "Technology",
+     "title": "OpenAI countersues Apple, alleging theft of its device plans",
+     "visual": {
+      "type": "stat",
+      "value": "400",
+      "label": "Apple employees who have left for OpenAI so far, according to OpenAI's filing"
+     },
+     "what": "OpenAI says Apple rehired an ex-employee who had seen its device roadmap, and pressed suppliers not to work on OpenAI hardware.",
+     "why": "The AI race is now a fight over people and devices. Departing staff and shared suppliers are where secrets leak.",
+     "say": "When a key engineer leaves for a rival, what do we check on their devices, and is it lawful?",
+     "deeper": [
+      "OpenAI filed the counterclaims in California federal court on Friday. Apple sued OpenAI in July, alleging that former Apple staff Tang Tan and Chang Liu misused its trade secrets. Tan, a 24-year Apple veteran, co-founded the device start-up io, which OpenAI bought in 2025. OpenAI says Apple monitors former employees' personal devices and accounts.",
+      "Apple denied the claims and called them a transparent attempt to distract from its own lawsuit. Caveat: these are allegations from both sides, not court findings. Watch how the court treats Apple's access to Liu's personal messages."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: OpenAI countersues Apple for stealing trade secrets",
+       "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/"
+      }
+     ]
+    },
+    {
+     "tag": "Geopolitics",
+     "title": "US pushed Venezuela and Iraq to weigh leaving OPEC, sources say",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Qatar 2019"
+       },
+       {
+        "label": "Ecuador 2020"
+       },
+       {
+        "label": "Angola 2024"
+       },
+       {
+        "label": "UAE 2026",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Reuters says US officials urged Venezuela and Iraq to consider quitting OPEC this year, and stopped Venezuela paying its dues.",
+     "why": "OPEC has lost four members since 2019. A weaker cartel could make oil supply and prices less predictable.",
+     "say": "If OPEC splinters, does oil get cheaper or just more volatile, and which do our fuel hedges assume?",
+     "deeper": [
+      "Ten people told Reuters about the moves. Saudi Crown Prince Mohammed bin Salman persuaded Washington not to press Venezuela further. In Iraq, the oil ministry talked the prime minister into staying and seeking a higher quota instead. The US controls Venezuela's state funds, and Iraq's oil revenue passes through the New York Fed.",
+      "The State Department said leaving OPEC was not raised by high-level officials. Caveat: the reporting rests on unnamed sources. OPEC+ meets on Sunday and is expected to keep first-quarter output targets unchanged."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
+       "url": "https://www.reuters.com/business/energy/us-pushed-venezuela-iraq-consider-leaving-opec-sources-say-2026-11-27/"
+      },
+      {
+       "title": "Reuters: Oil notches first weekly gain in November on supply fears",
+       "url": "https://www.reuters.com/business/energy/brent-trades-near-months-high-mideast-conflict-threatens-supply-2026-11-27/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "group": "News scan",
+   "title": "AI in the enterprise",
+   "sub": "Value, operating model, governance",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "AI at work",
+     "title": "SAP weighs at least 10,000 job cuts in an AI-driven restructuring",
+     "visual": {
+      "type": "stat",
+      "value": "10,000",
+      "label": "Jobs SAP is considering cutting, per Bloomberg, out of about 113,000 staff"
+     },
+     "what": "Reuters sources say SAP is preparing sizeable job cuts. Bloomberg puts it at 10,000 or more as AI reshapes business software.",
+     "why": "Software vendors are rebuilding their own operating model around AI. Their cost base, and the logic of their pricing, is shifting.",
+     "say": "If our software vendors are cutting staff with AI, should our renewal terms reflect their lower costs?",
+     "deeper": [
+      "SAP's works council has not yet been told, one source said. CEO Christian Klein and CFO Dominik Asam hinted at a smaller workforce at recent investor events. In 2024 SAP reviewed 8,000 jobs, but new hires in faster-growing areas offset the cuts. Last month an executive said SAP was replacing some costly AI models in its products with cheaper ones.",
+      "Caveat: SAP has not confirmed a number, and the figure comes from unnamed sources. Watch for a formal plan, works council talks in Germany, and whether savings show up in SAP's prices."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Software giant SAP weighs major job cuts as AI transforms sector, sources say",
+       "url": "https://www.reuters.com/business/world-at-work/sap-seeks-cut-sizeable-number-jobs-sources-say-2026-11-27/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "group": "News scan",
+   "title": "Strategy move decoded",
+   "sub": "One deal or restructuring",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Deal decoded",
+     "title": "Puig pays €1.2 billion to own niche luxury perfume brands",
+     "visual": {
+      "type": "stat",
+      "value": "$1.9B",
+      "label": "Value put on Artessence, owner of Parfums de Marly and Initio, in the deal"
+     },
+     "what": "Puig is buying 75% of Artessence from private equity firm Advent. A holding of founder Julien Sprecher keeps the other 25%.",
+     "why": "Puig is buying growth in high-priced niche scents, with bottles at around €250, rather than building new brands itself.",
+     "say": "Where would buying a founder-led brand, with the founder keeping a stake, beat building our own?",
+     "deeper": [
+      "Parfums de Marly was founded in 2009 and sells scents inspired by 18th-century French perfumery, such as Layton and Delina. Advent bought it in 2023 and was exploring a sale; Reuters reported in October that CVC, Cinven and Puig were looking at it. Leaving the founder with 25% keeps the creator tied to the brand's future.",
+      "Caveat: Reuters gives no sales or profit figures, so the multiple Puig is paying is unknown. Watch whether Puig moves the brands into its own stores and distribution, where most of the gains would come from."
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Puig to buy Parfums de Marly owner from Advent in €1.2 billion deal",
+       "url": "https://www.reuters.com/world/puig-agrees-buy-75-stake-perfume-group-artessence-deal-valuing-it-19-billion-2026-11-27/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "group": "News scan",
+   "title": "India and GCC lens",
+   "sub": "Set-ups, talent, regulation",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "GCC Watch",
+     "title": "Indian IT firms absorb nearly 9,000 staff by buying client GCCs",
+     "visual": {
+      "type": "bars",
+      "title": "Staff moved in GCC takeovers this financial year (New Indian Express)",
+      "items": [
+       {
+        "label": "Mindsprint to Wipro",
+        "value": 3200,
+        "display": "3,200"
+       },
+       {
+        "label": "bp to Wipro",
+        "value": 3000,
+        "display": "3,000",
+        "hot": true
+       },
+       {
+        "label": "Guardian Life to HCLTech",
+        "value": 2000,
+        "display": "2,000"
+       },
+       {
+        "label": "Best Buy to TCS",
+        "value": 600,
+        "display": "600"
+       }
+      ]
+     },
+     "what": "Four GCC takeovers this financial year moved about 9,000 people to Indian IT firms. The latest is Wipro taking about 3,000 bp finance staff.",
+     "why": "Each deal comes with a multi-year service contract. A GCC is now an asset a parent can sell, not just build.",
+     "say": "Is our India centre a lasting capability, or an asset we might sell to a vendor with a contract?",
+     "deeper": [
+      "Wipro's bp partnership, announced on 25 November, covers staff supporting bp's finance work in India, Hungary and Malaysia. Earlier this year TCS agreed to take Best Buy's Bengaluru centre, HCLTech bought Guardian Life's India centre and Wipro bought Olam's IT arm Mindsprint. Analyst Pareekh Jain says buyers want the contract more than the centre itself.",
+      "Caveat: the Best Buy headcount is reported, not confirmed, and the totals come from one newspaper tally. Watch whether more parents sell centres once they are mature."
+     ],
+     "sources": [
+      {
+       "title": "The New Indian Express: IT cos absorb nearly 9,000 employees via GCC buyouts",
+       "url": "https://www.newindianexpress.com/business/2026/Nov/27/it-cos-absorb-nearly-9000-employees-via-gcc-buyouts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "group": "News scan",
+   "title": "Markets in 60 seconds",
+   "sub": "Indexes, gold, crude, rupee",
+   "minutes": 1,
+   "markets": {
+    "asof": "Closes of Friday, 27 November",
+    "why": "AI stocks rebounded and Beijing pledged market support. India fell on IT selling and a weaker rupee.",
+    "indexes": [
+     {
+      "name": "Nifty 50",
+      "region": "India",
+      "close": "25,607.20",
+      "change": -1.07
+     },
+     {
+      "name": "Sensex",
+      "region": "India",
+      "close": "83,339.26",
+      "change": -1.17
+     },
+     {
+      "name": "Nikkei 225",
+      "region": "Asia",
+      "close": "58,711.11",
+      "change": 2.11
+     },
+     {
+      "name": "Hang Seng",
+      "region": "Asia",
+      "close": "22,694.77",
+      "change": 2.11
+     },
+     {
+      "name": "Shanghai",
+      "region": "Asia",
+      "close": "3,606.49",
+      "change": 3.73
+     },
+     {
+      "name": "FTSE 100",
+      "region": "Europe",
+      "close": "10,698.81",
+      "change": 0.84
+     },
+     {
+      "name": "DAX",
+      "region": "Europe",
+      "close": "25,441.24",
+      "change": 0.9
+     },
+     {
+      "name": "S&P 500",
+      "region": "US",
+      "close": "7,297.49",
+      "change": 1.6
+     },
+     {
+      "name": "Nasdaq",
+      "region": "US",
+      "close": "24,129.50",
+      "change": 2.31
+     },
+     {
+      "name": "Dow Jones",
+      "region": "US",
+      "close": "50,774.94",
+      "change": 1.18
+     }
+    ],
+    "extras": [
+     {
+      "name": "Gold",
+      "value": "$3,639.61",
+      "change": 2.1,
+      "note": "Late spot"
+     },
+     {
+      "name": "Brent crude",
+      "value": "$95.44",
+      "change": -1.2,
+      "note": "Settlement"
+     },
+     {
+      "name": "USD/INR",
+      "value": "92.98",
+      "change": 0.65,
+      "note": "Provisional close"
+     }
+    ],
+    "sources": [
+     {
+      "title": "AP: How major US stock indexes fared Friday 11/27/2026",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-04dab6079cf7f3dfe7285a3cc1f240a2"
+     },
+     {
+      "title": "The Hindu BusinessLine: Stock market highlights, 27 November 2026",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-27-november-2026/article71746210.ece"
+     },
+     {
+      "title": "Armenpress: Asian Stocks, 27-11-26",
+      "url": "https://armenpress.am/en/article/1266844"
+     },
+     {
+      "title": "Morningstar: FTSE 100 Index ends the week 3.41% higher at 10698.81",
+      "url": "https://www.morningstar.com/news/dow-jones/202611274181/ftse-100-index-ends-the-week-341-higher-at-1069881-data-talk"
+     },
+     {
+      "title": "Reuters: Gold pares gains as Fed hike risks linger",
+      "url": "https://www.reuters.com/world/india/gold-rebounds-one-year-low-ai-jitters-ease-2026-11-27/"
+     },
+     {
+      "title": "Reuters: Oil notches first weekly gain in November on supply fears",
+      "url": "https://www.reuters.com/business/energy/brent-trades-near-months-high-mideast-conflict-threatens-supply-2026-11-27/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "concept",
+   "group": "Learn",
+   "title": "Concept of the day",
+   "sub": "Prisoner's dilemma",
+   "minutes": 3,
+   "cards": [
+    {
+     "tag": "Decision science",
+     "title": "Prisoner's dilemma: why rational players end up worse off",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Two players",
+        "note": "Each chooses to cooperate or defect, unseen."
+       },
+       {
+        "label": "Defecting tempts",
+        "note": "Betraying a cooperator pays most for one side."
+       },
+       {
+        "label": "Both defect",
+        "note": "Each acts smart, and both do worse."
+       },
+       {
+        "label": "Repeat the game",
+        "note": "Repeated play lets cooperation pay over time.",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Each side does better by betraying, whatever the other does. So both betray, and both end up worse than if they had cooperated.",
+     "why": "Use it for cartels, price wars, supplier bargaining and alliances, wherever each party gains by breaking a shared deal.",
+     "say": "In this deal, what does each side gain by breaking it, and what makes cooperating pay over repeated rounds?",
+     "deeper": [
+      "Merrill Flood and Melvin Dresher devised the puzzle in 1950 at the RAND Corporation. The prison story and name are usually credited to the mathematician Albert Tucker. It became the most famous puzzle in game theory, the study of strategic choices between rivals.",
+      "Link to today: each OPEC member gains by pumping above its quota, but if all do, prices fall for everyone. Reuters reports Iraq chose to seek a higher quota rather than leave. Caveat: real players can talk, sign contracts and punish, which the one-shot puzzle leaves out."
+     ],
+     "sources": [
+      {
+       "title": "University of Michigan Heritage Project: The Prisoner's Dilemma",
+       "url": "https://heritage.umich.edu/stories/the-prisoners-dilemma/"
+      },
+      {
+       "title": "Reuters: US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
+       "url": "https://www.reuters.com/business/energy/us-pushed-venezuela-iraq-consider-leaving-opec-sources-say-2026-11-27/"
+      }
+     ],
+     "whatLabel": "The idea",
+     "whyLabel": "When to use it",
+     "sayLabel": "Use it this week"
+    },
+    {
+     "tag": "Worked example",
+     "title": "Tit for Tat beat 61 rivals by cooperating first, then copying",
+     "visual": {
+      "type": "bars",
+      "title": "Entries in Robert Axelrod's two computer tournaments (University of Michigan)",
+      "items": [
+       {
+        "label": "First tournament",
+        "value": 14,
+        "display": "14"
+       },
+       {
+        "label": "Second tournament",
+        "value": 62,
+        "display": "62",
+        "hot": true
+       }
+      ]
+     },
+     "what": "Axelrod ran repeated dilemma tournaments between computer programs. Rapoport's two-line Tit for Tat won both: cooperate first, then copy the rival's last move.",
+     "why": "In repeated games, be nice, hit back once when betrayed, then forgive. Being clear and predictable invites cooperation.",
+     "say": "When a partner breaks a promise, respond once and clearly, then offer to reset. That is Tit for Tat.",
+     "deeper": [
+      "In the first tournament each program met every other one for 200 rounds. Mutual cooperation earned 3 points each, mutual betrayal 1, and a lone betrayer 5. The second tournament drew 62 entries from six countries, and Tit for Tat won again. Axelrod wrote it up in The Evolution of Cooperation in 1984.",
+      "Axelrod noted Tit for Tat never beat the player it faced; it won by drawing out cooperation. Caveat: one misread move can trap two Tit for Tat players in a feud, and a more forgiving rule would have won the second tournament."
+     ],
+     "sources": [
+      {
+       "title": "University of Michigan Heritage Project: The Prisoner's Dilemma",
+       "url": "https://heritage.umich.edu/stories/the-prisoners-dilemma/"
+      }
+     ],
+     "whatLabel": "Example",
+     "whyLabel": "The lesson",
+     "sayLabel": "Say it in the room"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "group": "Learn",
+   "title": "Tech to learn",
+   "sub": "Nvidia supply chain: step 2 of 5",
+   "minutes": 2,
+   "track": {
+    "topic": "Nvidia and the chip supply chain",
+    "step": 2,
+    "total": 5,
+    "plan": [
+     "Who makes what, design to server",
+     "TSMC and advanced packaging",
+     "Memory and substrates",
+     "Export controls and geopolitics",
+     "Concentration risk and what to ask"
+    ],
+    "next": "How large language models work"
+   },
+   "cards": [
+    {
+     "tag": "Step 2 of 5",
+     "title": "Packaging, not just wafers, now limits AI chip supply",
+     "visual": {
+      "type": "flow",
+      "items": [
+       {
+        "label": "Make dies",
+        "note": "TSMC prints the logic chips on silicon wafers."
+       },
+       {
+        "label": "Interposer",
+        "note": "A silicon layer wires dies tightly together.",
+        "hot": true
+       },
+       {
+        "label": "Add memory",
+        "note": "High-bandwidth memory sits right beside the GPU."
+       },
+       {
+        "label": "Substrate, test",
+        "note": "The stack is mounted, tested and shipped."
+       }
+      ]
+     },
+     "what": "TSMC's CoWoS joins a GPU and its memory on a silicon interposer, so data moves fast. Nvidia's Blackwell GPUs use it.",
+     "why": "CoWoS capacity decides how many AI chips ship. TSMC told CNBC it is growing at about 80% a year.",
+     "say": "Ask your AI hardware vendor which packaging line its accelerators use, and what lead time it quotes.",
+     "deeper": [
+      "CoWoS means chip on wafer on substrate. TSMC pioneered this 2.5D method in 2012. In April CNBC reported that Nvidia had reserved most of TSMC's leading capacity and that TSMC sends 100% of its chips to Taiwan for packaging, even those made in Arizona.",
+      "Industry trackers put TSMC at about 130,000 CoWoS wafers a month by end-2026, up from 13,000 at end-2023, with Nvidia taking nearly 60%. Caveat: these are analyst estimates, not TSMC figures. Next step: memory and substrates."
+     ],
+     "sources": [
+      {
+       "title": "CNBC: AI's next bottleneck: Why even the best chips made in the US take a round trip to Taiwan",
+       "url": "https://www.cnbc.com/2026/04/08/tsmc-nvidia-advanced-packaging-intel.html"
+      },
+      {
+       "title": "Silicon Analysts: CoWoS packaging capacity (TSMC), historical data",
+       "url": "https://siliconanalysts.com/market-data/cowos-capacity"
+      },
+      {
+       "title": "SemiconductorX: CoWoS, TSMC chip-on-wafer-on-substrate",
+       "url": "https://semiconductorx.com/packaging-cowos.html"
+      }
+     ],
+     "whatLabel": "How it works",
+     "whyLabel": "Why it matters",
+     "sayLabel": "Try it"
+    }
+   ]
+  },
+  {
+   "id": "case",
+   "group": "Learn",
+   "title": "Case file",
+   "sub": "Microsoft, 2014: cut 18,000 jobs to refocus",
+   "minutes": 2,
+   "cards": [
+    {
+     "tag": "Restructuring",
+     "title": "Microsoft cut 18,000 jobs in 2014 to refocus on cloud",
+     "visual": {
+      "type": "bars",
+      "title": "Microsoft job cuts announced July 2014 (Reuters, GeekWire)",
+      "items": [
+       {
+        "label": "From Nokia unit",
+        "value": 12500,
+        "display": "12,500",
+        "hot": true
+       },
+       {
+        "label": "Rest of Microsoft",
+        "value": 5500,
+        "display": "5,500"
+       }
+      ]
+     },
+     "what": "Months into the job, Satya Nadella cut up to 18,000 roles, about 14% of staff, mostly from the Nokia phone unit just acquired.",
+     "why": "In April 2019 Microsoft topped $1 trillion in market value for the first time, as cloud growth drove its results.",
+     "say": "Cut where the strategy has moved away from, not evenly, and say clearly what the savings will fund.",
+     "deeper": [
+      "Microsoft announced the cuts in July 2014, its largest layoffs ever, as Nadella halved the Nokia devices business bought that year. He framed the company around mobile and cloud. Reuters reported the cuts at about 14% of the workforce.",
+      "Caveat: the later rise in value came from many choices, above all Azure cloud growth, not from the cuts alone. Link to today: SAP is weighing at least 10,000 cuts in an AI-driven restructuring, and the test is the same: what new growth do the savings fund?"
+     ],
+     "sources": [
+      {
+       "title": "Reuters: Microsoft to cut 18,000 jobs this year as it chops Nokia",
+       "url": "https://www.reuters.com/article/world/uk/microsoft-to-cut-18000-jobs-this-year-as-it-chops-nokia-idUSKBN0FM1EI/"
+      },
+      {
+       "title": "GeekWire: Microsoft cutting 18,000 jobs, 14% of company, in largest layoffs in its history",
+       "url": "https://www.geekwire.com/2014/breaking-microsoft-cutting-18000-jobs-next-year-14-workforce/"
+      },
+      {
+       "title": "Barron's: Microsoft reached $1 trillion in value after the stock jumped on blockbuster earnings",
+       "url": "https://www.barrons.com/articles/microsoft-stock1-trillion-in-value-earnings-strong-51556199160"
+      }
+     ],
+     "whatLabel": "Situation and move",
+     "whyLabel": "Result",
+     "sayLabel": "The lesson"
+    }
+   ]
+  },
+  {
+   "id": "shelf",
+   "group": "Learn",
+   "title": "Reference shelf",
+   "sub": "Hirschman, 1970: Exit, Voice, and Loyalty",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Book, 1970",
+     "title": "Hirschman, 1970: Exit, Voice, and Loyalty",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Decline begins"
+       },
+       {
+        "label": "Voice inside"
+       },
+       {
+        "label": "Loyalty delays exit",
+        "hot": true
+       },
+       {
+        "label": "Exit"
+       }
+      ]
+     },
+     "what": "When a firm or group declines, members can exit, or use voice to push for change from within. Loyalty delays exit and gives voice time.",
+     "why": "It explains customer churn, staff attrition and alliance politics, and why easy exit can silence useful complaints.",
+     "say": "When our best people or partners leave quietly, we lose the voice that would have told us what to fix.",
+     "deeper": [
+      "Albert O. Hirschman published the book with Harvard University Press in 1970. It joins economics, where unhappy customers simply switch, with politics, where members protest from inside.",
+      "Link to today: Iraq weighed leaving OPEC, then chose voice by seeking a higher quota. Caveat: critics note that exit and voice can be used together, and that loyalty can also lead to silence."
+     ],
+     "sources": [
+      {
+       "title": "Harvard University Press: Exit, Voice, and Loyalty",
+       "url": "https://www.hup.harvard.edu/books/9780674276604"
+      },
+      {
+       "title": "Tufts University Civic Studies: Exit, Voice and Loyalty",
+       "url": "https://sites.tufts.edu/civicstudies/2022/01/27/exit-voice-and-loyalty/"
+      }
+     ],
+     "whatLabel": "Core idea",
+     "whyLabel": "Why leaders cite it",
+     "sayLabel": "Line to use"
+    }
+   ]
+  },
+  {
+   "id": "term",
+   "group": "Learn",
+   "title": "Term of the day",
+   "sub": "Rebadging",
+   "minutes": 1,
+   "cards": [
+    {
+     "tag": "Term",
+     "title": "Rebadging",
+     "visual": {
+      "type": "steps",
+      "items": [
+       {
+        "label": "Client staff"
+       },
+       {
+        "label": "Vendor deal signed"
+       },
+       {
+        "label": "Staff transfer",
+        "hot": true
+       },
+       {
+        "label": "New employer"
+       }
+      ]
+     },
+     "what": "Moving staff from a client to its outsourcing provider as part of a deal. They often keep doing the same work under a new employer.",
+     "why": "Indian IT firms have rebadged nearly 9,000 GCC staff this year, each move tied to a multi-year contract.",
+     "say": "If we rebadge this team to a vendor, which skills stay in-house so we can judge their work?",
+     "deeper": [
+      "Law firm Morgan Lewis describes rebadging as transferring personnel from the customer to the service provider. Wipro's deal to take about 3,000 bp finance staff is the latest example.",
+      "Caveat: rebadging keeps knowledge in place at first, but the client can lose the in-house skill to manage the vendor. Contracts usually set terms on pay, benefits and how long jobs are protected."
+     ],
+     "sources": [
+      {
+       "title": "Morgan Lewis: Personnel considerations in outsourcing transactions",
+       "url": "https://www.morganlewis.com/blogs/sourcingatmorganlewis/2025/03/personnel-considerations-in-outsourcing-transactions"
+      },
+      {
+       "title": "The New Indian Express: IT cos absorb nearly 9,000 employees via GCC buyouts",
+       "url": "https://www.newindianexpress.com/business/2026/Nov/27/it-cos-absorb-nearly-9000-employees-via-gcc-buyouts"
+      }
+     ],
+     "whatLabel": "Meaning",
+     "whyLabel": "Why it is used now",
+     "sayLabel": "Use it in a sentence"
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "group": "Close",
+   "title": "Question of the day",
+   "sub": "One line to raise with a leader",
+   "minutes": 1,
+   "question": {
+    "text": "Which of our key suppliers also build for our fiercest rival, and what stops our plans leaking through them?",
+    "context": "OpenAI says Apple pressed shared hardware suppliers not to work on OpenAI devices. Shared suppliers can carry roadmaps, prices and timing between rivals, so contracts and access controls matter."
+   }
+  }
+ ]
+}
